@@ -1,0 +1,1201 @@
+gene,product,number of article
+ldha,acetate,16
+pta,acetate,19
+adhe,acetate,12
+poxb,acetate,21
+ptsg,acetate,7
+acka,acetate,19
+pflb,acetate,7
+iclr,acetate,7
+phea,acetate,2
+tyrr,acetate,0
+pykf,acetate,5
+pyka,acetate,6
+laci,acetate,5
+pgi,acetate,2
+lacz,acetate,2
+fadd,acetate,0
+acka-pta,acetate,7
+ppc,acetate,3
+frda,acetate,6
+zwf,acetate,2
+pfka,acetate,2
+tyra,acetate,1
+yqhd,acetate,2
+fade,acetate,0
+tnaa,acetate,0
+xyla,acetate,2
+mgsa,acetate,6
+meta,acetate,2
+wcaj,acetate,1
+arok,acetate,0
+tkta,acetate,2
+arog,acetate,1
+arogfbr,acetate,0
+ppc,acetate,2
+idi,acetate,0
+ppsa,acetate,0
+pntab,acetate,1
+dxs,acetate,0
+glk,acetate,2
+4cl,acetate,0
+acs,acetate,1
+tyra,acetate,0
+zwf,acetate,4
+glta,acetate,2
+atob,acetate,0
+galp,acetate,2
+arol,acetate,1
+phea,acetate,1
+tyrafbr,acetate,0
+alss,acetate,1
+crte,acetate,0
+chs,acetate,0
+kivd,acetate,1
+ilvc,acetate,1
+arob,acetate,2
+fdh,acetate,1
+glms,acetate,1
+yqhd,acetate,1
+tal,acetate,0
+acea,acetate,2
+ldha,ethanol,8
+pta,ethanol,4
+adhe,ethanol,6
+poxb,ethanol,3
+ptsg,ethanol,1
+acka,ethanol,4
+pflb,ethanol,1
+iclr,ethanol,0
+phea,ethanol,0
+tyrr,ethanol,0
+pykf,ethanol,0
+pyka,ethanol,0
+laci,ethanol,0
+pgi,ethanol,1
+lacz,ethanol,0
+fadd,ethanol,0
+acka-pta,ethanol,0
+ppc,ethanol,1
+frda,ethanol,3
+zwf,ethanol,1
+pfka,ethanol,0
+tyra,ethanol,0
+yqhd,ethanol,2
+fade,ethanol,0
+tnaa,ethanol,0
+xyla,ethanol,0
+mgsa,ethanol,1
+meta,ethanol,1
+wcaj,ethanol,0
+arok,ethanol,0
+tkta,ethanol,1
+arog,ethanol,0
+arogfbr,ethanol,0
+ppc,ethanol,0
+idi,ethanol,0
+ppsa,ethanol,0
+pntab,ethanol,0
+dxs,ethanol,0
+glk,ethanol,0
+4cl,ethanol,0
+acs,ethanol,0
+tyra,ethanol,0
+zwf,ethanol,0
+glta,ethanol,0
+atob,ethanol,0
+galp,ethanol,0
+arol,ethanol,0
+phea,ethanol,0
+tyrafbr,ethanol,0
+alss,ethanol,1
+crte,ethanol,0
+chs,ethanol,0
+kivd,ethanol,2
+ilvc,ethanol,1
+arob,ethanol,1
+fdh,ethanol,0
+glms,ethanol,0
+yqhd,ethanol,1
+tal,ethanol,0
+acea,ethanol,0
+ldha,succinic acid,10
+pta,succinic acid,3
+adhe,succinic acid,4
+poxb,succinic acid,5
+ptsg,succinic acid,5
+acka,succinic acid,3
+pflb,succinic acid,5
+iclr,succinic acid,4
+phea,succinic acid,0
+tyrr,succinic acid,0
+pykf,succinic acid,1
+pyka,succinic acid,1
+laci,succinic acid,1
+pgi,succinic acid,1
+lacz,succinic acid,1
+fadd,succinic acid,0
+acka-pta,succinic acid,3
+ppc,succinic acid,2
+frda,succinic acid,0
+zwf,succinic acid,1
+pfka,succinic acid,0
+tyra,succinic acid,0
+yqhd,succinic acid,0
+fade,succinic acid,0
+tnaa,succinic acid,0
+xyla,succinic acid,0
+mgsa,succinic acid,0
+meta,succinic acid,0
+wcaj,succinic acid,0
+arok,succinic acid,0
+tkta,succinic acid,0
+arog,succinic acid,0
+arogfbr,succinic acid,0
+ppc,succinic acid,3
+idi,succinic acid,0
+ppsa,succinic acid,0
+pntab,succinic acid,1
+dxs,succinic acid,0
+glk,succinic acid,1
+4cl,succinic acid,0
+acs,succinic acid,0
+tyra,succinic acid,0
+zwf,succinic acid,0
+glta,succinic acid,3
+atob,succinic acid,0
+galp,succinic acid,0
+arol,succinic acid,0
+phea,succinic acid,0
+tyrafbr,succinic acid,0
+alss,succinic acid,1
+crte,succinic acid,0
+chs,succinic acid,0
+kivd,succinic acid,0
+ilvc,succinic acid,1
+arob,succinic acid,0
+fdh,succinic acid,2
+glms,succinic acid,0
+yqhd,succinic acid,0
+tal,succinic acid,0
+acea,succinic acid,0
+ldha,lactic acid,9
+pta,lactic acid,9
+adhe,lactic acid,11
+poxb,lactic acid,6
+ptsg,lactic acid,3
+acka,lactic acid,2
+pflb,lactic acid,6
+iclr,lactic acid,0
+phea,lactic acid,0
+tyrr,lactic acid,0
+pykf,lactic acid,2
+pyka,lactic acid,2
+laci,lactic acid,0
+pgi,lactic acid,0
+lacz,lactic acid,0
+fadd,lactic acid,0
+acka-pta,lactic acid,0
+ppc,lactic acid,3
+frda,lactic acid,5
+zwf,lactic acid,1
+pfka,lactic acid,0
+tyra,lactic acid,0
+yqhd,lactic acid,0
+fade,lactic acid,0
+tnaa,lactic acid,0
+xyla,lactic acid,0
+mgsa,lactic acid,3
+meta,lactic acid,0
+wcaj,lactic acid,0
+arok,lactic acid,0
+tkta,lactic acid,0
+arog,lactic acid,0
+arogfbr,lactic acid,0
+ppc,lactic acid,2
+idi,lactic acid,0
+ppsa,lactic acid,0
+pntab,lactic acid,0
+dxs,lactic acid,0
+glk,lactic acid,1
+4cl,lactic acid,0
+acs,lactic acid,0
+tyra,lactic acid,0
+zwf,lactic acid,0
+glta,lactic acid,0
+atob,lactic acid,1
+galp,lactic acid,0
+arol,lactic acid,0
+phea,lactic acid,0
+tyrafbr,lactic acid,0
+alss,lactic acid,1
+crte,lactic acid,0
+chs,lactic acid,0
+kivd,lactic acid,0
+ilvc,lactic acid,1
+arob,lactic acid,1
+fdh,lactic acid,0
+glms,lactic acid,0
+yqhd,lactic acid,0
+tal,lactic acid,0
+acea,lactic acid,0
+ldha,lycopene,1
+pta,lycopene,0
+adhe,lycopene,0
+poxb,lycopene,1
+ptsg,lycopene,1
+acka,lycopene,1
+pflb,lycopene,0
+iclr,lycopene,0
+phea,lycopene,0
+tyrr,lycopene,0
+pykf,lycopene,0
+pyka,lycopene,0
+laci,lycopene,0
+pgi,lycopene,2
+lacz,lycopene,0
+fadd,lycopene,0
+acka-pta,lycopene,0
+ppc,lycopene,0
+frda,lycopene,0
+zwf,lycopene,1
+pfka,lycopene,0
+tyra,lycopene,0
+yqhd,lycopene,0
+fade,lycopene,0
+tnaa,lycopene,0
+xyla,lycopene,1
+mgsa,lycopene,0
+meta,lycopene,0
+wcaj,lycopene,0
+arok,lycopene,0
+tkta,lycopene,0
+arog,lycopene,0
+arogfbr,lycopene,0
+ppc,lycopene,0
+idi,lycopene,11
+ppsa,lycopene,0
+pntab,lycopene,0
+dxs,lycopene,11
+glk,lycopene,0
+4cl,lycopene,0
+acs,lycopene,0
+tyra,lycopene,0
+zwf,lycopene,0
+glta,lycopene,0
+atob,lycopene,0
+galp,lycopene,0
+arol,lycopene,0
+phea,lycopene,0
+tyrafbr,lycopene,0
+alss,lycopene,0
+crte,lycopene,10
+chs,lycopene,0
+kivd,lycopene,0
+ilvc,lycopene,0
+arob,lycopene,0
+fdh,lycopene,0
+glms,lycopene,0
+yqhd,lycopene,0
+tal,lycopene,0
+acea,lycopene,0
+ldha,acetic acid,5
+pta,acetic acid,4
+adhe,acetic acid,4
+poxb,acetic acid,2
+ptsg,acetic acid,2
+acka,acetic acid,2
+pflb,acetic acid,3
+iclr,acetic acid,3
+phea,acetic acid,0
+tyrr,acetic acid,0
+pykf,acetic acid,1
+pyka,acetic acid,0
+laci,acetic acid,1
+pgi,acetic acid,0
+lacz,acetic acid,0
+fadd,acetic acid,1
+acka-pta,acetic acid,0
+ppc,acetic acid,0
+frda,acetic acid,0
+zwf,acetic acid,1
+pfka,acetic acid,1
+tyra,acetic acid,0
+yqhd,acetic acid,0
+fade,acetic acid,2
+tnaa,acetic acid,0
+xyla,acetic acid,0
+mgsa,acetic acid,0
+meta,acetic acid,0
+wcaj,acetic acid,0
+arok,acetic acid,1
+tkta,acetic acid,0
+arog,acetic acid,0
+arogfbr,acetic acid,0
+ppc,acetic acid,1
+idi,acetic acid,0
+ppsa,acetic acid,0
+pntab,acetic acid,0
+dxs,acetic acid,0
+glk,acetic acid,0
+4cl,acetic acid,0
+acs,acetic acid,2
+tyra,acetic acid,0
+zwf,acetic acid,1
+glta,acetic acid,0
+atob,acetic acid,2
+galp,acetic acid,0
+arol,acetic acid,0
+phea,acetic acid,0
+tyrafbr,acetic acid,0
+alss,acetic acid,0
+crte,acetic acid,0
+chs,acetic acid,0
+kivd,acetic acid,0
+ilvc,acetic acid,0
+arob,acetic acid,0
+fdh,acetic acid,0
+glms,acetic acid,0
+yqhd,acetic acid,0
+tal,acetic acid,0
+acea,acetic acid,0
+ldha,Pyruvic acid,7
+pta,Pyruvic acid,5
+adhe,Pyruvic acid,5
+poxb,Pyruvic acid,9
+ptsg,Pyruvic acid,4
+acka,Pyruvic acid,4
+pflb,Pyruvic acid,5
+iclr,Pyruvic acid,4
+phea,Pyruvic acid,0
+tyrr,Pyruvic acid,0
+pykf,Pyruvic acid,0
+pyka,Pyruvic acid,0
+laci,Pyruvic acid,1
+pgi,Pyruvic acid,1
+lacz,Pyruvic acid,1
+fadd,Pyruvic acid,0
+acka-pta,Pyruvic acid,4
+ppc,Pyruvic acid,1
+frda,Pyruvic acid,1
+zwf,Pyruvic acid,1
+pfka,Pyruvic acid,0
+tyra,Pyruvic acid,0
+yqhd,Pyruvic acid,0
+fade,Pyruvic acid,1
+tnaa,Pyruvic acid,0
+xyla,Pyruvic acid,0
+mgsa,Pyruvic acid,0
+meta,Pyruvic acid,0
+wcaj,Pyruvic acid,0
+arok,Pyruvic acid,0
+tkta,Pyruvic acid,1
+arog,Pyruvic acid,0
+arogfbr,Pyruvic acid,0
+ppc,Pyruvic acid,1
+idi,Pyruvic acid,0
+ppsa,Pyruvic acid,0
+pntab,Pyruvic acid,0
+dxs,Pyruvic acid,0
+glk,Pyruvic acid,0
+4cl,Pyruvic acid,0
+acs,Pyruvic acid,0
+tyra,Pyruvic acid,0
+zwf,Pyruvic acid,1
+glta,Pyruvic acid,0
+atob,Pyruvic acid,1
+galp,Pyruvic acid,1
+arol,Pyruvic acid,0
+phea,Pyruvic acid,0
+tyrafbr,Pyruvic acid,0
+alss,Pyruvic acid,0
+crte,Pyruvic acid,0
+chs,Pyruvic acid,0
+kivd,Pyruvic acid,0
+ilvc,Pyruvic acid,0
+arob,Pyruvic acid,0
+fdh,Pyruvic acid,0
+glms,Pyruvic acid,0
+yqhd,Pyruvic acid,0
+tal,Pyruvic acid,0
+acea,Pyruvic acid,1
+ldha,"2,3-butanediol",9
+pta,"2,3-butanediol",6
+adhe,"2,3-butanediol",8
+poxb,"2,3-butanediol",5
+ptsg,"2,3-butanediol",0
+acka,"2,3-butanediol",3
+pflb,"2,3-butanediol",4
+iclr,"2,3-butanediol",0
+phea,"2,3-butanediol",0
+tyrr,"2,3-butanediol",0
+pykf,"2,3-butanediol",0
+pyka,"2,3-butanediol",0
+laci,"2,3-butanediol",0
+pgi,"2,3-butanediol",0
+lacz,"2,3-butanediol",0
+fadd,"2,3-butanediol",0
+acka-pta,"2,3-butanediol",2
+ppc,"2,3-butanediol",1
+frda,"2,3-butanediol",3
+zwf,"2,3-butanediol",0
+pfka,"2,3-butanediol",1
+tyra,"2,3-butanediol",0
+yqhd,"2,3-butanediol",1
+fade,"2,3-butanediol",0
+tnaa,"2,3-butanediol",0
+xyla,"2,3-butanediol",0
+mgsa,"2,3-butanediol",0
+meta,"2,3-butanediol",0
+wcaj,"2,3-butanediol",0
+arok,"2,3-butanediol",0
+tkta,"2,3-butanediol",0
+arog,"2,3-butanediol",0
+arogfbr,"2,3-butanediol",0
+ppc,"2,3-butanediol",0
+idi,"2,3-butanediol",0
+ppsa,"2,3-butanediol",0
+pntab,"2,3-butanediol",0
+dxs,"2,3-butanediol",0
+glk,"2,3-butanediol",0
+4cl,"2,3-butanediol",0
+acs,"2,3-butanediol",0
+tyra,"2,3-butanediol",0
+zwf,"2,3-butanediol",0
+glta,"2,3-butanediol",0
+atob,"2,3-butanediol",0
+galp,"2,3-butanediol",0
+arol,"2,3-butanediol",0
+phea,"2,3-butanediol",0
+tyrafbr,"2,3-butanediol",0
+alss,"2,3-butanediol",4
+crte,"2,3-butanediol",0
+chs,"2,3-butanediol",0
+kivd,"2,3-butanediol",0
+ilvc,"2,3-butanediol",0
+arob,"2,3-butanediol",0
+fdh,"2,3-butanediol",1
+glms,"2,3-butanediol",0
+yqhd,"2,3-butanediol",0
+tal,"2,3-butanediol",0
+acea,"2,3-butanediol",0
+ldha,L-phenylalanine,0
+pta,L-phenylalanine,0
+adhe,L-phenylalanine,1
+poxb,L-phenylalanine,0
+ptsg,L-phenylalanine,2
+acka,L-phenylalanine,1
+pflb,L-phenylalanine,0
+iclr,L-phenylalanine,0
+phea,L-phenylalanine,6
+tyrr,L-phenylalanine,3
+pykf,L-phenylalanine,2
+pyka,L-phenylalanine,2
+laci,L-phenylalanine,1
+pgi,L-phenylalanine,0
+lacz,L-phenylalanine,0
+fadd,L-phenylalanine,0
+acka-pta,L-phenylalanine,0
+ppc,L-phenylalanine,2
+frda,L-phenylalanine,0
+zwf,L-phenylalanine,1
+pfka,L-phenylalanine,0
+tyra,L-phenylalanine,4
+yqhd,L-phenylalanine,0
+fade,L-phenylalanine,0
+tnaa,L-phenylalanine,1
+xyla,L-phenylalanine,0
+mgsa,L-phenylalanine,0
+meta,L-phenylalanine,0
+wcaj,L-phenylalanine,0
+arok,L-phenylalanine,0
+tkta,L-phenylalanine,5
+arog,L-phenylalanine,7
+arogfbr,L-phenylalanine,1
+ppc,L-phenylalanine,0
+idi,L-phenylalanine,0
+ppsa,L-phenylalanine,0
+pntab,L-phenylalanine,0
+dxs,L-phenylalanine,0
+glk,L-phenylalanine,3
+4cl,L-phenylalanine,0
+acs,L-phenylalanine,0
+tyra,L-phenylalanine,0
+zwf,L-phenylalanine,1
+glta,L-phenylalanine,0
+atob,L-phenylalanine,0
+galp,L-phenylalanine,3
+arol,L-phenylalanine,4
+phea,L-phenylalanine,9
+tyrafbr,L-phenylalanine,0
+alss,L-phenylalanine,0
+crte,L-phenylalanine,0
+chs,L-phenylalanine,0
+kivd,L-phenylalanine,0
+ilvc,L-phenylalanine,0
+arob,L-phenylalanine,2
+fdh,L-phenylalanine,0
+glms,L-phenylalanine,0
+yqhd,L-phenylalanine,0
+tal,L-phenylalanine,0
+acea,L-phenylalanine,0
+ldha,isobutanol,8
+pta,isobutanol,4
+adhe,isobutanol,8
+poxb,isobutanol,2
+ptsg,isobutanol,0
+acka,isobutanol,1
+pflb,isobutanol,6
+iclr,isobutanol,0
+phea,isobutanol,0
+tyrr,isobutanol,0
+pykf,isobutanol,0
+pyka,isobutanol,0
+laci,isobutanol,1
+pgi,isobutanol,1
+lacz,isobutanol,1
+fadd,isobutanol,0
+acka-pta,isobutanol,0
+ppc,isobutanol,0
+frda,isobutanol,2
+zwf,isobutanol,0
+pfka,isobutanol,0
+tyra,isobutanol,0
+yqhd,isobutanol,2
+fade,isobutanol,0
+tnaa,isobutanol,0
+xyla,isobutanol,1
+mgsa,isobutanol,0
+meta,isobutanol,1
+wcaj,isobutanol,0
+arok,isobutanol,0
+tkta,isobutanol,0
+arog,isobutanol,0
+arogfbr,isobutanol,0
+ppc,isobutanol,0
+idi,isobutanol,0
+ppsa,isobutanol,0
+pntab,isobutanol,2
+dxs,isobutanol,0
+glk,isobutanol,0
+4cl,isobutanol,0
+acs,isobutanol,1
+tyra,isobutanol,0
+zwf,isobutanol,1
+glta,isobutanol,0
+atob,isobutanol,0
+galp,isobutanol,0
+arol,isobutanol,0
+phea,isobutanol,0
+tyrafbr,isobutanol,0
+alss,isobutanol,7
+crte,isobutanol,0
+chs,isobutanol,0
+kivd,isobutanol,7
+ilvc,isobutanol,7
+arob,isobutanol,0
+fdh,isobutanol,0
+glms,isobutanol,0
+yqhd,isobutanol,1
+tal,isobutanol,0
+acea,isobutanol,0
+ldha,1-butanol,11
+pta,1-butanol,9
+adhe,1-butanol,12
+poxb,1-butanol,3
+ptsg,1-butanol,3
+acka,1-butanol,0
+pflb,1-butanol,1
+iclr,1-butanol,0
+phea,1-butanol,0
+tyrr,1-butanol,0
+pykf,1-butanol,0
+pyka,1-butanol,0
+laci,1-butanol,0
+pgi,1-butanol,1
+lacz,1-butanol,0
+fadd,1-butanol,0
+acka-pta,1-butanol,1
+ppc,1-butanol,1
+frda,1-butanol,5
+zwf,1-butanol,1
+pfka,1-butanol,0
+tyra,1-butanol,0
+yqhd,1-butanol,1
+fade,1-butanol,0
+tnaa,1-butanol,0
+xyla,1-butanol,0
+mgsa,1-butanol,1
+meta,1-butanol,1
+wcaj,1-butanol,0
+arok,1-butanol,0
+tkta,1-butanol,1
+arog,1-butanol,0
+arogfbr,1-butanol,0
+ppc,1-butanol,0
+idi,1-butanol,0
+ppsa,1-butanol,0
+pntab,1-butanol,0
+dxs,1-butanol,0
+glk,1-butanol,0
+4cl,1-butanol,0
+acs,1-butanol,0
+tyra,1-butanol,0
+zwf,1-butanol,2
+glta,1-butanol,0
+atob,1-butanol,5
+galp,1-butanol,0
+arol,1-butanol,0
+phea,1-butanol,0
+tyrafbr,1-butanol,0
+alss,1-butanol,0
+crte,1-butanol,0
+chs,1-butanol,0
+kivd,1-butanol,1
+ilvc,1-butanol,0
+arob,1-butanol,0
+fdh,1-butanol,2
+glms,1-butanol,0
+yqhd,1-butanol,0
+tal,1-butanol,0
+acea,1-butanol,0
+ldha,succinate,6
+pta,succinate,1
+adhe,succinate,1
+poxb,succinate,0
+ptsg,succinate,5
+acka,succinate,1
+pflb,succinate,4
+iclr,succinate,1
+phea,succinate,0
+tyrr,succinate,0
+pykf,succinate,1
+pyka,succinate,2
+laci,succinate,0
+pgi,succinate,0
+lacz,succinate,0
+fadd,succinate,0
+acka-pta,succinate,1
+ppc,succinate,3
+frda,succinate,0
+zwf,succinate,1
+pfka,succinate,0
+tyra,succinate,0
+yqhd,succinate,0
+fade,succinate,0
+tnaa,succinate,0
+xyla,succinate,0
+mgsa,succinate,0
+meta,succinate,0
+wcaj,succinate,0
+arok,succinate,0
+tkta,succinate,0
+arog,succinate,0
+arogfbr,succinate,0
+ppc,succinate,2
+idi,succinate,0
+ppsa,succinate,0
+pntab,succinate,0
+dxs,succinate,0
+glk,succinate,0
+4cl,succinate,0
+acs,succinate,1
+tyra,succinate,0
+zwf,succinate,1
+glta,succinate,1
+atob,succinate,0
+galp,succinate,0
+arol,succinate,0
+phea,succinate,0
+tyrafbr,succinate,0
+alss,succinate,0
+crte,succinate,0
+chs,succinate,0
+kivd,succinate,0
+ilvc,succinate,0
+arob,succinate,0
+fdh,succinate,0
+glms,succinate,0
+yqhd,succinate,0
+tal,succinate,1
+acea,succinate,0
+ldha,Tryptophan,0
+pta,Tryptophan,2
+adhe,Tryptophan,0
+poxb,Tryptophan,2
+ptsg,Tryptophan,3
+acka,Tryptophan,4
+pflb,Tryptophan,0
+iclr,Tryptophan,0
+phea,Tryptophan,0
+tyrr,Tryptophan,1
+pykf,Tryptophan,2
+pyka,Tryptophan,1
+laci,Tryptophan,1
+pgi,Tryptophan,0
+lacz,Tryptophan,0
+fadd,Tryptophan,0
+acka-pta,Tryptophan,0
+ppc,Tryptophan,0
+frda,Tryptophan,0
+zwf,Tryptophan,0
+pfka,Tryptophan,0
+tyra,Tryptophan,0
+yqhd,Tryptophan,0
+fade,Tryptophan,0
+tnaa,Tryptophan,8
+xyla,Tryptophan,0
+mgsa,Tryptophan,0
+meta,Tryptophan,0
+wcaj,Tryptophan,0
+arok,Tryptophan,0
+tkta,Tryptophan,2
+arog,Tryptophan,4
+arogfbr,Tryptophan,0
+ppc,Tryptophan,0
+idi,Tryptophan,0
+ppsa,Tryptophan,0
+pntab,Tryptophan,2
+dxs,Tryptophan,0
+glk,Tryptophan,0
+4cl,Tryptophan,0
+acs,Tryptophan,0
+tyra,Tryptophan,1
+zwf,Tryptophan,0
+glta,Tryptophan,0
+atob,Tryptophan,0
+galp,Tryptophan,0
+arol,Tryptophan,3
+phea,Tryptophan,2
+tyrafbr,Tryptophan,0
+alss,Tryptophan,0
+crte,Tryptophan,0
+chs,Tryptophan,0
+kivd,Tryptophan,0
+ilvc,Tryptophan,0
+arob,Tryptophan,3
+fdh,Tryptophan,0
+glms,Tryptophan,0
+yqhd,Tryptophan,0
+tal,Tryptophan,0
+acea,Tryptophan,0
+ldha,L-tyrosine,0
+pta,L-tyrosine,0
+adhe,L-tyrosine,0
+poxb,L-tyrosine,1
+ptsg,L-tyrosine,1
+acka,L-tyrosine,1
+pflb,L-tyrosine,0
+iclr,L-tyrosine,0
+phea,L-tyrosine,4
+tyrr,L-tyrosine,9
+pykf,L-tyrosine,1
+pyka,L-tyrosine,1
+laci,L-tyrosine,1
+pgi,L-tyrosine,0
+lacz,L-tyrosine,0
+fadd,L-tyrosine,0
+acka-pta,L-tyrosine,0
+ppc,L-tyrosine,1
+frda,L-tyrosine,0
+zwf,L-tyrosine,0
+pfka,L-tyrosine,0
+tyra,L-tyrosine,0
+yqhd,L-tyrosine,0
+fade,L-tyrosine,0
+tnaa,L-tyrosine,1
+xyla,L-tyrosine,0
+mgsa,L-tyrosine,0
+meta,L-tyrosine,0
+wcaj,L-tyrosine,0
+arok,L-tyrosine,0
+tkta,L-tyrosine,6
+arog,L-tyrosine,7
+arogfbr,L-tyrosine,4
+ppc,L-tyrosine,0
+idi,L-tyrosine,0
+ppsa,L-tyrosine,5
+pntab,L-tyrosine,0
+dxs,L-tyrosine,0
+glk,L-tyrosine,1
+4cl,L-tyrosine,0
+acs,L-tyrosine,1
+tyra,L-tyrosine,10
+zwf,L-tyrosine,0
+glta,L-tyrosine,0
+atob,L-tyrosine,0
+galp,L-tyrosine,1
+arol,L-tyrosine,2
+phea,L-tyrosine,1
+tyrafbr,L-tyrosine,5
+alss,L-tyrosine,0
+crte,L-tyrosine,0
+chs,L-tyrosine,0
+kivd,L-tyrosine,0
+ilvc,L-tyrosine,0
+arob,L-tyrosine,0
+fdh,L-tyrosine,0
+glms,L-tyrosine,0
+yqhd,L-tyrosine,0
+tal,L-tyrosine,1
+acea,L-tyrosine,0
+ldha,shikimate,0
+pta,shikimate,1
+adhe,shikimate,0
+poxb,shikimate,0
+ptsg,shikimate,4
+acka,shikimate,1
+pflb,shikimate,0
+iclr,shikimate,0
+phea,shikimate,0
+tyrr,shikimate,2
+pykf,shikimate,3
+pyka,shikimate,3
+laci,shikimate,0
+pgi,shikimate,0
+lacz,shikimate,0
+fadd,shikimate,0
+acka-pta,shikimate,0
+ppc,shikimate,0
+frda,shikimate,0
+zwf,shikimate,0
+pfka,shikimate,0
+tyra,shikimate,0
+yqhd,shikimate,0
+fade,shikimate,0
+tnaa,shikimate,1
+xyla,shikimate,0
+mgsa,shikimate,0
+meta,shikimate,0
+wcaj,shikimate,0
+arok,shikimate,11
+tkta,shikimate,14
+arog,shikimate,6
+arogfbr,shikimate,6
+ppc,shikimate,0
+idi,shikimate,0
+ppsa,shikimate,3
+pntab,shikimate,0
+dxs,shikimate,0
+glk,shikimate,1
+4cl,shikimate,0
+acs,shikimate,0
+tyra,shikimate,0
+zwf,shikimate,0
+glta,shikimate,0
+atob,shikimate,0
+galp,shikimate,3
+arol,shikimate,1
+phea,shikimate,0
+tyrafbr,shikimate,0
+alss,shikimate,0
+crte,shikimate,0
+chs,shikimate,0
+kivd,shikimate,0
+ilvc,shikimate,0
+arob,shikimate,8
+fdh,shikimate,0
+glms,shikimate,0
+yqhd,shikimate,0
+tal,shikimate,0
+acea,shikimate,0
+ldha,p-coumaric acid,0
+pta,p-coumaric acid,0
+adhe,p-coumaric acid,0
+poxb,p-coumaric acid,0
+ptsg,p-coumaric acid,0
+acka,p-coumaric acid,0
+pflb,p-coumaric acid,0
+iclr,p-coumaric acid,0
+phea,p-coumaric acid,5
+tyrr,p-coumaric acid,6
+pykf,p-coumaric acid,0
+pyka,p-coumaric acid,1
+laci,p-coumaric acid,0
+pgi,p-coumaric acid,1
+lacz,p-coumaric acid,0
+fadd,p-coumaric acid,0
+acka-pta,p-coumaric acid,0
+ppc,p-coumaric acid,0
+frda,p-coumaric acid,0
+zwf,p-coumaric acid,0
+pfka,p-coumaric acid,0
+tyra,p-coumaric acid,0
+yqhd,p-coumaric acid,0
+fade,p-coumaric acid,0
+tnaa,p-coumaric acid,0
+xyla,p-coumaric acid,0
+mgsa,p-coumaric acid,0
+meta,p-coumaric acid,0
+wcaj,p-coumaric acid,0
+arok,p-coumaric acid,0
+tkta,p-coumaric acid,4
+arog,p-coumaric acid,4
+arogfbr,p-coumaric acid,4
+ppc,p-coumaric acid,0
+idi,p-coumaric acid,0
+ppsa,p-coumaric acid,2
+pntab,p-coumaric acid,0
+dxs,p-coumaric acid,0
+glk,p-coumaric acid,0
+4cl,p-coumaric acid,0
+acs,p-coumaric acid,0
+tyra,p-coumaric acid,3
+zwf,p-coumaric acid,0
+glta,p-coumaric acid,0
+atob,p-coumaric acid,0
+galp,p-coumaric acid,0
+arol,p-coumaric acid,0
+phea,p-coumaric acid,0
+tyrafbr,p-coumaric acid,4
+alss,p-coumaric acid,0
+crte,p-coumaric acid,0
+chs,p-coumaric acid,0
+kivd,p-coumaric acid,0
+ilvc,p-coumaric acid,0
+arob,p-coumaric acid,0
+fdh,p-coumaric acid,0
+glms,p-coumaric acid,0
+yqhd,p-coumaric acid,0
+tal,p-coumaric acid,3
+acea,p-coumaric acid,0
+ldha,5-Aminolevulinic acid,1
+pta,5-Aminolevulinic acid,0
+adhe,5-Aminolevulinic acid,0
+poxb,5-Aminolevulinic acid,0
+ptsg,5-Aminolevulinic acid,0
+acka,5-Aminolevulinic acid,0
+pflb,5-Aminolevulinic acid,0
+iclr,5-Aminolevulinic acid,0
+phea,5-Aminolevulinic acid,0
+tyrr,5-Aminolevulinic acid,0
+pykf,5-Aminolevulinic acid,0
+pyka,5-Aminolevulinic acid,0
+laci,5-Aminolevulinic acid,0
+pgi,5-Aminolevulinic acid,0
+lacz,5-Aminolevulinic acid,0
+fadd,5-Aminolevulinic acid,0
+acka-pta,5-Aminolevulinic acid,0
+ppc,5-Aminolevulinic acid,0
+frda,5-Aminolevulinic acid,0
+zwf,5-Aminolevulinic acid,0
+pfka,5-Aminolevulinic acid,0
+tyra,5-Aminolevulinic acid,0
+yqhd,5-Aminolevulinic acid,0
+fade,5-Aminolevulinic acid,0
+tnaa,5-Aminolevulinic acid,0
+xyla,5-Aminolevulinic acid,0
+mgsa,5-Aminolevulinic acid,0
+meta,5-Aminolevulinic acid,0
+wcaj,5-Aminolevulinic acid,0
+arok,5-Aminolevulinic acid,0
+tkta,5-Aminolevulinic acid,0
+arog,5-Aminolevulinic acid,0
+arogfbr,5-Aminolevulinic acid,0
+ppc,5-Aminolevulinic acid,2
+idi,5-Aminolevulinic acid,0
+ppsa,5-Aminolevulinic acid,0
+pntab,5-Aminolevulinic acid,0
+dxs,5-Aminolevulinic acid,0
+glk,5-Aminolevulinic acid,0
+4cl,5-Aminolevulinic acid,0
+acs,5-Aminolevulinic acid,0
+tyra,5-Aminolevulinic acid,0
+zwf,5-Aminolevulinic acid,0
+glta,5-Aminolevulinic acid,1
+atob,5-Aminolevulinic acid,0
+galp,5-Aminolevulinic acid,0
+arol,5-Aminolevulinic acid,0
+phea,5-Aminolevulinic acid,0
+tyrafbr,5-Aminolevulinic acid,0
+alss,5-Aminolevulinic acid,0
+crte,5-Aminolevulinic acid,0
+chs,5-Aminolevulinic acid,0
+kivd,5-Aminolevulinic acid,0
+ilvc,5-Aminolevulinic acid,0
+arob,5-Aminolevulinic acid,0
+fdh,5-Aminolevulinic acid,0
+glms,5-Aminolevulinic acid,0
+yqhd,5-Aminolevulinic acid,0
+tal,5-Aminolevulinic acid,0
+acea,5-Aminolevulinic acid,1
+ldha,formate,6
+pta,formate,1
+adhe,formate,5
+poxb,formate,0
+ptsg,formate,0
+acka,formate,1
+pflb,formate,0
+iclr,formate,1
+phea,formate,0
+tyrr,formate,0
+pykf,formate,1
+pyka,formate,1
+laci,formate,0
+pgi,formate,0
+lacz,formate,0
+fadd,formate,0
+acka-pta,formate,0
+ppc,formate,0
+frda,formate,0
+zwf,formate,0
+pfka,formate,0
+tyra,formate,0
+yqhd,formate,0
+fade,formate,0
+tnaa,formate,0
+xyla,formate,0
+mgsa,formate,1
+meta,formate,0
+wcaj,formate,0
+arok,formate,0
+tkta,formate,0
+arog,formate,0
+arogfbr,formate,0
+ppc,formate,0
+idi,formate,0
+ppsa,formate,0
+pntab,formate,0
+dxs,formate,0
+glk,formate,1
+4cl,formate,0
+acs,formate,0
+tyra,formate,0
+zwf,formate,0
+glta,formate,0
+atob,formate,0
+galp,formate,1
+arol,formate,0
+phea,formate,0
+tyrafbr,formate,0
+alss,formate,0
+crte,formate,0
+chs,formate,0
+kivd,formate,0
+ilvc,formate,0
+arob,formate,0
+fdh,formate,0
+glms,formate,0
+yqhd,formate,0
+tal,formate,0
+acea,formate,0
+ldha,3-hydroxypropionic acid,2
+pta,3-hydroxypropionic acid,2
+adhe,3-hydroxypropionic acid,2
+poxb,3-hydroxypropionic acid,2
+ptsg,3-hydroxypropionic acid,1
+acka,3-hydroxypropionic acid,1
+pflb,3-hydroxypropionic acid,2
+iclr,3-hydroxypropionic acid,1
+phea,3-hydroxypropionic acid,0
+tyrr,3-hydroxypropionic acid,0
+pykf,3-hydroxypropionic acid,0
+pyka,3-hydroxypropionic acid,0
+laci,3-hydroxypropionic acid,0
+pgi,3-hydroxypropionic acid,0
+lacz,3-hydroxypropionic acid,0
+fadd,3-hydroxypropionic acid,0
+acka-pta,3-hydroxypropionic acid,2
+ppc,3-hydroxypropionic acid,0
+frda,3-hydroxypropionic acid,0
+zwf,3-hydroxypropionic acid,1
+pfka,3-hydroxypropionic acid,0
+tyra,3-hydroxypropionic acid,0
+yqhd,3-hydroxypropionic acid,5
+fade,3-hydroxypropionic acid,0
+tnaa,3-hydroxypropionic acid,0
+xyla,3-hydroxypropionic acid,0
+mgsa,3-hydroxypropionic acid,0
+meta,3-hydroxypropionic acid,0
+wcaj,3-hydroxypropionic acid,0
+arok,3-hydroxypropionic acid,0
+tkta,3-hydroxypropionic acid,0
+arog,3-hydroxypropionic acid,0
+arogfbr,3-hydroxypropionic acid,0
+ppc,3-hydroxypropionic acid,0
+idi,3-hydroxypropionic acid,0
+ppsa,3-hydroxypropionic acid,0
+pntab,3-hydroxypropionic acid,1
+dxs,3-hydroxypropionic acid,0
+glk,3-hydroxypropionic acid,0
+4cl,3-hydroxypropionic acid,0
+acs,3-hydroxypropionic acid,1
+tyra,3-hydroxypropionic acid,0
+zwf,3-hydroxypropionic acid,0
+glta,3-hydroxypropionic acid,0
+atob,3-hydroxypropionic acid,0
+galp,3-hydroxypropionic acid,1
+arol,3-hydroxypropionic acid,0
+phea,3-hydroxypropionic acid,0
+tyrafbr,3-hydroxypropionic acid,0
+alss,3-hydroxypropionic acid,0
+crte,3-hydroxypropionic acid,0
+chs,3-hydroxypropionic acid,0
+kivd,3-hydroxypropionic acid,0
+ilvc,3-hydroxypropionic acid,0
+arob,3-hydroxypropionic acid,0
+fdh,3-hydroxypropionic acid,0
+glms,3-hydroxypropionic acid,0
+yqhd,3-hydroxypropionic acid,0
+tal,3-hydroxypropionic acid,0
+acea,3-hydroxypropionic acid,0
+ldha,acetoin,6
+pta,acetoin,3
+adhe,acetoin,6
+poxb,acetoin,1
+ptsg,acetoin,0
+acka,acetoin,1
+pflb,acetoin,2
+iclr,acetoin,0
+phea,acetoin,0
+tyrr,acetoin,0
+pykf,acetoin,0
+pyka,acetoin,0
+laci,acetoin,0
+pgi,acetoin,0
+lacz,acetoin,0
+fadd,acetoin,0
+acka-pta,acetoin,3
+ppc,acetoin,0
+frda,acetoin,1
+zwf,acetoin,0
+pfka,acetoin,1
+tyra,acetoin,0
+yqhd,acetoin,1
+fade,acetoin,0
+tnaa,acetoin,0
+xyla,acetoin,0
+mgsa,acetoin,0
+meta,acetoin,0
+wcaj,acetoin,0
+arok,acetoin,0
+tkta,acetoin,0
+arog,acetoin,0
+arogfbr,acetoin,0
+ppc,acetoin,0
+idi,acetoin,0
+ppsa,acetoin,0
+pntab,acetoin,0
+dxs,acetoin,0
+glk,acetoin,0
+4cl,acetoin,0
+acs,acetoin,0
+tyra,acetoin,0
+zwf,acetoin,0
+glta,acetoin,0
+atob,acetoin,0
+galp,acetoin,0
+arol,acetoin,0
+phea,acetoin,0
+tyrafbr,acetoin,0
+alss,acetoin,1
+crte,acetoin,0
+chs,acetoin,0
+kivd,acetoin,0
+ilvc,acetoin,0
+arob,acetoin,0
+fdh,acetoin,0
+glms,acetoin,0
+yqhd,acetoin,0
+tal,acetoin,0
+acea,acetoin,0

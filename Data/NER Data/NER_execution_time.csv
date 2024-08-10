@@ -1,0 +1,6 @@
+Model,Execution time(min)
+Qwen1.5-110B,36
+Gemini Pro,96
+Claude-3,75
+GPT-4,73
+Qwen-Lora,11

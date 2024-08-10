@@ -1,0 +1,46 @@
+product index,pert index,true label,predict label,product,inf_label_01,fvseof_predict,ID,name,fseof_predict
+367,"[408, 499, 217, 406, 1453, 1177]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+157,"[469, 407, 1201]",1,1,ser_DASH_L_c,1,1,ser_DASH_L_c,L-Serine,1
+367,"[1019, 1180, 1271, 1453, 989, 1179, 1348, 1245, 1178, 405]",0,0,lac_DASH_L_c,0,1,lac_DASH_L_c,L-Lactate,0
+343,"[71, 293, 70, 1066]",1,1,hom_DASH_L_c,1,1,hom_DASH_L_c,L-Homoserine,1
+343,"[843, 1065, 842, 957, 294]",0,0,hom_DASH_L_c,0,0,hom_DASH_L_c,L-Homoserine,0
+367,"[672, 34]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+367,"[1453, 1177]",1,1,lac_DASH_L_c,1,0,lac_DASH_L_c,L-Lactate,0
+367,"[1444, 806]",0,0,lac_DASH_L_c,0,1,lac_DASH_L_c,L-Lactate,1
+157,"[529, 429, 252]",0,0,ser_DASH_L_c,0,1,ser_DASH_L_c,L-Serine,1
+64,[185],0,1,glu_DASH_L_c,0,1,glu_DASH_L_c,L-Glutamate,1
+64,"[156, 404, 495, 418]",0,0,glu_DASH_L_c,0,1,glu_DASH_L_c,L-Glutamate,1
+64,[1051],1,1,glu_DASH_L_c,1,1,glu_DASH_L_c,L-Glutamate,1
+157,[429],0,0,ser_DASH_L_c,0,1,ser_DASH_L_c,L-Serine,1
+64,"[928, 1176, 1267, 1190]",1,1,glu_DASH_L_c,1,1,glu_DASH_L_c,L-Glutamate,1
+83,[1471],1,1,trp_DASH_L_c,1,0,trp_DASH_L_c,L-Tryptophan,0
+343,"[71, 293, 70, 185, 1066]",1,0,hom_DASH_L_c,1,1,hom_DASH_L_c,L-Homoserine,1
+64,[957],1,0,glu_DASH_L_c,1,1,glu_DASH_L_c,L-Glutamate,1
+64,[982],0,0,glu_DASH_L_c,0,0,glu_DASH_L_c,L-Glutamate,0
+343,"[843, 845, 1065, 842, 957, 294]",0,0,hom_DASH_L_c,0,0,hom_DASH_L_c,L-Homoserine,0
+367,"[247, 408, 499, 681, 217, 407, 576, 473, 406, 1177]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+157,[529],0,0,ser_DASH_L_c,0,1,ser_DASH_L_c,L-Serine,1
+367,"[681, 405]",0,0,lac_DASH_L_c,0,1,lac_DASH_L_c,L-Lactate,1
+343,"[843, 1065, 842, 294]",0,0,hom_DASH_L_c,0,0,hom_DASH_L_c,L-Homoserine,0
+840,[989],1,1,ins_c,1,0,ins_c,Inosine,0
+157,[1201],1,1,ser_DASH_L_c,1,1,ser_DASH_L_c,L-Serine,1
+367,"[1180, 1271, 989, 1178, 681, 405]",0,0,lac_DASH_L_c,0,0,lac_DASH_L_c,L-Lactate,0
+367,[1177],1,0,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+83,[699],0,1,trp_DASH_L_c,0,1,trp_DASH_L_c,L-Tryptophan,1
+367,"[408, 1453, 1177]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+343,"[71, 73, 293, 70, 185, 1066]",1,1,hom_DASH_L_c,1,1,hom_DASH_L_c,L-Homoserine,1
+367,"[1180, 1271, 1178]",0,0,lac_DASH_L_c,0,0,lac_DASH_L_c,L-Lactate,0
+367,"[408, 499]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+367,[405],0,0,lac_DASH_L_c,0,1,lac_DASH_L_c,L-Lactate,1
+64,[279],0,0,glu_DASH_L_c,0,1,glu_DASH_L_c,L-Glutamate,1
+157,[1301],1,1,ser_DASH_L_c,1,1,ser_DASH_L_c,L-Serine,1
+367,"[1180, 681, 405]",0,0,lac_DASH_L_c,0,0,lac_DASH_L_c,L-Lactate,0
+64,[210],1,1,glu_DASH_L_c,1,1,glu_DASH_L_c,L-Glutamate,1
+157,"[1301, 1201, 1024]",1,1,ser_DASH_L_c,1,1,ser_DASH_L_c,L-Serine,1
+157,"[1241, 1179, 429]",0,0,ser_DASH_L_c,0,0,ser_DASH_L_c,L-Serine,0
+367,"[1180, 1271]",0,0,lac_DASH_L_c,0,0,lac_DASH_L_c,L-Lactate,0
+840,[217],0,1,ins_c,0,1,ins_c,Inosine,1
+367,[499],1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1
+367,[1271],0,0,lac_DASH_L_c,0,1,lac_DASH_L_c,L-Lactate,1
+11,[681],0,0,ac_c,0,1,ac_c,Acetate,1
+367,"[408, 499, 406]",1,1,lac_DASH_L_c,1,1,lac_DASH_L_c,L-Lactate,1

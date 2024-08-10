@@ -1,0 +1,70 @@
+met_name,smile,met_id
+H2O,O,h2o_c
+H2O,O,h2o_e
+H2O,O,h2o_p
+H+,[HH],h_c
+H+,[HH],h_p
+H+,[HH],h_e
+oxygen,O=O,o2_c
+oxygen,O=O,o2_p
+oxygen,O=O,o2_e
+hydrogen peroxide,OO,h2o2_c
+hydrogen peroxide,OO,h2o2_p
+hydrogen peroxide,OO,h2o2_e
+ammonium,[NH4+],nh4_c
+ammonium,[NH4+],nh4_p
+ammonium,[NH4+],nh4_e
+phosphate,[O-]P(=O)([O-])[O-],pi_c
+phosphate,[O-]P(=O)([O-])[O-],pi_p
+phosphate,[O-]P(=O)([O-])[O-],pi_e
+diphosphate,[O-]P(=O)([O-])OP(=O)([O-])[O-],ppi_c
+sulphate,[O-]S(=O)(=O)[O-],so4_c
+sulphate,[O-]S(=O)(=O)[O-],so4_p
+sulphate,[O-]S(=O)(=O)[O-],so4_e
+hydrogen sulfide,[S],h2s_c
+hydrogen sulfide,[S],h2s_p
+hydrogen sulfide,[S],h2s_e
+thiosulfate,O=S(=O)([O-])S,tsul_c
+thiosulfate,O=S(=O)([O-])S,tsul_p
+thiosulfate,O=S(=O)([O-])S,tsul_e
+potassium,[K+],k_c
+potassium,[K+],k_p
+potassium,[K+],k_e
+sodium,[Na+],na1_c
+sodium,[Na+],na1_p
+sodium,[Na+],na1_e
+chloride,[Cl-],cl_c
+chloride,[Cl-],cl_p
+chloride,[Cl-],cl_e
+Mg(2+),[Mg+2],mg2_c
+Mg(2+),[Mg+2],mg2_p
+Mg(2+),[Mg+2],mg2_e
+Mn(2+),[Mn+2],mn2_c
+Mn(2+),[Mn+2],mn2_p
+Mn(2+),[Mn+2],mn2_e
+Zn(2+),[Zn+2],zn2_c
+Zn(2+),[Zn+2],zn2_p
+Zn(2+),[Zn+2],zn2_e
+Ca(2+),[Ca+2],ca2_c
+Ca(2+),[Ca+2],ca2_p
+Ca(2+),[Ca+2],ca2_e
+Cu2(+),[Cu].[Cu],cu2_c
+Cu2(+),[Cu].[Cu],cu2_p
+Cu2(+),[Cu].[Cu],cu2_e
+iron(2+),[Fe+2],fe2_c
+iron(2+),[Fe+2],fe2_p
+iron(2+),[Fe+2],fe2_e
+iron(3+),[Fe+3],fe3_c
+iron(3+),[Fe+3],fe3_p
+iron(3+),[Fe+3],fe3_e
+ATP,,atp_c
+ADP,,adp_c
+AMP,,amp_c
+AMP,,amp_p
+AMP,,amp_e
+NADPH,,nadph_c
+NADP(+),,nadp_c
+FADH2,,fadh2_c
+FAD,,fad_c
+FAD,,fad_p
+FAD,,fad_e

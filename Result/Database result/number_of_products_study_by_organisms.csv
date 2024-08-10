@@ -1,0 +1,301 @@
+organisms,product,number of study
+E. coli,Ethanol,60
+E. coli,Lactic acid,203
+E. coli,Succinic acid,54
+E. coli,Glycerol,10
+E. coli,"2,3-butanediol",25
+E. coli,Acetic acid,29
+E. coli,Butanol,26
+E. coli,Xylitol,10
+E. coli,Lycopene,40
+E. coli,Isobutanol,27
+E. coli,Pyruvic acid,29
+E. coli,L-lysine,10
+E. coli,Acetoin,17
+E. coli,3-hydroxypropionic acid,18
+E. coli,Squalene,0
+E. coli,Lactate,16
+E. coli,P-coumaric acid,19
+E. coli,Acetone,11
+E. coli,Butyric acid,9
+E. coli,L-phenylalanine,27
+E. coli,Succinate,24
+E. coli,5-aminolevulinic acid,19
+E. coli,Formate,18
+E. coli,Astaxanthin,9
+E. coli,Geraniol,10
+E. coli,Naringenin,8
+E. coli,Valine,10
+E. coli,Malic acid,12
+E. coli,Hydrogen,16
+E. coli,"1,3-propanediol",10
+S. cerevisiae,Ethanol,171
+S. cerevisiae,Lactic acid,52
+S. cerevisiae,Succinic acid,14
+S. cerevisiae,Glycerol,62
+S. cerevisiae,"2,3-butanediol",20
+S. cerevisiae,Acetic acid,9
+S. cerevisiae,Butanol,8
+S. cerevisiae,Xylitol,27
+S. cerevisiae,Lycopene,10
+S. cerevisiae,Isobutanol,15
+S. cerevisiae,Pyruvic acid,8
+S. cerevisiae,L-lysine,0
+S. cerevisiae,Acetoin,6
+S. cerevisiae,3-hydroxypropionic acid,5
+S. cerevisiae,Squalene,32
+S. cerevisiae,Lactate,2
+S. cerevisiae,P-coumaric acid,14
+S. cerevisiae,Acetone,0
+S. cerevisiae,Butyric acid,1
+S. cerevisiae,L-phenylalanine,1
+S. cerevisiae,Succinate,0
+S. cerevisiae,5-aminolevulinic acid,1
+S. cerevisiae,Formate,1
+S. cerevisiae,Astaxanthin,4
+S. cerevisiae,Geraniol,16
+S. cerevisiae,Naringenin,13
+S. cerevisiae,Valine,0
+S. cerevisiae,Malic acid,3
+S. cerevisiae,Hydrogen,0
+S. cerevisiae,"1,3-propanediol",2
+C. glutamicum,Ethanol,1
+C. glutamicum,Lactic acid,16
+C. glutamicum,Succinic acid,12
+C. glutamicum,Glycerol,7
+C. glutamicum,"2,3-butanediol",1
+C. glutamicum,Acetic acid,0
+C. glutamicum,Butanol,0
+C. glutamicum,Xylitol,2
+C. glutamicum,Lycopene,3
+C. glutamicum,Isobutanol,1
+C. glutamicum,Pyruvic acid,1
+C. glutamicum,L-lysine,45
+C. glutamicum,Acetoin,0
+C. glutamicum,3-hydroxypropionic acid,1
+C. glutamicum,Squalene,1
+C. glutamicum,Lactate,5
+C. glutamicum,P-coumaric acid,1
+C. glutamicum,Acetone,0
+C. glutamicum,Butyric acid,0
+C. glutamicum,L-phenylalanine,3
+C. glutamicum,Succinate,3
+C. glutamicum,5-aminolevulinic acid,10
+C. glutamicum,Formate,0
+C. glutamicum,Astaxanthin,2
+C. glutamicum,Geraniol,1
+C. glutamicum,Naringenin,1
+C. glutamicum,Valine,16
+C. glutamicum,Malic acid,0
+C. glutamicum,Hydrogen,0
+C. glutamicum,"1,3-propanediol",0
+Y. lipolytica,Ethanol,2
+Y. lipolytica,Lactic acid,3
+Y. lipolytica,Succinic acid,9
+Y. lipolytica,Glycerol,1
+Y. lipolytica,"2,3-butanediol",0
+Y. lipolytica,Acetic acid,4
+Y. lipolytica,Butanol,1
+Y. lipolytica,Xylitol,6
+Y. lipolytica,Lycopene,11
+Y. lipolytica,Isobutanol,1
+Y. lipolytica,Pyruvic acid,4
+Y. lipolytica,L-lysine,0
+Y. lipolytica,Acetoin,0
+Y. lipolytica,3-hydroxypropionic acid,0
+Y. lipolytica,Squalene,6
+Y. lipolytica,Lactate,0
+Y. lipolytica,P-coumaric acid,2
+Y. lipolytica,Acetone,0
+Y. lipolytica,Butyric acid,0
+Y. lipolytica,L-phenylalanine,0
+Y. lipolytica,Succinate,0
+Y. lipolytica,5-aminolevulinic acid,1
+Y. lipolytica,Formate,0
+Y. lipolytica,Astaxanthin,4
+Y. lipolytica,Geraniol,1
+Y. lipolytica,Naringenin,4
+Y. lipolytica,Valine,0
+Y. lipolytica,Malic acid,1
+Y. lipolytica,Hydrogen,0
+Y. lipolytica,"1,3-propanediol",0
+B. subtilis,Ethanol,4
+B. subtilis,Lactic acid,17
+B. subtilis,Succinic acid,3
+B. subtilis,Glycerol,1
+B. subtilis,"2,3-butanediol",12
+B. subtilis,Acetic acid,2
+B. subtilis,Butanol,0
+B. subtilis,Xylitol,1
+B. subtilis,Lycopene,0
+B. subtilis,Isobutanol,6
+B. subtilis,Pyruvic acid,0
+B. subtilis,L-lysine,0
+B. subtilis,Acetoin,11
+B. subtilis,3-hydroxypropionic acid,2
+B. subtilis,Squalene,1
+B. subtilis,Lactate,3
+B. subtilis,P-coumaric acid,0
+B. subtilis,Acetone,0
+B. subtilis,Butyric acid,0
+B. subtilis,L-phenylalanine,0
+B. subtilis,Succinate,0
+B. subtilis,5-aminolevulinic acid,1
+B. subtilis,Formate,0
+B. subtilis,Astaxanthin,0
+B. subtilis,Geraniol,0
+B. subtilis,Naringenin,0
+B. subtilis,Valine,1
+B. subtilis,Malic acid,0
+B. subtilis,Hydrogen,0
+B. subtilis,"1,3-propanediol",0
+P. pastoris,Ethanol,4
+P. pastoris,Lactic acid,3
+P. pastoris,Succinic acid,0
+P. pastoris,Glycerol,1
+P. pastoris,"2,3-butanediol",1
+P. pastoris,Acetic acid,0
+P. pastoris,Butanol,0
+P. pastoris,Xylitol,3
+P. pastoris,Lycopene,2
+P. pastoris,Isobutanol,1
+P. pastoris,Pyruvic acid,0
+P. pastoris,L-lysine,0
+P. pastoris,Acetoin,1
+P. pastoris,3-hydroxypropionic acid,4
+P. pastoris,Squalene,0
+P. pastoris,Lactate,0
+P. pastoris,P-coumaric acid,0
+P. pastoris,Acetone,0
+P. pastoris,Butyric acid,0
+P. pastoris,L-phenylalanine,0
+P. pastoris,Succinate,0
+P. pastoris,5-aminolevulinic acid,0
+P. pastoris,Formate,0
+P. pastoris,Astaxanthin,0
+P. pastoris,Geraniol,0
+P. pastoris,Naringenin,0
+P. pastoris,Valine,0
+P. pastoris,Malic acid,0
+P. pastoris,Hydrogen,0
+P. pastoris,"1,3-propanediol",0
+P. putida,Ethanol,0
+P. putida,Lactic acid,3
+P. putida,Succinic acid,0
+P. putida,Glycerol,0
+P. putida,"2,3-butanediol",0
+P. putida,Acetic acid,0
+P. putida,Butanol,0
+P. putida,Xylitol,0
+P. putida,Lycopene,2
+P. putida,Isobutanol,1
+P. putida,Pyruvic acid,0
+P. putida,L-lysine,0
+P. putida,Acetoin,0
+P. putida,3-hydroxypropionic acid,0
+P. putida,Squalene,0
+P. putida,Lactate,2
+P. putida,P-coumaric acid,0
+P. putida,Acetone,0
+P. putida,Butyric acid,0
+P. putida,L-phenylalanine,0
+P. putida,Succinate,1
+P. putida,5-aminolevulinic acid,0
+P. putida,Formate,0
+P. putida,Astaxanthin,0
+P. putida,Geraniol,1
+P. putida,Naringenin,0
+P. putida,Valine,0
+P. putida,Malic acid,0
+P. putida,Hydrogen,0
+P. putida,"1,3-propanediol",0
+C. acetobutylicum,Ethanol,14
+C. acetobutylicum,Lactic acid,5
+C. acetobutylicum,Succinic acid,1
+C. acetobutylicum,Glycerol,1
+C. acetobutylicum,"2,3-butanediol",1
+C. acetobutylicum,Acetic acid,5
+C. acetobutylicum,Butanol,27
+C. acetobutylicum,Xylitol,0
+C. acetobutylicum,Lycopene,0
+C. acetobutylicum,Isobutanol,0
+C. acetobutylicum,Pyruvic acid,0
+C. acetobutylicum,L-lysine,0
+C. acetobutylicum,Acetoin,3
+C. acetobutylicum,3-hydroxypropionic acid,0
+C. acetobutylicum,Squalene,0
+C. acetobutylicum,Lactate,1
+C. acetobutylicum,P-coumaric acid,0
+C. acetobutylicum,Acetone,13
+C. acetobutylicum,Butyric acid,6
+C. acetobutylicum,L-phenylalanine,0
+C. acetobutylicum,Succinate,0
+C. acetobutylicum,5-aminolevulinic acid,0
+C. acetobutylicum,Formate,0
+C. acetobutylicum,Astaxanthin,0
+C. acetobutylicum,Geraniol,0
+C. acetobutylicum,Naringenin,0
+C. acetobutylicum,Valine,0
+C. acetobutylicum,Malic acid,0
+C. acetobutylicum,Hydrogen,1
+C. acetobutylicum,"1,3-propanediol",0
+K. marxianus,Ethanol,7
+K. marxianus,Lactic acid,4
+K. marxianus,Succinic acid,0
+K. marxianus,Glycerol,2
+K. marxianus,"2,3-butanediol",0
+K. marxianus,Acetic acid,1
+K. marxianus,Butanol,0
+K. marxianus,Xylitol,5
+K. marxianus,Lycopene,0
+K. marxianus,Isobutanol,0
+K. marxianus,Pyruvic acid,0
+K. marxianus,L-lysine,0
+K. marxianus,Acetoin,0
+K. marxianus,3-hydroxypropionic acid,0
+K. marxianus,Squalene,0
+K. marxianus,Lactate,0
+K. marxianus,P-coumaric acid,0
+K. marxianus,Acetone,0
+K. marxianus,Butyric acid,0
+K. marxianus,L-phenylalanine,1
+K. marxianus,Succinate,0
+K. marxianus,5-aminolevulinic acid,0
+K. marxianus,Formate,0
+K. marxianus,Astaxanthin,1
+K. marxianus,Geraniol,0
+K. marxianus,Naringenin,0
+K. marxianus,Valine,0
+K. marxianus,Malic acid,0
+K. marxianus,Hydrogen,0
+K. marxianus,"1,3-propanediol",0
+B. licheniformis,Ethanol,2
+B. licheniformis,Lactic acid,2
+B. licheniformis,Succinic acid,0
+B. licheniformis,Glycerol,2
+B. licheniformis,"2,3-butanediol",7
+B. licheniformis,Acetic acid,3
+B. licheniformis,Butanol,0
+B. licheniformis,Xylitol,0
+B. licheniformis,Lycopene,0
+B. licheniformis,Isobutanol,1
+B. licheniformis,Pyruvic acid,0
+B. licheniformis,L-lysine,0
+B. licheniformis,Acetoin,4
+B. licheniformis,3-hydroxypropionic acid,0
+B. licheniformis,Squalene,0
+B. licheniformis,Lactate,1
+B. licheniformis,P-coumaric acid,0
+B. licheniformis,Acetone,0
+B. licheniformis,Butyric acid,0
+B. licheniformis,L-phenylalanine,0
+B. licheniformis,Succinate,0
+B. licheniformis,5-aminolevulinic acid,0
+B. licheniformis,Formate,0
+B. licheniformis,Astaxanthin,0
+B. licheniformis,Geraniol,0
+B. licheniformis,Naringenin,0
+B. licheniformis,Valine,2
+B. licheniformis,Malic acid,0
+B. licheniformis,Hydrogen,0
+B. licheniformis,"1,3-propanediol",0

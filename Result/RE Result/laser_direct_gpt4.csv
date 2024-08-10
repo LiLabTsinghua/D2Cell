@@ -1,0 +1,969 @@
+identifier,doi,strain names,product,product titer,medium,carbon source,carbon source concentration,vessel and feed mode,ph,time,temperature,parent strain,knock out gene,overexpress gene,heterologous gene
+p1,10.1016.j.ymben.2015.07.006,WT [C],ethanol,22.0 g/L,SC-His,glucose,50 g/L,Not specified,-,24h,30°C,CEN.PK2-1C,,,
+p1,10.1016.j.ymben.2015.07.006,WT [SDB],"2,3-butanediol",11.3 g/L,SC-His,glucose,50 g/L,Not specified,-,Not specified,30°C,CEN.PK2-1C,,"PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,adh1Δ [SDB],"2,3-butanediol",13.3 g/L,SC-His,glucose,50 g/L,Not specified,-,27h,30°C,CEN.PK2-1C,ADH1,"PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,adh1-5Δ [SDB],"2,3-butanediol",Similar to adh1Δ [SDB],SC-His,glucose,50 g/L,Not specified,-,36h,30°C,CEN.PK2-1C,"ADH1, ADH2, ADH3, ADH4, ADH5","PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,gpd1Δgpd2Δ [SDB],"2,3-butanediol",12.3 g/L,SC-His,glucose,50 g/L,Not specified,-,Not specified,30°C,CEN.PK2-1C,"GPD1, GPD2","PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,adh1Δgpd1Δgpd2Δ [SDB],"2,3-butanediol",Higher than adh1Δ & gpd1Δgpd2Δ,SC-His,glucose,50 g/L,Not specified,-,Not specified,30°C,CEN.PK2-1C,"ADH1, GPD1, GPD2","PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,adh1-5Δgpd1Δgpd2Δ [SDB],"2,3-butanediol",18.5 g/L,SC-His,glucose,50 g/L,Not specified,-,72h,30°C,CEN.PK2-1C,"ADH1, ADH2, ADH3, ADH4, ADH5, GPD1, GPD2","PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis"
+p1,10.1016.j.ymben.2015.07.006,adh1-5Δgpd1Δgpd2Δ [SDBN],"2,3-butanediol",72.9 g/L,YPD10,glucose,100 g/L,Flask fed-batch with glucose feeding,-,51h,30°C,CEN.PK2-1C,"ADH1, ADH2, ADH3, ADH4, ADH5, GPD1, GPD2","PTDH3-alsS-TPYK1, PTEF1-alsD-TGPM1, PTPI1-BDH1-TTPI1, PFBA1-noxE-TFBA1","BDH1 from S. cerevisiae, alsS and alsD from B. subtilis, noxE from L. lactis"
+p2,10.1007.s00253-011-3199-1,E. coli BL21 (DE3) harboring pAispS,Isoprene,94 mg/L,M9,Glucose,20 g/L,"5-L fermentor, Fed-batch",7.0,49h,37°C,E. coli BL21,,ispS,
+p2,10.1007.s00253-011-3199-1,E. coli BL21 (DE3) harboring pAdxs/ispS,Isoprene,145 mg/L,M9,Glucose,20 g/L,"5-L fermentor, Fed-batch",7.0,49h,37°C,E. coli BL21,,"ispS, dxs",
+p2,10.1007.s00253-011-3199-1,E. coli BL21 (DE3) harboring pAdxr/ispS,Isoprene,107 mg/L,M9,Glucose,20 g/L,"5-L fermentor, Fed-batch",7.0,49h,37°C,E. coli BL21,,"ispS, dxr",
+p2,10.1007.s00253-011-3199-1,E. coli BL21 (DE3) harboring pAdxs2/dxr2/ispS,Isoprene,314 mg/L,M9,Glucose,20 g/L,"5-L fermentor, Fed-batch",7.0,49h,37°C,E. coli BL21,,ispS,dxs and dxr from B. subtilis
+p3,10.1007.s00253-011-3725-1,YW22,taxadiene,"5.42 mg/g DCW (ppk), 7.23 mg/g DCW (sthA), 5.66 mg/g DCW (purN)",complex medium,glycerol,15 g/l,culture tubes,7.60,120 h,22 °C,JM109(DE3),none,"ppk, sthA, purN, idi","GGPPS, TXS"
+p4,10.1186.1475-2859-10-97,E. coli BW25113 (wild type) with pRJ11,"1,2-propanediol",0.8 g/L,Low-phosphate medium,glucose,20 g/L,"Shake flask, anaerobic",6.8,48 h,30°C,BW25113,,"mgsA from B. subtilis, ydjG from E. coli, budC from K. pneumoniae",
+p4,10.1186.1475-2859-10-97,E. coli BW25113 (wild type) with pRJ11 and pYY93,1-propanol,0.25 g/L,Low-phosphate medium with coenzyme B-12,glucose,20 g/L,"Shake flask, anaerobic",6.8,48 h,30°C,BW25113,,"mgsA from B. subtilis, ydjG from E. coli, budC from K. pneumoniae",ppdABC from K. oxytoca
+p5,10.1186.1475-2859-11-68,BY4742,"2,3-butanediol",0.04 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,,,
+p5,10.1186.1475-2859-11-68,B2C-a1,"2,3-butanediol",0.825 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,ADH1,,
+p5,10.1186.1475-2859-11-68,B2C-a1a3,"2,3-butanediol",1.54 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,"ADH1, ADH3",,
+p5,10.1186.1475-2859-11-68,B2C-a1a5,"2,3-butanediol",1.42 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,"ADH1, ADH5",,
+p5,10.1186.1475-2859-11-68,B2C-a1a3a5,"2,3-butanediol",1.64 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,"ADH1, ADH3, ADH5",,
+p5,10.1186.1475-2859-11-68,B2C-a1a6,"2,3-butanediol",0.046 g·g^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,60h,30°C,BY4742,"ADH1, ALD6",,
+p5,10.1186.1475-2859-11-68,B2C-a1a3a5,"2,3-butanediol",2.29 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,,30°C,BY4742,"ADH1, ADH3, ADH5",,
+p5,10.1186.1475-2859-11-68,B2C-a1a5,"2,3-butanediol",1.67 g·l^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,,30°C,BY4742,"ADH1, ADH5",,"B. subtilis alsS, E. aerogenes budA and budC"
+p5,10.1186.1475-2859-11-68,B2C-a1a6,"2,3-butanediol",0.089 g·g^-1,SC medium,Glucose,20 g·l^-1,"Flask, batch",,,30°C,BY4742,"ADH1, ALD6",,"B. subtilis alsS, E. aerogenes budA and budC"
+p6,10.1186.1754-6834-6-57,YY159,Isoprenol,1.3 g/L,LB,Glucose,30 g/L,Shake flask,2.0,1 h,30°C,E. coli DNF,"IDI1, EcNudF, yggV",BsNudF,"mvaS, mvaE, ERG12, ERG8, ERG19 from S. cerevisiae"
+p6,10.1186.1754-6834-6-57,YY168,Prenol,0.2 g/L,LB,Glucose,30 g/L,Shake flask,2.0,1 h,30°C,E. coli DNF,"IDI1, EcNudF, yggV",EcNudF,"mvaS, mvaE, ERG12, ERG8, ERG19, IDI1 from S. cerevisiae"
+p7,10.1186.s12934-014-0104-5,RF01S,riboflavin,229.1,LB,glucose,10 g/L,shake flask,,48 h,37°C,MG1655,,ribABDEC,
+p7,10.1186.s12934-014-0104-5,RF02S,riboflavin,394.8,LB,glucose,10 g/L,shake flask,,48 h,37°C,RF02,pgi,ribABDEC,
+p7,10.1186.s12934-014-0104-5,RF03S,riboflavin,559.9,LB,glucose,10 g/L,shake flask,,48 h,37°C,RF03,"edd, eda",ribABDEC,
+p7,10.1186.s12934-014-0104-5,RF05S,riboflavin,585.2,LB,glucose,10 g/L,shake flask,,48 h,37°C,RF05,,"acs, ribABDEC",
+p7,10.1186.s12934-014-0104-5,RF05S-M40,riboflavin,1036.1,LB,glucose,10 g/L,shake flask,,48 h,37°C,RF05S,,"ribF, ribABDEC",
+p7,10.1186.s12934-014-0104-5,RF05S-M40,riboflavin,1507.0,LB,glucose,10 g/L,shake flask,,48 h,31°C,RF05S,,"ribF, ribABDEC",
+p7,10.1186.s12934-014-0104-5,RF05S-M40,riboflavin,2702.8,MS,glucose,20 g/L,shake flask,,60 h,31°C,RF05S,,"ribF, ribABDEC",
+p8,10.1186.s12934-014-0135-y,EWIP1,"Isoprenol, Prenol",<1 mg L^-1,M9 medium with yeast extract and glucose,Glucose,10 g L^-1,250 mL shaking flask,-,48 h,"37°C, 30°C",E. coli W3110 (DE3),,yhfR,nudF from Bacillus subtilis
+p8,10.1186.s12934-014-0135-y,EWIP2,"Isoprenol, Prenol","2.6 mg L^-1 prenol, 2.2 mg L^-1 isoprenol",M9 medium with yeast extract and glucose,Glucose,10 g L^-1,250 mL shaking flask,-,48 h,"37°C, 30°C",E. coli W3110 (DE3),,nudF,nudF from Bacillus subtilis
+p8,10.1186.s12934-014-0135-y,EWIP3,"Isoprenol, Prenol","Not specified, 1.6-fold increase",M9 medium with yeast extract and glucose,Glucose,10 g L^-1,250 mL shaking flask,-,48 h,"37°C, 30°C",E. coli W3110 (DE3),,"ispG, nudF","ispG from E. coli, nudF from Bacillus subtilis"
+p8,10.1186.s12934-014-0135-y,EWIP4,"Isoprenol, Prenol","Not specified, 2.1-fold increase",M9 medium with yeast extract and glucose,Glucose,10 g L^-1,250 mL shaking flask,-,48 h,"37°C, 30°C",E. coli W3110 (DE3),,"ispG, dxs, nudF","ispG from E. coli, dxs from E. coli, nudF from Bacillus subtilis"
+p8,10.1186.s12934-014-0135-y,EWIP5,"Isoprenol, Prenol",30 mg L^-1,M9 medium with yeast extract and glucose,Glucose,10 g L^-1,250 mL shaking flask,-,48 h,"37°C, 30°C",E. coli W3110 (DE3),pgi,"ispG, dxs, nudF","ispG from E. coli, dxs from E. coli, nudF from Bacillus subtilis"
+p8,10.1186.s12934-014-0135-y,EWIP5,"Prenol, Isoprenol","35.2 mg L^-1 prenol, 26.7 mg L^-1 isoprenol",M9 minimal salts medium with glucose,Glucose,20 g L^-1,5 L laboratory reactor,7.0,48 h,34°C,E. coli W3110 (DE3),pgi,"ispG, dxs, nudF","ispG from E. coli, dxs from E. coli, nudF from Bacillus subtilis"
+p9,10.1186.s12934-014-0160-x,YJM39,β-carotene,1.08±0.07 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,37°C,E. coli BL21(DE3),,-,native MEP pathway and β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM40,β-carotene,2.24±0.1 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,30°C,E. coli BL21(DE3),,dxs (Bacillus subtilis),β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM41,β-carotene,5.2±0.2 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,30°C,E. coli BL21(DE3),,dxs and fni (Bacillus subtilis),β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM42,β-carotene,7.86±0.2 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,30°C,E. coli BL21(DE3),,dxs and fni (Bacillus subtilis),IspA (E. coli) and β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM43,β-carotene,15.2±0.4 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,30°C,E. coli BL21(DE3),,dxs and fni (Bacillus subtilis),GPPS2 (Abies grandis) and β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM44,β-carotene,52.6±1.5 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,30°C,E. coli BL21(DE3),,"dxs and fni (Bacillus subtilis) and mvaE, mvaS",hybrid MVA pathway (E. faecalis) and β-carotene synthesis genes from Erwinia herbicola
+p9,10.1186.s12934-014-0160-x,YJM45,β-carotene,71.4±4.3 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,34°C,E. coli BL21(DE3),,"dxs and fni (Bacillus subtilis), mvaE, mvaS","hybrid MVA pathway (E. faecalis), β-carotene synthesis genes from Erwinia herbicola"
+p9,10.1186.s12934-014-0160-x,YJM49,β-carotene,122.4±6.2 mg/L,fermentation medium,glucose,20 g/L,shake-flask,7.0,24 h,34°C,E. coli BL21(DE3),,"dxs and fni (Bacillus subtilis), mvaE, mvaS, GPPS2","hybrid MVA pathway (E. faecalis), β-carotene synthesis genes from Erwinia herbicola                                                                      +"
+p9,10.1186.s12934-014-0160-x,YJM49,β-carotene,256.8±10.4 mg/L,optimized fermentation medium,glycerol,20 g/L,shake-flask,7.0,48 h,34°C,E. coli BL21(DE3),,"dxs and fni (Bacillus subtilis), mvaE, mvaS, GPPS2","hybrid MVA pathway (E. faecalis), β-carotene synthesis genes from Erwinia herbicola"
+p9,10.1186.s12934-014-0160-x,YJM49,β-carotene,3.2 g/L,optimized fermentation medium,glycerol,40%,fed-batch fermentation,7.0,56 h,34°C,E. coli BL21(DE3),,"dxs and fni (Bacillus subtilis), mvaE, mvaS, GPPS2","hybrid MVA pathway (E. faecalis), β-carotene synthesis genes from Erwinia herbicola, co-express with β-carotene synthesis genes from Erwinia herbicola"
+p10,10.1186.1475-2859-12-119,BSW205,Isobutanol,1.62 ± 0.11 g/L,SD medium,glucose,100 g/L,"50-mL scale, semi-anaerobic",,24 h,30°C,BY4741,LPD1,"Kivd, ADH6, ILV2, mitochondrial MAE1",
+p10,10.1186.1475-2859-12-119,BSW206,Isobutanol,1.61 ± 0.03 g/L,SD medium,glucose,100 g/L,"50-mL scale, semi-anaerobic",,24 h,30°C,BY4741,LPD1,"Kivd, ADH6, ILV2, cytosolic Mae1, MDH2, PYC2",
+p10,10.1186.1475-2859-12-119,BSW100,Isobutanol,22 ± 1 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,72 h,30°C,BY4741,,"Kivd, ADH6, ILV2",
+p10,10.1186.1475-2859-12-119,BSW17,Isobutanol,117 ± 6 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6, ILV2, cytosolic sMae1, MDH2, PYC2",
+p10,10.1186.1475-2859-12-119,BSW18,Isobutanol,139 ± 4 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6, ILV2, mitochondrial MAE1",
+p10,10.1186.1475-2859-12-119,BSW13,Isobutanol,23 ± 3 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6",
+p10,10.1186.1475-2859-12-119,BSW8,Isobutanol,71 ± 6 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6, ILV2, mitochondrial MAE1",
+p10,10.1186.1475-2859-12-119,BSW10,Isobutanol,83 ± 2 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6, ILV2, Mdh2p, Pyc2p",
+p10,10.1186.1475-2859-12-119,BSW187,Isobutanol,46 ± 14 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,BY4741,,"Kivd, ADH6, ILV2, truncated ILV2c, ILV3c, ILV5c",
+p10,10.1186.1475-2859-12-119,BSW192,Isobutanol,94 ± 5 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,BY4741,LPD1,"Kivd, ADH6, ILV2, MAE1",
+p10,10.1186.1475-2859-12-119,BSW191,Isobutanol,83 ± 2 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,BY4741,LPD1,"Kivd, ADH6, ILV2, PMsM (PYC2, MDH2, sMAE1)",
+p10,10.1186.1475-2859-12-119,BSW4,Isobutanol,45 ± 4 mg/L,SD medium,glucose,,"5-mL cultures, semi-anaerobic",,48 h,30°C,YPH499,,"Kivd, ADH6, ILV2",
+p11,10.1186.1475-2859-13-21,E. coli BW25113 (ΔaroKΔaroL),Shikimic acid,0.15 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL",,
+p11,10.1186.1475-2859-13-21,"E. coli BW25113 (ΔaroKΔaroL, P pps ::P lacQ1, P csrB ::P lacQ1)",Shikimic acid,0.23 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL","pps, csrB",
+p11,10.1186.1475-2859-13-21,"E. coli BW25113 (ΔaroKΔaroL, P pps ::P lacQ1, P csrB ::P lacQ1, P T5 -pps, P T5 -csrB)",Shikimic acid,0.26 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL","pps, csrB",
+p11,10.1186.1475-2859-13-21,E. coli SA110,Shikimic acid,1.34 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL","pps, csrB, aroG fbr, aroB, aroE, tktA",
+p11,10.1186.1475-2859-13-21,E. coli SA112,Shikimic acid,1.70 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL","pps, csrB, aroG fbr, aroB, aroE, tktA",
+p11,10.1186.1475-2859-13-21,E. coli SA116,Shikimic acid,3.12 g/L,Luria Broth,glucose,10 g/L,shake flask,7.0,72 h,37°C,E. coli BW25113,"ΔaroK, ΔaroL","pps, csrB, aroG fbr, aroB, aroE, tktA, pntAB or nadK",
+p12,10.1186.s12934-015-0211-y,SJB001,Arginine,Lower than SJB003,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,C600+Δ4,,argA214 (pKH15),
+p12,10.1186.s12934-015-0211-y,SJB003,Arginine,3.03 g/L,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,C600+Δ4,,argA214 (pKH15),
+p12,10.1186.s12934-015-0211-y,SJB004,Arginine,Lower than SJB003,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,C600+Δ4,,argA214 (pKH15),
+p12,10.1186.s12934-015-0211-y,SJB006,Arginine,Similar to SJB001 and SJB004,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,C600+Δ4,,argP216 (Valine to Alanine mutation),
+p12,10.1186.s12934-015-0211-y,SJB007,Arginine,Higher than SJB006,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,SJB006,,argP216 (Valine to Alanine mutation),
+p12,10.1186.s12934-015-0211-y,SJB009,Arginine,11.64 g/L,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,SJB005,,"argA214, argO",
+p12,10.1186.s12934-015-0211-y,SJB010,Arginine,Higher than most except SJB009,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,SJB005,,"argA214, argP216",
+p12,10.1186.s12934-015-0211-y,SJB015,Arginine,Lower than SJB009 but higher than most,M9 minimal media,Glucose,70 g/L,"Bioreactor, batch fermentation",7,-,32°C,SJB005,,argA214,
+p13,10.1016.j.biortech.2012.02.119,ZW5,HFAs,60.5 mg/L,LB,FFAs,Not specified,Shake flask,7.4,4h,30°C,E. coli BL21(DE3),Not specified,Not specified,P450BM3
+p13,10.1016.j.biortech.2012.02.119,YN2 (ZW8),HFAs,51.8 mg/L,M9,Glucose,20 g/L,Shake flask,7.4,15h,30°C,E. coli BL21(DE3),Not specified,BTE,P450BM3
+p13,10.1016.j.biortech.2012.02.119,ZW7 (ZW9),HFAs,72.6 mg/L,M9,Glucose,20 g/L,Shake flask,7.4,15h,30°C,E. coli BL21(DE3),Not specified,'TesA,P450BM3
+p13,10.1016.j.biortech.2012.02.119,ZW10,HFAs,117.0 mg/L,M9,Glucose,20 g/L,Shake flask,7.4,15h,30°C,E. coli BL21(DE3),fadD,'TesA,P450BM3
+p14,10.1016.j.biortech.2015.06.108,AS1600a,succinate,84.26 g/L,AM1 mineral salts,xylose,10%,pH-controlled fermenters (500 mL),7.0,144h,37°C,KJ122,galP,galP∗,-
+p14,10.1016.j.biortech.2015.06.108,KJ122,succinate,85.46 g/L,AM1 mineral salts,glucose,10%,pH-controlled fermenters (500 mL),7.0,120h,37°C,ATCC8739,-,-,-
+p14,10.1016.j.biortech.2015.06.108,KJ122,succinate,44.17 g/L,AM1 mineral salts,glucose,5%,pH-controlled fermenters (500 mL),7.0,120h,37°C,ATCC8739,-,-,-
+p14,10.1016.j.biortech.2015.06.108,KJ122,succinate,37.49 g/L,AM1 mineral salts,xylose,10%,pH-controlled fermenters (500 mL),7.0,120h,37°C,ATCC8739,-,-,-
+p14,10.1016.j.biortech.2015.06.108,KJΔgalP(pLOI5747),succinate,85.46 g/L,AM1 mineral salts,glucose,10%,pH-controlled fermenters (500 mL),7.0,120h,37°C,KJ122,galP,galP∗,wild type galP
+p15,10.1016.j.jbiosc.2014.12.023,TA1806,3-HP,33.1 ± 0.920 mM,M9,Glycerol,100 mmol/L,"Flask, batch",6–7,48h,37°C,E.coli B (TA212),,araE,
+p15,10.1016.j.jbiosc.2014.12.023,TA2168,3-HP,15.6 ± 0.683 mM,M9,Glycerol,100 mmol/L,"Flask, batch",6–7,48h,37°C,E.coli B (TA212),,,"pduP, pduL, pduW"
+p15,10.1016.j.jbiosc.2014.12.023,TA2142,3-HP,56.1 ± 0.736 mM,M9,Glycerol,100 mmol/L,"Flask, batch",6–7,48h,37°C,E.coli B (TA212),,araE,"pduP, pduL, pduW"
+p16,10.1016.j.ymben.2010.08.005,AH22ura3 (wild-type),Succinic acid,0.76 g/L,WMVIII medium,Glucose,50 g/L,250 ml shake flasks,5.8,168 h,30°C,S. cerevisiae AH22ura3,,,
+p16,10.1016.j.ymben.2010.08.005,AH22ura3Δsdh2,Succinic acid,2.98 g/L,WMVIII medium,Glucose,50 g/L,250 ml shake flasks,~4.0-4.5,168 h,30°C,S. cerevisiae AH22ura3,SDH2,,
+p16,10.1016.j.ymben.2010.08.005,AH22ura3Δsdh2Δsdh1Δidh1,Succinic acid,2.98 g/L,WMVIII medium,Glucose,50 g/L,250 ml shake flasks,~4.0-4.5,168 h,30°C,S. cerevisiae AH22ura3,"SDH2, SDH1, IDH1",,
+p16,10.1016.j.ymben.2010.08.005,AH22ura3Δsdh2Δsdh1Δidh1Δidp1,Succinic acid,3.62 g/L,WMVIII medium,Glucose,50 g/L,250 ml shake flasks,~4.0-4.5,168 h,30°C,S. cerevisiae AH22ura3,"SDH2, SDH1, IDH1, IDP1",,
+p17,10.1016.j.ymben.2012.06.001,Abc,GGL,6 mg/g dry weight,defined medium,glucose,25 g/L,"bioreactor, fed-batch",7.0,"2h (for induction), overnight (for growth)",37°C,BL21(DE3)*,none,"GalU, PlsC",mg517
+p18,10.1016.j.ymben.2012.08.003,E. coli DfadRABIJ,polyhydroxydodecanoate,>15% CDW,LB + 0.4% glucose,dodecanoic acid,0.25 gL−1 sodium dodecanoate,Unspecified,7.0,96h,37°C,MG1655 ΔaraBAD,ΔfadRABIJ,"BTE, phaJ3, phaC2",
+p18,10.1016.j.ymben.2012.08.003,SA01,mcl-PHA,9.8% CDW,MOPS + 1% glucose,Glucose,1% glucose,Batch mode,7.0,96h,37°C,MG1655 ΔaraBAD ΔfadR ΔfadIJ,ΔfadRABIJ,PP_0763,pDA-JAC
+p18,10.1016.j.ymben.2012.08.003,SA01,mcl-PHA,17.3% CDW,MOPS + 1% glucose,Glucose,1% glucose,"Bioreactor, Batch mode",7.0,96h,37°C,MG1655 ΔaraBAD ΔfadR ΔfadIJ,ΔfadRABIJ,PP_0763,pDA-JAC
+p19,10.1016.j.ymben.2012.08.009,FRT-ΔfadE,fatty acids,5.2±0.5 g/L,minimal medium (M9),glucose,2%,"flask, batch",,3 days,37°C,E. coli DH1,fadE,fadR,
+p19,10.1016.j.ymben.2012.08.009,LT-ΔfadE,fatty acids,1.1 g/L,minimal medium (M9),glucose,2%,"flask, batch",,3 days,37°C,E. coli DH1,fadE,,
+p20,10.1016.j.ymben.2012.10.003,MuA01,Muconic acid,~5 mg/L,YSC (Yeast Synthetic Complete),Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,,,"ARO4, Pa_5_5120, HQD2"
+p20,10.1016.j.ymben.2012.10.003,MuA03,Muconic acid,14 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,"ARO3, ARO4",scARO4,"Pa_5_5120, HQD2, kpAroY"
+p20,10.1016.j.ymben.2012.10.003,MuA04,Muconic acid,21 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,"ARO3, ARO4",aro4k229l,"Pa_5_5120, HQD2, kpAroY"
+p20,10.1016.j.ymben.2012.10.003,MuA05,Muconic acid,25 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,"ARO3, ARO4",aro4k229l,"Pa_5_5120, HQD2, ECL_01944opt"
+p20,10.1016.j.ymben.2012.10.003,MuA06,Muconic acid,30 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,ARO3,"aro4k229l, scTKL1",ECL_01944opt
+p20,10.1016.j.ymben.2012.10.003,MuA08,Muconic acid,30 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,48h,Not specified (30°C used for routine culture),BY4741,,,"Pa_5_5120opt, ECL_01944opt, HQD2opt"
+p20,10.1016.j.ymben.2012.10.003,MuA11,Muconic acid,62 mg/L,YSC,Glucose,20 g/L,Shake flask (batch),Not specified,Not specified,Not specified (30°C used for routine culture),BY4741,ZWF1,"scTKL1, aro4k229l","Pa_5_5120opt, ECL_01944opt, HQD2opt"
+p20,10.1016.j.ymben.2012.10.003,MuA12,Muconic acid,141 mg/L,YSC,Glucose,40 g/L,Shake flask (batch),Not specified,108h,Not specified (30°C used for routine culture),BY4741,ZWF1,"scTKL1, aro4k229l","Pa_5_5120opt, ECL_01944opt, HQD2opt"
+p21,10.1016.j.ymben.2012.11.011,E. coli WL3110 (pKE112-DavAB),5AVA,1.1 g/L,LB medium,l-lysine,10 g/L,Flask batch,-,-,37°C,E. coli WL3110,-,-,davAB (Pseudomonas putida)
+p21,10.1016.j.ymben.2012.11.011,E. coli WL3110 (pKE112-DavAB),5AVA,3.6 g/L,MR medium,glucose,20 g/L,Flask batch,-,48h,30°C,E. coli WL3110,-,-,davAB (Pseudomonas putida)
+p21,10.1016.j.ymben.2012.11.011,E. coli XQ56 (pKE112-DavAB),5AVA,0.27 g/L,MR medium,glucose,-,Flask batch,-,48h,-,E. coli XQ56,-,"lysA, dapA, dapB",davAB (Pseudomonas putida)
+p21,10.1016.j.ymben.2012.11.011,E. coli XQ56 (pKE112-DavAB),5AVA,0.5 g/L,MR medium,glucose,10 g/L,Fed-batch in jar fermentor,6.9,36h,30°C,E. coli XQ56,-,"lysA, dapA, dapB",davAB (Pseudomonas putida)
+p21,10.1016.j.ymben.2012.11.011,E. coli WL3110 (pKE112-DavABGabTD,Glutarate,1.7 g/L,MR medium,glucose,20 g/L,Flask batch,-,-,30°C,E. coli WL3110,-,-,"davAB, gabTD (Pseudomonas putida)"
+p23,10.1016.j.ymben.2013.06.001,BHD2,salvianic acid A,37.24 mg/L,modified MOPS,glucose,5 g/L,"250 mL flask, batch",-,24h,37°C,BW25113,-,-,"d-ldhWT, hpaBC (WT)"
+p23,10.1016.j.ymben.2013.06.001,BHD3,salvianic acid A,197.18 mg/L,modified MOPS,glucose,5 g/L,"250 mL flask, batch",-,24h,37°C,BW25113,-,-,"d-ldhY52V, hpaBC (WT)"
+p23,10.1016.j.ymben.2013.06.001,BHD4,salvianic acid A,259.27 mg/L,modified MOPS,glucose,5 g/L,"250 mL flask, batch",-,24h,37°C,BW25113,-,-,"d-ldhY52A, hpaBC (WT)"
+p23,10.1016.j.ymben.2013.06.001,BKT5,L-tyrosine,702.7 mg/L,MOPS-glucose,glucose,10 g/L,"shake flask, batch",-,-,-,BW25113,"pheA, ptsG, pykA, pykF, tyrR","aroGfbr, tyrAfbr, ppsA, tktA, glk, pckA, aroB, tyrB, aroL, aroA, evgA",
+p23,10.1016.j.ymben.2013.06.001,BKD5,salvianic acid A,7.1 g/L,MOPS (modified),glucose,3-5 g/L,"500 mL flask, fed-batch",-,70h,37°C,BKT5,-,Same as BKT5,"d-ldhY52A, hpaBC"
+p23,10.1016.j.ymben.2013.06.001,BKD6,salvianic acid A,3.6 g/L,MOPS (modified),glucose,3-5 g/L,"500 mL flask, fed-batch",-,96h,37°C,BKD5,tyrB,Same as BKT5,"d-ldhY52A, hpaBC"
+p24,10.1016.j.ymben.2013.07.003,BY4742,Lipid (total fatty acid),63.2 mg/L,YPD,Glucose,20 g/L,"Erlenmeyer flasks, shake",,72 hrs,30°C,BY4742,,ACC1,
+p24,10.1016.j.ymben.2013.07.003,Engineered strain (unclear but references WRY1),Lipid,171.5 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,72 hrs,30°C,BY4742,,"ACC1, FAS1, FAS2, DGA1",
+p24,10.1016.j.ymben.2013.07.003,ΔFAA1 ΔFAA4/TesA,Free fatty acids,207 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,96 hrs,30°C,BY4742,"FAA1, FAA4","ACC1, FAS1, FAS2",E. coli 'TesA
+p24,10.1016.j.ymben.2013.07.003,WRY1/TesA ΔFAA1 ΔFAA4,Free fatty acids,400 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,96 hrs,30°C,WRY1,"FAA1, FAA4","ACC1, FAS1, FAS2, DGA1",E. coli 'TesA
+p24,10.1016.j.ymben.2013.07.003,BY4742/mFAR1,Fatty alcohols,47.4 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,BY4742,,ACC1,Mus musculus (mouse) mFAR1
+p24,10.1016.j.ymben.2013.07.003,WRY1/mFAR1,Fatty alcohols,93.4 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,WRY1,,"ACC1, FAS1, FAS2",Mus musculus (mouse) mFAR1
+p24,10.1016.j.ymben.2013.07.003,BY4742/atfA,Fatty acid ethyl ester,1.2 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,BY4742,,ACC1,A. calcoaceticus ADP1-atfA
+p24,10.1016.j.ymben.2013.07.003,WRY1/atfA,Fatty acid ethyl ester,4.6 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,WRY1,,"ACC1, FAS1, FAS2, DGA1",A. calcoaceticus ADP1-atfA
+p24,10.1016.j.ymben.2013.07.003,WRY1/atfA ΔPXA2,Fatty acid ethyl ester,4.9 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,WRY1,PXA2,"ACC1, FAS1, FAS2, DGA1",A. calcoaceticus ADP1-atfA
+p24,10.1016.j.ymben.2013.07.003,WRY1/atfA ΔPOX1,Fatty acid ethyl ester,5.4 mg/L,Minimal medium,Glucose/Galactose,"0.2% Glucose, 1.8% Galactose","250-mL flask cultures, shake",,168 hrs,30°C,WRY1,POX1,"ACC1, FAS1, FAS2, DGA1",A. calcoaceticus ADP1-atfA
+p25,10.1016.j.ymben.2013.08.004,dVio-1,deoxyviolacein,180 mg L−1,mineral medium,l-arabinose,10 g L−1,shake flask,7.8,-,20°C,K-12 MG1655,-,-,vioABCE (C. violaceum)
+p25,10.1016.j.ymben.2013.08.004,dVio-6,deoxyviolacein,324.1 mg L−1,mineral medium,l-arabinose,10 g L−1,shake flask,7.8,-,20°C,dVio-1,"trpR, tnaA, sdaA, trpL","serAfr, trpEfr, aroFBL, tktA",vioABCE (C. violaceum)
+p25,10.1016.j.ymben.2013.08.004,Vio-4,violacein,710 mg L−1,production medium,l-arabinose,10 g L−1 (batch); 360 g L−1 (fed-batch),"bioreactor, fed-batch",7.8,200h,20°C,TRP11,-,-,"vioABCE (C. violaceum), vioD (J. lividum)"
+p26,10.1016.j.ymben.2013.12.004,RL101/pMSD8/pXL66,fatty alcohol,0.4 g/L,minimal,glycerol,200 g/L,2.5-L fed-batch,--,--,--,TL101,fadE,"TesA, acetyl-CoA carboxylase (pMSD8)",Jojoba FAR (pXL66)
+p26,10.1016.j.ymben.2013.12.004,RL101/pFASR,fatty alcohol,0.75 g/L,minimal,glycerol,200 g/L,2.5-L fed-batch,--,--,--,TL101,fadE,"TesA, acetyl-CoA carboxylase (pMSD8)",AAR from S. elongatus (pFASR)
+p26,10.1016.j.ymben.2013.12.004,BL21(DE3)/pXL66,fatty alcohol,7.4 mg/L,LB,--,--,shake flask,--,--,30°C,--,--,--,Jojoba FAR (pXL66)
+p27,10.1016.j.ymben.2014.01.003,BL21/pDG101,Fatty acid short-chain esters (FASEs),36±6.54 mg/L,Modified M9,Glycerol,20 g/L,"Shaken flasks, batch mode",7.0,28 h,37°C,BL21 (DE3),,,"ARO10, ADH2 (S. cerevisiae), WS/DGAT (A. baylyi)"
+p27,10.1016.j.ymben.2014.01.003,TL101/pDG101,Fatty acid short-chain esters (FASEs),72.7±1.11 mg/L,Modified M9,Glycerol,20 g/L,"Shaken flasks, batch mode",7.0,28 h,37°C,TL101,fadE,,"ARO10, ADH2 (S. cerevisiae), WS/DGAT (A. baylyi)"
+p27,10.1016.j.ymben.2014.01.003,TL101/pDG101/pMSD15,Fatty acid short-chain esters (FASEs),107.8±3.26 mg/L,Modified M9,Glycerol,20 g/L,"Shaken flasks, batch mode",7.0,28 h,37°C,TL101,fadE,TesA' (E. coli),"ARO10, ADH2 (S. cerevisiae), WS/DGAT (A. baylyi)"
+p27,10.1016.j.ymben.2014.01.003,TL101/pDG102/pMSD15,Fatty acid short-chain esters (FASEs),209.1±2.62 mg/L,Modified M9,Glycerol,20 g/L,"Shaken flasks, batch mode",7.0,28 h,37°C,TL101,fadE,"TesA', fadD (E. coli)","ARO10, ADH2 (S. cerevisiae), WS/DGAT (A. baylyi)"
+p27,10.1016.j.ymben.2014.01.003,TL101/pDG102/pMSD15,Fatty acid short-chain esters (FASEs),1008 mg/L,MK medium,Glycerol,200 g/L,"Bioreactor, fed-batch mode",7.0,,30°C,TL101,fadE,"TesA', fadD (E. coli)","ARO10, ADH2 (S. cerevisiae), WS/DGAT (A. baylyi)"
+p28,10.1016.j.ymben.2014.03.001,SPC001,3-HP,22.1 g/L,Modified M9,Glycerol,40 g/L,"5-L bioreactor, fed-batch",7.0,35 h,35°C,E. coli W3110(DE3),,,"dhaB, gdrAB, aldH"
+p28,10.1016.j.ymben.2014.03.001,SPC002,3-HP,28.1 g/L,Modified M9,Glycerol,40 g/L,"5-L bioreactor, fed-batch",7.0,35 h,35°C,SPC001,"ackA-pta, yqhD",,
+p28,10.1016.j.ymben.2014.03.001,SPC003-1,3-HP,15.1 g/L,Modified M9,Glycerol,40 g/L,Shake-flask,~,48 h,35°C,SPC003,,glpK (under arabinose-inducible promoter),
+p28,10.1016.j.ymben.2014.03.001,SPC005,3-HP,40.5 g/L,Modified M9,Glycerol,40 g/L,"5-L bioreactor, fed-batch",7.0,32 h,35°C,SPC002,glpR,,
+p28,10.1016.j.ymben.2014.03.001,SPC006,3-HP,42.1 g/L,Modified M9,Glycerol,40 g/L,"5-L bioreactor, fed-batch",7.0,32 h,35°C,SPC005,,glpF,
+p29,10.1016.j.ymben.2014.06.004,GP0-1,Glycolate,~0.7 g/L,M9 minimal,glucose,8 g/L,"shake flask, batch mode",-,72h,30°C,MG1655 (DE3),-,"aceA, aceK, ycdW",-
+p29,10.1016.j.ymben.2014.06.004,GP0-1,Glycolate,~0.3 g/L,LB,glucose,-,"shake flask, batch mode",-,72h,30°C,MG1655 (DE3),-,"aceA, aceK, ycdW",-
+p29,10.1016.j.ymben.2014.06.004,GP0-2,Glycolate,1455±209 mg/L,M9 minimal,glucose,1%,"shake flask, batch mode",-,72h,30°C,MG1655 (DE3),-,"ycdW, aceA, aceK",-
+p29,10.1016.j.ymben.2014.06.004,GP0-2-DHP,"Glycolate, 3,4-DHBA, 3HBL","1280±41 mg/L glycolate, 699±109 mg/L 3,4-DHBA, 312±12 mg/L 3HBL",M9 minimal,glucose,-,"shake flask, batch mode",-,72h,30°C,GP0-2,-,"ycdW, aceA, aceK, Pct, BktB, PhaB, TesB",-
+p29,10.1016.j.ymben.2014.06.004,GP0-1-EC,Glycolate,less than GP0-1 but more than GP0-1-DHP,M9 minimal,glucose,0.8%,"shake flask, batch mode",-,72h,30°C,GP0-1,-,"aceA, aceK, ycdW",-
+p29,10.1016.j.ymben.2014.06.004,GP0-1-ΔT7,Glycolate,more than GP0-1-EC but less than GP0-1,M9 minimal,glucose,0.8%,"shake flask, batch mode",-,72h,30°C,GP0-1,-,"aceA, aceK, ycdW",-
+p30,10.1016.j.ymben.2014.07.010,"JM109SGIK (p68orfZ-ispH, pMCSH5-folK)",P(3HB-co-4HB),up to 9.2g/L,"LB, MMG",Glucose,20g/L,Shake flask,Not specified,48h,37°C,JM109SG,"sad, gabD, ispH, folK",,"phaCAB, orfZ, 4hbD, sucD, ispH, folK"
+p30,10.1016.j.ymben.2014.07.010,"JM109SGIK (p68orfZ-ispH, pMCSH5-folK, p15asulA)",P(3HB-co-4HB),up to 9.2g/L,LB,Glucose,20g/L,Shake flask,Not specified,48h,37°C,JM109SG,"sad, gabD, ispH, folK",sulA,"phaCAB, orfZ, 4hbD, sucD, ispH, folK"
+p31,10.1016.j.ymben.2014.09.003,EGS1710,methyl ketone,~1.4 g/L,M9-MOPS minimal medium,glucose,1%,"shake flask, batch",not specified,90h,37°C,E. coli (not specified),poxB,"co-aco, fadD, fadR",co-aco (codon optimized)
+p31,10.1016.j.ymben.2014.09.003,EGS1895,methyl ketone,3.4 g/L,M9-MOPS minimal medium,glucose,2%,"2-L bioreactor, fed-batch",6.5,45h,37°C,E. coli (not specified),"ackA-pta, poxB","co-aco, fadD, fadR",co-aco (codon optimized)
+p32,10.1016.j.ymben.2014.11.001,BuT-3E,n-butanol,6.2 g/L,M9Y,butyrate,6g/L,shake-flask,-,24h,37°C,BL-A4,"adhE, poxB, pta, frdA, ldhA","atoDA, λPL-adhE2",Clostridium adhE2
+p32,10.1016.j.ymben.2014.11.001,BuT-3EA,n-butanol,6.2 g/L,M9Y,butyrate,5g/L,shake-flask,-,36h,37°C,BuT-3E,-,λPL-acs,Clostridium adhE2
+p32,10.1016.j.ymben.2014.11.001,BuT-3E,n-butanol,5.5 g/L,M9Y,glucose,20g/L,shake-flask (co-culture with BuT-8L-ato),-,24h,37°C,BL-A4,"adhE, poxB, pta, frdA, ldhA","atoDA, λPL-adhE2",Clostridium adhE2
+p32,10.1016.j.ymben.2014.11.001,BuT-8,n-butanol,2.7 g/L,M9Y,glucose,-,Shake flask,-,24h,37°C,BuT-8L-ato,-,-,"Clostridium adhE2, wild-type atoDA"
+p33,10.1016.j.ymben.2014.11.003,E. coli BL21 Star™ (DE3),Chondroitin,"213 mg/L (Shake flask), 2.4 g/L (Bioreactor)","Rich defined medium (Cirino et al., 2006, Neidhardt et al., 1974)",Glucose,20 g/L,Shake flask and 2L bioreactor (fed-batch),6.8,40-50h,"37°C (shake flask), 33°C (bioreactor) at induction",E. coli BL21 Star™ (DE3),,"kfoA, kfoC, kfoF","E. coli K4 (kfoA, kfoC, kfoF)"
+p34,10.1016.j.ymben.2014.11.006,BY4741MΔFAA1ΔFAA4,Extracellular FFAs,200 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,72h,30°C,BY4741,"FAA1, FAA4",,
+p34,10.1016.j.ymben.2014.11.006,BY4741MΔFAA1ΔFAA4ΔFAT1,Extracellular FFAs,320 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,72h,30°C,BY4741,"FAA1, FAA4, FAT1",,
+p34,10.1016.j.ymben.2014.11.006,BY4741MΔFAA2ΔPXA1ΔPOX1,Intracellular FFAs,470 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,48h,30°C,BY4741,"FAA2, PXA1, POX1",,
+p34,10.1016.j.ymben.2014.11.006,BY4741ΔFAA1ΔFAA4ΔFAT1ΔFAA2ΔPXA1ΔPOX1 (6KO),Extracellular FFAs,1300 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,48h,30°C,BY4741,"FAA1, FAA4, FAT1, FAA2, PXA1, POX1",,
+p34,10.1016.j.ymben.2014.11.006,6KO+pBTEF1-DGA1-TGL1,Extracellular FFAs,340 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,48h,30°C,BY4741,"FAA1, FAA4, FAT1, FAA2, PXA1, POX1","DGA1, TGL1",
+p34,10.1016.j.ymben.2014.11.006,6KO+pBTEF1-DGA1-TGL5,Extracellular FFAs,600 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,48h,30°C,BY4741,"FAA1, FAA4, FAT1, FAA2, PXA1, POX1","DGA1, TGL5",
+p34,10.1016.j.ymben.2014.11.006,6KO+pBTEF1-DGA1-TGL3,Extracellular FFAs,2200 mg/L,YPD,Glucose,20 g/L,"Shake flasks, batch mode",,48h,30°C,BY4741,"FAA1, FAA4, FAT1, FAA2, PXA1, POX1","DGA1, TGL3",
+p35,10.1016.j.ymben.2014.11.012,JMFP,Acetic acid,6.68 g/L,M9,Glucose,21 g/L,Batch (Bioflo 3000),6.8,,37°C,E. coli K-12,"fumA, pflB",,
+p35,10.1016.j.ymben.2014.11.012,JMMP,Acetic acid,5.98 g/L,M9,Glucose,21 g/L,Batch (Bioflo 3000),6.8,,37°C,E. coli K-12,"mdh, pflB",,
+p35,10.1016.j.ymben.2014.11.012,JMAP,Lactic acid,19.59 g/L,M9,Glucose,21 g/L,Batch (Bioflo 3000),6.8,,37°C,E. coli K-12,"aceF, pflB",,
+p36,10.1016.j.ymben.2014.12.004,BL21(DE3)/pQL1,PD (pentadecane),140 mg/L,M9,Glucose,2%,"5L fermenter, fed-batch",Not specified,18h post-induction,16°C,BL21(DE3),Not specified,SgcE10,"SgcE, SgcE10"
+p37,10.1016.j.ymben.2014.12.005,IB531-I,myo-inositol,0.25 g/L,modified MOPS minimal,glucose,10 g/L,"shake flasks, batch",-,78h,30°C,MG1655 ΔendA,"pfkB, zwf, spaB, sspB",-,INO1 (myo-inositol-1-phosphate synthase)
+p37,10.1016.j.ymben.2014.12.005,IB1863-I,myo-inositol,0.61 g/L,modified MOPS minimal,glucose,10 g/L,"shake flasks, batch",-,78h,30°C,MG1655 ΔendA,"pfkB, zwf, spaB, sspB",Pfk-I,INO1 (myo-inositol-1-phosphate synthase)
+p37,10.1016.j.ymben.2014.12.005,IB1863-I (11.5h induction),myo-inositol,1.31 g/L,modified MOPS minimal,glucose,10 g/L,"shake flasks, batch",-,78h,30°C,MG1655 ΔendA,"pfkB, zwf, spaB, sspB",Pfk-I,INO1 (myo-inositol-1-phosphate synthase)
+p37,10.1016.j.ymben.2014.12.005,IB1014-I,-,<0.1 g/L,modified MOPS minimal + 0.2% casamino acids,glucose,10 g/L,"shake flasks, batch",-,-,30°C,MG1655 ΔendA,"pfkB, zwf, spaB, sspB, ptsHIcrr",Pfk-I,INO1 (myo-inositol-1-phosphate synthase)
+p38,10.1016.j.ymben.2015.01.007,JC01 (DE3) bktBCT5 fadBCT5 ΔfadA egTERCT5 ydiIA1 ΔtesB,"C6–C10 ω-hydroxyacids (6-hydroxyhexanoic acid, 8-hydroxyoctanoic acid, 10-hydroxydecanoic acid)",">0.8 g/L ω-hydroxyacids (271 mg/L 6-hydroxyhexanoic acid, 403 mg/L 8-hydroxyoctanoic acid, 150 mg/L 10-hydroxydecanoic acid)",minimal media,glycerol,20 g/L,"25mL Pyrex Erlenmeyer flask, shake flask fermentations",Not specified,96h,30°C,MG1655,"ΔldhA, Δpta, ΔpoxB, ΔadhE, ΔfrdA, ΔfadA, ΔtesB","bktB, fadB, egTER, ydiI",alkBGT
+p38,10.1016.j.ymben.2015.01.007,JC01 (DE3) bktBCT5 fadBCT5 ΔfadA egTERCT5 ydiIA1 ΔtesB,"C6–C10 dicarboxylic acids (adipic acid, suberic acid, sebacic acid)","~500 mg/L total dicarboxylic acids (170 mg/L adipic acid, 254 mg/L suberic acid, 61 mg/L sebacic acid)",minimal media,glycerol,20 g/L,"25mL Pyrex Erlenmeyer flask, shake flask fermentations",Not specified,96h,30°C,MG1655,"ΔldhA, Δpta, ΔpoxB, ΔadhE, ΔfrdA, ΔfadA, ΔtesB","bktB, fadB, egTER, ydiI","alkBGT, chnD, chnE"
+p39,10.1016.j.ymben.2015.03.001,ED1.0,NADPH,4.8-fold increase,M9 minimal,glucose,0.4% w/v,microtiter plates,7.4,24h,30°C,EcNR2,none,Synthetic ED pathway,"ZMO0367, ZMO1478, ZMO0368, ZMO0997, ZMO1212 (from Z. mobilis)"
+p39,10.1016.j.ymben.2015.03.001,ED2,NADPH,25-fold increase,M9 minimal,glucose,0.4% w/v,microtiter plates,7.4,24h,30°C,EcNR2,none,Synthetic ED pathway,"ZMO0367, ZMO1478, ZMO0368, ZMO0997, ZMO1212 (from Z. mobilis)"
+p39,10.1016.j.ymben.2015.03.001,EcIF15 + ED11,Neurosporene,1336% increase,2× M9 minimal,glucose,0.4% w/v,batch,7.4,10h,37°C,EcIF15,none,dxs,"ZMO0367, ZMO1478, ZMO0368, ZMO0997, ZMO1212 (from Z. mobilis)"
+p39,10.1016.j.ymben.2015.03.001,EcNR2 Δpgi,Neurosporene,24% increase,2× M9 minimal,glucose,0.4% w/v,batch,7.4,10h,37°C,EcNR2,pgi,none,Rhodobacter sphaeroides crtEBI
+p39,10.1016.j.ymben.2015.03.001,EcNR2 + ED13,Neurosporene,79% increase,2× M9 minimal,glucose,0.4% w/v,batch,7.4,10h,37°C,EcNR2,none,none,"Rhodobacter sphaeroides crtEBI, ZMO0367, ZMO1478, ZMO0368, ZMO0997, ZMO1212"
+p39,10.1016.j.ymben.2015.03.001,EcNR2 + ED1.0,Neurosporene,43% increase,2× M9 minimal,glucose,0.4% w/v,batch,7.4,10h,37°C,EcNR2,none,none,"Rhodobacter sphaeroides crtEBI, ZMO0367, ZMO1478, ZMO0368, ZMO0997, ZMO1212"
+p40,10.1016.j.ymben.2015.03.008,PHB10,PHBA,1.07 mM,CBS,glucose,"20 g/L, spiked with 10 g/L after 8 h","shake-flask, batch",-,72 h,30°C,S. cerevisiae,"ARO7 (repress), CDC19 (repress)","TKL1, ARO4K229L",E. coli ubiC
+p40,10.1016.j.ymben.2015.03.008,PHB09,PHBA,0.76 mM,CBS,glucose,20 g/L,"shake-flask, batch",-,72 h,30°C,S. cerevisiae,ARO7 (repress),TKL1,E. coli ubiC
+p40,10.1016.j.ymben.2015.03.008,PHB08,PHBA,0.795 mM,CBS,glucose,20 g/L,"shake-flask, batch",-,72 h,30°C,S. cerevisiae,ARO7 (repress),TKL1,E. coli ubiC
+p40,10.1016.j.ymben.2015.03.008,PHB07,PHBA,0.534 mM,CBS,glucose,20 g/L,"shake-flask, batch",-,72 h,30°C,S. cerevisiae,ARO7 (repress),-,E. coli ubiC
+p40,10.1016.j.ymben.2015.03.008,PHB06,PHBA,0.297 mM,CBS,glucose,20 g/L,"shake-flask, batch",-,72 h,30°C,S. cerevisiae,ARO7 (repress),ARO4K229L,E. coli ubiC
+p40,10.1016.j.ymben.2015.03.008,PHB04,PHBA,0.046 mM,CBS,glucose,20 g/L,"shake-flask, batch",-,72 h,30°C,S. cerevisiae,FUS1,-,E. coli ubiC
+p41,10.1016.j.ymben.2015.03.009,EWCB1,BD,0.44 g/L,LB,d-xylose,10 g/L,"Shaking flask, 100 mL medium, overnight culture",Not specified,48h,37°C,W3110,"∆xylA, ∆yagE, ∆yjhH","xdh, xylX, mdlC",
+p41,10.1016.j.ymben.2015.03.009,EWCB2,BD,0.44 g/L,LB,d-xylose,10 g/L,"Shaking flask, 100 mL medium, overnight culture",Not specified,48h,37°C,W3110,"∆xylA, ∆yagE, ∆yjhH","xdh, xylX, mdlC",
+p41,10.1016.j.ymben.2015.03.009,EWCB3,BD,0.44 g/L,LB,d-xylose,10 g/L,"Shaking flask, 100 mL medium, overnight culture",Not specified,48h,37°C,W3110,"∆xylA, ∆yagE, ∆yjhH","xdh, xylX, mdlC",
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-EPPS + pZE-asfabD(100),4-hydroxycoumarin,270.85 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabD,"entC, pchB, pqsD, sdgA"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-STS-4CL + pZE-asfabD(100),resveratrol,268.20 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabD,"4CL, STS"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-CHI-CHS-4CL + pZE-asfabD(100),naringenin,91.31 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabD,"4CL, CHI, CHS"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-EPPS + pZE-asfabB(100),4-hydroxycoumarin,116.95 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabB,"entC, pchB, pqsD, sdgA"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-EPPS + pZE-asfabF(100),4-hydroxycoumarin,173.66 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabF,"entC, pchB, pqsD, sdgA"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-EPPS + pZE-asfabH(100),4-hydroxycoumarin,106.95 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,fabH,"entC, pchB, pqsD, sdgA"
+p42,10.1016.j.ymben.2015.03.018,E. coli BW25113 + pCS-EPPS + pZE-asfabD(100)-asfabH(100),4-hydroxycoumarin,234.53 mg/L,M9Y,glycerol,20 g/L,"baffled flask, batch mode",,24 h,30°C,E. coli BW25113,,"fabD, fabH","entC, pchB, pqsD, sdgA"
+p43,10.1016.j.ymben.2015.04.005,TA2445,isopropanol,61.8 and 64.3 mM,M9,glucose,20 g/L,Flask fermentation,Not stated,Different IPTG conc (0.01-1.0mM) 0h & 0.1mM at 6h for control,30°C for fermentation,BW25113,"ΔlacI, ΔgltA","luxI, luxR","thlA, atoAD, adc, adhE"
+p44,10.1016.j.ymben.2015.05.005,E. coli W3110,3-AP,0.299 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,-,-,panD (C. glutamicum),-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,0.855 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"trc::aspA, panD (C. glutamicum)",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,1.45 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"trc::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,1.63 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"trc::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,1.66 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"tac::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,2.78 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"tac::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,3.49 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"tac::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,3.94 g/L,LB medium,-,-,Flask culture,7.0,24h,37°C,CWF4N,-,"tac::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA,3-AP,20.1 g/L,MR medium,glucose,≤ 5 g/L,Fed-batch culture,7.0,33.5h,37°C,W3110,-,"tac::aspA, panD (C. glutamicum), ppc",-
+p44,10.1016.j.ymben.2015.05.005,CWF4NA2,3-AP,32.3 g/L,MR medium,glucose,≤ 5 g/L,Fed-batch culture,7.0,39h,37°C,CWF4N,-,"trc::aspA, panD (C. glutamicum), ppc, acs",-
+p45,10.1016.j.ymben.2015.06.009,BYJECO,alkenes,54.5 μg/L,SC-U/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,,,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY12,alkenes,339.1 μg/L,SC-U/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,Δfaa1,,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY14,alkenes,382.8 μg/L,SC-U/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,"Δfaa1, Δfaa4",,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY17,alkenes,472.7 μg/L,SC-U/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,"Δfaa1, Δfaa4, Δctt1, Δcta1, Δccp1",HEM3,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY22,alkenes,2.1 mg/L,YPD/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,"Δfaa1, Δfaa4, Δctt1, Δcta1, Δccp1",HEM3,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY24,alkenes,approximately 0.45 mg/L,YPD/Galactose,galactose,2%,"shake flask, batch",not specified,48h,30°C,BY4741,"Δfaa1, Δfaa4, Δctt1, Δcta1, Δccp1",HEM3,oleTJE-CO
+p45,10.1016.j.ymben.2015.06.009,BY22 (fermenter),alkenes,3.7 mg/L,YPD + G418,glucose,20%,"bioreactor, fed-batch",pH off,144h,30°C,BY4741,"Δfaa1, Δfaa4, Δctt1, Δcta1, Δccp1",HEM3,oleTJE-CO
+p46,10.1016.j.ymben.2015.07.007,TGFA091-1,fumarate,8.35 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091,"THI2, FUM1","RoPYC, RoMDH, RoFUM1, SpMAE1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-2,fumarate,10.80 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-1,"THI2, FUM1","RoPYC, RoMDH-P160A, RoFUM1, SpMAE1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-3,fumarate,5.44 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-1,"THI2, FUM1","RoPYC, RoMDH-P160A, RoFUM1, SpMAE1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-4,fumarate,6.28 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-3,"THI2, FUM1","RoPYC, RoMDH, RoFUM1, SpMAE1, RoMDH-P160A",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-6,fumarate,12.02 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-4,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-7,fumarate,13.67 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-6,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-11,fumarate,16.57 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-7,"THI2, FUM1","RoMDH-P160A & RoPYC, KGD2-SUCLG2, SDH1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-12,fumarate,20.46 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-11,"THI2, FUM1","RoMDH-P160A & RoPYC, high level KGD2-SUCLG2, SDH1",-
+p46,10.1016.j.ymben.2015.07.007,TGFA091-13,fumarate,24.63 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-12,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1",DNA scaffold (1:1)
+p46,10.1016.j.ymben.2015.07.007,TGFA091-14,fumarate,28.64 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-13,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1",DNA scaffold (1:2)
+p46,10.1016.j.ymben.2015.07.007,TGFA091-15,fumarate,22.50 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-14,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1",DNA scaffold (2:1)
+p46,10.1016.j.ymben.2015.07.007,TGFA091-16,fumarate,33.13 g/L,fermentation medium,glucose,100 g/L,"flask, shake flask",5.5,24h,30°C,TGFA091-15,"THI2, FUM1","RoPYC, RoMDH-P160A, KGD2-SUCLG2, SDH1","DNA scaffold (1:2), sRNA-RHR2, sRNA-PDC6"
+p47,10.1007.s00253-006-0792-9,E. coli T1,L-tyrosine,3.8 g/l,Luria Bertani (LB) or MOPS,glucose,15 g/l,BioFlo110 modular fermentor system; fed-batch,6.5,,37°C,Escherichia coli K12 ΔtyrR,tyrR,"tyrA fbr, aroG fbr",
+p47,10.1007.s00253-006-0792-9,E. coli T2,L-tyrosine,9.7 g/l,Luria Bertani (LB) or MOPS,glucose,15 g/l,BioFlo110 modular fermentor system; fed-batch,6.5,,37°C,Escherichia coli K12 ΔtyrR,tyrR,"tyrA fbr, aroG fbr, ppsA, tktA",
+p48,10.1007.s00253-007-1170-y,XZ111,L-alanine,181 mM,NBS,glucose,20 g/l,fermentation vessel,7,96 h,37°C,SZ194,,,alaD
+p48,10.1007.s00253-007-1170-y,XZ113,L-alanine,483 mM,NBS,glucose,50 g/l,fermentation vessel,7,48 h,,XZ111,,,
+p48,10.1007.s00253-007-1170-y,XZ115,L-alanine,836 mM,NBS,glucose,80 g/l,fermentation vessel,7,60 h,,XZ113,,,
+p48,10.1007.s00253-007-1170-y,XZ123,L-alanine,832 mM,NBS,glucose,80 g/l,fermentation vessel,7,48 h,,XZ121,"mgsA, dadX",,
+p48,10.1007.s00253-007-1170-y,XZ129,L-alanine,833 mM,NBS,glucose,80 g/l,fermentation vessel,7,42 h,,XZ123,dadX,,
+p48,10.1007.s00253-007-1170-y,XZ130,L-alanine,847 mM,AM1,glucose,80 g/l,fermentation vessel,7,42 h,,XZ129,,,
+p48,10.1007.s00253-007-1170-y,XZ132,L-alanine,"1,279 mmol",AM1,glucose,120 g/l,fermentation vessel,7,48 h,,XZ131,,,
+p48,10.1007.s00253-007-1170-y,XZ132,L-alanine,483 mmol,AM1,xylose,50 g/l,fermentation vessel,7,72 h,,,,,
+p49,10.1007.s00253-007-1246-8,E. coli JM109,Isopropanol,227 mM,SD8 medium,Glucose,30-200 mM,"Baffled flask, fed-batch",5.8,36 h,37°C,E. coli,,tac promoter,"thl, ctfAB, adc from Clostridium acetobutylicum ATCC824; adh from C. beijerinckii NRRL B593"
+p50,10.1007.s00253-007-1307-z,NST [pCsrB],phenylalanine,2.33 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NST37,-,csrB,-
+p50,10.1007.s00253-007-1307-z,NST [pTktA],phenylalanine,1.22 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NST37,-,tktA,-
+p50,10.1007.s00253-007-1307-z,NSTCSRA [pCsrB],phenylalanine,1.52 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRA,csrA,csrB,-
+p50,10.1007.s00253-007-1307-z,NSTCSRA [pTktA],phenylalanine,2.39 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRA,csrA,tktA,-
+p50,10.1007.s00253-007-1307-z,NST [pZwf],phenylalanine,1.27 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NST37,-,zwf,-
+p50,10.1007.s00253-007-1307-z,NSTCSRA [pZwf],phenylalanine,1.61 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRA,csrA,zwf,-
+p50,10.1007.s00253-007-1307-z,NSTCSRA [pTkaFpA],phenylalanine,1.84 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRA,csrA,"tktA, aroF FR, and pheA FR",-
+p50,10.1007.s00253-007-1307-z,NST,phenylalanine,1.20 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NST37,-,-,-
+p50,10.1007.s00253-007-1307-z,NSTCSRA,phenylalanine,1.67 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRA,csrA,-,-
+p50,10.1007.s00253-007-1307-z,NSTCSRD,phenylalanine,1.61 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRD,csrD,-,-
+p50,10.1007.s00253-007-1307-z,NSTCSRACSRD,phenylalanine,1.41 g/l,Fermentation medium,glycerol,1.5% v/v,Shake-flask,-,48h,37°C,NSTCSRACSRD,"csrA, csrD",-,-
+p51,10.1007.s00253-009-2401-1,JCL16,3-methyl-1-butanol (3MB),0.45 g/L,M9 medium with yeast extract and A5 trace metals mix,Glucose,40 g/L,"250-mL screw cap flask, batch culture",Not specified,72 h,"37°C for growth, 30°C post-induction",Not Applicable,"rrnB T14, ΔlacZ WJ16, hsdR514, ΔaraBAD AH33, ΔrhaBAD LD78",Not specified,"pIAA11 (alsS–ilvCD), pIAA13 (kivd–ADH2), pIAA16 (leuA(G462D)–leuBCD)"
+p51,10.1007.s00253-009-2401-1,AL1,3-methyl-1-butanol (3MB),1.1 g/L,M9 medium with yeast extract and A5 trace metals mix,Glucose,85 g/L,"250-mL screw cap flask, batch culture",Not specified,36 h,"37°C for growth, 30°C post-induction",JCL16,Not specified,Not specified,"pIAA11 (alsS–ilvCD), pIAA13 (kivd–ADH2), pIAA16 (leuA(G462D)–leuBCD)"
+p51,10.1007.s00253-009-2401-1,AL2,3-methyl-1-butanol (3MB),2.8 g/L,M9 medium with yeast extract and A5 trace metals mix,Glucose,85 g/L,"250-mL screw cap flask, batch culture",Not specified,36 h,"37°C for growth, 30°C post-induction",AL1,Not specified,Not specified,"pIAA11 (alsS–ilvCD), pIAA13 (kivd–ADH2), pIAA16 (leuA(G462D)–leuBCD)"
+p51,10.1007.s00253-009-2401-1,AL2 (Richer medium),3-methyl-1-butanol (3MB),4.4 g/L,"M9 medium with yeast extract, 10 g/L yeast extract, 10M NH4OH for pH adjustment",Glucose,85 g/L,"250-mL screw cap flask, batch culture",Maintained at 7,36 h,"37°C for growth, 30°C post-induction",AL2,Not specified,Not specified,"pIAA11 (alsS–ilvCD), pIAA13 (kivd–ADH2), pIAA16 (leuA(G462D)–leuBCD)"
+p51,10.1007.s00253-009-2401-1,AL2 (Two-phase),3-methyl-1-butanol (3MB),9.5 g/L,"M9 medium with yeast extract, oleyl alcohol",Glucose,85 g/L,"250-mL screw cap flask, batch culture",Not specified,60 h,"37°C for growth, 30°C post-induction",AL2,Not specified,Not specified,"pIAA11 (alsS–ilvCD), pIAA13 (kivd–ADH2), pIAA16 (leuA(G462D)–leuBCD)"
+p52,10.1007.s00253-012-4308-5,MG1655ΔendAΔrecA,pDNA,0.8,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,GALG20 (MG1655ΔendAΔrecAΔpgi),pDNA,19.1,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA, pgi",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,GALG1011 (MG1655ΔendAΔrecAΔpykFΔpykA),pDNA,6.6,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA, pykF, pykA",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,MG1655ΔendAΔrecA,pDNA,11.2,complex medium,glycerol,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,DH5αΔpykFΔpykA,pDNA,0.3,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,DH5α,"pykF, pykA",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,DH5αΔpykF,pDNA,5.9,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,DH5α,pykF,-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,DH5αΔpykA,pDNA,0.9,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,DH5α,pykA,-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,DH5α,pDNA,1.8,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,DH5α,-,-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,GALG10 (MG1655ΔendAΔrecAΔpykF),pDNA,10.5,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA, pykF",-,pVAX1GFP
+p52,10.1007.s00253-012-4308-5,GALG11 (MG1655ΔendAΔrecAΔpykA),pDNA,13.1,complex medium,glucose,20,shake flask (250 rpm),7.1,24,37,MG1655,"endA, recA, pykA",-,pVAX1GFP
+p53,10.1007.s00253-012-4618-7,EWE3,"EG, glycolate",11.69 g/L  (EG in lab-scale fermenter),"M9 minimal medium, LB broth, enriched medium",D-xylose,"4 g/L in shake-flask, 40 g/L in lab-scale fermenter","300 mL shake-flask, 5-L lab-scale fermenter",7.0,48 h in lab-scale fermenter,37 °C,E. coli W3110,xylA,YqhD,Xdh from C. crescentus
+p54,10.1007.s00253-014-6092-x,E. coli BW25113 (DE3) (pKV-C),itaconate,<10 mg/L,Luria-Bertani (LB),glucose,50 mmoles,shake flask,-,-,37 °C,E. coli BW25113,-,cadA (low activity),cadA from Aspergillus terreus
+p54,10.1007.s00253-014-6092-x,E. coli BW25113 (DE3) (pKV-C),itaconate,240 mg/L,M9 minimal medium (MM),glucose,50 mmoles,pH-controlled bioreactors,6.9,-,30 °C,E. coli BW25113,-,cadA,cadA from Aspergillus terreus
+p54,10.1007.s00253-014-6092-x,E. coli BW25113 (DE3) (pKV-CGA),itaconate,1.9 mM,M9 minimal medium (MM),glucose,50 mmoles,pH-controlled bioreactors,6.9,72 h,30 °C,E. coli BW25113,-,"cadA, gltA, acnA",cadA from Aspergillus terreus
+p54,10.1007.s00253-014-6092-x,E. coli BW25113 (DE3) Δpta-ΔldhA (pKV-CGA),itaconate,690 mg/L,M9 minimal medium (MM),glucose,50 mmoles,pH-controlled bioreactors,6.9,-,30 °C,E. coli BW25113,"Δpta, ΔldhA","cadA, gltA, acnA",cadA from Aspergillus terreus
+p55,10.1007.s00253-014-6093-9,CPC-PrOH3,"1-propanol, ethanol","6.76 g/L, 31.1 g/L",LB,glycerol,30 g/L,"stirred-tank, fed-batch",7.0 ± 0.1,-,30 °C,E. coli BW25141,"ldhA, pykF",sbm operon with P_trc,-
+p55,10.1007.s00253-014-6093-9,CPC-PrOH2,"1-propanol, ethanol","3.78 g/L, 25 g/L",LB,glycerol,30 g/L,"stirred-tank, fed-batch",7.0 ± 0.1,-,30 °C,E. coli BW25141,ldhA,sbm operon episomal,-
+p55,10.1007.s00253-014-6093-9,CPC-PrOH1,"1-propanol, ethanol","0.55 g/L, -",LB,glucose,30 g/L,"bioreactor, batch",-,18 h,-,E. coli BW25141,-,sbm operon episomal,-
+p56,10.1007.s00253-015-6732-9,HJ01,Acetol,0.08 g/L,M9 minimal,Glycerol,2 g/L,500-mL baffled Erlenmeyer flasks,7,72 h,37 °C,BW25113,,yqhD,
+p56,10.1007.s00253-015-6732-9,HJ02,Acetol,0.44 g/L,M9 minimal,Glycerol,2 g/L,500-mL baffled Erlenmeyer flasks,7,72 h,37 °C,BW25113,,yqhD,glpK22 (from Lin 43)
+p56,10.1007.s00253-015-6732-9,HJ02,Acetol,0.71 g/L,M9 minimal,Glycerol + Glucose,2 g/L of each,500-mL baffled Erlenmeyer flasks,7,72 h,37 °C,BW25113,,yqhD,glpK22 (from Lin 43)
+p56,10.1007.s00253-015-6732-9,HJ04,Acetol,1.20 g/L,M9 minimal,Glycerol + Glucose,2 g/L of each,500-mL baffled Erlenmeyer flasks,7,72 h,37 °C,BW25113,ptsG,yqhD,glpK22 (from Lin 43)
+p56,10.1007.s00253-015-6732-9,HJ05,Acetol,1.82 g/L,M9 minimal,Glycerol + Glucose,2 g/L of each,500-mL baffled Erlenmeyer flasks,7,72 h,37 °C,BW25113,"ptsG, gapA",yqhD,glpK22 (from Lin 43)
+p57,10.1007.s00253-015-6816-6,CWF4N,Fumaric acid,5.30 g/L,MR medium,Glucose,15 g/L,"Flask, batch",7.0,24 h,37 °C,CWF4,,ppc,
+p57,10.1007.s00253-015-6816-6,CWF4N with pSynPPC18,Fumaric acid,5.72 g/L,MR medium,Glucose,15 g/L,"Flask, batch",7.0,24 h,37 °C,CWF4,,ppc,
+p57,10.1007.s00253-015-6816-6,CWF4NS strains harboring pSynPC39,Fumaric acid,6.24 g/L,MR medium,Glucose,15 g/L,"Flask, batch",7.0,24 h,37 °C,CWF4NS,,"ppc, gltA",
+p57,10.1007.s00253-015-6816-6,CWF4NSA strains harboring pSynPC39,Fumaric acid,30.5 g/L,MR medium with 0.5 g/L aspartate initial and 5 g/L aspartate in feeding solution,Glucose,20 g/L,"Jar fermentor, fed-batch",7.0,27 h,37 °C,CWF4NS,aspA,"ppc, gltA",
+p57,10.1007.s00253-015-6816-6,CWF4NSA strains harboring pSynPC39,Fumaric acid,35.1 g/L,MR medium with 0.5 g/L aspartate initial and 5 g/L aspartate in feeding solution,Glucose,20 g/L,"Jar fermentor, fed-batch",7.0,27 h,37 °C,CWF4NS,aspA,"ppc, gltA",
+p58,10.1007.s00449-013-1003-6,EWG1,D-galactonate,0.17 g/L,M9 minimal salts,D-galactose + D-glucose,2 g/L each,Shake flask cultivation,7.0,72 h,37 °C,E. coli BW25113,,gld,gld
+p58,10.1007.s00449-013-1003-6,EWG2,D-galactonate,0.44 g/L,M9 minimal salts,D-galactose + D-glucose,2 g/L each,Shake flask cultivation,7.0,72 h,37 °C,E. coli BW25113,galK,gld,gld
+p58,10.1007.s00449-013-1003-6,EWG3,D-galactonate,1.24 g/L,M9 minimal salts,D-galactose + D-glucose,2 g/L each,Shake flask cultivation,7.5,72 h,37 °C,E. coli BW25113,"galK, dgoK",gld,gld
+p58,10.1007.s00449-013-1003-6,EWG3,D-galactonate,17.6 g/L,M9 minimal salts,D-galactose,20 g/L,"5-L batch fermentation, constant feed",7.5,72 h,34 °C,E. coli BW25113,"galK, dgoK",gld,gld
+p59,10.1007.s10529-014-1600-8,Q1430,P3HP,1.6 g l−1,MM,"glycerol, glucose","20 g l−1, 3 g l−1",500 ml baffled Erlenmeyer flasks,-,48 h,30°C,E. coli JM109 (DE3),-,"PP0596, YdfG, PrpE, PhaC1",-
+p59,10.1007.s10529-014-1600-8,Q1911,P3HP,0.5 g l−1,MM,"glycerol, glucose","20 g l−1, 3 g l−1",500 ml baffled Erlenmeyer flasks,-,48 h,30°C,E. coli JM109 (DE3),-,"PanD, PanM, PP0596, YdfG, PrpE, PhaC1",-
+p60,10.1007.s11274-014-1679-z,"E. coli BW25113 (ΔaroL/aroK, DE3)/pETDuet-GBAE",Shikimic acid,"1,077.6 mg/l",LB and fermentation,Sorbitol,5 g/l,"Shake flask, batch",3.0,30 h,37 °C,E. coli JW0379-1,"aroL, aroK","aroG, aroB, tktA, aroE",
+p60,10.1007.s11274-014-1679-z,E. coli BW25113 (ΔaroL/aroK),Shikimic acid,728.9 ± 15.6 mg/l,LB and fermentation,Sorbitol,5 g/l,"Shake flask, batch",3.0,30 h,37 °C,E. coli JW0379-1,"aroL, aroK",,
+p61,10.1007.s12010-015-1874-x,B0016-060BC,L-Alanine,120.8 g/l,M9-1,Glucose,5 g/l and batches of 85.2 g,"Bioreactor, batch",7,,"33°C (aerobic growth), 42°C (oxygen-limited phase)",B0016-050,"ack, pta, pflB, adhE, frdA, ldhA",,dadX::cI ts857-p R -p L -alaD-FRT
+p62,10.1007.s12033-013-9721-1,BG102,MBO,20 μl/l,LB,,,Sealable tubes (Batch culture),,48 h,37 °C,DH5α,,,"pMevT, pMBI, pMBO"
+p62,10.1007.s12033-013-9721-1,BG104,MBO,31.5 μl/l,LB,,,Sealable tubes (Batch culture),,48 h,37 °C,SoluBL21,,,"pMevT, pMBI, pMBO"
+p62,10.1007.s12033-013-9721-1,BG104,MBO,50.7 μl/l,LB with O2,,,Sealable tubes (Batch culture),,48 h,37 °C,SoluBL21,,,"pMevT, pMBI, pMBO"
+p62,10.1007.s12033-013-9721-1,BG104,MBO,103.3 μl/l,Terrific Broth with O2,,,Sealable tubes (Batch culture),,48 h,37 °C,SoluBL21,,,"pMevT, pMBI, pMBO"
+p63,10.1007.s00253-011-3530-x,E. coli XLdh,"PHAs containing 2HB, 3HB, and lactate",26.7 wt.%,MR,Glucose,20 g/L,,,,37°C,E. coli XL1-Blue,ldhA,"phaC1437, pct540, cimA3.7, leuBCD","panE, phaAB"
+p64,10.1186.1475-2859-11-132,E. coli W3110,pDNA,1.14 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,ATCC 27325,,,
+p64,10.1186.1475-2859-11-132,E. coli VH33,pDNA,2.78 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,,,,
+p64,10.1186.1475-2859-11-132,E. coli DH5α,pDNA,12.73 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,,"endA1, recA 1, gyrA 96, thi, hsd R17, relA 1, sup E44, ΔlacU 169, Φ80, lacZ ΔM15",,
+p64,10.1186.1475-2859-11-132,E. coli VH33 Δ(recA),pDNA,7.09 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,VH33,recA,,
+p64,10.1186.1475-2859-11-132,E. coli VH33 Δ(recA deoR),pDNA,7.98 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,VH33,"recA, deoR",,
+p64,10.1186.1475-2859-11-132,E. coli VH33 Δ(recA nupG),pDNA,7.09 mg/L,custom (various components),glucose,5 g/L,shake flask/bioreactor,6.8,,37°C,VH33,"recA, nupG",,
+p64,10.1186.1475-2859-11-132,E. coli VH33 Δ(recA deoR nupG),pDNA,186 mg/L,custom (various components),glucose,100 g/L,shake flask/bioreactor,6.8,,37°C,VH33,"recA, deoR, nupG",,
+p65,10.1186.1475-2859-11-153,E. coli C41 (DE3),4-coumaric acid,974 mg/L,M9 medium,glucose,15 g/L,shake flask,-,36 hr,26°C,C41 (DE3),ΔtyrR,"aroG<sub>fbr</sub>, tyrA<sub>fbr</sub>","tal, sam5, com, opTAL, optal"
+p65,10.1186.1475-2859-11-153,E. coli C41 (DE3),caffeic acid,150 mg/L,M9 medium,glucose,15 g/L,shake flask,-,36 hr,26°C,C41 (DE3),ΔtyrR,"aroG<sub>fbr</sub>, tyrA<sub>fbr</sub>","tal, sam5, com, opTAL, optal"
+p65,10.1186.1475-2859-11-153,E. coli C41 (DE3),ferulic acid,196 mg/L,M9 medium,glucose,15 g/L,shake flask,-,36 hr,26°C,C41 (DE3),ΔtyrR,"aroG<sub>fbr</sub>, tyrA<sub>fbr</sub>","tal, sam5, com, opTAL, optal"
+p66,10.1186.1475-2859-11-155,IMU011,naringenin,5.4 μM,synthetic medium,glucose,20 g·l-1,shake flask cultures,6.0,,30°C,CEN.PK2-1C,,,"PAL1, coC4H, coCPR1, atCHI1, atCHS3, at4CL3"
+p66,10.1186.1475-2859-11-155,IMX183,naringenin,10.4 μM,synthetic medium,glucose,20 g·l-1,shake flask cultures,6.0,,30°C,CEN.PK2-1C,aro3Δ,"atPAL1, coC4H, coCPR1, atCHI1, atCHS3, at4CL3",
+p66,10.1186.1475-2859-11-155,IMX106,naringenin,46.5 μM,synthetic medium,glucose,20 g·l-1,shake flask cultures,6.0,,30°C,CEN.PK2-1C,"aro3Δ, pdc5Δ, pdc6Δ, aro10Δ","atPAL1, coC4H, coCPR1, atCHI1, atCHS3, at4CL3",
+p66,10.1186.1475-2859-11-155,IMX197,naringenin,134.5 μM,synthetic medium,glucose,20 g·l-1,shake flask cultures,6.0,,30°C,CEN.PK2-1C,"aro3Δ, pdc5Δ, pdc6Δ, aro10Δ","atPAL1, coC4H, coCPR1, atCHI1, atCHS3, at4CL3, coCHS3",
+p66,10.1186.1475-2859-11-155,IMX198,naringenin,414.63 μM,synthetic medium,glucose,20 g·l-1,"bioreactor, batch",5.0,38 h,30°C,CEN.PK2-1C,"aro3Δ, pdc5Δ, pdc6Δ, aro10Δ","atPAL1, coC4H, coCPR1, atCHI1, atCHS3, at4CL3, coCHS3, cotal1",
+p67,10.1186.1475-2859-12-56,BW25113,L(-)-carnitine,21.7 mM,LB-CB,crotonobetaine,50 mM,"Anaerobic batch, 100 mL vessels",7.5,24h,37°C,BW25113,"aceA, aceK",,
+p67,10.1186.1475-2859-12-56,BW ΔaceK,L(-)-carnitine,20% increase,LB-CB,crotonobetaine,50 mM,"Anaerobic batch, 100 mL vessels",7.5,24h,37°C,BW25113,aceK,,
+p67,10.1186.1475-2859-12-56,BW ΔcaiA,L(-)-carnitine,28.7 mM,LB-CB,crotonobetaine,50 mM,"Anaerobic batch, 100 mL vessels",7.5,24h,37°C,BW25113,caiA,,
+p67,10.1186.1475-2859-12-56,BW p37cai,L(-)-carnitine,20.7 mM,LB-CB,crotonobetaine,50 mM,"Anaerobic batch, 100 mL vessels",7.5,24h,37°C,BW25113,,p37 (constitutive promoter),
+p67,10.1186.1475-2859-12-56,BW ΔaceK ΔcaiA p37cai,L(-)-carnitine,46 mM,LB-CB,crotonobetaine,50 mM,"Anaerobic batch, 100 mL vessels",7.5,24h,37°C,BW25113,"aceK, caiA",p37 (constitutive promoter),
+p67,10.1186.1475-2859-12-56,BW p8caiF,L(-)-carnitine,40-60% yield,LB-CB,crotonobetaine,50 mM,"Aerobic batch, 250 mL Erlenmeyer flasks",7.5,24h,37°C,BW25113,,p8 (constitutive promoter),
+p67,10.1186.1475-2859-12-56,BW ΔaceK p37cai,L(-)-carnitine,31.2 mM,LB-CB,crotonobetaine,50 mM,"Aerobic batch, 250 mL Erlenmeyer flasks",7.5,24h,37°C,BW25113,aceK,p37 (constitutive promoter),
+p68,10.1186.1475-2859-12-7,LA01,D-lactate,0.34 g/L/h,mineral salts,glycerol,20 g/L,Shake flasks (15 ml),6.38,36 h,37°C,MG1655,"ΔpflB, ΔfrdA","GlpK, GlpD",
+p68,10.1186.1475-2859-12-7,LA02,D-lactate,0.30 g/L/h,mineral salts,glycerol,20 g/L,Shake flasks (15 ml),6.38,36 h,37°C,MG1655,"Δpta, ΔadhE, ΔfrdA","GlpK, GlpD",
+p68,10.1186.1475-2859-12-7,LA06,-,~0.1 g/L final,minimal,glycerol,10 g/L,Shake flasks (15 ml),6.38,36 h,37°C,LA01,ΔldhA,"GlpK, GlpD",
+p68,10.1186.1475-2859-12-7,LA07,-,~0.1 g/L final,minimal,glycerol,10 g/L,Shake flasks (15 ml),6.38,36 h,37°C,LA02,ΔldhA,"GlpK, GlpD",
+p68,10.1186.1475-2859-12-7,LA19,L-lactate,~0.25 g/L/h,minimal,glycerol,20 g/L,Shake flasks (15 ml),6.38,36 h,37°C,LA01,"ΔpflB, ΔfrdA, ΔmgsA, ΔldhA","GlpK, GlpD",S. bovis ldh
+p68,10.1186.1475-2859-12-7,LA20,L-lactate,~0.25 g/L/h,minimal,glycerol,20 g/L,Shake flasks (15 ml),6.38,36 h,37°C,LA02,"Δpta, ΔadhE, ΔfrdA, ΔmgsA, ΔldhA","GlpK, GlpD",S. bovis ldh
+p68,10.1186.1475-2859-12-7,LA20 (pZSglpKglpD),L-lactate,0.38 g/L/h,minimal,glycerol,40 g/L,Shake flasks (15 ml),6.38,72 h,37°C,LA20,"Δpta, ΔadhE, ΔfrdA, ΔmgsA, ΔldhA","GlpK, GlpD",S. bovis ldh
+p68,10.1186.1475-2859-12-7,LA20 ΔlldD (pZSglpKglpD),L-lactate,~0.55 g/L/h,minimal,glycerol,41.6 g/L,Shake flasks (15 ml),6.38,64 h,37°C,LA20,"ΔlldD, Δpta, ΔadhE, ΔfrdA, ΔmgsA, ΔldhA","GlpK, GlpD",S. bovis ldh
+p69,10.1186.1475-2859-13-64,TK52,3HP,4.6 ± 0.8% C-mol%,M9,Glycerol,Not specifically mentioned,"Sakaguchi flask, 500mL flask with 50mL culture",Not mentioned,Not mentioned,37°C,MG1655(DE3),,"dhaB-gdrAB, aldH","dhaB-gdrAB - K. pneumoniae, aldH - E. coli"
+p69,10.1186.1475-2859-13-64,TK52t,3HP,14.7 ± 7.0% C-mol%,M9,Glycerol,Not specifically mentioned,"Sakaguchi flask, 500mL flask with 50mL culture",Not mentioned,Not mentioned,37°C,MG1655(DE3),tpiA,"dhaB-gdrAB, aldH","dhaB-gdrAB - K. pneumoniae, aldH - E. coli"
+p69,10.1186.1475-2859-13-64,TK52tz,3HP,20.1 ± 9.2% C-mol%,M9,Glycerol,Not specifically mentioned,"Sakaguchi flask, 500mL flask with 50mL culture",Not mentioned,"Specific growth: 0-6h, 48-72h",37°C,MG1655(DE3),"tpiA, zwf","dhaB-gdrAB, aldH","dhaB-gdrAB - K. pneumoniae, aldH - E. coli"
+p69,10.1186.1475-2859-13-64,TK52tzy,3HP,33.9 ± 1.2% C-mol%,M9,Glycerol,Not specifically mentioned,"Sakaguchi flask, 500mL flask with 50mL culture",Not mentioned,Not mentioned,37°C,MG1655(DE3),"tpiA, zwf, yqhD","dhaB-gdrAB, aldH","dhaB-gdrAB - K. pneumoniae, aldH - E. coli"
+p70,10.1186.1475-2859-7-36,ESY2,n-butanol,1 mg/L,SD,galactose,2%,"5 mL SD medium, inoculated in 100 mL serum vials (50 mL SD medium, ""semi"" anaerobic condition)",,"24, 72, 120, 144 h",30°C,S. cerevisiae BY4742,,,"phaA, phaB (R. eutropha), ccr (S. collinus)"
+p70,10.1186.1475-2859-7-36,ESY7,n-butanol,2.5 mg/L,SD,galactose,2%,"5 mL SD medium, inoculated in 100 mL serum vials (50 mL SD medium, ""semi"" anaerobic condition)",,"24, 72, 120, 144 h",30°C,S. cerevisiae BY4742,,"ERG10, hbd (S. cerevisiae, C. beijerinckii)","phaA, adhe2 (R. eutropha, C. beijerinckii)"
+p71,10.1186.1475-2859-9-21,PB12.SA11,Shikimic acid,2.8 g/L,LB,glucose,25 g/L,"1 L Fermentor, Batch",7.0,50 h,37°C,PB12.SA1,,"aroG<sub>fbr</sub>, tktA, aroB",
+p71,10.1186.1475-2859-9-21,PB12.SA21,Shikimic acid,5.1 g/L,LB,glucose,25 g/L,"1 L Fermentor, Batch",7.0,50 h,37°C,PB12.SA2,,"aroG<sub>fbr</sub>, tktA, aroB",
+p71,10.1186.1475-2859-9-21,PB12.SA22,Shikimic acid,7.1 g/L,LB,glucose,25 g/L,"1 L Fermentor, Batch",7.0,50 h,37°C,PB12.SA21,,"aroG<sub>fbr</sub>, tktA, aroB, aroE",
+p71,10.1186.1475-2859-9-21,PB12.SA31,Shikimic acid,"Lower than 7.1 g/L, exact value not specified",LB,glucose,25 g/L,"1 L Fermentor, Batch",7.0,50 h,37°C,PB12.SA22,pykF,"aroG<sub>fbr</sub>, tktA, aroB, aroE",
+p72,10.1186.1475-2859-9-96,HCT 10,(S)-3HV,0.31 g/L,LB,glucose,20 g/L,shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, hbd","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(R)-3HV,0.50 g/L,LB,glucose,20 g/L,shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, phaB","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(S)-3HV,0.38 g/L,LB,glucose with,"20 g/L glucose, 3 g/L 2-ketobutyrate",shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, hbd","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(R)-3HV,1.02 g/L,LB,glucose with,"20 g/L glucose, 3 g/L 2-ketobutyrate",shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, phaB","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 20,(S)-3HV,0.60 g/L,LB,glucose,20 g/L,shake-flask,,48h,30°C,HCT 10,"ackA-pta, poxB, atoDA","ptb-buk, tesB, hbd","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 20,(R)-3HV,2.04 g/L,LB,glucose,20 g/L,shake-flask,,48h,30°C,HCT 10,"ackA-pta, poxB, atoDA","ptb-buk, tesB, phaB","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(S)-3HV,0.08 g/L,LB,glycerol,20 g/L,shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, hbd","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(R)-3HV,0.96 g/L,LB,glycerol,20 g/L,shake-flask,,48h,30°C,MG1655,,"ptb-buk, tesB, phaB","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 21,(S)-3HV,0.19 g/L,LB,glycerol,20 g/L,shake-flask,,48h,30°C,HCT 20,"metA, tdh","thrABC, ilvA","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 21,(R)-3HV,0.60 g/L,LB,glycerol,20 g/L,shake-flask,,48h,30°C,HCT 20,"metA, tdh","thrABC, ilvA","bktB, phaB (from R. eutropha), ptb-buk"
+p72,10.1186.1475-2859-9-96,HCT 10,(S)-3HV,0.11 g/L,LB,glucose with,"20 g/L glucose, 3 g/L threonine",shake-flask,,48h,30°C,MG1655,,ilvA (E. coli),"pET-PB-B, pCDF-T-H (hbd and tesB)"
+p72,10.1186.1475-2859-9-96,HCT 10,(R)-3HV,0.22 g/L,LB,glucose with,"20 g/L glucose, 3 g/L threonine",shake-flask,,48h,30°C,MG1655,,ilvA (E. coli),"pET-PB-B, pCDF-T-P (tesB and ptb-buk)"
+p72,10.1186.1475-2859-9-96,HCT 10,(S)-3HV,0.27 g/L,LB,glucose with,"20 g/L glucose, 3 g/L threonine",shake-flask,,48h,30°C,MG1655,,ilvA (C. glutamicum),"pET-PB-B, pCDF-T-H (hbd and tesB)"
+p72,10.1186.1475-2859-9-96,HCT 10,(R)-3HV,0.91 g/L,LB,glucose with,"20 g/L glucose, 3 g/L threonine",shake-flask,,48h,30°C,MG1655,,ilvA (C. glutamicum),"pET-PB-B, pCDF-T-P (tesB and ptb-buk)"
+p73,10.1186.1754-6834-6-60,YJM28,α-pinene,5.44 mg/L,LB medium,glucose,20 g/L,flask (shake-flask),7,24 h,30°C,E. coli BL21(DE3),-,"α-pinene synthase (Pt30), GPPS2 (Abies grandis)","Pt30 (Pinus taeda), GPPS2 (Abies grandis), mevalonate pathway genes including mvaE, mvaS, ERG8, ERG12, ERG19, IDI1 (from Saccharomyces cerevisiae)"
+p73,10.1186.1754-6834-6-60,YJM28,α-pinene,0.97 g/L,fermentation medium,glucose,20 g/L,fed-batch fermentation,7,32 h,30°C,E. coli BL21(DE3),-,"α-pinene synthase (Pt30), GPPS2 (Abies grandis)","Pt30 (Pinus taeda), GPPS2 (Abies grandis), mevalonate pathway genes including mvaE, mvaS, ERG8, ERG12, ERG19, IDI1 (from Saccharomyces cerevisiae)"
+p74,10.1186.s12934-014-0096-1,strain names,product,product titer [g l−1],medium,carbon source,carbon source concentration,vessel and feed mode,ph,time [h],temperature [°C],parent strain,knock out gene,overexpress gene,heterologous gene
+p74,10.1186.s12934-014-0096-1,FUS4/pF81,L-Phenylalanine,0.13 - 0.21,MM,glucose/glycerol,"5 g l−1 for glucose, 3-6 g l−1 for glycerol","3.6 l-bioreactor, fed-batch",7.0,60,37,FUS4 (W3110),"aroF, pheA, tyrA","aroF, aroB, aroL",
+p74,10.1186.s12934-014-0096-1,FUS4.2/pF81,L-Phenylalanine,0.08,MM,glycerol,0.5%,Shaking Flask,7.0,30,37,FUS4 (W3110),,glpK/pF81,
+p74,10.1186.s12934-014-0096-1,FUS4.2-1/pF81,L-Phenylalanine,0.08,MM,glycerol,0.5%,Shaking Flask,7.0,30,37,FUS4 (W3110),,glpK G232D/pF81,
+p74,10.1186.s12934-014-0096-1,FUS4.6/pF81,L-Phenylalanine,0.25,MM,glycerol,3-6 g l−1,"3.6 l-bioreactor, fed-batch",7.0,60,37,FUS4 (W3110),,glpX,
+p74,10.1186.s12934-014-0096-1,FUS4.5/pF81,L-Phenylalanine,0.23,MM,glycerol,3-6 g l−1,"3.6 l-bioreactor, fed-batch",7.0,60,37,FUS4 (W3110),,tktA,
+p74,10.1186.s12934-014-0096-1,FUS4.7/pF81,L-Phenylalanine,0.37,MM,glycerol,3-6 g l−1,"3.6 l-bioreactor, fed-batch",7.0,60,37,FUS4 (W3110),,"glpX, tktA",
+p75,10.1186.s12934-014-0099-y,E. coli BL21(DE3) pEDA,DAMP4,7.4 g/L,CDM,glucose,20 g/L,fed-batch,6.9,~15 h,37°C,E. coli BL21,none,none,none
+p75,10.1186.s12934-014-0099-y,"E. coli BL21(DE3) pEDA, p15aCSCx",DAMP4,6.7 g/L,CDM,sucrose,20 g/L,fed-batch,6.9,~15 h,37°C,E. coli BL21,none,none,cscAKB operon
+p76,10.1186.s12934-014-0123-2,BY4741-PAL,styrene,20 ± 1 mg/L,SD-Leu,glucose,not specified,"sealed shake flask, batch mode",not specified,24h,32°C,BY4741,none,none,PAL2
+p76,10.1186.s12934-014-0123-2,BY4741ΔFDC1-PAL,2-phenylethanol,98 ± 3 mg/L,SD-Leu,glucose,not specified,"sealed shake flask, batch mode",not specified,24h,32°C,BY4741ΔFDC1,FDC1,none,PAL2
+p76,10.1186.s12934-014-0123-2,22A75D-PAL,styrene,18 ± 2 mg/L,SD-Leu,glucose,not specified,"sealed shake flask, batch mode",not specified,48h,32°C,BY4741,none,none,PAL2
+p76,10.1186.s12934-014-0123-2,22A75D10-PAL,styrene,23 ± 2 mg/L,SD-Leu,glucose,not specified,"sealed shake flask, batch mode",not specified,48h,32°C,BY4741,ARO10,none,PAL2
+p76,10.1186.s12934-014-0123-2,22A75D104-PAL,styrene,29 ± 2 mg/L,SD-Leu,glucose,not specified,"sealed shake flask, batch mode",not specified,48h,32°C,BY4741,ARO10,ARO4 K229L,PAL2
+p77,10.1186.s12934-014-0185-1,WPJRg,pHCA,107 µM,M9,Glucose,55.5 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (R. glutinis)
+p77,10.1186.s12934-014-0185-1,VPJRg,pHCA,107 µM,M9,Glucose,55.5 mM,Shake Flask,,10 h,37°C,VH33,,"aroG fbr, tktA",PAL/TAL (R. glutinis)
+p77,10.1186.s12934-014-0185-1,WPJAt,CA,~ 530 µM,M9,Glucose,55.5 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (A. thaliana)
+p77,10.1186.s12934-014-0185-1,VPJAt,CA,~ 530 µM,M9,Glucose,55.5 mM,Shake Flask,,10 h,37°C,VH33,,"aroG fbr, tktA",PAL/TAL (A. thaliana)
+p77,10.1186.s12934-014-0185-1,WPJRg,pHCA,25 µM,M9,Xylose,66.6 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (R. glutinis)
+p77,10.1186.s12934-014-0185-1,WPJAt,CA,736.8 µM,M9,Xylose,66.6 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (A. thaliana)
+p77,10.1186.s12934-014-0185-1,WPJRg,pHCA,76.7 µM,M9,Arabinose,66.6 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (R. glutinis)
+p77,10.1186.s12934-014-0185-1,WPJAt,CA,1022 µM,M9,Arabinose,66.6 mM,Shake Flask,,10 h,37°C,W3110,,"aroG fbr, tktA",PAL/TAL (A. thaliana)
+p77,10.1186.s12934-014-0185-1,W(pheA-)Rg,pHCA,~ 322 µM,SH,Mixed sugars,See SH composition,Shake Flask,,,37°C,W3110,pheA,"aroG fbr, tktA",PAL/TAL (R. glutinis)
+p78,10.1186.s12934-015-0192-x,B2/pED+pVio,violacein,0.6 ± 0.01 g L−1,M9-YE,glucose,10 g L−1,flask culture,7.0 ± 0.5,48 h,20°C,E. coli BL21 (DE3),"trpR, tnaA, pheA","trpE fbr, trpD",vio gene cluster
+p78,10.1186.s12934-015-0192-x,B2/pED+pVio,violacein,1.75 g L−1,M9-YE,glucose,30 g L−1,5-L bioreactor batch fermentation,7.0 ± 0.5,48 h,37°C to 20°C,E. coli BL21 (DE3),"trpR, tnaA, pheA","trpE fbr, trpD",vio gene cluster
+p78,10.1186.s12934-015-0192-x,B1/pVio,violacein,0.153 ± 0.005 g L−1,M9-YE,glucose,10 g L−1,flask culture,7.0 ± 0.5,48 h,20°C,E. coli BL21 (DE3),,,vio gene cluster
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,4.9 g/L,M9 Production Media,Gluconate,20 g/L,Shaking flask,7,24 h,37°C,AL17,ascB,ascB,CBAP (N. crassa)
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,4.1 g/L,M9 Production Media,Glucose + Gluconate,"10 g/L Glucose, 10 g/L Gluconate",Shaking flask,7,24 h,37°C,AL17,ascB,ascB,CBAP (N. crassa)
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,4.2 g/L,M9 Production Media,Glucose,20 g/L,Shaking flask,7,24 h,37°C,AL17,ascB,ascB,CBAP (N. crassa)
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,2.7 g/L,M9 Production Media,Commercial Cellobionic Acid,10.4 g/L,Shaking flask,7,24 h,37°C,AL17,ascB,ascB,CBAP (N. crassa)
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,2.4 g/L,M9 Production Media,Synthesized Cellobionic Acid,16.9 g/L,Shaking flask,7,24 h,37°C,AL17,ascB,ascB,CBAP (N. crassa)
+p79,10.1186.s12934-015-0232-6,AL17(pAL603),Isobutanol,1.4 g/L,Hydrolysate,Cellobionic Acid,9.7 g/L,Shaking flask,7,48 h,30°C,AL17,ascB,ascB,CBAP (N. crassa)
+p80,10.1186.s12934-015-0285-6,gnd mutant,ethanol,1.43-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,46 h,37°C,BW25113,gnd,,
+p80,10.1186.s12934-015-0285-6,gnd mutant,hydrogen,1.31-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,46 h,37°C,BW25113,gnd,,
+p80,10.1186.s12934-015-0285-6,tdcE mutant,ethanol,1.19-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,46 h,37°C,BW25113,tdcE,,
+p80,10.1186.s12934-015-0285-6,tdcE mutant,hydrogen,1.12-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,22 h,37°C,BW25113,tdcE,,
+p80,10.1186.s12934-015-0285-6,M2 (ldhAgnd::kan),hydrogen,1.07-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,22 h,37°C,BW25113,"ldhA, gnd (multiple mutants)",,
+p80,10.1186.s12934-015-0285-6,M5 (ldhAgndfrdBCtdcE::kan),hydrogen,"1.22-fold (70 h), 1.33-fold (94 h)",glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,94 h,37°C,BW25113,"ldhA, gnd, frdBC, tdcE (multiple mutants)",,
+p80,10.1186.s12934-015-0285-6,M5 (ldhAgndfrdBCtdcE::kan),ethanol,1.41-fold,glycerol-based,glycerol,10 g/L (109 mM),crimp-top vials,7.5,70 h,37°C,BW25113,"ldhA, gnd, frdBC, tdcE (multiple mutants)",,
+p81,10.1186.s12934-015-0291-8,HLC010,deoxycytidine,401 mg/L,Production medium,Glycerol,60 g/L,"Flask, Batch",,36 h,37°C,BL21(DE3),"deoA, udp, deoD, dcd, cdd, codA, thyA, purR, pepA, argR",,
+p81,10.1186.s12934-015-0291-8,HLC010-pETGY,deoxycytidine,650 mg/L,Production medium,Glycerol,60 g/L,"Flask, Batch",,36 h,37°C,HLC010,,"pyrG, yfbR",
+p81,10.1186.s12934-015-0291-8,HLC015-pETGY,deoxycytidine,967 mg/L,Production medium,Glucose,60 g/L,"Flask, Batch",,32 h,37°C,HLC010,pgi,"pyrG, yfbR",
+p81,10.1186.s12934-015-0291-8,HLC010-pETNGY,deoxycytidine,552 mg/L,Production medium,,,"Flask, Batch",,36 h,37°C,HLC010,,"pyrG, yfbR",T4 nrdCAB
+p81,10.1186.s12934-015-0291-8,HLC010-pETNG,deoxycytidine,401 mg/L,Production medium,,,"Flask, Batch",,36 h,37°C,HLC010,,pyrG,T4 nrdCAB
+p81,10.1186.s12934-015-0291-8,HLC010-pETNY,deoxycytidine,410 mg/L,Production medium,,,"Flask, Batch",,36 h,37°C,HLC010,,yfbR,T4 nrdCAB
+p82,10.1186.s12934-015-0301-x,W036,neurosporene,2.05 mg/g DCW,LB / M9 + Glucose,glucose,4% w/v,flask,,12h,37°C,BW25113,,,crtEBI
+p82,10.1186.s12934-015-0301-x,P036 (Δpgi),neurosporene,"(stable, 25% > W036)",,,,flask,,30h,37°C,BW25113,pgi,,crtEBI
+p82,10.1186.s12934-015-0301-x,KA036 (ΔpfkA),neurosporene,(25% > W036),,,,flask,,12h,37°C,BW25113,pfkA,,crtEBI
+p82,10.1186.s12934-015-0301-x,KB036 (ΔpfkB),neurosporene,(25% > W036),,,,flask,,12h,37°C,BW25113,pfkB,,crtEBI
+p82,10.1186.s12934-015-0301-x,KAB036 (ΔpfkAΔpfkB),neurosporene,(25% > W036),,,,flask,,12h,37°C,BW25113,"pfkA, pfkB",,crtEBI
+p82,10.1186.s12934-015-0301-x,Z036,neurosporene,20% > W036,,,,flask,,12h,37°C,BW25113,,zwf,crtEBI
+p82,10.1186.s12934-015-0301-x,E036,neurosporene,12% > W036,,,,flask,,12h,37°C,BW25113,,eda,crtEBI
+p82,10.1186.s12934-015-0301-x,D036,neurosporene,20% < W036,,,,flask,,12h,37°C,BW25113,,edd,crtEBI
+p82,10.1186.s12934-015-0301-x,SX036,neurosporene,5.03 mg/g DCW,,,,flask,,12h,37°C,BW25113,,dxs (low-copy plasmid),crtEBI
+p82,10.1186.s12934-015-0301-x,TX036,neurosporene,3.20 mg/g DCW,,,,flask,,12h,37°C,BW25113,,"dxs (chromosomal, T5 promoter)",crtEBI
+p82,10.1186.s12934-015-0301-x,TX-SX036,neurosporene,5.30 mg/g DCW,,,,flask,,12h,37°C,BW25113,,dxs (both plasmid and T5 chromosomal),
+p82,10.1186.s12934-015-0301-x,PTX036 (Δpgi),neurosporene,6.94 mg/g DCW,,,,flask,,12h,37°C,BW25113,pgi,"dxs (chromosomal, T5 promoter)",crtEBI
+p82,10.1186.s12934-015-0301-x,P-SX036 (Δpgi),neurosporene,9.40 mg/g DCW,,,,flask,,12h,37°C,BW25113,pgi,dxs (low-copy plasmid),crtEBI
+p82,10.1186.s12934-015-0301-x,PTX-SX036 (Δpgi),neurosporene,10.71 mg/g DCW,,,,flask,,12h,37°C,BW25113,pgi,dxs (both plasmid and T5 chromosomal),
+p82,10.1186.s12934-015-0301-x,P-AE-SX036 (Δpgi),neurosporene,25% > P-SX036,,,,flask,,12h,37°C,BW25113,pgi,"eda, dxs",crtEBI
+p82,10.1186.s12934-015-0301-x,P-AS-SEX036 (Δpgi),neurosporene,30% > P-SX036,,,,flask,,12h,37°C,BW25113,pgi,"eda, dxs (scaffold)",crtEBI
+p82,10.1186.s12934-015-0301-x,KA-SXID036,neurosporene,(lower than P-SXID036),,,,flask,,12h,37°C,BW25113,pfkA,dxs-idi-ispDF (plasmid),crtEBI
+p82,10.1186.s12934-015-0301-x,KAB-SXID36,neurosporene,(lower than P-SXID036),,,,flask,,12h,37°C,BW25113,"pfkA, pfkB",dxs-idi-ispDF (plasmid),crtEBI
+p82,10.1186.s12934-015-0301-x,PTXIGK-AEGG-SXID10RK,lycopene,17.8 ± 0.2 mg/g DCW,LB / M9 + Glucose,glucose,,flask,,24h,37°C,BW25113,"pgi, ptsG, galR::P119-glk","dxs, idi, eda-gnd (gnd rare codon), ispDF",crtEBI from pLY10RK
+p83,10.1186.s13068-015-0270-7,BL21/pDG104,FABCEs,273 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,BL21 (DE3),,"ws/dgat, alsS, ilvC, ilvD",
+p83,10.1186.s13068-015-0270-7,BL21/pDG104/pDG105,FABCEs,273 ± 40.9 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,BL21 (DE3),,"ws/dgat, alsS, ilvC, ilvD, tesA'",
+p83,10.1186.s13068-015-0270-7,TL101/pDG104/pDG105,FABCEs,177 ± 21.9 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,TL101,fadE,"ws/dgat, alsS, ilvC, ilvD, tesA'",
+p83,10.1186.s13068-015-0270-7,BL21/pDG110,BFAs,17 ± 0.7 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,BL21 (DE3),,"fabHB, BCKD",
+p83,10.1186.s13068-015-0270-7,TL101/pDG110,BFAs,33 ± 5.4 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,TL101,fadE,"fabHB, BCKD",
+p83,10.1186.s13068-015-0270-7,TL101/pDG104/pDG105/pDG110,BFABCEs,35 ± 5.7 mg/L,LB/modified M9,glycerol,NR,"flask, batch",NR,28 h,30 °C,TL101,fadE,"ws/dgat, alsS, ilvC, ilvD, tesA', fabHB, BCKD",
+p83,10.1186.s13068-015-0270-7,P. pastoris/pDG103,FABCEs,169 ± 11.7 mg/L,YPD,NR,NR,"flask, batch",NR,28 h,30 °C,GS115,,"ws/dgat, adh2, aro10",
+p84,10.1021.jf500355p,BuT-8LA,butyrate,3.4 g/L,modified Terrific broth,glucose,12 g/L,shake-flask,-,24 h,37°C,BL-A1,"adhE, ldhA, f rdA, pta",atoDAEB,"phaA, hbd, crt, ter"
+p84,10.1021.jf500355p,BuT-8LA (with acetate),butyrate,4.1 g/L,modified Terrific broth,glucose + acetate,12 g/L + 2 g/L,shake-flask,-,24 h,37°C,BL-A1,"adhE, ldhA, f rdA, pta",atoDAEB,"phaA, hbd, crt, ter"
+p84,10.1021.jf500355p,BuT-8L-ato,butyrate,6.8 g/L,modified Terrific broth,glucose + acetate,12 g/L + 8 g/L,shake-flask,-,24 h,37°C,BL-A1,"adhE, ldhA, f rdA, pta",atoDAEB,"phaA, hbd, crt, ter"
+p84,10.1021.jf500355p,BuT-8L-ato,butyrate,>10 g/L,modified Terrific broth,glucose + acetate,initial 12 g/L + 8 g/L acetate + additional 8-10 g/L glucose,shake-flask,-,48 h,37°C,BL-A1,"adhE, ldhA, f rdA, pta",atoDAEB,"phaA, hbd, crt, ter"
+p85,10.1021.sb400158w,FA3,Fatty acid,2.03 ± 0.1 g/L,minimal medium,glucose,2%,shaking flasks,-,25 h,37°C,E. coli BL21 (DE3),-,"tesA, acc",-
+p86,10.1073.pnas.0308171100,TC44,pyruvate,749 mM,mineral salts,glucose,up to 9.8%,"BioFlo 3000 (Batch and fed-batch) fermentation, 3% initial glucose + additional 590 ml of 4 M stock over 20 h",7.0,18 h,37°C,W3110,ΔfocA-pflB ΔfrdBC ΔldhA ΔatpFH ΔadhE ΔsucA poxB::FRT ΔackA,,
+p86,10.1073.pnas.0308171100,TC38,pyruvate,195 mM,mineral salts,glucose,,Batch fermentation,7.0,,37°C,W3110,ΔfocA-pflB ΔfrdBC ΔldhA ΔatpFH ΔadhE ΔsucA ΔackA,,
+p86,10.1073.pnas.0308171100,TC42,pyruvate,< 30% theoretical max,mineral salts,glucose,,Batch fermentation,7.0,,37°C,W3110,ΔfocA-pflB ΔfrdBC ΔldhA ΔatpFH ΔadhE ΔsucA poxB,,
+p87,10.1073.pnas.0702609104,Val (pKKilvBN),L-valine,1.31 g/l,NM2,glucose,20 g/l,flask culture,6.0,48 h,31°C,W3110,"ilvA, leuA, panB",ilvBN,
+p87,10.1073.pnas.0702609104,Val (pKBRilvBNCED),L-valine,3.73 g/l,NM2,glucose,20 g/l,flask culture,6.0,48 h,31°C,W3110,"ilvA, leuA, panB","ilvBN, ilvCED",
+p87,10.1073.pnas.0702609104,"Val (pKBRilvBNCED, pTrc184lrp)",L-valine,4.34 g/l,NM2,glucose,20 g/l,flask culture,6.0,48 h,31°C,W3110,"ilvA, leuA, panB","ilvBN, ilvCED, lrp",
+p87,10.1073.pnas.0702609104,"Val (pKBRilvBNCED, pTrc184ygaZH)",L-valine,5.25 g/l,NM2,glucose,20 g/l,flask culture,6.0,48 h,31°C,W3110,"ilvA, leuA, panB","ilvBN, ilvCED, ygaZH",
+p87,10.1073.pnas.0702609104,"Val (pKBRilvBNCED, pTrc184ygaZHlrp)",L-valine,7.61 g/l,NM2,glucose,20 g/l,flask culture,6.0,48 h,31°C,W3110,"ilvA, leuA, panB","ilvBN, ilvCED, ygaZH, lrp",
+p87,10.1073.pnas.0702609104,VAMF (pKBRilvBNCED),L-valine,4 g/l,NM1,glucose,20 g/l,batch culture,6.0,,31°C,Val,"aceF, mdh, pfkA","ilvBN, ilvCED",
+p87,10.1073.pnas.0702609104,"VAMF (pKBRilvBNCED, pTrc184ygaZHlrp)",L-valine,7.55 g/l,NM1,glucose,20 g/l,batch culture,6.0,,31°C,Val,"aceF, mdh, pfkA","ilvBN, ilvCED, ygaZH, lrp",
+p89,10.1073.pnas.1206346109,P2,L-tyrosine,418 mg/l,MOPS minimal medium,glucose,5 g/l,Shake flask,,24 h,37°C,E. coli K-12,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),
+p89,10.1073.pnas.1206346109,rpoA14,L-tyrosine,893 mg/l,MOPS minimal medium,glucose,5 g/l,Shake flask,,48 h,37°C,P2,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),Mutant rpoA
+p89,10.1073.pnas.1206346109,rpoA27,L-tyrosine,798 mg/l,MOPS minimal medium,glucose,5 g/l,Shake flask,,48 h,37°C,P2,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),Wild-type rpoA
+p89,10.1073.pnas.1206346109,rpoD3,L-tyrosine,893 mg/l,MOPS minimal medium,glucose,5 g/l,Shake flask,,48 h,37°C,P2,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),Mutant rpoD
+p89,10.1073.pnas.1206346109,rpoA14^R,L-tyrosine,13.8 g/l,R medium,glucose,,2-l bioreactor,7.0,36 h,37°C,P2,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),Mutant rpoA
+p89,10.1073.pnas.1206346109,rpoA14^R,L-tyrosine,5.7 g/l,MOPS minimal medium,glucose,,2-l bioreactor,7.0,56 h,37°C,P2,"ΔpheA, ΔtyrR",tyrA^fbr-aroG^fbr (two copies),Mutant rpoA
+p90,10.1073.pnas.1502866112,BW/H7,G-7-ADCA,2.50 ± 0.79,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG01/H7,G-7-ADCA,10.04 ± 0.77,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,sucA,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG02/H7,G-7-ADCA,4.19 ± 0.73,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,sucB,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG03/H7,G-7-ADCA,11.10 ± 0.70,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,"sucA, poxB",acs,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG04/H7,G-7-ADCA,3.59 ± 0.75,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,sucC,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG05/H7,G-7-ADCA,12.19 ± 0.92,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,"sucA, poxB, aceA, acs",,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG06/H7,G-7-ADCA,1.73 ± 0.73,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,sucD,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG07/H7,G-7-ADCA,8.79 ± 0.24,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,"sucA, poxB, acs, iclR",,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG08/H7,G-7-ADCA,3.79 ± 0.76,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,aceA,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG12/H7,G-7-ADCA,9.63 ± 1.01,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,ampC,,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG14/H7,G-7-ADCA,17.88 ± 2.55,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,"sucA, ampC",,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG15/H7,G-7-ADCA,21.48 ± 1.08,LB,Glucose,0.1-2% (wt/vol),,,8 h,30 °C,BW25113,"sucA, poxB, acs, ampC",,scDAOCS-H7
+p90,10.1073.pnas.1502866112,PG22/H7,G-7-ADCA,29.01 ± 1.27,LB,Glucose,0.1-2% (wt/vol),,,20 h,30 °C,BW25113,"sucA, poxB, acs, ampC, aceA",,scDAOCS-H7
+p91,10.1073.pnas.1506781112,E. coli P5g,MA,68 mg/L,sugar,glucose/xylose,"6.6 g/L glucose, 3.3 g/L xylose",culture tube,-,96 h,37 °C,E. coli,"YdiB, AroE",-,"AroZ, AroY, CatA"
+p91,10.1073.pnas.1506781112,P6.2/BXS,MA,850 mg/L,sugar,glucose/xylose,"6.6 g/L glucose, 3.3 g/L xylose",culture tube,-,96 h,37 °C,E. coli,-,-,"AroZ, AroY, CatA"
+p91,10.1073.pnas.1506781112,P6.2/BXC,MA,850 mg/L,sugar,glucose/xylose,"6.6 g/L glucose, 3.3 g/L xylose",culture tube,-,96 h,37 °C,E. coli,xylA,-,"AroZ, AroY, CatA"
+p91,10.1073.pnas.1506781112,P6.6/BXC,MA,"1,209 mg/L",sugar,glucose/xylose,"13.2 g/L glucose, 6.6 g/L xylose",batch bioreactor,6.8,-,37 °C,E. coli,-,"aroG, ppsA","AroZ, AroY, CatA"
+p91,10.1073.pnas.1506781112,P6.6/BXC,MA,4.7 g/L,sugar,glucose/xylose,"13.2 g/L glucose, 6.6 g/L xylose",fed-batch bioreactor,7.1,-,37 °C,E. coli,-,"aroG, ppsA","AroZ, AroY, CatA"
+p91,10.1073.pnas.1506781112,P6.2/BH2.9,4HB,2.3 g/L,sugar,glucose/xylose,"6.6 g/L glucose, 6.6 g/L xylose",fed-batch bioreactor,7.1,-,37 °C,E. coli,-,ShiA,"pobA, ubiC, entC"
+p92,10.1002.biot.201300263,BL21,phenol,1.69 g/L,MR medium,glucose,20 g/L,fed-batch,6.8,27 h,37°C,B strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",tpl
+p92,10.1002.biot.201300263,PheBL21,phenol,3.79 g/L (final),MR medium,glucose,20 g/L + 600 g/L feeding,biphasic fed-batch with tributyrin,6.8,21 h,37°C,B strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",tpl
+p92,10.1002.biot.201300263,S17-1,tyrosine,2.0 ± 2.1 g/L,LB medium,glucose,10 g/L,flask culture,-,24 h,37°C,K-12 strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",-
+p92,10.1002.biot.201300263,W3110,phenol,392.6 ± 83 mg/L,LB medium,glucose,10 g/L,flask culture,-,24 h,37°C,K-12 strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",tpl
+p92,10.1002.biot.201300263,DH5α,phenol,412.4 ± 4.3 mg/L,LB medium,glucose,10 g/L,flask culture,-,24 h,37°C,K-12 strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",tpl
+p92,10.1002.biot.201300263,PheS17-1,phenol,380.6 ± 18 mg/L,LB medium,glucose,10 g/L,flask culture,-,24 h,37°C,K-12 strain,"csrA, tyrR","aroK, tyrC, aroG A146N, tyrA A354V,M53I, ppsA, tktA, aroF",tpl
+p93,10.1002.bit.20159,JM101-fbr,L-Phe,0.1 ± 0.009 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101,,"aroG fbr, tktA, pheA fbr",
+p93,10.1002.bit.20159,JM101-ev1,L-Phe,0.21 ± 0.01 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101,,"aroG fbr, tktA, pheA ev1",
+p93,10.1002.bit.20159,JM101-ev2,L-Phe,0.22 ± 0.02 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101,,"aroG fbr, tktA, pheA ev2",
+p93,10.1002.bit.20159,PB12-fbr,L-Phe,0.16 ± 0.01 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101 PB12,,"aroG fbr, tktA, pheA fbr",
+p93,10.1002.bit.20159,PB12-ev1,L-Phe,0.33 ± 0.02 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101 PB12,,"aroG fbr, tktA, pheA ev1",
+p93,10.1002.bit.20159,PB12-ev2,L-Phe,0.33 ± 0.02 g/L,Modified minimal medium M9,Glucose,10 g/L,Baffled shake-flasks,not specified,10 h,not specified,JM101 PB12,,"aroG fbr, tktA, pheA ev2",
+p94,10.1002.bit.20298,HL26715k,succinate,14.28 mM,LB,glucose,55 mM,250-mL flask culture,7.5,24 h,37°C,GJT001,"sdhAB, poxB, ackA-pta, icd, iclR::Km",,
+p94,10.1002.bit.20298,HL27615k,succinate,"22 mM (24 h), 43 mM (83 h)",LB,glucose,63 mM,1.0-L Bioflo fermenter,7.0,"24 h, 83 h",37°C,GJT001,"sdhAB, ackA-pta, poxB, icd, iclR::Km",,
+p95,10.1002.bit.20542,pta-adhE,Lactic acid,1.69 g/L (final max),M9 minimal,glucose,2 g/L,Batch,-,60 days,37.8°C,E. coli K12 MG1655,"pta, adhE",-,-
+p95,10.1002.bit.20542,pta-pfk,Lactic acid,0.89 g/L (final max),M9 minimal,glucose,2 g/L,Batch,-,60 days,37.8°C,E. coli K12 MG1655,"pta, pfk",-,-
+p95,10.1002.bit.20542,pta-adhE-pfk-glk,Lactic acid,0.87 g/L (final max),M9 minimal,glucose,2 g/L,Batch,-,60 days,37.8°C,E. coli K12 MG1655,"pta, adhE, pfk, glk",-,-
+p96,10.1002.bit.22502,W3110,Putrescine,0.25 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,,,,
+p96,10.1002.bit.22502,XQ26 (p15SpeC),Putrescine,1.18 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,WL3110,"argI, speE, speG, puuPA",speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ26 (pKKSpeC),Putrescine,0.09 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,WL3110,"argI, speE, speG, puuPA",speC (medium-copy plasmid),
+p96,10.1002.bit.22502,XQ38 (p15SpeC),Putrescine,0.84 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,XQ26,argR,speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ33 (p15SpeC),Putrescine,1.30 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,XQ26,"argI, speE, speG, puuPA",speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ43 (p15SpeC),Putrescine,1.57 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,XQ33,"argECBH, argD, speF-potE",speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ52 (p15SpeC),Putrescine,1.68 g L⁻¹,R/2,Glucose,10 g L⁻¹,Batch,6.8,,37°C,XQ43,rpoS,speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ43 (p15SpeC),Putrescine,21.7 g L⁻¹,R/2,Glucose,10 g L⁻¹,Fed-Batch,6.8,37h,37°C,XQ33,"argECBH, argD, speF-potE",speC (low-copy plasmid),
+p96,10.1002.bit.22502,XQ52 (p15SpeC),Putrescine,24.2 g L⁻¹,R/2,Glucose,10 g L⁻¹,Fed-Batch,6.8,32h,37°C,XQ43,rpoS,speC (low-copy plasmid),
+p97,10.1002.bit.22918,XQ27,Cadaverine,1.19 g L⁻¹,Glucose mineral salts (R/2),Glucose,10 g L⁻¹,Batch,6.80,Not specified,37°C,WL3110,"speE, speG, ygjG, puuPA",cadA,
+p97,10.1002.bit.22918,XQ56,Cadaverine,1.31 g L⁻¹,Glucose mineral salts (R/2),Glucose,10 g L⁻¹,Batch,6.80,Not specified,37°C,XQ27,,"cadA, dapA",
+p97,10.1002.bit.22918,XQ60,Cadaverine,Similar to XQ56,Glucose mineral salts (R/2),Glucose,10 g L⁻¹,Batch,6.80,Not specified,37°C,XQ56,,"cadA, dapA, dapB, lysA",
+p97,10.1002.bit.22918,XQ64,Cadaverine,Similar to XQ56,Glucose mineral salts (R/2),Glucose,10 g L⁻¹,Batch,6.80,Not specified,37°C,XQ60,iclR,"cadA, dapA, dapB, lysA",ddh
+p97,10.1002.bit.22918,XQ56 (fed batch),Cadaverine,9.61 g L⁻¹,Glucose mineral salts (R/2),Glucose,10 g L⁻¹,Fed-batch (pH-stat),6.80,30 h,37°C,XQ27,,"cadA, dapA",
+p99,10.1002.bit.23069,BAP1,6-dEB,>5,LB,Propionate,60,Shake flask,7.6,72,22,BAP1,,"prpE, atoC","MatB, MatC"
+p99,10.1002.bit.23069,TB3,6-dEB,>100,LB,Propionate,60,Shake flask,7.6,72,22,TB3,ygfH,"prpE, atoC","MatB, MatC"
+p99,10.1002.bit.23069,BAB2,6-dEB,~1.27,LB,Methylmalonate,20,Shake flask,-,-,-,BAP1,ygf operon,atoC,"MatB, MatC"
+p99,10.1002.bit.23069,BAP1,6-dEB,~3.39,LB,Methylmalonate,20,Shake flask,-,-,-,BAP1,,-,"MatB, MatC, mce"
+p99,10.1002.bit.23069,BAP1,6-dEB,~97.9,LB,Propionate,20,Shake flask,-,-,22,BAP1,,"mce,mce",-
+p99,10.1002.bit.23069,TB3,6-dEB,~75.2,LB,Propionate,-,Shake flask,-,-,22,TB3,ygfH,mce,-
+p99,10.1002.bit.23069,TB3,6-dEB,~52.1,LB,Methylmalonate,20,Shake flask,-,-,22,TB3,ygfH,matBC-mce,-
+p99,10.1002.bit.23069,BAP1,6-dEB,~134.1,LB,Propionate,-,Shake flask,-,-,22,BAP1,,prpE-atoC,-
+p99,10.1002.bit.23069,TB3,6-dEB,~101,LB,Propionate,-,Shake flask,-,120,-,TB3,ygfH,prpE-atoC,-
+p99,10.1002.bit.23069,BAP1,6-dEB,~0.32,LB,Methylmalonate,20,Shake flask,-,-,-,BAP1,-,-,mce
+p99,10.1002.bit.23069,TB3,6-dEB,75.6,LB,Propionate,-,Shake flask,-,-,22,TB3,ygfH,-,-
+p99,10.1002.bit.23069,TB3,6-dEB,134.1,LB,Propionate,-,Shake flask,-,-,22,-,-,"prpE & atoC, mce",-
+p99,10.1002.bit.23069,BAP1,6-dEB,0.1,LB,Succinate,20,Shake flask,-,-,-,BAP1,,"sbm, mce",-
+p99,10.1002.bit.23069,BAP1,6-dEB,73.4,LB,"Propionate, Succinate",20,Shake flask,-,-,-,BAP1,,sbm,-
+p99,10.1002.bit.23069,BAP1,6-dEB,96.4,LB,"Propionate, Succinate",20,Shake flask,-,-,-,BAP1,,"sbm, mce",-
+p100,10.1002.bit.23259,H,Hydrogen,6.19 mmol H₂/mol glucose,M63A,glucose,7.5 g/L,Erlenmeyer flasks/Batch,7.0,26 h,25°C,E. coli BL21(DE3),,,hydAEFG (C. acetobutylicum)
+p100,10.1002.bit.23259,HFdY,Hydrogen,9.40 mmol H₂/mol glucose,M63A,glucose,7.5 g/L,Erlenmeyer flasks/Batch,7.0,26 h,25°C,E. coli BL21(DE3),,,"hydAEFG (C. acetobutylicum), fdxA (C. pasteurianum), yumC (B. subtilis)"
+p100,10.1002.bit.23259,HFdYg,Hydrogen,1.48-fold increase,M63A,glucose,7.5 g/L,Erlenmeyer flasks/Batch,7.0,26 h,25°C,E. coli BL21(DE3),,glpX,"hydAEFG (C. acetobutylicum), fdxA (C. pasteurianum), yumC (B. subtilis)"
+p100,10.1002.bit.23259,HFdYgz,Hydrogen,2.32-fold increase,M63A,glucose,7.5 g/L,Erlenmeyer flasks/Batch,7.0,26 h,25°C,E. coli BL21(DE3),,"glpX, zwf","hydAEFG (C. acetobutylicum), fdxA (C. pasteurianum), yumC (B. subtilis)"
+p101,10.1002.bit.24868,CWF4,Fumaric acid,1.45 g/L,MR medium,Glucose,15 g/L,Flask culture,7.0,24 h,37°C,W3110,"iclR, fumC, fumA, fumB",,
+p101,10.1002.bit.24868,CWF41,Fumaric acid,4.09 g/L,MR medium,Glucose,15 g/L,Flask culture,7.0,24 h,37°C,CWF4,,ppc,
+p101,10.1002.bit.24868,CWF51,Fumaric acid,4.9 g/L,MR medium,Glucose,15 g/L,Flask culture,7.0,24 h,37°C,CWF41,arcA,ppc,
+p101,10.1002.bit.24868,CWF61,Fumaric acid,5.35 g/L,MR medium,Glucose,15 g/L,Flask culture,7.0,24 h,37°C,CWF51,ptsG,ppc,
+p101,10.1002.bit.24868,CWF81,Fumaric acid,5.85 g/L,MR medium,Glucose,15 g/L,Flask culture,7.0,24 h,37°C,CWF61,aspA,ppc,
+p101,10.1002.bit.24868,CWF811,Fumaric acid,8.23 g/L,MR medium,Glucose,20 g/L,Batch culture,7.0,27 h,37°C,CWF61,"aspA, lacI",ppc,
+p101,10.1002.bit.24868,CWF812,Fumaric acid,7.85 g/L,MR medium,Glucose,20 g/L,Batch culture,7.0,20 h,37°C,CWF811,ptsG promoter replaced with trc,ppc,
+p101,10.1002.bit.24868,CWF811,Fumaric acid,26.2 g/L,MR medium,Glucose,72.5 g/L (fed-batch),Fed-batch culture,7.0,104 h,37°C,CWF61,"aspA, lacI",ppc,
+p101,10.1002.bit.24868,CWF812,Fumaric acid,28.2 g/L,MR medium,Glucose,72.5 g/L (fed-batch),Fed-batch culture,7.0,63 h,37°C,CWF811,"ptsG promoter replaced with trc , aspA, lacI",ppc,
+p102,10.1002.bit.25123,M7,"amorpha-4,11-diene","6-fold increase (compared to parental strain, S. cerevisiae BY4742)",SD + URA,galactose,2%,"Small-scale study, 3 mL SD medium with leucine dropped out, added with 300 µL dodecane for two-phase fermentation",,5 days,,S. cerevisiae BY4742,,thmg1,
+p102,10.1002.bit.25123,M8,"amorpha-4,11-diene","6-fold increase (compared to parental strain, S. cerevisiae BY4742)",SD + URA,galactose,2%,"Small-scale study, 3 mL SD medium with leucine dropped out, added with 300 µL dodecane for two-phase fermentation",,5 days,,S. cerevisiae BY4742,,thmg1,
+p102,10.1002.bit.25123,M3-2nd,"amorpha-4,11-diene",13-fold increase (approximately 64 mg/L),SD + URA,galactose,2%,"Small-scale study, 3 mL SD medium with leucine dropped out, added with 300 µL dodecane for two-phase fermentation",,5 days,,S. cerevisiae BY4742,,"erg10, erg13, thmg1, erg12",
+p103,10.1002.bit.25198,F1,farnesene,130 mg/L,2x TY,glycerol,2%,Shake-flask,Not specified,24-48 h after IPTG induction,30°C,E. coli BL21(DE3),,"afs, pMH1, pFZ81","atoB, ERG13, tHMG1, ERG12, ERG8, MVD1, Idi, IspA, afs"
+p103,10.1002.bit.25198,F4,farnesene,"731 mg/L (48h), 1.1 g/L (96h)",2x TY,glycerol,2%,Shake-flask,Not specified,24-96 h after IPTG induction,30°C,E. coli BL21(DE3),,Idi,"afs, pMH1, pFZ81, ispA"
+p104,10.1002.bit.25239,XL122,Fatty acids,124 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,"FAA1, FAA4, POX1",,eutE
+p104,10.1002.bit.25239,DG005,Fatty acids,140 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,ADH1,,
+p104,10.1002.bit.25239,DG001,Fatty acids,66 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,FAA1,,
+p104,10.1002.bit.25239,DG003,Fatty acids,81 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,"FAA1, FAA4",,
+p104,10.1002.bit.25239,XL121,Fatty acids,106 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,"FAA1, FAA4, POX1",,
+p104,10.1002.bit.25239,YPH499,Fatty acids,48 mg/L,SC-URA,Glucose,20 g/L,500-mL Erlenmeyer flask,6.5,3-4 days,30°C,YPH499,,,
+p105,10.1002.bit.25488,SP1,L-lactic acid,24.2-27.6 g/L,SC medium,glucose,8% (v/v),250 mL flasks,-,30h,30°C,CEN.PK2-1D,PDC1,LDH,LDH
+p105,10.1002.bit.25488,SP2,L-lactic acid,35 g/L,YP medium,glucose,8% (v/v),250 mL flask,-,30h,30°C,CEN.PK2-1D,"PDC1, CYB2, GPD1",-,LDH
+p105,10.1002.bit.25488,SP5,L-lactic acid,35.8 g/L,YP medium,glucose,8% (v/v),250 mL flask,-,30h,30°C,SP4,-,LDH,-
+p105,10.1002.bit.25488,SP6,L-lactic acid,36.4 g/L,YP medium,glucose,8% (v/v),250 mL flask,-,-,30°C,SP5,NDE2,-,-
+p105,10.1002.bit.25488,SP7,L-lactic acid,37.8 g/L,YP medium,glucose,8% (v/v),250 mL flask,-,-,30°C,SP5,NDE2,LDH,-
+p105,10.1002.bit.25488,SP7,L-lactic acid,117 g/L,Modified YP medium,glucose,60 g/L,2-L jar fermentor (fed-batch mode),3.5,24h,30°C,SP5,NDE2,LDH,-
+p106,10.1002.bit.25683,SCIST01-06,farnesene,4-6 mg/L,minimal,glucose,20 g/L,shake flask,5,48 h,30°C,S. cerevisiae CEN.PK113-5D,not specified,tHMG1,"farnesene synthases from M. domestica, C. junos, A. annua"
+p106,10.1002.bit.25683,SCIST07-12,farnesene,120-170 mg/L,minimal,glucose,"20 g/L (init), feed: 200 g/L",fed-batch with RQ-control,5,30 h,30°C,"SCICK16, SCIGS22","dpp1Δ, lpp1Δ, ERG20"", GDH2"", gdh1Δ",tHMG1,"farnesene synthases from M. domestica, C. junos, A. annua"
+p106,10.1002.bit.25683,SCIGS24,santalene,163 mg/L,minimal,glucose,"20 g/L (init), feed: 200 g/L",fed-batch with RQ-control,5,30 h,30°C,SCIST10-12,not specified,not specified,santalene synthase from Clausena lansium
+p107,10.1002.bit.25844,Q1 (DE3),Serine,8.3 g/L,M9,Glucose,0.2%,"1 L fermenters, fed-batch",7.0,24 h,37°C,E. coli MG1655,"sdaA, sdaB, tdcG, glyA","serAmut, serB, serC",–
+p107,10.1002.bit.25844,Q3,Serine,11.7 g/L,M9,Glucose,0.2%,"1 L fermenters, fed-batch",7.0,24 h,37°C,Q1,"sdaA, sdaB, tdcG, glyA, rhtA, ompX, opgE, rybA/mntS","serAmut, serB, serC, eamA",–
+p108,10.1016.j.bbrc.2009.12.013,HW2,Hydrogen,0.68 ± 0.16 mmol/L/h,Minimal medium,Glycerol,10 g/L,"Sealed crimp-top vials, batch",6.3,5h,37°C,BW25113 frdC,frdC,gldA,
+p108,10.1016.j.bbrc.2009.12.013,HW2,Ethanol,2.1 ± 0.3 mg/mg protein,Minimal medium,Glycerol,10 g/L,"Sealed crimp-top vials, batch",6.3,5h,37°C,BW25113 frdC,frdC,gldA,
+p109,10.1016.j.ymben.2006.10.005,PDB101 (EPY213/pRS426ALD6),Acetate,7 times more than EPY213,SD medium,Galactose,2%,5mL dodecane to sequester amorphadiene,Not mentioned,7 days,30°C,EPY213,,ALD6,
+p109,10.1016.j.ymben.2006.10.005,PDB103 (EPY213/pRS426ACS1),Amorphadiene,8-23% more than EPY213,SD medium,Galactose,2%,5mL dodecane to sequester amorphadiene,Not mentioned,7 days,30°C,EPY213,,ACS1,
+p109,10.1016.j.ymben.2006.10.005,PDB105 (EPY213/pESC-ALD6-ACS1),Amorphadiene,Not exceeding EPY213,SD medium,Galactose,2%,5mL dodecane to sequester amorphadiene,Not mentioned,7 days,30°C,EPY213,,"ALD6, ACS1",
+p109,10.1016.j.ymben.2006.10.005,PDB107 (EPY213/pESC-ALD6-SEacsL641P),Amorphadiene,Higher than PDB101 and PDB105,SD medium,Galactose,2%,5mL dodecane to sequester amorphadiene,Not mentioned,7-8 days,30°C,EPY213,,ALD6,SE acs variant (L641P)
+p109,10.1016.j.ymben.2006.10.005,PDB108 (EPY224/pESC-ALD6-SEacsL641P),Amorphadiene,"Highest, > 0.6mM (~120mg/L)",SD medium,Galactose,2%,5mL dodecane to sequester amorphadiene,Not mentioned,7-8 days,30°C,EPY224,,ALD6,SE acs variant (L641P)
+p111,10.1016.j.ymben.2009.02.002,BL21(DE3),PDC,171 mg/l,Minimal medium,Glucose,2 g/l,Shaken-flask,7,48h,37°C,KP7600,,"aroFfbr, aroB,","ubiC from E. coli, pobA from P. putida, ligABC from Sphingobium sp. SYK-6, qutC from E. nidulans"
+p111,10.1016.j.ymben.2009.02.002,ΔpheA(DE3),PDC,189 mg/l,Minimal medium,Glucose,2 g/l,Shaken-flask,7,48h,37°C,W3110 (A),pheA,"aroFfbr, aroB,","ubiC from E. coli, pobA from P. putida, ligABC from Sphingobium sp. SYK-6, qutC from E. nidulans"
+p111,10.1016.j.ymben.2009.02.002,ΔtyrA(DE3),PDC,121 mg/l,Minimal medium,Glucose,2 g/l,Shaken-flask,7,48h,37°C,W3110 (A),tyrA,"aroFfbr, aroB,","ubiC from E. coli, pobA from P. putida, ligABC from Sphingobium sp. SYK-6, qutC from E. nidulans"
+p112,10.1016.j.ymben.2009.07.002,NZN111,succinate,"0.24 g/L (M9), 1.99 g/L (LB)","M9 minimal media, LB",glucose,10 g/L,"tubes capped for microaerobic conditions, anaerobic fermentation using Bio-bag Type-A environmental chambers",not specified,"48h (selection), 24h (fermentation)",37°C,E. coli K12,"ldhA, pflB","ldhA, hyfF, grxB, nuoC, moaE, ygfT, pfkB, MarA, yhcAD, argA",none
+p113,10.1016.j.ymben.2010.11.002,JUDE-1,IgG,1-4 mg/L,NU,glycerol,0.5%,shake flask,,16h,25°C,DH10B,,,"VH, VL"
+p113,10.1016.j.ymben.2010.11.002,TM4,IgG,10-20 times higher than JUDE-1,NU,glycerol,0.5%,shake flask,,16h,25°C,JUDE-1,,,"VH, VL"
+p114,10.1016.j.ymben.2011.09.006,GJT001,Ethanol,66mM (AMS001) / 55mM (AMS002) / 12.5mM (AMS001) / 4.2mM (AMS002),LB,Glycerol,Not specified,"125-ml shake flask, 15ml culture volume",Not specified,24h,37°C,Not specified,ubiCA,,Z. mobilis pdc and adh genes / mutated adhE*
+p114,10.1016.j.ymben.2011.09.006,YBS131,Ethanol,66mM (AMS001) / 55mM (AMS002) / 12.5mM (AMS001) / 4.2mM (AMS002),LB,Glycerol,Not specified,"125-ml shake flask, 15ml culture volume",Not specified,24h,37°C,Not specified,ldhA,,Z. mobilis pdc and adh genes / mutated adhE*
+p114,10.1016.j.ymben.2011.09.006,AMS001,Ethanol,66mM (AMS001) / 55mM (AMS002) / 12.5mM (AMS001) / 4.2mM (AMS002),LB,Glycerol,Not specified,"125-ml shake flask, 15ml culture volume",Not specified,24h,37°C,GJT001,ubiCA,,Z. mobilis pdc and adh genes / mutated adhE*
+p114,10.1016.j.ymben.2011.09.006,AMS002,Ethanol,66mM (AMS001) / 55mM (AMS002) / 12.5mM (AMS001) / 4.2mM (AMS002),LB,Glycerol,Not specified,"125-ml shake flask, 15ml culture volume",Not specified,24h,37°C,YBS131,"ubiCA, ldhA",,Z. mobilis pdc and adh genes / mutated adhE*
+p115,10.1016.j.ymben.2012.07.002,JCL166,n-hexanol,280mg/L,LB medium,glucose,1%,Vacutainer tube,-,48h,30°C,JCL299,ΔldhA ΔadhE ΔfrdBC,PaaH1 (wild type),"mBACH, pHL101"
+p115,10.1016.j.ymben.2012.07.002,JCL166,n-hexanol,469mg/L,LB medium,glucose,1%,Vacutainer tube,-,48h,30°C,JCL299,ΔldhA ΔadhE ΔfrdBC,"PaaH1 mutants (P01, P042, P06, P09, P13)","mBACH, pHL101"
+p115,10.1016.j.ymben.2012.07.002,JCL299,n-butanol,~30mg/L,LB medium,glucose,1%,Vacutainer tube,-,48h,30°C,JCL299,-,-,"pHL101, C. acetobutylicum adhE2"
+p115,10.1016.j.ymben.2012.07.002,JCL299,n-hexanol,280mg/L,LB medium,glucose,1%,Vacutainer tube,-,48h,30°C,JCL299,-,PaaH1 (wild type),"pHL101, C. acetobutylicum adhE2"
+p115,10.1016.j.ymben.2012.07.002,JCL299,n-hexanol,469mg/L,LB medium,glucose,1%,Vacutainer tube,-,48h,30°C,JCL299,-,"PaaH1 mutants (P01, P042, P06, P09, P13)","pHL101, C. acetobutylicum adhE2"
+p116,10.1016.j.ymben.2012.07.010,JBEI4716,Bisabolene,200,SC-Leu,Glucose,2%,Shake flask (batch),5,,30°C,CEN.PK2,rox1,"tHMG1, ERG20",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4717,Bisabolene,400,SC-Leu,Glucose,2%,Shake flask (batch),5,,30°C,JBEI4716,rox1,"tHMG1, ERG20",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4722,Bisabolene,450,SC-Leu,Glucose,2%,Shake flask (batch),5,,30°C,JBEI4716,"rox1, ypl062w","tHMG1, ERG20",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4726,Bisabolene,135,SC-Leu,Glucose,2%,Shake flask (batch),5,,30°C,CEN.PK2,gal80,"tHMG1, ERG20, GAL1, GAL10",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4730,Bisabolene,540,SC-Leu,Glucose,2%,,5,6d,30°C,JBEI4726,"rox1, ypl062w, yjl064w","tHMG1, ERG20",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4732,Bisabolene,800,SC-Leu,Glucose,2%,Shake flask (batch),5,6d,30°C,JBEI4726,"yjl064w, ypl062w","tHMG1, ERG20",AgBIS
+p116,10.1016.j.ymben.2012.07.010,JBEI4734,Bisabolene,5.2g/L,Batch/fed,Glucose,500g/L,Bioreactor (fed-batch),5,,30°C,JBEI4732,,"TRP, tHMG1, ERG20, GAL1, GAL10",AgBIS
+p117,10.1016.j.ymben.2012.08.001,HB101,acetone,76 mM (4.4 g/L),LB,glucose,20 g/L,batch,4.7,48,37°C,E. coli,none,"thlA, adc",teIIsrf or ybgC (from B. subtilis or H. influenzae)
+p117,10.1016.j.ymben.2012.08.001,HB101,acetone,122 mM (7.1 g/L),LB,glucose,supplemented four times,glucose fed-batch,>5,80,37°C,E. coli,none,"thlA, adc",teIIsrf or ybgC (from B. subtilis or H. influenzae)
+p118,10.1016.j.ymben.2012.08.002,E. coli JW1380,Hydroxytyrosol,0.74 mM,M9Y,l-DOPA,Not specified,Shake flask,Not specified,Not specified,30°C,E. coli BW25113,feaB,TYO,"DDC (from Sus scrofa), TYO (from Micrococcus luteus)"
+p118,10.1016.j.ymben.2012.08.002,E. coli JW1380,Hydroxytyrosol,0.19 mM,M9Y,l-tyrosine,1 mM,Shake flask,Not specified,Not specified,30°C,E. coli BW25113,feaB,"TH, BH4 regeneration system, DDC, TYO","TH (mouse), PCD (human), DHPR (human), DDC (Sus scrofa), TYO (Micrococcus luteus)"
+p118,10.1016.j.ymben.2012.08.002,E. coli JW1380,Hydroxytyrosol,0.08 mM,M9Y,Glucose,Not specified,Shake flask,Not specified,3 days,30°C,E. coli BW25113,feaB,"TH, BH4 regeneration system, DDC, TYO","TH (mouse), PCD (human), DHPR (human), DDC (Sus scrofa), TYO (Micrococcus luteus)"
+p119,10.1016.j.ymben.2012.08.006,KTS622,Gluconate,0.5 g/L,M9 minimal medium,Glucose,1.5% (w/v),Shake flasks,,72h,37°C,E. coli DH10B,fruR,glk (glucokinase),gdh (glucose dehydrogenase)
+p119,10.1016.j.ymben.2012.08.006,KTS822IG,Gluconate,>0.5 g/L,M9 minimal medium,Glucose,1.5% (w/v),Shake flasks,,72h,37°C,E. coli DH10B,fruR,glk (glucokinase),gdh (glucose dehydrogenase)
+p119,10.1016.j.ymben.2012.08.006,NVS922IG,Gluconate,8.04 g/L,M9 minimal medium,Glucose,1.5% (w/v),Shake flasks,,72h,37°C,E. coli DH10B,fruR,glk (glucokinase),gdh (glucose dehydrogenase)
+p120,10.1016.j.ymben.2012.09.002,E. coli DN1,NeuAc,1.55 g/l,Modified TB medium,Glucose,30 g/l,"Shake flask, batch",-,30h,37°C,E. coli DH5α,"nagA, nagB","glmSM, GNA1","slr1975, GNA1 (from Synechocystis sp. PCC6803, Saccharomyces cerevisiae EBY100)"
+p120,10.1016.j.ymben.2012.09.002,E. coli DN2,NeuAc,0.79 g/l,Modified TB medium,Glucose,30 g/l,"Shake flask, batch",-,30h,37°C,E. coli DH5α,"nagA, nagB, ackA","glmSM, GNA1","slr1975, GNA1 (from Synechocystis sp. PCC6803, Saccharomyces cerevisiae EBY100)"
+p120,10.1016.j.ymben.2012.09.002,E. coli DN3,NeuAc,0.64 g/l,Modified TB medium,Glucose,30 g/l,"Shake flask, batch",-,30h,37°C,E. coli DH5α,"nagA, nagB, ackA, poxB","glmSM, GNA1","slr1975, GNA1 (from Synechocystis sp. PCC6803, Saccharomyces cerevisiae EBY100)"
+p120,10.1016.j.ymben.2012.09.002,E. coli DN4,NeuAc,1.36 g/l,Modified TB medium,Glucose,30 g/l,"Shake flask, batch",-,30h,37°C,E. coli DH5α,"nagA, nagB, ackA, poxB, ldhA","glmSM, GNA1","slr1975, GNA1 (from Synechocystis sp. PCC6803, Saccharomyces cerevisiae EBY100)"
+p120,10.1016.j.ymben.2012.09.002,E. coli DN5,NeuAc,7.85 g/l,Modified TB medium,Glucose,10%,"5L fermentor, fed-batch",7.0,-,-,E. coli DN4,nanATEK,"glmSM, GNA1","slr1975, GNA1 (from Synechocystis sp. PCC6803, Saccharomyces cerevisiae EBY100)"
+p121,10.1016.j.ymben.2012.11.008,AS108,Isobutanol,114 mM (aerobic) / 35 mM (anaerobic),NBS medium,Glucose,5%,"Aerobic: 250 mL flasks, 250 rpm; Anaerobic: 100 mL screw cap bottles, no shaking",Not specified,Aerobic: 24h; Anaerobic: 6 days,37°C,XZ-T010,"ldhA, pflB, frd, tdcE, ackA, pta, adhE, tdcD, mgsA",,"alsS, kivD, ilvD, adhA"
+p121,10.1016.j.ymben.2012.11.008,AS144,Isobutanol,+21% titer (compared to AS108 in aerobic conditions),NBS medium,Glucose,5%,"Aerobic: 250 mL flasks, 250 rpm",Not specified,24h,37°C,AS108,,pntAB with M1-46,"alsS, kivD, ilvD, adhA"
+p121,10.1016.j.ymben.2012.11.008,AS166,Isobutanol,63 mM (anaerobic),NBS medium,Glucose,5%,"Anaerobic: 100 mL screw cap bottles, no shaking",Not specified,6 days,37°C,AS142,,"pntAB with M1-93, yfjB with M1-46","alsS, kivD, ilvD, adhA"
+p121,10.1016.j.ymben.2012.11.008,AS226,Isobutanol,146 mM (aerobic),NBS medium,Glucose,5%,"Aerobic: 250 mL flasks, 250 rpm",Not specified,24h,37°C,AS144,,"pntAB with M1-46, yfjB with M1-30","alsS, kivD, ilvD, adhA"
+p122,10.1007.s00253-006-0535-y,TUQ19/pQZ6,succinate,1.29 mol/mol glucose,Luria–Bertani (LB),glucose,approximately 15 g/l,"sealed serum tubes, agitated at 250 rpm",,,37°C,W1485 (DE3),"ptsG, iclR",pyc (from Bacillus subtilis),
+p123,10.1007.s00253-012-4298-3,YPH499XU/MAE1,ethanol,0.38 g/g xylose consumed,YPX,xylose,50 g/l,batch fermentation,-,-,30°C,YPH499XU,-,MAE1,"Scheffersomyces stipitis XR, XDH"
+p123,10.1007.s00253-012-4298-3,YPH499XU/MAE1,xylitol,0.19 g/g xylose consumed,YPX,xylose,50 g/l,batch fermentation,-,-,30°C,YPH499XU,-,MAE1,"Scheffersomyces stipitis XR, XDH"
+p123,10.1007.s00253-012-4298-3,YPH499XU/MAE1–MDH2,ethanol,0.39 g/g xylose consumed,YPX,xylose,50 g/l,batch fermentation,-,-,30°C,YPH499XU,-,"MAE1, MDH2","Scheffersomyces stipitis XR, XDH"
+p123,10.1007.s00253-012-4298-3,YPH499XU/MAE1–MDH2,xylitol,0.20 g/g xylose consumed,YPX,xylose,50 g/l,batch fermentation,-,-,30°C,YPH499XU,-,"MAE1, MDH2","Scheffersomyces stipitis XR, XDH"
+p123,10.1007.s00253-012-4298-3,YPH499XU/MAE1–MDH2–PYC2,ethanol,0.33 g/g xylitol consumed,YPX,xylitol,-,batch fermentation,-,72h,30°C,YPH499XU,-,"MAE1, MDH2, PYC2","Scheffersomyces stipitis XR, XDH"
+p124,10.1007.s10529-013-1317-0,BWL,Lycopene,1.09,LB,,,250 ml flasks,,24h,37°C,BW25113,,,"crtE, crtB, crtI (pACLYC)"
+p124,10.1007.s10529-013-1317-0,BZL,Lycopene,2.52,LB,,,250 ml flasks,,24h,37°C,BW25113,Δzwf,,"crtE, crtB, crtI (pACLYC)"
+p124,10.1007.s10529-013-1317-0,BWL-PB,Lycopene,1.52,LB,,,250 ml flasks,,,37°C,BW25113,,idi,"crtE, crtB, crtI (pACLYC), idi (pSE380-idi)"
+p124,10.1007.s10529-013-1317-0,BWL-PC,Lycopene,4.29,LB,,,250 ml flasks,,,37°C,BW25113,,"idi, dxs","crtE, crtB, crtI (pACLYC), idi, dxs (pSE380-idi-dxs)"
+p124,10.1007.s10529-013-1317-0,BWL-PD,Lycopene,5.39,LB,,,250 ml flasks,,,37°C,BW25113,,"idi, dxs, ispDF","crtE, crtB, crtI (pACLYC), idi, dxs, ispDF (pSE380-idi-dxs-ispDF)"
+p124,10.1007.s10529-013-1317-0,BPL-PD,Lycopene,7.39,LB,,,250 ml flasks,,,37°C,BW25113,Δpgi,"idi, dxs, ispDF","crtE, crtB, crtI (pACLYC), idi, dxs, ispDF (pSE380-idi-dxs-ispDF)"
+p124,10.1007.s10529-013-1317-0,BGL-PD,Lycopene,6.85,LB,,,250 ml flasks,,,37°C,BW25113,ΔgdhA,"idi, dxs, ispDF","crtE, crtB, crtI (pACLYC), idi, dxs, ispDF (pSE380-idi-dxs-ispDF)"
+p124,10.1007.s10529-013-1317-0,BZL-PD,Lycopene,7.55,LB,,,250 ml flasks,,,37°C,BW25113,Δzwf,"idi, dxs, ispDF","crtE, crtB, crtI (pACLYC), idi, dxs, ispDF (pSE380-idi-dxs-ispDF)"
+p126,10.1038.nbt.3095,TaxE1 + TaxS1,oxygenated taxanes,2 mg/L,bioreactor,glucose,40 g/L,fed-batch,7,72 h,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,,"ispDF, ts, ggpps (in TaxE1)","5αCYP, CPR (in TaxS1)"
+p126,10.1038.nbt.3095,TaxE1 + TaxS1,oxygenated taxanes,4 mg/L,bioreactor,xylose,not specified,fed-batch,7,72 h,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,,"ispDF, ts, ggpps (in TaxE1)","5αCYP, CPR (in TaxS1)"
+p126,10.1038.nbt.3095,TaxE1 + TaxS4,oxygenated taxanes,25 mg/L,bioreactor,xylose,not specified,fed-batch,7,90 h,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,,"ispDF, ts, ggpps (in TaxE1)","5αCYP, GPDp (in TaxS4)"
+p126,10.1038.nbt.3095,TaxE4 + TaxS4,oxygenated taxanes,33 mg/L,bioreactor,xylose,not specified,fed-batch,7,120 h,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,atpFH,"ispDF, ts, ggpps, pta, ackA (in TaxE4)","5αCYP, GPDp (in TaxS4)"
+p126,10.1038.nbt.3095,TaxE4 + TaxS6,monoacetylated dioxygenated taxane,1 mg/L,bioreactor,xylose,not specified,fed-batch (carbon-limited),7,not specified,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,atpFH,"ispDF, ts, ggpps, pta, ackA (in TaxE4)","5αCYP, TAT, 10βCYP (in TaxS6)"
+p126,10.1038.nbt.3095,TaxE7 + TaxS8,ferruginol,18 mg/L,bioreactor,xylose,not specified,fed-batch,7,not specified,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,atpFH,"KSL, CPS (in TaxE7)","SmCYP, SmCPR (in TaxS8)"
+p126,10.1038.nbt.3095,TaxE8 + TaxS9,nootkatol,30 mg/L,bioreactor,xylose,not specified,fed-batch,7,not specified,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,atpFH,VALC (in TaxE8),"HmCYP, AtCPR (in TaxS9)"
+p126,10.1038.nbt.3095,TaxE8 + TaxS10,nootkatone,4 mg/L,bioreactor,xylose,not specified,fed-batch,7,not specified,30°C,E. coli MG1655_ΔrecA_ΔendA_DE3,atpFH,VALC (in TaxE8),"HmCYP, AtCPR, PpADHC3 (in TaxS10)"
+p127,10.1038.ncomms1494,E. coli DH1,Bisabolene,389±49 mg l−1,EZ-Rich,Glucose,1% (v/v),Shake flask with dodecane,-,73,30,Wild-type E. coli,-,-,pJBEI-2704 (FPP pathway)
+p127,10.1038.ncomms1494,E. coli DH1 (optimized),Bisabolene,912±43 mg l−1,EZ-Rich,Glucose,1% (v/v),Shake flask with dodecane,-,73,30,Wild-type E. coli,-,-,pJBEI-2999 (optimized)
+p127,10.1038.ncomms1494,E. coli DH1,Bisabolene,208 mg l−1,M9,Glucose,2% (v/v),Shake flask with dodecane,-,72,30,Wild-type E. coli,-,-,pJBEI-2999 (optimized)
+p127,10.1038.ncomms1494,S. cerevisiae EPY300,Bisabolene,994±241 mg l-1,YEP,Galactose/Glucose,1.8% Galactose/0.2% Glucose,Shake flask with dodecane,-,96,30,EPY300 S. cerevisiae,Erg9,"tHMGR, Erg20, upc2-1, BIS",Bisabolene synthase
+p128,10.1038.ncomms2425,"BL21(DE3) ΔfadD with pCDM4-[RBS29]-GLY, pACM4-ACA and pETM6-FAS",Free fatty acids,8.6 g/l,MK media with yeast extract and trace metals,Glucose,"20 g/l initially, 40% w/w during fed-batch","20 l BioFlo4500 Bioreactor, fed-batch mode",6.8,70 hours,"Starting 37°C, then 34°C post induction",BL21(DE3),ΔfadD,"pgk, gapA, aceE, aceF and lpdA, accA, accB, accC, accD",pCDM4-FAS
+p130,10.1007.s10295-011-0973-0,WH3110_TIR,l-Tyr,32 ± 2 mg/g,Minimal,Glucose,10 g/l,Shake flask,-,-,37°C,W3110,-,"aroG fbr, tktA, tyrC, pheA CM",-
+p130,10.1007.s10295-011-0973-0,WH3110ΔtyrR_TIR,l-Tyr,42 ± 2 mg/g,Minimal,Glucose,10 g/l,Shake flask,-,-,37°C,W3110,tyrR,"aroG fbr, tktA, tyrC, pheA CM",-
+p130,10.1007.s10295-011-0973-0,VH33_TIR,l-Tyr,118 ± 20 mg/g,Minimal,Glucose,10 g/l,Shake flask,-,-,37°C,VH33,-,"aroG fbr, tktA, tyrC, pheA CM",-
+p130,10.1007.s10295-011-0973-0,VH33ΔtyrR_TIR,l-Tyr,361 ± 30 mg/g,Minimal,Glucose,10 g/l,Shake flask,-,-,37°C,VH33,tyrR,"aroG fbr, tktA, tyrC, pheA CM",-
+p130,10.1007.s10295-011-0973-0,W3110ΔtyrR_DOPA,l-DOPA,313 ± 60 mg/l,M9,Glucose,10 g/l,Resting cell/Shake flask,-,20h,37°C,W3110ΔtyrR,tyrR,"hpaBC, pTrchpaBCTrctyrCpheA CM, aroG fbr, tktA",4-hydroxyphenylacetate 3-hydroxylase from E. coli W
+p130,10.1007.s10295-011-0973-0,VH33ΔtyrR_DOPA (batch),l-DOPA,1.51 g/l,LB,Glucose,50 g/l,Batch fermentor,6,50h,37°C,VH33ΔtyrR,tyrR,"hpaBC, pTrchpaBCTrctyrCpheA CM, aroG fbr, tktA",4-hydroxyphenylacetate 3-hydroxylase from E. coli W
+p131,10.1007.s10295-011-0978-8,W3110/pSV01,L-Tryptophan,0.05 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,,AroF wt,
+p131,10.1007.s10295-011-0978-8,W3110/pSV02,L-Tryptophan,0.23 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,,AroF fbr,
+p131,10.1007.s10295-011-0978-8,W3110/pSV03,L-Tryptophan,0.87 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,,"AroF fbr, TrpEfbrD",
+p131,10.1007.s10295-011-0978-8,FB-01/pSV03,L-Tryptophan,2.8 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,trpR,"AroF fbr, TrpEfbrD",
+p131,10.1007.s10295-011-0978-8,FB-02/pSV03,L-Tryptophan,7.8 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,"trpR, tnaA","AroF fbr, TrpEfbrD",
+p131,10.1007.s10295-011-0978-8,FB-03/pSV03,L-Tryptophan,10.8 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch",6.8,30 h,33°C -> 38°C,W3110,"trpR, tnaA, pheA","AroF fbr, TrpEfbrD",
+p131,10.1007.s10295-011-0978-8,FB-04/pSV03,L-Tryptophan,13.3 g/l,LB,Glucose,Flexible feeding to keep <5 g/l,"3-l fermentor, fed-batch, 2 g/l L-Phe, 3 g/l L-Tyr",6.8,30 h,33°C -> 38°C,W3110,"trpR, tnaA, pheA, tyrA","AroF fbr, TrpEfbrD",
+p132,10.1007.s10295-012-1151-8,E. coli EG03,ethanol,"1,637 mg l−1",LB broth,glucose,50 g l−1,"screw-cap tubes, rotator (200 rpm)",,24h,30 °C,SZ470,"ΔfrdABCD, ΔldhA, ΔackA, ΔpflB, ΔadhE, ΔpdhR ::pflBp6-aceEF-lpd ΔmgsA",,
+p132,10.1007.s10295-012-1151-8,E. coli EG03,butanol,"1,254 mg l−1",LB broth,glucose,50 g l−1,"screw-cap tubes, rotator (200 rpm)",,24h,30 °C,SZ470,"ΔfrdABCD, ΔldhA, ΔackA, ΔpflB, ΔadhE, ΔpdhR ::pflBp6-aceEF-lpd ΔmgsA",,"thiL, crt-bcd-etfA-etfB-hbd, adheII (from Clostridium acetobutylicum)"
+p132,10.1007.s10295-012-1151-8,E. coli EG03,ethanol,"2,072 mg l−1",LB broth,glucose,50 g l−1,"screw-cap tubes, rotator (200 rpm)",,24h,30 °C,SZ470,"ΔfrdABCD, ΔldhA, ΔackA, ΔpflB, ΔadhE, ΔpdhR ::pflBp6-aceEF-lpd ΔmgsA",,"thiL, crt-bcd-etfA-etfB-hbd, adheII (from Clostridium acetobutylicum)"
+p133,10.1093.nar.gks549,INVSc1 (INV-X3),ethanol,0.1 g/L/h,YPA,xylose,0.4 g/L/h,flask,-,-,30°C,INVSc1,-,"csXR, ctXDH, ppXKS",
+p133,10.1093.nar.gks549,Classic Turbo Yeast (CTY-X7),ethanol,0.26 g/g xylose,YP,xylose,0.92 g/L/h,flask,-,88h,30°C,Classic Turbo Yeast,-,"csXR, ctXDH, ppXKS",
+p133,10.1093.nar.gks549,INVSc1 (INV-C3),ethanol,0.37 g/L/h,YPA,cellobiose,1.50 g/L/h,flask,-,-,30°C,INVSc1,-,"cdt-1, gh1-1",
+p133,10.1093.nar.gks549,Classic Turbo Yeast (CTY-C59),ethanol,0.74 g/L/h,YPA,cellobiose,0.39 g/L/h,flask,-,-,30°C,Classic Turbo Yeast,-,"cdt-1, gh1-1",
+p134,10.1002.bit.24828,BW25113(DE3) pSTV-davBA,AMV,0.86 g/L,M10,glucose,25 g/L,250 mL shake flask,7.0,48 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,davBA
+p134,10.1002.bit.24828,BW25113(DE3) pSTV-davBA,AMV,0.86 g/L,PBS,lysine,up to 2.5 g/L,resting cells assay,7.0,18 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,davBA
+p134,10.1002.bit.24828,BW25113(DE3) pTrc-davDT,glutarate,0.82 g/L,M10,glucose,25 g/L,250 mL shake flask,7.0,48 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,davDT
+p134,10.1002.bit.24828,BW25113(DE3) pTrc-davDT,glutarate,0.82 g/L,PBS,AMV,up to 1.5 g/L,resting cells assay,7.0,18 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,davDT
+p134,10.1002.bit.24828,BW25113(DE3) pSTV-davBA pTrc-davDT,glutarate,0.82 g/L,M10,glucose,25 g/L,250 mL shake flask,7.0,48 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,"davBA, davDT"
+p134,10.1002.bit.24828,BW25113(DE3) pSTV-davBA pTrc-davDT,glutarate,0.82 g/L,PBS,lysine/AMV,up to 2.5 g/L lysine,resting cells assay,7.0,18 h,37°C,BW25113,ΔcadA ΔldcC,lysCfbr-dapAfbr,"davBA, davDT"
+p135,10.1016.j.jbiotec.2010.11.009,E. coli JLXF5,P(3HB-co-39.6 mol% LA),20 g/l,Chemically defined MR medium,Glucose,20 g/l,"6.6-l jar fermentor, pH-stat fed-batch",7.0,72 h,30°C,E. coli XL1-Blue,"pflB, frdABCD, adhE, lacI","ldhA (with trc promoter), acs (with trc promoter)","Pct540Cp, PhaC1310Ps6-19, PhaABCn"
+p136,10.1016.j.jbiotec.2013.11.009,GDPB,geraniol,13.3 mg/L,2YT,glycerol,2%,"glass tube (2.5 cm × 15 cm) with plastic cap, decane overlay",-,48 h,30°C,E. coli MG1655,-,GPPS,bottom portion of MVA (pSTKSN12Didi)
+p136,10.1016.j.jbiotec.2013.11.009,GEOLB,geraniol,105.2 mg/L,2YT,glycerol,2%,"glass tube (2.5 cm × 15 cm) with plastic cap, decane overlay",-,48 h,30°C,E. coli MG1655,-,"GPPS, tObGES",bottom portion of MVA (pSTKSN12Didi)
+p136,10.1016.j.jbiotec.2013.11.009,KGEOLB,geraniol,129.7 mg/L,2YT,glycerol,2%,"glass tube (2.5 cm × 15 cm) with plastic cap, decane overlay",-,48 h,30°C,E. coli MG1655,yjgB,"GPPS, tObGES",bottom portion of MVA (pSTKSN12Didi)
+p136,10.1016.j.jbiotec.2013.11.009,GEOLW,geraniol,101.0 mg/L,2YT,glycerol,2%,"glass tube (2.5 cm × 15 cm) with plastic cap, decane overlay",-,48 h,30°C,E. coli MG1655,-,"GPPS, tObGES",whole MVA (pSNAK)
+p136,10.1016.j.jbiotec.2013.11.009,KGEOLW,geraniol,182.5 mg/L,2YT,glycerol,2%,"glass tube (2.5 cm × 15 cm) with plastic cap, decane overlay",-,48 h,30°C,E. coli MG1655,yjgB,"GPPS, tObGES",whole MVA (pSNAK)
+p137,10.1016.j.procbio.2013.10.002,EWBT001,"1,2,4-Butanetriol",37 mg L−1,LB,D-xylose,10 g L−1,Shake flask,ND,72 h,37 °C,E. coli W3110,,,"xdh (P. putida), mdlC (Caulobacter crescentus)"
+p137,10.1016.j.procbio.2013.10.002,EWBT103,"1,2,4-Butanetriol",0.12 g L−1,LB,D-xylose,10 g L−1,Shake flask,ND,72 h,37 °C,E. coli W3110,xylAB,,"xdh (P. putida), mdlC (Caulobacter crescentus)"
+p137,10.1016.j.procbio.2013.10.002,EWBT304,"1,2,4-Butanetriol",0.88 g L−1,LB,D-xylose,10 g L−1,Shake flask,ND,48 h,37 °C,E. coli W3110,"xylAB, yjhH, yagE",,"xdh (P. putida), mdlC (Caulobacter crescentus)"
+p138,10.1016.j.ymben.2005.02.001,2123-12,GlcN,75 mg l¯¹,M9A,Glucose,20 g l¯¹,Shake flask,7.0,26 h,37°C,7101-17(DE3),"manXYZ8, DnagHtet R",T7lac-glmS,
+p138,10.1016.j.ymben.2005.02.001,2123-54,GlcN,6 g l¯¹,M9A,Glucose,20 g l¯¹,Shake flask,7.0,72 h,37°C,7101-17(DE3),"manXYZ8, DnagHtet R",T7lac-glmS*54,
+p138,10.1016.j.ymben.2005.02.001,7107-18,GlcN,17 g l¯¹,M9A,Glucose,20 g l¯¹,"1-L Fermentor, fed-batch",6.9,72 h,30°C,7101-17(DE3),"manXYZ8, DnagHtet R",T7lac-glmS*54,
+p138,10.1016.j.ymben.2005.02.001,7107-607,GlcNAc,110 g l¯¹,M9B,Glucose,5 g l¯¹,"1-L Fermentor, fed-batch",6.9,72 h,37°C,7107-18,"manXYZ8, DnagHtet R",T7lac-glmS*54,T7lac-ScGNA1
+p138,10.1016.j.ymben.2005.02.001,7107-87,GlcNAc,22.4 g l¯¹,M9B,Glucose,30 g l¯¹,Shake flask,7.0,48 h,37°C,7107-18,"manXYZ8, DnagHtet R",T7lac-glmS*54,T7lac-ScGNA1
+p139,10.1016.j.ymben.2005.03.001,SBS550MG,succinate,350 mM,LB,glucose,20 g/L,"bioreactor, repeated feeding",7,24 h,37°C,MG1655,"adhE, ldhA, ack-pta, iclR","Pyruvate carboxylase (pHL413), Citrate synthase",Bacillus subtilis citrate synthase (citZ)
+p140,10.1016.j.ymben.2007.12.001,E. coli T1,L-tyrosine,Up to 7 g/L,MOPS-buffered minimal medium,Glucose,5 g/L,"Erlenmeyer flasks, microtiter plates, and test tubes",Not mentioned,20-24h,37°C,E. coli K-12 ΔtyrR,Not applicable,"ydiB, aroK, aroA",Not mentioned
+p140,10.1016.j.ymben.2007.12.001,E. coli T2,L-tyrosine,Up to 9.7 g/L in high-cell density,MOPS-buffered minimal medium,Glucose,5 g/L,"Erlenmeyer flasks, microtiter plates, and test tubes",Not mentioned,20-24h,37°C,E. coli T1,Not applicable,"ydiB, aroK, aroA, ppsA, tktA",Not mentioned
+p141,10.1016.j.ymben.2008.08.001,JCL 16,1-butanol,2 g/L,M9,glucose,30 g/L,"Conical flask, 250 ml, rotary shake",,3-4 days,30 and 37°C,E. coli BW25113 WT,"ΔmetA, Δtdh, ΔilvB, ΔilvI, ΔadhE","thrA<sup>fbr</sup>, leuABCD, ilvA","kivd, ADH2"
+p141,10.1016.j.ymben.2008.08.001,JCL 16,1-propanol,2 g/L,M9,glucose,30 g/L,"Conical flask, 250 ml, rotary shake",,3-4 days,30 and 37°C,E. coli BW25113 WT,"ΔmetA, Δtdh, ΔilvB, ΔilvI, ΔadhE","thrA<sup>fbr</sup>, leuABCD, ilvA","kivd, ADH2"
+p143,10.1016.j.ymben.2009.07.003,BL21 Star TM (DE3),Leucocyanidin,817 mg/L,Modified M9,Glucose,10 g/L,Batch culture,6.8,15 h,"37˚C (initial), 30˚C (post induction)",BL21 Star TM (DE3),"Dpgi, Dppc, DpldA",,"dfr, lar (notably on pTrcHis2-DFR)"
+p143,10.1016.j.ymben.2009.07.003,BL21 Star TM (DE3),(+)-Catechin,39 mg/L,Modified M9,Glucose,10 g/L,Batch culture,6.8,15 h,"37˚C (initial), 30˚C (post induction)",BL21 Star TM (DE3),"Dpgi, Dppc, DpldA",,"dfr, lar (on pET-DFR-LAR)"
+p144,10.1016.j.ymben.2009.07.005,W303-1A (wild type),DHA,<100 mg/l,YEPD complete medium,Glucose,2%,Erlenmeyer flasks,7.0,24 h,30°C,W303-1A,-,-,-
+p144,10.1016.j.ymben.2009.07.005,"dak1D, p424gdh",DHA,>200 mg/l,Verduyn (Trp -) medium,Glucose,2%,Shake flasks,6.0,25 h,30°C,W303-1A,DAK1,H. polymorpha gdh,H. polymorpha gdh
+p144,10.1016.j.ymben.2009.07.005,"dak2D, p424gdh",DHA,>200 mg/l,Verduyn (Trp -) medium,Glucose,2%,Shake flasks,6.0,25 h,30°C,W303-1A,DAK2,H. polymorpha gdh,H. polymorpha gdh
+p144,10.1016.j.ymben.2009.07.005,"dak1D dak2D, p424gdh",DHA,~700 mg/l,Verduyn (Trp -) medium,Glucose,2%,Shake flasks,6.0,25 h,30°C,W303-1A,"DAK1, DAK2",H. polymorpha gdh,H. polymorpha gdh
+p144,10.1016.j.ymben.2009.07.005,"W303-1A, p424gdh",DHA,100 mg/l,Verduyn (Trp -) medium,Glucose,2%,Shake flasks,6.0,24 h,30°C,W303-1A,-,H. polymorpha gdh,H. polymorpha gdh
+p144,10.1016.j.ymben.2009.07.005,"W303-1A, p424GCY1",DHA,2x wild-type,Verduyn (Trp -) medium,Glucose,2%,Shake flasks,6.0,24 h,30°C,W303-1A,-,S. cerevisiae GCY1,S. cerevisiae GCY1
+p145,10.1016.j.ymben.2009.11.002,CRT028/pACMNOx,Diapolycopendial (DPL) and Diapolycopendioic Acid (DPA),0.177 ± 0.04 mg-carotenoid/g-glucose (mutant in bioreactor),M9 minimal medium,Glucose,5 g/l,Shake flask and batch bioreactor,6.9,24h+,30 °C,E. coli MG1655,"LdhA, FrdA, PoxB, Pta, AdhE, PykF, Zwf, MaeB",,"crtM, crtN, crtOx (on pACMNOx)"
+p146,10.1016.j.ymben.2010.02.003,XL100/pMSD8/pMSD15/pXL49,fatty acids,2.5 g/L/day,LB,-,-,2 L shake flask,-,20 hours,30°C,XL100,fadD,"ACC, TesA, TE",-
+p146,10.1016.j.ymben.2010.02.003,XL100/pMSD8/pTL58,fatty acids,4.5 g/L/day,LB,-,-,6 L fed-batch,-,Described previously,30°C,XL100,fadD,"ACC, TesA, TE",plant TE
+p146,10.1016.j.ymben.2010.02.003,XL100/pMSD8/pTL42,fatty acids,14% of XL100/pMSD8/pTL58,LB,-,-,2 L shake flask,-,20 hours,30°C,XL100,fadD,"ACC, TesA, TE",plant TE
+p147,10.1016.j.ymben.2011.01.004,BL21 Star DE3 DhyaB DhybC DhycE DhyfG,Hydrogen,8.4 mmol H₂/L,LB medium,Glucose,10 g/L,"250 mL Duran bottles, argon sparged",,24h,37°C,BL21 Star DE3,"hyaB, hybC, hycE, hyfG",,Synechocystis [NiFe] hydrogenase
+p147,10.1016.j.ymben.2011.01.004,BL21 Star DE3 DpflB::kan DhyaB DhybC DhycE DhyfG,Hydrogen,Approximately double than BL21 Star,LB medium,Glucose,10 g/L,"250 mL Duran bottles, argon sparged",,24h,37°C,BL21 Star DE3 DpflB::kan,"pflB, hyaB, hybC, hycE, hyfG",,Synechocystis [NiFe] hydrogenase
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pESC-HIS-TALmutant),p-coumaric acid,3.0 mg/L,SD dropout liquid medium,glucose,2%,Shaking flask,Not specified,12 h,30°C,WAT11,,TALmutant,TAL mutant gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pESC-HIS-TALmade),resveratrol,"1.06 mg/L (without tyrosine), 1.90 mg/L (with tyrosine)",SD dropout liquid medium,glucose,2%,Shaking flask,Not specified,48 h,30°C,WAT11,,TAL-made,TAL-made gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pAG305GPD-araE and 4CL::STS),resveratrol,3.1 mg/L,SD dropout liquid medium,glucose,2%,Shaking flask,Not specified,120 h,30°C,WAT11,,araE,araE transporter and 4CL::STS fusion gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pAG304GPD-4CL::STS and pAG305GPD-araE),resveratrol,2.3 mg/L,Sucrose medium,sucrose,2%,Shaking flask,Not specified,180 h,30°C,WAT11,,araE,araE transporter and 4CL::STS fusion gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pAG304GPD-4CL::STS),resveratrol,1.78 mg/L,Sucrose medium,sucrose,2%,Shaking flask,Not specified,180 h,30°C,WAT11,,,4CL::STS fusion gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (with pESC-HIS-TALmade and pESC-TRP-4CL::STS),resveratrol,5.58 times higher than in mammalian cells,SD dropout liquid medium,glucose,2%,Shaking flask,Not specified,48 h,30°C,WAT11,,TAL-made,TAL-made gene and 4CL::STS fusion gene
+p148,10.1016.j.ymben.2011.04.005,WAT11 (industry-scale),resveratrol,0.68 mg/L,Fresh grape juice,white granular sugar,1 kg,Fermentation bucket,Not specified,7 days,Room temperature,WAT11,,araE,araE transporter and 4CL::STS fusion gene
+p149,10.1016.j.ymben.2011.05.003,E. coli DH5a,5-aminolevulinic acid (ALA),31.1 mg/L,Modified minimal medium,Glucose,18 g/L,"300 mL Erlenmeyer flask with 50 mL modified minimal medium, batch fermentation in 5 L fermentor",6.0 ± 0.2,32 h,37°C,E. coli DH5a,,,
+p149,10.1016.j.ymben.2011.05.003,E. coli DEA,5-aminolevulinic acid (ALA),176 mg/L,Modified minimal medium,Glucose,18 g/L,"300 mL Erlenmeyer flask with 50 mL modified minimal medium, batch fermentation in 5 L fermentor",6.0 ± 0.2,32 h,37°C,E. coli DH5a,,hemA (wild type E. coli),
+p149,10.1016.j.ymben.2011.05.003,E. coli DA,5-aminolevulinic acid (ALA),176 mg/L,Modified minimal medium,Glucose,18 g/L,"300 mL Erlenmeyer flask with 50 mL modified minimal medium, batch fermentation in 5 L fermentor",6.0 ± 0.2,32 h,37°C,E. coli DH5a,,hemA (mutated from S. arizona),
+p149,10.1016.j.ymben.2011.05.003,E. coli DAL,5-aminolevulinic acid (ALA),2052 mg/L,Modified minimal medium,Glucose,18 g/L,"300 mL Erlenmeyer flask with 50 mL modified minimal medium, batch fermentation in 5 L fermentor",6.0 ± 0.2,32 h,37°C,E. coli DH5a,,"hemA (mutated from S. arizona), hemL",
+p149,10.1016.j.ymben.2011.05.003,E. coli DALA,5-aminolevulinic acid (ALA),4130 mg/L,Modified minimal medium,Glucose,35 g/L,Batch fermentation in 5 L fermentor,6.0 ± 0.2,48 h,37°C,E. coli DH5a,,"hemA (mutated from S. arizona), hemL, rhtA",
+p149,10.1016.j.ymben.2011.05.003,E. coli DEX,5-aminolevulinic acid (ALA),16.83 mg/L,Modified minimal medium,Glucose,18 g/L,300 mL Erlenmeyer flask with 50 mL modified minimal medium,6.0 ± 0.2,32 h,37°C,E. coli DH5a,,gltX,
+p149,10.1016.j.ymben.2011.05.003,E. coli DXA,5-aminolevulinic acid (ALA),12.01 mg/L,Modified minimal medium,Glucose,18 g/L,300 mL Erlenmeyer flask with 50 mL modified minimal medium,6.0 ± 0.2,32 h,37°C,E. coli DH5a,,"hemA (mutated from S. arizona), gltX",
+p150,10.1016.j.ymben.2011.06.005,E. coli NST74 pSpal2At pTfdc1Sc,styrene,260 mg/L,MM1,glucose,1.5%,100 mL serum bottles with septa caps (shake flask culture),7.5 (for PAL assay),29-48 h,32°C,E. coli NST74,Not specified,Not specified,"PAL2 from Arabidopsis thaliana, FDC1 from Saccharomyces cerevisiae"
+p150,10.1016.j.ymben.2011.06.005,E. coli NST74 pSpalAv pTfdc1Sc,styrene,210 mg/L,MM1,glucose,1.5%,100 mL serum bottles with septa caps (shake flask culture),7.5 (for PAL assay),29-48 h,32°C,E. coli NST74,Not specified,Not specified,"PAL from Anabaena variabilis, FDC1 from Saccharomyces cerevisiae"
+p150,10.1016.j.ymben.2011.06.005,E. coli NST74 pSpalNp pTfdc1Sc,styrene,183 mg/L,MM1,glucose,1.5%,100 mL serum bottles with septa caps (shake flask culture),7.5 (for PAL assay),29-48 h,32°C,E. coli NST74,Not specified,Not specified,"PAL from Nostoc punctiforme, FDC1 from Saccharomyces cerevisiae"
+p150,10.1016.j.ymben.2011.06.005,E. coli NST74 pSpal1At pTfdc1Sc,styrene,188 mg/L,MM1,glucose,1.5%,100 mL serum bottles with septa caps (shake flask culture),7.5 (for PAL assay),29-48 h,32°C,E. coli NST74,Not specified,Not specified,"PAL1 from Arabidopsis thaliana, FDC1 from Saccharomyces cerevisiae"
+p151,10.1016.j.ymben.2011.08.001,E. coli wFS,a-farnesene,0.9 mg/L,2YT,glycerol,1% (v/v),"flask, batch",-,24 h,29°C,E. coli DH5a,none,none,apple a-farnesene synthase
+p151,10.1016.j.ymben.2011.08.001,E. coli aFS,a-farnesene,1.3x wFS,2YT,glycerol,1% (v/v),"flask, batch",-,24 h,29°C,E. coli DH5a,none,"DXS, IDI",codon-optimized aFS
+p151,10.1016.j.ymben.2011.08.001,E. coli aFS-SN,a-farnesene,17 mg/L,2YT,glycerol,1% (v/v),"flask, batch",-,48 h,29°C,E. coli DH5a,none,none,"bottom portion of MVA pathway, codon-optimized aFS"
+p151,10.1016.j.ymben.2011.08.001,E. coli ispAaFS-SN,a-farnesene,57.6 mg/L,2YT,glycerol,1% (v/v),"flask, batch",-,48 h,29°C,E. coli DH5a,none,ispA,"bottom portion of MVA pathway, codon-optimized aFS"
+p151,10.1016.j.ymben.2011.08.001,E. coli ispALaFS-SN,a-farnesene,86.8 mg/L,2YT,glycerol,1% (v/v),"flask, batch",-,48 h,29°C,E. coli DH5a,none,ispA (linked),"bottom portion of MVA pathway, codon-optimized aFS"
+p151,10.1016.j.ymben.2011.08.001,E. coli ispALaFS-NA,a-farnesene,380.0 mg/L,2YT,glycerol,3% (v/v),"flask, batch",-,48 h,29°C,E. coli DH5a,none,whole MVA pathway,"ispA (linked), codon-optimized aFS"
+p152,10.1016.j.ymben.2012.11.009,"an engineered E. coli strain with pRSFD-aroF-pheA, pETD-PAL-4CL, and pCDF-CHS-CHI",(2S)-pinocembrin,0.63 mg/L,MOPS minimal medium,glucose,Not specified,Flask (batch mode),Not specified,36 h,30°C,E. coli JM109,,"aroF, pheA","PAL, 4CL, CHS, CHI"
+p152,10.1016.j.ymben.2012.11.009,"an engineered E. coli strain with pRSFD-aroF-pheA, pETD-PAL-4CL, pCDF-CHS-CHI, and pACYC-matB-matC",(2S)-pinocembrin,1.22 mg/L,MOPS minimal medium + malonate,glucose,Not specified,Flask (batch mode),Not specified,48 h,30°C,E. coli JM109,,"aroF, pheA, matB, matC","PAL, 4CL, CHS, CHI"
+p152,10.1016.j.ymben.2012.11.009,"an engineered E. coli strain with optimized expression of pRSFD-aroF-pheA, pETD-PAL-4CL, pCDF-CHS-CHI, and pACYC-matB-matC",(2S)-pinocembrin,10.51 mg/L,MOPS minimal medium + malonate,glucose,Not specified,Flask (batch mode),Not specified,48 h,30°C,E. coli JM109,,"aroF, pheA, matB, matC","PAL, 4CL, CHS, CHI"
+p152,10.1016.j.ymben.2012.11.009,"an engineered E. coli strain with fine-tuned modular expression of pRSFD-aroF-pheA, pETD-PAL-4CL, pCDF-CHS-CHI, and pACYC-matB-matC",(2S)-pinocembrin,40.02 mg/L,MOPS minimal medium,glucose,Not specified,Flask (batch mode),Not specified,48 h,30°C,E. coli JM109,,"aroF, pheA, matB, matC","PAL, 4CL, CHS, CHI"
+p153,10.1016.j.ymben.2013.01.008,CRS39,1-propanol,1.5-2 g/L,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,JCL16,"metA, tdh, ilvB, ilvI, adhE, leuABCD","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS40,1-propanol,1.5-2 g/L,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,CRS39,"poxB, pta","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS44,1-propanol,1 g/L,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,CRS39,"pta, poxB","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS70,1-propanol,0,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,JCL16,"metA, tdh, ilvB, ilvI, adhE, leuABCD, gltA","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS47,1-propanol,50% decrease,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,JCL16,"metA, tdh, ilvB, ilvI, adhE, leuABCD, arcA","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS43,1-propanol,20% decrease,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,JCL16,"metA, tdh, ilvB, ilvI, adhE, leuABCD, iclR","kivd, ADH2, thrA fbr BC, ilvA",
+p153,10.1016.j.ymben.2013.01.008,CRS39,1-propanol,1.5-2 g/L,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,CRS39,"metA, ilvB, ilvI, leuABCD","thrA fbr BC, ilvA - transformed with pAFC46 and pCS49",
+p153,10.1016.j.ymben.2013.01.008,CRS59,1-propanol,~0.15 g/g glucose,M9,glucose,36 g/L,screwed-cap flasks,7,72 h,37°C,JCL16,"ilvB, ilvI, leuA","kivd yqhD ilvA, cimA2D leuBCD",
+p153,10.1016.j.ymben.2013.01.008,CRS59,1-propanol,7.5 g/L,M9,glucose,36 g/L,resuspension,7,11 days,37°C,JCL16,"ilvB, ilvI, leuA",,
+p154,10.1016.j.ymben.2013.05.004,2p-0,limonene,2 mg/L,EZ-Rich defined,glucose,1%,,,,30 °C,E. coli DH1,,,"pJBEI-3085, pTrc-GPPS(CO)-LS"
+p154,10.1016.j.ymben.2013.05.004,2p-0-tr,limonene,≈40 mg/L,EZ-Rich defined,glucose,1%,,,,30 °C,E. coli DH1,,,"pJBEI-3085, pTrc-trGPPS(CO)-LS"
+p154,10.1016.j.ymben.2013.05.004,2p-SA-f,limonene,≈70 mg/L,EZ-Rich defined,glucose,1%,,,,30 °C,E. coli DH1,,,"pJBEI-3122, pTrc-GPPS(CO)-LS"
+p154,10.1016.j.ymben.2013.05.004,2p-SA-f-tr,limonene,335 mg/L,EZ-Rich defined,glucose,1%,,,,30 °C,E. coli DH1,,,"pJBEI-3122, pTrc-trGPPS(CO)-LS"
+p154,10.1016.j.ymben.2013.05.004,1pC,limonene,187 mg/L,EZ-Rich defined,glucose,1%,,,,30 °C,E. coli DH1,,,pJBEI-6409
+p154,10.1016.j.ymben.2013.05.004,1pC+P,acetylated POH,≈30 mg/L,EZ-Rich defined,glucose,1%,,,48h,30 °C,E. coli DH1,,,"pJBEI-6409, pBbB8k-P450"
+p154,10.1016.j.ymben.2013.05.004,1pA+P,POH,≈34 mg/L,EZ-Rich defined,glucose,1%,,,48h,30 °C,E. coli DH1,,,"pJBEI-6410, pBbB8k-P450"
+p155,10.1016.j.ymben.2014.02.009,SXX1,Salicylic Acid (SA),177.95 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,ATCC31884,"pheA, tyrA, trpD","entC, pchB",
+p155,10.1016.j.ymben.2014.02.009,QH4,Salicylic Acid (SA),778.16 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,ATCC31884,"pheA, tyrA","entC, pchB",
+p155,10.1016.j.ymben.2014.02.009,QH4+CS-EP,Salicylic Acid (SA),621.05 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,ATCC31884,"pheA, tyrA","entC, pchB",
+p155,10.1016.j.ymben.2014.02.009,QH4+SA-EP,Salicylic Acid (SA),207.20 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,ATCC31884,"pheA, tyrA","entC, pchB",
+p155,10.1016.j.ymben.2014.02.009,QH4+EP+APTA,Salicylic Acid (SA),1179.92 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,ATCC31884,"pheA, tyrA","entC, pchB, aroL, ppsA, tktA, aroG fbr",
+p155,10.1016.j.ymben.2014.02.009,BW25113 (pZE-NC),"cis,cis-Muconic acid (MA)",938.4 mg/L,M9Y,SA (3 mM/h),Not specified,Shake flask,Not specified,2 h,37°C,BW25113,Not applicable,"nahG, catA",
+p155,10.1016.j.ymben.2014.02.009,LS-1,"cis,cis-Muconic acid (MA)",5.27 mg/L,M9Y,Not specified,Not specified,Shake flask,Not specified,48 h,37°C,QH4,Not applicable,"entC, pchB, nahG, catA",
+p155,10.1016.j.ymben.2014.02.009,LS-8,"cis,cis-Muconic acid (MA)",1453.64 mg/L,M9Y,"Glucose, Glycerol","2.5 g/L, 10 g/L",Shake flask,Not specified,48 h,37°C,QH4,Not applicable,"entC, pchB, aroL, ppsA, tktA, aroG fbr (high-copy), nahG, catA (low-copy)",
+p155,10.1016.j.ymben.2014.02.009,LS-7,"cis,cis-Muconic acid (MA)",1425.71 mg/L,M9Y,"Glucose, Glycerol","2.5 g/L, 10 g/L",Shake flask,Not specified,48 h,37°C,QH4,Not applicable,"entC, pchB, aroL, ppsA, tktA, aroG fbr (medium-copy), nahG, catA (low-copy)",
+p156,10.1016.j.ymben.2014.05.004,E. coli LS5218/pQQ02,PHB,3.20 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,,"yqeF, fadB, phaJ1Pa",phbC
+p156,10.1016.j.ymben.2014.05.004,LZ01/pQQ02,PHB,11.20 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,ptsG,"yqeF, fadB, phaJ1Pa",phbC
+p156,10.1016.j.ymben.2014.05.004,LZ01/pQQ01,mcl-PHA copolymers,0.23 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,ptsG,,phaC
+p156,10.1016.j.ymben.2014.05.004,LZ01/pQQ05,mcl-PHA,1.25 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,ptsG,"yqeF, ter",
+p156,10.1016.j.ymben.2014.05.004,LZ02/pQQ05,mcl-PHA,1.99 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,"ptsG, tesA","yqeF, ter",
+p156,10.1016.j.ymben.2014.05.004,LZ03/pQQ05,mcl-PHA,4.01 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,"ptsG, tesB","yqeF, ter",
+p156,10.1016.j.ymben.2014.05.004,LZ04/pQQ05,mcl-PHA,2.04 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,"ptsG, yciA","yqeF, ter",
+p156,10.1016.j.ymben.2014.05.004,LZ05/pQQ05,mcl-PHA,6.62 wt% CDW,LB,Glucose,,Shake flask cultivation,,72h,37°C,E. coli LS5218,"ptsG, tesB, yciA","yqeF, ter",
+p156,10.1016.j.ymben.2014.05.004,LZ05/pQQ06,scl-mcl PHA copolymers,7.38 wt% CDW,LB,Glucose,,Shake flask cultivation,,50h,37°C,E. coli LS5218,"ptsG, tesB, yciA","yqeF, ter","phaJ1Pa, phaC2Ps"
+p156,10.1016.j.ymben.2014.05.004,LZ05/pQQ06+pQQ07,scl-mcl PHA copolymers,12.10 wt% CDW,LB,Glucose,,Shake flask cultivation,,,37°C,E. coli LS5218,"ptsG, tesB, yciA","yqeF, ter, phbA, phbB","phaJ1Pa, phaC2Ps"
+p157,10.1016.j.ymben.2014.09.002,JBEI-7803,fatty acids,1532 mg/L,EZ-rich medium,Glucose,Not specified,Not specified,Not specified,48 h,30°C,JBEI-7761,"ΔfadE, ilvB, ilvI, metA, tdh","thrABC, ilvGMCDA","'tesA, bkd operon, bFabH2"
+p157,10.1016.j.ymben.2014.09.002,JBEI-7804,fatty acids,1634 mg/L,EZ-rich medium,Glucose,Not specified,Not specified,Not specified,48 h,30°C,JBEI-7761,"ΔfadE, ilvB, ilvI, metA, tdh","thrABC, ilvGMCDA","'tesA, bkd operon"
+p158,10.1016.j.ymben.2014.11.007,YXWP-60(+),carotenoids,11.93 mg/g DCW (in YPDG),SD-URA,glucose,varies (glucose-limited in some experiments),Shake flask,,,30 1C,BY4741,,P BTS1 -Cracked ERG9,"tHMG1 (upstream MVA pathway), CrtE, CrtYB, CrtI"
+p158,10.1016.j.ymben.2014.11.007,YXWP-65(+),carotenoids,14.4 mg/g DCW (in YPDG),YPD,glucose,moderate glucose,Shake flask,,,30 1C,YXWP-53,,P HXT1 -substituted ERG9,"tHMG1, CrtE, CrtYB, CrtI, GAL1, GAL10"
+p158,10.1016.j.ymben.2014.11.007,YXWP-82(+),carotenoids,19.71 mg/g DCW (in YPDG),YPDG,glucose,"1% glucose, 1% glycerol",Shake flask,,,30 1C,YXWP-65,,,"tHMG1, CrtE, CrtYB, CrtI, GAL1, GAL10, extra beta-carotene pathway"
+p158,10.1016.j.ymben.2014.11.007,YXWP-101(+),carotenoids,1156 mg/L (in fed-batch fermentation),Fed-batch fermentation medium,"glucose, glycerol",25 g/L glucose (1st stage); 125 g glucose + 125 g glycerol (2nd stage),Stirred-tank bioreactor (5L),5.0,120 h,30 1C,YXWP-82(+),,,"tHMG1, CrtE, CrtYB, CrtI, GAL1, GAL10, extra constitutive beta-carotene pathway"
+p159,10.1016.j.ymben.2014.11.011,strain 2p-Mm,limonene,435 mg/L,EZ-Rich defined medium,glucose,1%,shake flask; batch,-,72 h,"37°C (growth), 30°C (production)",E. coli DH1,-,-,"pBbE1a-HMGR-HMGS, pBbB1c-LS"
+p159,10.1016.j.ymben.2014.11.011,strain B-Ml,limonene,435 mg/L,EZ-Rich defined medium,glucose,1%,shake flask; batch,-,72 h,"37°C (growth), 30°C (production)",E. coli DH1,-,-,"pBbE1a-HMGR-HMGS, pBbB1c-LS"
+p159,10.1016.j.ymben.2014.11.011,strain A,limonene,low (~90 mg/L),EZ-Rich defined medium,glucose,1%,shake flask; batch,-,72 h,"37°C (growth), 30°C (production)",E. coli DH1,-,-,pBbA5c-CL1-T1-CL2
+p159,10.1016.j.ymben.2014.11.011,strain BL-Mm,limonene,605 mg/L,EZ-Rich defined medium,glucose,1%,shake flask; batch,-,72 h,"37°C (growth), 30°C (production)",E. coli DH1,-,-,"pBbE1a-HMGR-HMGS, pBbB1c-LS, pTrc-LS"
+p159,10.1016.j.ymben.2014.11.011,strain PY,bisabolene,550 mg/L,EZ-Rich defined medium,glucose,1%,shake flask; batch,-,-,-,E. coli,-,-,"pBbA5c-CL1ʹ-T1-CL2ʹ, pTrc-AgBIS"
+p159,10.1016.j.ymben.2014.11.011,strain CB,bisabolene,1150 mg/L,EZ-Rich defined medium,glucose,1%,shake flask; batch,-,-,-,E. coli,-,-,"pBbA5c-CL1ʹ-T61-CL2ʹ-T21, pTrc-AgBIS"
+p160,10.1016.j.ymben.2014.12.002,BL21star™ (DE3),(±)-catechin,910.9 ± 61.3 mg/L,M9 minimal media,D-glucose,0.4% (w/v),batch culture,-,2 days,30°C,-,-,-,"CsF3H syn, AaDFR syn, DuLAR syn"
+p160,10.1016.j.ymben.2014.12.002,BLΔpgiΔppc-p148,(±)-catechin,760.9 ± 84.3 mg/L,M9 minimal media,D-glucose,0.4% (w/v),batch culture,-,2 days,30°C,BL21star™,"pgi, ppc",-,"CsF3H syn, AaDFR syn, DuLAR syn"
+p160,10.1016.j.ymben.2014.12.002,BLΔpgiΔppc-p168-759,(±)-catechin,910.9 ± 61.3 mg/L,M9 minimal media,D-glucose,0.4% (w/v),batch culture,-,2 days,30°C,BL21star™,"pgi, ppc",-,"CsF3H syn, AaDFR syn, DuLAR syn, scaffold 759"
+p161,10.1016.j.ymben.2015.04.003,JBEI-8085,F-OH,3.787 ± 0.090 g/L,LB & M9,glucose,3%,Shake flask,-,79-95 hours,30 °C,JBEI-5029,-,"cgFAS1A, Maqu2220","cgFAS1A (C. glutamicum), Maqu2220"
+p161,10.1016.j.ymben.2015.04.003,JBEI-9017,F-OH,3.827 ± 0.050 g/L,LB & M9,glucose,3%,Shake flask,-,79-95 hours,30 °C,JBEI-5029,-,"'tesA, fadD, Maqu2220",Maqu2220
+p161,10.1016.j.ymben.2015.04.003,JBEI-9018,F-OH,Similar to JBEI-9017,LB & M9,glucose,3%,Shake flask,-,79-95 hours,30 °C,JBEI-5029,-,Maqu2220,-
+p161,10.1016.j.ymben.2015.04.003,JBEI-9019,MK,≤ 5 mg/L,LB & M9,glucose,3%,Shake flask,-,79-95 hours,37 °C,JBEI-5029,-,-,-
+p161,10.1016.j.ymben.2015.04.003,JBEI-9020,MK,27.8 ± 1.4 mg/L,LB & M9,glucose,3%,Shake flask,-,79-95 hours,37 °C,JBEI-5029,-,cgFAS1A,cgFAS1A (C. glutamicum)
+p161,10.1016.j.ymben.2015.04.003,JBEI-9021,MK,174.0 ± 11.6 mg/L,LB & M9,glucose,3%,Shake flask,-,79-95 hours,37 °C,JBEI-5029,-,"'tesA, fadD",-
+p162,10.1016.j.ymben.2015.04.009,YXWP-111(þ),Lycopene,9.67 mg/g DCW,YPD,Not mentioned,Not mentioned,Not mentioned,Not mentioned,3 days,Not mentioned,Not mentioned,Not mentioned,"CrtE03M, CrtYB11M, CrtI",Not mentioned
+p162,10.1016.j.ymben.2015.04.009,YXWPD-14,Lycopene,"1.61 g/L, 24.41 mg/g DCW",Not mentioned,Not mentioned,Not mentioned,"5 L fermentor, two-stage feeding",Not mentioned,96 h,Not mentioned,YXWP-137(þ),Not mentioned,"CrtE03M, CrtYB11M, CrtI",Not mentioned
+p162,10.1016.j.ymben.2015.04.009,YXWP-136(þ),Lycopene,17.46 mg/g DCW,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Not mentioned,3 days,Not mentioned,Not mentioned,Not mentioned,"CrtYB11M, CrtE03M",Not mentioned
+p162,10.1016.j.ymben.2015.04.009,YXWPD-12,Lycopene,"23.23 mg/g,159.56 mg/L",Not mentioned,Not mentioned,Not mentioned,Shake flask,Not mentioned,3 days,Not mentioned,YXWP-137(þ),Not mentioned,Same as YXWP-137(þ),Not mentioned
+p163,10.1016.S1096-7176(03)00046-6,AG14/(pSTV28GPS),BH4,429 mg/L culture broth,LB,Glycerol,2% w/v,Tube Culture,-,40h,37°C,JM101 mutant,,"folE, PTPS, SPR",-
+p163,10.1016.S1096-7176(03)00046-6,"AG14/(pSTV28GPS, pMW218guaBA)",BH4,718 mg/L culture broth,LB,Glycerol,2% w/v,Tube Culture and Glycerol feed,-,40h,37°C,AG14,-,"folE, PTPS, SPR, guaBA",-
+p163,10.1016.S1096-7176(03)00046-6,"AG14/(pSTV28MPS, pMW218guaBA)",BH4,4.0 g/L,NUCA,Glycerol,"Initial 2%, feed 10-15 ml/h","3L Bench Scale Fermentor, fed-batch",-,40h,37°C,AG14,-,"PTPS, SPR, guaBA",mtrA (Bacillus subtilis)
+p164,10.1007.s002840010255,NST[pAT1],phenylalanine,~1.4-fold higher than NST,MOPS,glucose,0.2%,batch culture,-,28 h,37°C,NST 74,-,tktA,-
+p164,10.1007.s002840010255,NST CSR,phenylalanine,~2-fold higher than NST,MOPS,glucose,0.2%,batch culture,-,28 h,37°C,NST 74,csrA::kanR,-,-
+p164,10.1007.s002840010255,NST CSR[pAT1],phenylalanine,~2.2 to 2.4-fold higher than NST,MOPS,glucose,0.2%,batch culture,-,28 h,37°C,NST 74,csrA::kanR,tktA,-
+p164,10.1007.s002840010255,NST,phenylalanine,~43% conversion (0.39 mol),MOPS,glucose,≤0.4%,batch culture,-,-,37°C,NST 74,-,-,-
+p164,10.1007.s002840010255,NST[pAT1],phenylalanine,~43% conversion (0.39 mol),MOPS,glucose,≤0.4%,batch culture,-,-,37°C,NST 74,-,tktA,-
+p164,10.1007.s002840010255,NST CSR,phenylalanine,~43% conversion (0.39 mol),MOPS,glucose,≤0.4%,batch culture,-,-,37°C,NST 74,csrA::kanR,-,-
+p164,10.1007.s002840010255,NST CSR[pAT1],phenylalanine,~43% conversion (0.39 mol),MOPS,glucose,≤0.4%,batch culture,-,-,37°C,NST 74,csrA::kanR,tktA,-
+p165,10.1002.jctb.4293,E. coli(pAC-NOX),(3R)-AC,60.3 g L⁻¹,LB,glucose,60 g L⁻¹,fed-batch in 5 L bioreactor (interim fed-batch),7.0,39 h,"37°C, optimized to 35°C post optimization",E. coli DH5α,,NADH oxidase,"budRAB from S. marcescens, nox from L. brevis"
+p167,10.1016.j.ymben.2011.09.005,CEN.PK113-7D (SUC2),ethanol,0.38 g/g sucrose,synthetic medium,sucrose,"20 g/L, 25 g/L","chemostat, anaerobic",5.0,,30°C,,,,
+p167,10.1016.j.ymben.2011.09.005,IMI056 (iSUC2),ethanol,0.38 g/g sucrose,synthetic medium,sucrose,"20 g/L, 25 g/L","chemostat, anaerobic",5.0,,30°C,CEN.PK113-7D (SUC2),,SUC2 (with ADH1 promoter),
+p167,10.1016.j.ymben.2011.09.005,IMM007 (iSUC2 evolved),ethanol,0.42 g/g sucrose,synthetic medium,sucrose,"20 g/L, 25 g/L","chemostat, anaerobic",5.0,,30°C,IMI056 (iSUC2),,AGT1,
+p167,10.1016.j.ymben.2011.09.005,IMM009 (iSUC2 evolved agt1Δ/agt1Δ),ethanol,0.38 g/g sucrose,synthetic medium,sucrose,"20 g/L, 25 g/L","chemostat, anaerobic",5.0,,30°C,IMM007 (iSUC2 evolved),AGT1,,
+p168,10.1016.j.ymben.2012.09.003,D-10,xylitol,13g/L,YP,"glucose, xylose",20g/L each,flask fermentation,-,48h,30°C,D452-2,-,-,SsXYL1
+p168,10.1016.j.ymben.2012.09.003,D-10-BT,xylitol,19g/L,YP,"cellobiose, xylose",20g/L each,flask fermentation,-,48h,30°C,D-10,-,-,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT-ALD6,xylitol,37–63% improved,YP,"cellobiose, xylose",30g/L each,flask fermentation,-,-,30°C,D-10-BT,-,ALD6,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT-IDP2,xylitol,37–63% improved,YP,"cellobiose, xylose",30g/L each,flask fermentation,-,-,30°C,D-10-BT,-,IDP2,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT-SsZWF1,xylitol,37–63% improved,YP,"cellobiose, xylose",30g/L each,flask fermentation,-,-,30°C,D-10-BT,-,SsZWF1,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT,xylitol,30g/L,YP,"cellobiose, xylose","34g/L cellobiose, 30g/L xylose",flask fermentation,-,62h,30°C,D-10,-,-,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT,xylitol,39g/L,YP,"cellobiose, xylose","44g/L cellobiose, 40g/L xylose",flask fermentation,-,72h,30°C,D-10,-,-,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT,xylitol,42g/L,YP,"cellobiose, xylose","22g/L cellobiose, 63g/L xylose","bioreactor, initial",6.0,34h,30°C,D-10,-,-,"cdt-1, gh1-1, SsXYL1"
+p168,10.1016.j.ymben.2012.09.003,D-10-BT,xylitol,93g/L,YP,"cellobiose, xylose","46g/L cellobiose, 102g/L xylose","bioreactor, initial, fed at 28h",6.0,-,30°C,D-10,-,-,"cdt-1, gh1-1, SsXYL1"
+p169,10.1016.j.ymben.2013.04.001,B. bassiana ATCC 7159,1,22.3±1.5 mg/l,PDB,Not specified,Not specified,"250-ml flasks, rotary shaker at 250rpm",Not specified,4 days,30°C,,,,
+p169,10.1016.j.ymben.2013.04.001,B. bassiana ATCC 7159,2,18.2±0.6 mg/l,PDB,Not specified,Not specified,"250-ml flasks, rotary shaker at 250rpm",Not specified,4 days,30°C,,,,
+p169,10.1016.j.ymben.2013.04.001,S. cerevisiae BJ5464-NpgA/pDY37,1,33.8±1.4 mg/l,SC-Ura dropout medium,glucose,20 g/l,"shake flask, equal volume of YP medium added",Not specified,72 hours,30°C,BJ5464-NpgA,,,BbBEAS
+p169,10.1016.j.ymben.2013.04.001,S. cerevisiae BJ5464-NpgA/pDY42,2,21.7±0.1 mg/l,SC-Ura dropout medium,glucose,20 g/l,"shake flask, equal volume of YP medium added",Not specified,72 hours,30°C,BJ5464-NpgA,,,BbBSLS
+p169,10.1016.j.ymben.2013.04.001,S. cerevisiae BJ5464-NpgA/pDY37+pDY48,"1, 3-5",61.7±3.0 mg/l (total),SC-Ura-Trp dropout,glucose,20 g/l,"shake flask, equal volume of YP medium added",Not specified,72 hours,30°C,BJ5464-NpgA,,KIVR,BbBEAS
+p169,10.1016.j.ymben.2013.04.001,S. cerevisiae BJ5464-NpgA/pDY37+pDY48,"1, 3-5",93.1±1.8 to 105.8±2.1 mg/l total (supplemented L-Val),SC-Ura-Trp dropout,glucose,20 g/l,"shake flask, equal volume of YP medium added",Not specified,72 hours,30°C,BJ5464-NpgA,,KIVR,BbBEAS
+p169,10.1016.j.ymben.2013.04.001,S. cerevisiae BJ5464-NpgA/pDY37+pDY48,"1, 3-5",57.9±1.2 to 52.7±1.5 mg/l total (supplemented L-Ile),SC-Ura-Trp dropout,glucose,20 g/l,"shake flask, equal volume of YP medium added",Not specified,72 hours,30°C,BJ5464-NpgA,,KIVR,BbBEAS
+p170,10.1002.bit.24547,ZD-T-010,miltiradiene,4.2 mg/L,SD,glucose,2%,Unbaffled culture flasks,-,4 days,30°C,BY4742,-,-,"SmCPS, SmKSL"
+p170,10.1002.bit.24547,ZD-T-011,miltiradiene,4.2 mg/L,SD,glucose,2%,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"tHMGR, upc2.1",-
+p170,10.1002.bit.24547,ZD-T-012,miltiradiene,4.2 mg/L,SD,glucose,2%,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"tHMGR, upc2.1",-
+p170,10.1002.bit.24547,ZD-T-013,miltiradiene,6.6 mg/L,SD,glucose,2%,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"ERG20-BTS1, SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-014,miltiradiene,8.8 mg/L,SD,glucose,2%,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"ERG20-BTS1, SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-021,miltiradiene,6.3 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"tHMGR, upc2.1",-
+p170,10.1002.bit.24547,ZD-T-022,miltiradiene,7.2 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"tHMGR, upc2.1",-
+p170,10.1002.bit.24547,ZD-T-023,miltiradiene,28.2 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"ERG20-BTS1, SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-024,miltiradiene,25.7 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-010,-,"ERG20-BTS1, SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-025,miltiradiene,41.6 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-023,-,"tHMGR, upc2.1, ERG20-BTS1-SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-026,miltiradiene,61.8 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-024,-,"tHMGR, upc2.1, ERG20-BTS1-SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-027,miltiradiene,43.6 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-023,-,"tHMGR, upc2.1, ERG20-BTS1-SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-028,miltiradiene,43.2 mg/L,YPD,-,-,Unbaffled culture flasks,-,4 days,30°C,ZD-T-024,-,"tHMGR, upc2.1, ERG20-BTS1-SaGGPS",-
+p170,10.1002.bit.24547,ZD-T-026,miltiradiene,488 mg/L,YPD,-,-,"5 L fermentor, fed-batch",5.5,6 days,30°C,ZD-T-024,-,"tHMGR, upc2.1, ERG20-BTS1-SaGGPS",-
+p171,10.1002.bit.24888,SCKK033,PHB,14.87 mg/gDW at 100 h,Modified minimal medium,"Glucose, Ethanol",20 g/L (Glucose),Shake Flask (aerobic),6.5,100 h,30°C,CEN.PK113-11C,his3-D1,"gapN, PHB pathway (phaA, phaB, phaC)",-
+p171,10.1002.bit.24888,SCKK032,PHB,27.86 mg/gDW at 100 h,Modified minimal medium,"Glucose, Ethanol",20 g/L (Glucose),Shake Flask (aerobic),6.5,100 h,30°C,CEN.PK113-11C,-,"phosphoketolase pathway (xpkA, ack)",-
+p171,10.1002.bit.24888,SCKK034,PHB,14.50 mg/g EtOH,Modified minimal medium,"Glucose, Ethanol",20 g/L (Glucose),Shake Flask (aerobic),6.5,-,30°C,CEN.PK113-11C,-,"Ethanol degradation pathway (ADH2, ALD6, ERG10, acs L641P), gapN",-
+p172,10.1002.bit.24993,Wild Type,2-PE,110.1 mg/L,SC-Trp,L-Phe,87 mg/L,-,-,48 h,30°C,W303-1B,-,ARO80,-
+p172,10.1002.bit.24993,Wild Type,2-PE,350.0 mg/L,SC-Leu-Ura,L-Phe,91 mg/L,-,-,96 h,30°C,W303-1B,-,"ARO9, ARO10",-
+p172,10.1002.bit.24993,Wild Type,2-PE,449.5 mg/L,SC-Leu-Trp-Ura,L-Phe,95 mg/L,-,-,96 h,30°C,W303-1B,-,"ARO9, ARO10, ARO80",-
+p172,10.1002.bit.24993,ald2Δ,2-PE,88.3 mg/L,SC,L-Phe,83 mg/L,-,-,72 h,30°C,W303-1B,ALD2,-,-
+p172,10.1002.bit.24993,ald3Δ,2-PE,110.8 mg/L,SC,L-Phe,83 mg/L,-,-,72 h,30°C,W303-1B,ALD3,-,-
+p172,10.1002.bit.24993,ald3ΔARO9ARO10,2-PE,514.2 mg/L,SC,-,-,-,-,84 h,30°C,W303-1B,ALD3,"ARO9, ARO10",-
+p172,10.1002.bit.24993,ald3ΔARO9ARO10ARO80,2-PE,619.6 mg/L,SC,-,-,-,-,84 h,30°C,W303-1B,ALD3,"ARO9, ARO10, ARO80",-
+p172,10.1002.bit.24993,Wild Type,2-PE,4.8 g/L,Minimal medium,L-Phe,10 g/L,-,-,195 h,-,W303-1B,-,-,-
+p172,10.1002.bit.24993,JHY315,2-PE,4.1 g/L,Selective SC / Production medium,L-Phe,10 g/L,two-step culture method,-,72 h,-,W303-1B,ALD3,"ARO9, ARO10, ARO80",-
+p172,10.1002.bit.24993,Wild Type,2-PE,682.8 mg/L,Selective SC / Production medium,L-Phe,10 g/L,two-phase (with PPG 1200),-,72 h,-,W303-1B,-,-,-
+p172,10.1002.bit.24993,JHY315,2-PE,6.1 g/L,Selective SC / Production medium,L-Phe,10 g/L,two-phase (with PPG 1200),-,72 h,-,W303-1B,ALD3,"ARO9, ARO10, ARO80",-
+p172,10.1002.bit.24993,JHY315,2-PE,4.8 g/L,Selective SC / Production medium,L-Phe,10 g/L,two-phase anaerobic,-,72 h,-,W303-1B,ALD3,"ARO9, ARO10, ARO80",-
+p173,10.1002.bit.25356,wt-FAR,Fatty alcohols,"45 mg/L (intracellular),",YPD,"Raffinose,","2% galactose, 6% galactose","Shake flask, Batch",-,40h,30°C,S. cerevisiae,-,FAR,Yes
+p173,10.1002.bit.25356,,,4.3 mg/L (extracellular),,Galactose,,,,,,BY4741,,,
+p173,10.1002.bit.25356,Ddga1-FAR,Fatty alcohols,"84 mg/L (intracellular),",YPD,"Raffinose,","2% galactose, 6% galactose","Shake flask, Batch",-,40h,30°C,S. cerevisiae,dga1,FAR,Yes
+p173,10.1002.bit.25356,,,14 mg/L (extracellular),,Galactose,,,,,,BY4741,,,
+p174,10.1186.1475-2859-11-117,SCIGS28,α-santalene,0.0013 Cmmol (Cmmol glucose)-1,Mineral salts medium,Glucose,20 g/l,Chemostat,5.0,Steady state reached after at least 5 residence times,30°C,CEN.PK113-5D,,"tHMG1 (plasmid), SanSyn opt (plasmid)","tHMG1, SanSyn opt"
+p174,10.1186.1475-2859-11-117,SCIGS29,α-santalene,0.0039 Cmmol (Cmmol glucose)-1,Mineral salts medium,Glucose,20 g/l,Chemostat,5.0,Steady state reached after at least 5 residence times,30°C,SCICK16,lpp1 Δ,-ERG9 regulated by P HXT1,"tHMG1, SanSyn opt"
+p174,10.1186.1475-2859-11-117,SCIGS30,α-santalene,0.0039 Cmmol (Cmmol glucose)- 1,Mineral salts medium,Glucose,20 g/l,Chemostat,5.0,Steady state reached after at least 5 residence times,30°C,SCIGS29,"lpp1 Δ, dpp1 Δ",-ERG9 regulated by P HXT1,"tHMG1, SanSyn opt"
+p174,10.1186.1475-2859-11-117,SCIGS24,α-santalene,0.0052 Cmmol (Cmmol glucose)-1,Mineral salts medium,Glucose,20 g/l,Chemostat,5.0,Steady state reached after at least 5 residence times,30°C,Not provided explicitly,,"ERG20, GDH2","tHMG1, SanSyn opt"
+p174,10.1186.1475-2859-11-117,SCIGS25,α-santalene,0.0052 Cmmol (Cmmol glucose)-1,Mineral salts medium,Glucose,20 g/l,Chemostat,5.0,Steady state reached after at least 5 residence times,30°C,Not provided explicitly,,"upc2-1, tHMG1","tHMG1, SanSyn opt"
+p175,10.1186.1475-2859-9-84,VG0,VG,>100 mg/L,minimal medium,glucose,20 g/L,2 L well-controlled bioreactors (batch mode),5,90 h,30°C,VAN286,none,none,"UGT72E2 (Arabidopsis thaliana), EntD (Escherichia coli)"
+p175,10.1186.1475-2859-9-84,VG2,VG,1.5 fold higher yield,minimal medium,glucose,20 g/L,2 L well-controlled bioreactors (batch mode),5,not specified,30°C,VG0,PDC1,none,"UGT72E2 (Arabidopsis thaliana), EntD (Escherichia coli)"
+p175,10.1186.1475-2859-9-84,VG2,VG,5.6 mgVG/gglc (chemostat),minimal medium,glucose,20 g/L,1.5 L glucose-limited chemostat at 0.1 h^-1,5,not specified,30°C,VG0,PDC1,none,"UGT72E2 (Arabidopsis thaliana), EntD (Escherichia coli)"
+p175,10.1186.1475-2859-9-84,VG4,VG,55% higher yield,minimal medium,glucose,20 g/L,2 L well-controlled bioreactors (batch mode),5,not specified,30°C,VG3,"PDC1, GDH1",GDH2 (under PGK1 promoter),"UGT72E2 (Arabidopsis thaliana), EntD (Escherichia coli)"
+p175,10.1186.1475-2859-9-84,VG4,VG,15 mgVG/gglc (chemostat),minimal medium,glucose,20 g/L,1.5 L glucose-limited chemostat at 0.015 h^-1,5,not specified,30°C,VG2,"PDC1, GDH1",GDH2 (under PGK1 promoter),"UGT72E2 (Arabidopsis thaliana), EntD (Escherichia coli)"
+p177,10.1186.s13068-015-0281-4,BR (GCD1-P180),n-butanol,150-300 mg/L,"YPD, SCD (both with 2% glucose)",glucose,2%,semi-anaerobic 50 ml vials,,21 days,30°C,S. cerevisiae,ADH1,"ALD6, ACS2","ABE pathway genes (Cct, Adhe2, Bcd, Hbd, Ter)"
+p177,10.1186.s13068-015-0281-4,BS (GCD1-S180),n-butanol,75-150 mg/L,"YPD, SCD (both with 2% glucose)",glucose,2%,semi-anaerobic 50 ml vials,,21 days,30°C,S. cerevisiae,ADH1,"ALD6, ACS2","ABE pathway genes (Cct, Adhe2, Bcd, Hbd, Ter)"
+p178,10.1006.mben.1999.0140,TN19,Ethanol,Increased by 10% compared to wild type,Minimal medium,Glucose,25 g/l,Anaerobic batch cultivation,5.00,"24 h (pre-culture), batch duration not specified",30°C,TN1,GDH1,"GLN1, GLT1",
+p178,10.1006.mben.1999.0140,TN9,Ethanol,Increased by 8% compared to wild type,Minimal medium,Glucose,25 g/l,Anaerobic batch cultivation,5.00,"24 h (pre-culture), batch duration not specified",30°C,TN1,GDH1,,
+p178,10.1006.mben.1999.0140,TN15,Ethanol,Slight increase compared to TN9,Minimal medium,Glucose,25 g/l,Anaerobic batch cultivation,5.00,"24 h (pre-culture), batch duration not specified",30°C,TN9,,GLN1,
+p178,10.1006.mben.1999.0140,TN17,Ethanol,Slight increase compared to TN9,Minimal medium,Glucose,25 g/l,Anaerobic batch cultivation,5.00,"24 h (pre-culture), batch duration not specified",30°C,TN9,,GLT1,
+p178,10.1006.mben.1999.0140,TN22,Ethanol,Slight increase compared to TN9,Minimal medium,Glucose,25 g/l,Anaerobic batch cultivation,5.00,"24 h (pre-culture), batch duration not specified",30°C,TN9,,GDH2,
+p179,10.1016.j.jbiotec.2013.10.017,JN02,Geraniol,0.52 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,CEN.PK2-1C,,,GES1
+p179,10.1016.j.jbiotec.2013.10.017,JN03,Geraniol,0.73 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN02,,,coGES1
+p179,10.1016.j.jbiotec.2013.10.017,JN04,Geraniol,0.66 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN02,,coGES1,coGES1
+p179,10.1016.j.jbiotec.2013.10.017,JN05,Geraniol,1.57 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN04,,tHMG1,
+p179,10.1016.j.jbiotec.2013.10.017,JN06,Geraniol,1.62 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN04,,IDI1,
+p179,10.1016.j.jbiotec.2013.10.017,JN07,Geraniol,0.98 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN04,,IDI1,
+p179,10.1016.j.jbiotec.2013.10.017,JN08,Geraniol,6.77 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN04,,"tHMG1, IDI1",
+p179,10.1016.j.jbiotec.2013.10.017,JN09,Geraniol,13.66 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN08,,"MAF1, IDI1, tHMG1",
+p179,10.1016.j.jbiotec.2013.10.017,JN10,Geraniol,36.04 mg L^-1,YNB,Glucose,2%,"250-mL and 500-mL flask, batch",Not specified,"24 h initial, 48 h main",30°C,JN09,,"ERG20 K197G, MAF1, IDI1, tHMG1",
+p180,10.1016.j.ymben.2007.03.002,Wild type (CEN.PK2),Glycerol,2.07% of the glucose consumed,"SD, YPD, MO",Glucose,20 g/L,"Shake flasks and bioreactors, aerobic batch cultures",5.0,-,30°C,CEN.PK2,-,-,-
+p180,10.1016.j.ymben.2007.03.002,GPD1-overexpressing strain (HC13),Glycerol,10-fold higher than wild type,SD,Glucose,20 g/L,Not specified,5.0,-,30°C,CEN.PK2,-,GPD1,-
+p180,10.1016.j.ymben.2007.03.002,tpi1Δ GPD1-overexpressing strain (HC16),Glycerol,0.36 g/g glucose,SD,Glucose,20 g/L,Controlled batch reactor,5.0,-,30°C,CEN.PK2,TPI1,GPD1,-
+p180,10.1016.j.ymben.2007.03.002,adh1Δ strain (HC17),Glycerol,Comparable to GPD1 overexpressing,SD,Glucose,20 g/L,Shake flasks,5.0,-,30°C,CEN.PK2,ADH1,-,-
+p180,10.1016.j.ymben.2007.03.002,tpi1Δ GPD1-overexpressing adh1Δ strain (HC32),Glycerol,0.46 g/g glucose,SD,Glucose,20 g/L,Controlled batch reactor,5.0,-,30°C,CEN.PK2,"TPI1, ADH1",GPD1,-
+p180,10.1016.j.ymben.2007.03.002,HC42 (tpi1Δ adh1Δ GPD1 ALD3-overexpressing),Glycerol,0.46 g/g glucose; 3.1 mmol/g DM*h,SD,Glucose,20 g/L,Controlled batch reactor,5.0,-,30°C,CEN.PK2,"TPI1, ADH1","GPD1, ALD3",-
+p180,10.1016.j.ymben.2007.03.002,FM62 (HC42 + FPS1 overexpressing),Glycerol,10% increase in productivity over HC42,SD,Glucose,20 g/L,Not specified,5.0,-,30°C,CEN.PK2,"TPI1, ADH1","GPD1, ALD3, FPS1",-
+p181,10.1016.j.ymben.2007.11.001,"YR63, YR64",Linalool,"~$77 mg/L (YPD medium), ~$26 mg/L (wine must)","YPD medium, wine must",Glucose,2%,"500 ml flasks (YPD), 225 ml glass bottles (wine must)",Not specified,"58h (YPD), 8 days (wine must)","30°C (YPD), 18°C (wine must)",S. cerevisiae T73,ura3::470,LIS (S-linalool synthase),Claria breweri S-linalool synthase gene
+p182,10.1016.j.ymben.2008.03.001,CEN7,Taxadiene,30671 mg/l,"SC, YPD",Glucose,2%,Baffled Erlenmeyer,,48h,28°C,CEN.PK2-1C,,"tHMG-CoA reductase, UPC2-1","T. chinensis taxadiene synthase, T. chinensis geranylgeranyl diphosphate synthase"
+p182,10.1016.j.ymben.2008.03.001,CEN8,Taxadiene,32073 mg/l,"SC, YPD",Glucose,2%,Baffled Erlenmeyer,,48h,28°C,CEN.PK2-1C,,"tHMG-CoA reductase, UPC2-1","T. chinensis taxadiene synthase, S. acidocaldarius geranylgeranyl diphosphate synthase"
+p182,10.1016.j.ymben.2008.03.001,CEN9,Taxadiene,228715 mg/l,"SC, YPD",Glucose,2%,Baffled Erlenmeyer,,48h,28°C,CEN.PK2-1C,,"tHMG-CoA reductase, UPC2-1 (codon optimized)","Codon optimized T. chinensis taxadiene synthase, T. chinensis geranylgeranyl diphosphate synthase"
+p182,10.1016.j.ymben.2008.03.001,CEN10,Taxadiene,8.770.85 mg/l,"SC, YPD",Glucose,2%,Baffled Erlenmeyer,,48h,28°C,CEN.PK2-1C,,"tHMG-CoA reductase, UPC2-1 (codon optimized)","Codon optimized T. chinensis taxadiene synthase, S. acidocaldarius geranylgeranyl diphosphate synthase"
+p183,10.1016.j.ymben.2008.06.006,w303-1A,ethylene,"240 mg/l h (peak), 420 mg/l h (peak with glutamate)",minimal medium YNB w/o amino acids and ammonium sulphate,glucose,10 g/l,"shake flasks, well-controlled bioreactors",5.0,,30°C,w303-1A,ura3-1,,ethylene forming enzyme (EFE) from Pseudomonas syringae
+p184,10.1038.nbt.2509,JAy153,"isobutanol, isopentanol, 2-methyl-1-butanol",486 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,"ILV2, ILV3, ILV5, Ll-kivd, Sc-adh7",
+p184,10.1038.nbt.2509,JAy161,"isobutanol, isopentanol, 2-methyl-1-butanol",491 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,"ILV2, ILV3, ILV5, Ll-kivd, Sc-adh7",
+p184,10.1038.nbt.2509,JAy2 (control),background,28 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,,
+p184,10.1038.nbt.2509,JAy38,isobutanol,136 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,"ILV2, ILV3, ILV5",
+p184,10.1038.nbt.2509,"JAy49, JAy51","isopentanol, isobutanol, 2-methyl-1-butanol",244 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,"ILV2, ILV3, ILV5, α-KDC",
+p184,10.1038.nbt.2509,JAy166,isobutanol,151 mg/l (isobutanol),minimal,glucose,"10%, 20%","conical tubes, semi-aerobic",,24 h,30°C,JAy1,ura3Δ0,"ILV2, ILV3, ILV5, α-KDC, ADH",
+p187,10.1016.S1567-1356(03)00157-0,FY23,resveratrol,up to 291 ng/200 ml,SCDL,p-coumaric acid,10 mg/l,200 ml culture,-,48 h,30°C,S. cerevisiae FY23,none,"4CL216, vst1","coenzyme-A ligase (4CL216), resveratrol synthase (vst1)"
+p188,10.1016.j.biortech.2014.12.020,MEC1121,Ethanol,11.61 g/L,YP,Glucose + Xylose,17 g/L Glucose + 17 g/L Xylose,"Erlenmeyer flask, batch",5,48h,30°C,PE-2,GRE3,"SsXYL1, SsXYL2, ScXKS1, ScTAL1",-
+p188,10.1016.j.biortech.2014.12.020,MEC1133,Ethanol,25.5 g/L,SSCF/ Corn cob hydrolysate,Glucose + Xylose,Not specified,"Erlenmeyer flask, SSCF",Not specified,48h,30°C,MEC1121,GRE3,"SsXYL1, SsXYL2, ScXKS1, ScTAL1",-
+p189,10.1016.j.ymben.2011.05.001,M208,valencene,38 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,W303-1A,—,—,CsTPS1
+p189,10.1016.j.ymben.2011.05.001,W303-1A,valencene,19 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,W303-1A,bts1Δ,tHMG,CsTPS1
+p189,10.1016.j.ymben.2011.05.001,W303-1A,valencene,34 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,W303-1A,"dpp1Δ, lpp1Δ",tHMG,CsTPS1
+p189,10.1016.j.ymben.2011.05.001,W303-1A,valencene,150 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,W303-1A,—,"tHMG, AtFDPS",CsTPS1
+p189,10.1016.j.ymben.2011.05.001,W303-1A,valencene,150 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,W303-1A,—,"tHMG, HsFDPS",CsTPS1
+p189,10.1016.j.ymben.2011.05.001,BDXe,valencene,370 μg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,BDX,—,"tHMG, AtFDPS",CsTPS1
+p189,10.1016.j.ymben.2011.05.001,BDXe,valencene,1.5 mg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,BDX,—,"tHMG, mtFDPS","mtCsTPS1, CsTPS1"
+p189,10.1016.j.ymben.2011.05.001,BDXe,amorphadiene,20 mg/l,YPD,glucose,2% (w/v),"5 ml test tubes, overlaid with dodecane",—,144h,—,BDX,—,"tHMG, mtFDPS","mtADS, ADS"
+p191,10.1016.j.ymben.2013.01.003,Δidh1-acl,fatty acids,"80% increase in C16:1, 60% increase in C18:1",YNBD-URA,glucose,2%,shake flasks,,,30°C,S. cerevisiae BY4741,idh1,acl,mus musculus
+p191,10.1016.j.ymben.2013.01.003,Δidh2-acl,fatty acids,"60% increase in C16:1, 45% increase in C18:1",YNBD-URA,glucose,2%,shake flasks,,,30°C,S. cerevisiae BY4741,idh2,acl,mus musculus
+p191,10.1016.j.ymben.2013.01.003,Δidh1/2-acl,fatty acids,"92% increase in C16:1, 77% increase in C18:1",YNBD-URA,glucose,2%,shake flasks,,,30°C,S. cerevisiae BY4741,"idh1, idh2",acl,mus musculus
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-000,Protopanaxadiol,0.05 mg/g DCW,YPD,glucose,2%,-,-,6 days,30°C,BY4742,-,-,"PgDDS, PgPPDS, AtCPR1"
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-010,Protopanaxadiol,4.49 mg/g DCW,YPD,glucose,2%,-,-,6 days,30°C,ZD-PPD-000,-,tHMG1,-
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-013,Protopanaxadiol,4.49 mg/g DCW,YPD,glucose,2%,-,-,6 days,30°C,ZD-PPD-010,-,"ERG20, ERG9",-
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-016,Protopanaxadiol,8.48 mg/g DCW,YPD,glucose,2%,-,-,6 days,30°C,ZD-PPD-010,-,"ERG1, ERG20, ERG9",-
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-018,Protopanaxadiol,13.11 mg/g DCW,YPD,glucose,2%,-,-,6 days,30°C,ZD-PPD-016,-,"SynPgPPDS, tHMG1, AtCPR1",-
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-018,Protopanaxadiol,1189 mg/L,YPD,glucose,578 g/L,"7.5L fermentor, fed-batch",5.5,192h,30°C,ZD-PPD-016,-,"SynPgPPDS, tHMG1, AtCPR1",-
+p192,10.1016.j.ymben.2013.10.004,ZD-PPD-018 + methyl oleate,Protopanaxadiol,1189 mg/L,YPD,glucose,578 g/L,"7.5L fermentor, two-phase extractive",5.5,96h,30°C,ZD-PPD-018,-,"SynPgPPDS, tHMG1, AtCPR1",-
+p193,10.1016.j.ymben.2014.01.002,adh1Δ,1-butanol,242.8 mg/L,YPAD medium,Glucose,2%,"Baffled shake-flasks, Aerobic growth",5,2 days,30°C,S. cerevisiae strain YSG50 ura3Δ,adh1,"LEU4, LEU1, ILV1, CHA1",Aro10pI355Y
+p194,10.1016.j.ymben.2014.01.005,HPY01,3-HP,92.6 mg/l,Defined minimal medium,Glucose,20 g/l,Unbaffled cotton-stopped flasks,,72h,30°C,CEN.PK 113-11C,,,mcrCa
+p194,10.1016.j.ymben.2014.01.005,HPY06,3-HP,210 mg/l,Defined minimal medium,Glucose,20 g/l,Unbaffled cotton-stopped flasks,,72h,30°C,CEN.PK 113-11C,,"ADH2, ALD6, acsSE, ACC1",mcrCa
+p194,10.1016.j.ymben.2014.01.005,HPY07,3-HP,249 mg/l,Defined minimal medium,Glucose,20 g/l,Unbaffled cotton-stopped flasks,,72h,30°C,SCIYC32,CIT2,"ADH2, ALD6, acsSE, ACC1",mcrCa
+p194,10.1016.j.ymben.2014.01.005,HPY08,3-HP,271 mg/l,Defined minimal medium,Glucose,20 g/l,Unbaffled cotton-stopped flasks,,72h,30°C,SCIYC33,MLS1,"ADH2, ALD6, acsSE, ACC1",mcrCa
+p194,10.1016.j.ymben.2014.01.005,,3-HP,463 mg/l,Defined minimal medium,Glucose,20 g/l,Unbaffled cotton-stopped flasks,,72h,30°C,CEN.PK 113-11C,MLS1,"ADH2, ALD6, acsSE, ACC1","mcrCa, gapN"
+p195,10.1016.j.ymben.2014.05.001,WT,ethanol,25.4 g/L,SD,"glucose, xylose","49.3 g/L glucose, 49.6 g/L xylose","flask, batch",,24h,30°C,YC-DM,,,Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY3,ethanol,28.1 g/L,SD,"glucose, xylose","49.3 g/L glucose, 49.6 g/L xylose","flask, batch",,120h,30°C,WXY1,,"RPE1, XYL2, RKI1, TAL1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY5,ethanol,38.3 g/L,SD,"glucose, xylose","49.3 g/L glucose, 49.6 g/L xylose","flask, batch",,120h,30°C,WXY3,,"XYL14m, XYL2, XKS1, RPE1, RKI1, TAL1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY6,ethanol,30.4 g/L,SD,"glucose, xylose","49.5 g/L glucose, 49.2 g/L xylose","flask, batch",,120h,30°C,WXY3,,"TAL1, XKS1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY7,ethanol,45.2 g/L,SD,"glucose, xylose","49.2 g/L glucose, 49.5 g/L xylose","flask, batch",,96h,30°C,WXY5,,"TAL1, XKS1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY8,ethanol,0.47 g/g total sugar,SD,"glucose, xylose","49.5 g/L glucose, 49.7 g/L xylose","flask, batch",,96h,30°C,WXY5,,"TAL1, XKS1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY9,ethanol,0.46 g/g total sugar,SD,"glucose, xylose","49.5 g/L glucose, 49.7 g/L xylose","flask, batch",,96h,30°C,WXY5,,"TAL1, XKS1",Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY10,ethanol,0.47 g/g total sugar,SD,"glucose, xylose","49.5 g/L glucose, 49.7 g/L xylose","flask, batch",,96h,30°C,WXY5,,TAL1,Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY11,ethanol,0.48 g/g total sugar,SD,"glucose, xylose","49.5 g/L glucose, 49.7 g/L xylose","flask, batch",,96h,30°C,WXY5,,XKS1,Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY12,ethanol,0.48 g/g total sugar,SD,"glucose, xylose","50 g/L glucose, 50 g/L xylose","flask, batch",,84h,30°C,WXY5,,TAL1,Sch. stipitis
+p195,10.1016.j.ymben.2014.05.001,WXY13,ethanol,27% lower than WXY12,SD,"glucose, xylose","49.7 g/L glucose, 49.8 g/L xylose","flask, batch",,96h,30°C,WXY5,,TAL1,Sch. stipitis
+p196,10.1016.j.ymben.2014.07.008,BY4741+pXP842-2PS,TAL,260 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,none,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δpep4,TAL,870 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,PEP4,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δprb1,TAL,1.36 g/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,PRB1,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δpep4Δprb1,TAL,930 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,"PEP4, PRB1",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BJ5464,TAL,870 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,"PEP4, PRB1",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δgsy1Δgsy2,TAL,580 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,"GSY1, GSY2",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δzwf1,TAL,530 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,ZWF1,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δpck1,TAL,290 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,PCK1,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δfbp1,TAL,130 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,FBP1,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δydr141c,TAL,370 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,YDR141C,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δglc7,TAL,130 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,GLC7,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δntc1,TAL,190 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,NTC1,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δcat5,TAL,120 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,CAT5,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741Δmatepony,TAL,130 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,MATEPONY,2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BYtΔprb1Δpyc2Δyia6,TAL,930 mg/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741Δtrp1,"PRB1, PYC2, YIA6",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BYtΔprb1Δpyc2Δnte1,TAL,1.0 g/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741Δtrp1,"PRB1, PYC2, NTE1",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BJtΔprb1Δpyc2Δnte1,TAL,1.25 g/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741,"PEP4, PRB1, PYC2, NTE1",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BYtΔprb1Δpyc2Δyia6Δnte1,TAL,1.3 g/L,YPD,glucose,1%,"Shake flask, batch",not specified,48h,30°C,BY4741Δtrp1,"PRB1, PYC2, YIA6, NTE1",2-PS,2-PS from G. hybrida
+p196,10.1016.j.ymben.2014.07.008,BY4741+pXP842-2PS (fed-batch),TAL,2.2 g/L,YPD,glucose,continuous (to maintain DO at 20%),"Fermentor, fed-batch",6.0,120h,30°C,BY4741Δtrp1,"PRB1, PYC2, YIA6, NTE1",2-PS,2-PS from G. hybrida
+p197,10.1016.j.ymben.2014.10.003,SCE-R2-200,3HP,13.7±0.3 g L⁻¹,Mineral medium,Glucose,Not specified,Fed-batch,5,80 h,30°C,CEN.PK,Not mentioned,"AAT2, PYC1, PYC2","BcBAPAT, EcYDFG, TcPAND"
+p197,10.1016.j.ymben.2014.10.003,SCE-R2-200,3HP,12.2 g L⁻¹,Mineral medium,Glucose,Not specified,Fed-batch,5,Not specified,30°C,CEN.PK,Not mentioned,"AAT2, PYC1, PYC2","BcBAPAT, EcYDFG, TcPAND"
+p197,10.1016.j.ymben.2014.10.003,SCE-R2-200,3HP,9.2 g L⁻¹,Mineral medium,Glucose,Not specified,Fed-batch,3.5,Not specified,30°C,CEN.PK,Not mentioned,"AAT2, PYC1, PYC2","BcBAPAT, EcYDFG, TcPAND"
+p197,10.1016.j.ymben.2014.10.003,Not specified,3HP,0.83±0.08 g L⁻¹,Mineral medium,Glucose,Not specified,Not specified,Not specified,Not specified,Not specified,CEN.PK,Not mentioned,Not specified,"TcPAND, BcBAPAT, EcYDFG"
+p197,10.1016.j.ymben.2014.10.003,Not specified,3HP,3.66±0.72 g L⁻¹,Feed-in-time medium,Glucose,Not specified,Not specified,Not specified,Not specified,Not specified,CEN.PK,Not mentioned,Not specified,"TcPAND, BcBAPAT, EcYDFG"
+p197,10.1016.j.ymben.2014.10.003,Not specified,3HP,2.14±0.09 g L⁻¹,Mineral medium,β-alanine,10 g L⁻¹,Not specified,Not specified,72 h,30°C,CEN.PK,Not mentioned,Not specified,"BcBAPAT, EcYDFG"
+p198,10.1016.j.ymben.2014.10.008,AM94,"FOH, NOH, GGOH, GLOH, sclareol",0.2mg/L (sclareol),"neutral or alkaline medium, unbuffered medium for acidic conditions",glucose,,shake flask,"neutral or alkaline, pH 4",48h,30°C,,,CcCLS,
+p198,10.1016.j.ymben.2014.10.008,AM94,sclareol,6.8mg/L,GDRA (Galactose Raffinose based selective medium with dodecane),galactose-raffinose,,shake flask,"unbuffered, allows media acidification",48h,30°C,,,CcGGPPS–ERG20p fusion,CcCLS
+p198,10.1016.j.ymben.2014.10.008,AM94,sclareol,15.4mg/L,GDRA with overlay dodecane,galactose-raffinose,,shake flask,acidic,48h,30°C,,,Erg20p(F96C) or double mutant Erg20p(Y95L–F96I),CcCLS
+p198,10.1016.j.ymben.2014.10.008,AM94,sclareol,28mg/L,GDRA +  additional CcCLS plasmid,galactose-raffinose,,shake flask,acidic,48h,30°C,AM94,,Erg20p(F96C) and CD-HMG2,"CcCLS, CcCLS–Erg20p(F96C)"
+p198,10.1016.j.ymben.2014.10.008,AM94,cis-abienol,12.8mg/L,GDRA,galactose-raffinose,,shake flask,acidic,,,,Erg20p(F96C),"CcCLS, NtABS",
+p198,10.1016.j.ymben.2014.10.008,AM205,carotenoids,261μg/g DCW,glucose CM-histidine,glucose,,shake flask,efficient,,,AM201,wild-type ERG20 allele,ERG20(F96C),crtI and crtYB
+p198,10.1016.j.ymben.2014.10.008,AM205,sclareol,113mg/L,GDRA,galactose-raffinose,,shake flask,acidic,,30°C,AM205,,Erg20p(F96C),"CcCLS–Erg20p(F96C), CD-HMG2, CcCLS"
+p198,10.1016.j.ymben.2014.10.008,AM205,sclareol,403mg/L,GDRA,galactose-raffinose,,shake flask,acidic,,30°C,AM205,,Erg20p(F96C),"SsSCLS, CcCLS–Erg20p(F96C)"
+p198,10.1016.j.ymben.2014.10.008,AM94,abietadiene,98.5mg/L,GDRA,galactose-raffinose,,shake flask,acidic,,,AM94,,Erg20p(F96C),"PaLAS, Bts1p"
+p198,10.1016.j.ymben.2014.10.008,AM205,abietadiene,143mg/L,GDRA,galactose-raffinose,,shake flask,acidic,,,AM205,,Erg20p(F96C),"PaLAS, Bts1p"
+p199,10.1016.j.ymben.2014.12.001,AM102 with SfCDS and SpMilS,miltiradiene (1),26 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, SfCDS, SpMilS"
+p199,10.1016.j.ymben.2014.12.001,AM102 with CcCLS and SpMilS,manoyl oxide (4),36 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, CcCLS, SpMilS"
+p199,10.1016.j.ymben.2014.12.001,AM102 with CcCLS and SsSCLS,sclareol (5),87 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, CcCLS, SsSCLS"
+p199,10.1016.j.ymben.2014.12.001,AM102 with SfCDS and SsSCLS,manool (6),96 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, SfCDS, SsSCLS"
+p199,10.1016.j.ymben.2014.12.001,AM102 with CcCLS and NtABS,cis-abienol (7),3.9 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, CcCLS, NtABS"
+p199,10.1016.j.ymben.2014.12.001,"AM102 with SfCDS, SpMilS and PtAO","18-Hydroxy-miltiradiene (9), 19-Hydroxy-miltiradiene (10)","~19 mg/L for 9, ~10 mg/L for 10",Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, SfCDS, SpMilS, PtAO"
+p199,10.1016.j.ymben.2014.12.001,"AM102 with SfCDS, SsSCLS and PtAO",3β-Hydroxy-manool (11),~4 mg/L,Gal/Raff-SD,"Galactose, Raffinose","2%, 1%","shake flask, with 1mL dodecane overlay",,2 days,30°C,"AM102, modified for terpene production","ERG9, UBC7, SSM4 (heterozygous deletion)",HMG2(K6R) (degradation stabilized),"Erg20p-CcGGPPS, SfCDS, SsSCLS, PtAO"
+p200,10.1016.j.ymben.2015.03.003,ZW-DM-A,DM,2.60 μmol/g DCW,YPD,Glucose,unspecified,unspecified,unspecified,6 days,30°C,BY4742,unspecified,"TEF1-tHMG1, PGK1-tHMG1",P. ginseng PgDDS
+p200,10.1016.j.ymben.2015.03.003,ZW-PPD-A,PPD,2.49 μmol/g DCW,YPD,Glucose,unspecified,unspecified,unspecified,6 days,30°C,ZW-DM-A,unspecified,"TEF1-SynPgPPDS, TDH3-ATR2.1, PGK1-tHMG1",A. thaliana ATR2.1
+p200,10.1016.j.ymben.2015.03.003,ZW-PPD-B,PPD,8.29 μmol/g DCW,YPD,Glucose,unspecified,unspecified,unspecified,6 days,30°C,ZW-PPD-A,unspecified,"TPI1-PgSQE1, PGK1-ERG9, GPM1-ERG20",A. thaliana ATR2.1
+p200,10.1016.j.ymben.2015.03.003,D20RH18,Rh2,1.45 μmol/g DCW,YPD,Glucose,unspecified,unspecified,unspecified,6 days,30°C,ZW-PPD-B,unspecified,TEF1-UGTPg45,P. ginseng UGTPg45
+p200,10.1016.j.ymben.2015.03.003,D20RG1,Rg3,3.49 μmol/g DCW,YPD,Glucose,unspecified,unspecified,unspecified,6 days,30°C,ZW-PPD-B,unspecified,"TEF1-UGTPg45, HXT7-UGTPg29","P. ginseng UGTPg45, UGTPg29"
+p201,10.1016.j.ymben.2015.08.007,ST4135,resveratrol,2.73±0.05 mg/L,minimal medium,glucose,30 g/L,batch bioreactor,5.0,72h,30°C,CEN.PK102-5B,none,"HaTAL, At4CL1, VvVST1",none
+p201,10.1016.j.ymben.2015.08.007,ST4136,resveratrol,4.85±0.31 mg/L,minimal medium,glucose,30 g/L,batch bioreactor,5.0,72h,30°C,CEN.PK102-5B,none,"ScARO4K229L, ScARO7G141S",none
+p201,10.1016.j.ymben.2015.08.007,ST4140,resveratrol,6.39±0.03 mg/L,minimal medium,glucose,30 g/L,batch bioreactor,5.0,72h,30°C,CEN.PK102-5B,none,"ScARO4K229L, ScARO7G141S, ScACC1S659A, S1157A",none
+p201,10.1016.j.ymben.2015.08.007,ST4152,resveratrol,235.57±7.00 mg/L,minimal medium,glucose,30 g/L,batch bioreactor,5.0,72h,30°C,ST4140,none,"ScARO4K229L, ScARO7G141S, ScACC1S659A, S1157A","HaTAL, At4CL1, VvVST1"
+p201,10.1016.j.ymben.2015.08.007,ST4152,resveratrol,415.65 mg/L,minimal medium,glucose,40 g/L (batch phase) + feed,fed-batch bioreactor,5.0,not specified,30°C,ST4140,none,"ScARO4K229L, ScARO7G141S, ScACC1S659A, S1157A","HaTAL, At4CL1, VvVST1"
+p201,10.1016.j.ymben.2015.08.007,ST4152,resveratrol,531.41 mg/L,minimal medium,ethanol,40 g/L (batch phase) + feed,fed-batch bioreactor,5.0,not specified,30°C,ST4140,none,"ScARO4K229L, ScARO7G141S, ScACC1S659A, S1157A","HaTAL, At4CL1, VvVST1"
+p202,10.1007.s00253-014-5895-0,BY4741 (wild-type),Itaconic Acid,59 mg/L,YSC,Glucose,20 g/L,"Flask-scale (15 mL), batch",-,3 days,30 °C,BY4741,,,CAD from A. terreus (Enhanced PGPD)
+p202,10.1007.s00253-014-5895-0,BY4741 ∆ade3,Itaconic Acid,90 mg/L,YSC,Glucose,20 g/L,"Flask-scale (15 mL), batch",-,3 days,30 °C,BY4741,ade3,,CAD from A. terreus (Enhanced PGPD)
+p202,10.1007.s00253-014-5895-0,BY4741 ∆ade3 ∆bna2,Itaconic Acid,122 mg/L,YSC,Glucose,20 g/L,"Flask-scale (15 mL), batch",-,3 days,30 °C,BY4741,"ade3, bna2",,CAD from A. terreus (Enhanced PGPD)
+p202,10.1007.s00253-014-5895-0,BY4741 ∆ade3 ∆bna2 ∆tes1,Itaconic Acid,126 mg/L,YSC,Glucose,20 g/L,"Flask-scale (15 mL), batch",-,3 days,30 °C,BY4741,"ade3, bna2, tes1",,CAD from A. terreus (Enhanced PGPD)
+p202,10.1007.s00253-014-5895-0,BY4741 ∆ade3 ∆bna2 ∆tes1 (high cell density),Itaconic Acid,168 mg/L,YSC,Glucose,20 g/L,"Flask-scale (15 mL), batch",-,3 days,30 °C,BY4741,"ade3, bna2, tes1",,CAD from A. terreus (Enhanced PGPD)
