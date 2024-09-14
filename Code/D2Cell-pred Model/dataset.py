@@ -83,7 +83,7 @@ class D2CellDataset:
         G = nx.from_pandas_edgelist(edge_list, source='source',
                                     target='target', edge_attr=['importance'],
                                     create_using=nx.DiGraph())
-        print(G.number_of_nodes(), G.number_of_edges())
+        # print(G.number_of_nodes(), G.number_of_edges())
         edge_index_ = [(e[0], e[1]) for e in G.edges]
         edge_index = torch.tensor(edge_index_, dtype=torch.long).T
 
@@ -99,13 +99,13 @@ class D2CellDataset:
         :returns: DataLoader for training and testing sets
         """
         matrix, row_labels, col_labels = self.extract_matrix(self.graph_path)
-        delete_meta = pd.read_excel(self.delete_meta_path)['met_id'].tolist()
+        delete_meta = pd.read_csv(self.delete_meta_path)['met_id'].tolist()
         delete_list = []
         for i in range(len(row_labels)):
             if row_labels[i] in delete_meta:
                 delete_list.append(i)
         edge_index, edge_weight = self.matrix2graph(matrix, delete_list)
-        df = pd.read_excel(self.data_path)
+        df = pd.read_csv(self.data_path)
         flux_data = []
         for index, row in df.iterrows():
             if index >= 1:

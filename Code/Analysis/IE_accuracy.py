@@ -59,7 +59,6 @@ def strain_name_accuracy(path, print_precision_detail=False):
     if print_precision_detail:
         with open('875_strain_need_add.json', 'w') as file:
             json.dump({'paper':final_data}, file, indent=4)
-
     precision = precision_right_number/precison_all_number
     recall = recall_right_number/recall_all_number
     return precision_right_number, precison_all_number, recall_right_number, recall_all_number
@@ -108,6 +107,19 @@ def calculate_accuracy():
                 precison_all_number_strain + precison_all_number_gene)
     f1_score = (2 * precision * recall) / (precision + recall)
     accuracy_array.append([precision, recall, f1_score])
+
+    # qwen 14b result
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = \
+        (strain_name_accuracy('../../Data/NER Data/IE-test-qwen-14b.json'))
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = \
+        (gene_name_accuracy('../../Data/NER Data/IE-test-qwen-14b.json'))
+    recall = (recall_right_number_strain + recall_right_number_gene) / (
+            recall_all_number_strain + recall_all_number_gene)
+    precision = (precision_right_number_strain + precision_right_number_gene) / (
+            precison_all_number_strain + precison_all_number_gene)
+    f1_score = (2 * precision * recall) / (precision + recall)
+    accuracy_array.append([precision, recall, f1_score])
+
     # gemini pro result
     precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
         '../../Data/NER Data/IE-test-gemini.json')
@@ -144,6 +156,30 @@ def calculate_accuracy():
     f1_score = (2 * precision * recall) / (precision + recall)
     accuracy_array.append([precision, recall, f1_score])
 
+    # llama3 result
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3.json')
+    recall = (recall_right_number_strain + recall_right_number_gene) / (
+            recall_all_number_strain + recall_all_number_gene)
+    precision = (precision_right_number_strain + precision_right_number_gene) / (
+            precison_all_number_strain + precison_all_number_gene)
+    f1_score = (2 * precision * recall) / (precision + recall)
+    accuracy_array.append([precision, recall, f1_score])
+
+    # llama3 lora result
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3-lora.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3-lora.json')
+    recall = (recall_right_number_strain + recall_right_number_gene) / (
+            recall_all_number_strain + recall_all_number_gene)
+    precision = (precision_right_number_strain + precision_right_number_gene) / (
+            precison_all_number_strain + precison_all_number_gene)
+    f1_score = (2 * precision * recall) / (precision + recall)
+    accuracy_array.append([precision, recall, f1_score])
+
     #qwen lora result
     precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
         '../../Data/NER Data/IE-test-qwen-lora.json')
@@ -159,55 +195,34 @@ def calculate_accuracy():
 
 
 if __name__ == '__main__':
-    print('qwen 110b')
-    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain =\
-        (strain_name_accuracy('./graph_data/IE-test-110b.json'))
-    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = \
-        (gene_name_accuracy('./graph_data/IE-test-110b.json'))
-    gene_precision = precision_right_number_gene / precison_all_number_gene
-    gene_recall = recall_right_number_gene / recall_all_number_gene
-    print('gene precison:', precision_right_number_gene / precison_all_number_gene)
-    print('gene recall:', recall_right_number_gene / recall_all_number_gene)
-    print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
-
-    strain_precision = precision_right_number_strain / precison_all_number_strain
-    strain_recall = recall_right_number_strain / recall_all_number_strain
-    print('strain precison:', strain_precision)
-    print('strain recall:', strain_recall)
-    print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
-
-    recall = (recall_right_number_strain + recall_right_number_gene)/ (recall_all_number_strain+recall_all_number_gene)
-    precision = (precision_right_number_strain+precision_right_number_gene)/(precison_all_number_strain+precison_all_number_gene)
-    print('precision:', precision)
-    print('recall:', recall)
-    print('f1-score:', (2 * precision * recall) / (precision + recall))
-
-    print('qwen lora')
-    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain =strain_name_accuracy('./graph_data/IE-test-qwen-lora.json')
-    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene =gene_name_accuracy('./graph_data/IE-test-qwen-lora.json')
-    gene_precision = precision_right_number_gene/precison_all_number_gene
-    gene_recall = recall_right_number_gene/recall_all_number_gene
-    print('gene precison:', precision_right_number_gene/precison_all_number_gene)
-    print('gene recall:', recall_right_number_gene/recall_all_number_gene)
-    print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
-
-    strain_precision = precision_right_number_strain / precison_all_number_strain
-    strain_recall = recall_right_number_strain / recall_all_number_strain
-    print('strain precison:', strain_precision)
-    print('strain recall:', strain_recall)
-    print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
-
-    recall = (recall_right_number_strain + recall_right_number_gene) / (
-                recall_all_number_strain + recall_all_number_gene)
-    precision = (precision_right_number_strain + precision_right_number_gene) / (
-                precison_all_number_strain + precison_all_number_gene)
-    print('precision:', precision)
-    print('recall:', recall)
-    print('f1-score:', (2 * precision * recall) / (precision + recall))
-
-    print('gemini')
-    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('./graph_data/IE-test-gemini.json')
-    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('./graph_data/IE-test-gemini.json')
+    # print('qwen 110b')
+    # precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain =\
+    #     (strain_name_accuracy('../../Data/NER Data/IE-test-110b.json'))
+    # precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = \
+    #     (gene_name_accuracy('../../Data/NER Data/IE-test-110b.json'))
+    # gene_precision = precision_right_number_gene / precison_all_number_gene
+    # gene_recall = recall_right_number_gene / recall_all_number_gene
+    # print('gene precison:', precision_right_number_gene / precison_all_number_gene)
+    # print('gene recall:', recall_right_number_gene / recall_all_number_gene)
+    # print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
+    #
+    # strain_precision = precision_right_number_strain / precison_all_number_strain
+    # strain_recall = recall_right_number_strain / recall_all_number_strain
+    # print('strain precison:', strain_precision)
+    # print('strain recall:', strain_recall)
+    # print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+    #
+    # recall = (recall_right_number_strain + recall_right_number_gene)/ (recall_all_number_strain+recall_all_number_gene)
+    # precision = (precision_right_number_strain+precision_right_number_gene)/(precison_all_number_strain+precison_all_number_gene)
+    # print('precision:', precision)
+    # print('recall:', recall)
+    # print('f1-score:', (2 * precision * recall) / (precision + recall))
+    #
+    print('\nqwen14b')
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-875_final-qwen14b.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-875_final-qwen14b.json')
     gene_precision = precision_right_number_gene / precison_all_number_gene
     gene_recall = recall_right_number_gene / recall_all_number_gene
     print('gene precison:', precision_right_number_gene / precison_all_number_gene)
@@ -228,9 +243,11 @@ if __name__ == '__main__':
     print('recall:', recall)
     print('f1-score:', (2 * precision * recall) / (precision + recall))
 
-    print('claude3')
-    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('./graph_data/IE-test-claude3.json')
-    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('./graph_data/IE-test-claude3.json')
+    print('\nllama3 8b')
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-875_final-llama3_8b.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-875_final-llama3_8b.json')
     gene_precision = precision_right_number_gene / precison_all_number_gene
     gene_recall = recall_right_number_gene / recall_all_number_gene
     print('gene precison:', precision_right_number_gene / precison_all_number_gene)
@@ -242,6 +259,7 @@ if __name__ == '__main__':
     print('strain precison:', strain_precision)
     print('strain recall:', strain_recall)
     print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+
     recall = (recall_right_number_strain + recall_right_number_gene) / (
             recall_all_number_strain + recall_all_number_gene)
     precision = (precision_right_number_strain + precision_right_number_gene) / (
@@ -250,9 +268,80 @@ if __name__ == '__main__':
     print('recall:', recall)
     print('f1-score:', (2 * precision * recall) / (precision + recall))
 
-    print('gpt4')
-    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('./graph_data/IE-test-gpt4.json')
-    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('./graph_data/IE-test-gpt4.json')
+
+
+    # print('\nGemini')
+    # precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('../../Data/NER Data/IE-test-gemini.json')
+    # precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('../../Data/NER Data/IE-test-gemini.json')
+    # gene_precision = precision_right_number_gene / precison_all_number_gene
+    # gene_recall = recall_right_number_gene / recall_all_number_gene
+    # print('gene precison:', precision_right_number_gene / precison_all_number_gene)
+    # print('gene recall:', recall_right_number_gene / recall_all_number_gene)
+    # print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
+    #
+    # strain_precision = precision_right_number_strain / precison_all_number_strain
+    # strain_recall = recall_right_number_strain / recall_all_number_strain
+    # print('strain precison:', strain_precision)
+    # print('strain recall:', strain_recall)
+    # print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+    #
+    # recall = (recall_right_number_strain + recall_right_number_gene) / (
+    #         recall_all_number_strain + recall_all_number_gene)
+    # precision = (precision_right_number_strain + precision_right_number_gene) / (
+    #         precison_all_number_strain + precison_all_number_gene)
+    # print('precision:', precision)
+    # print('recall:', recall)
+    # print('f1-score:', (2 * precision * recall) / (precision + recall))
+    #
+    # print('\nClaude3')
+    # precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('../../Data/NER Data/IE-test-claude3.json')
+    # precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('../../Data/NER Data/IE-test-claude3.json')
+    # gene_precision = precision_right_number_gene / precison_all_number_gene
+    # gene_recall = recall_right_number_gene / recall_all_number_gene
+    # print('gene precison:', precision_right_number_gene / precison_all_number_gene)
+    # print('gene recall:', recall_right_number_gene / recall_all_number_gene)
+    # print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
+    #
+    # strain_precision = precision_right_number_strain / precison_all_number_strain
+    # strain_recall = recall_right_number_strain / recall_all_number_strain
+    # print('strain precison:', strain_precision)
+    # print('strain recall:', strain_recall)
+    # print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+    # recall = (recall_right_number_strain + recall_right_number_gene) / (
+    #         recall_all_number_strain + recall_all_number_gene)
+    # precision = (precision_right_number_strain + precision_right_number_gene) / (
+    #         precison_all_number_strain + precison_all_number_gene)
+    # print('precision:', precision)
+    # print('recall:', recall)
+    # print('f1-score:', (2 * precision * recall) / (precision + recall))
+    #
+    # print('\ngpt4')
+    # precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy('../../Data/NER Data/IE-test-gpt4.json')
+    # precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy('../../Data/NER Data/IE-test-gpt4.json')
+    # gene_precision = precision_right_number_gene / precison_all_number_gene
+    # gene_recall = recall_right_number_gene / recall_all_number_gene
+    # print('gene precison:', precision_right_number_gene / precison_all_number_gene)
+    # print('gene recall:', recall_right_number_gene / recall_all_number_gene)
+    # print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
+    #
+    # strain_precision = precision_right_number_strain / precison_all_number_strain
+    # strain_recall = recall_right_number_strain / recall_all_number_strain
+    # print('strain precison:', strain_precision)
+    # print('strain recall:', strain_recall)
+    # print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+    # recall = (recall_right_number_strain + recall_right_number_gene) / (
+    #         recall_all_number_strain + recall_all_number_gene)
+    # precision = (precision_right_number_strain + precision_right_number_gene) / (
+    #         precison_all_number_strain + precison_all_number_gene)
+    # print('precision:', precision)
+    # print('recall:', recall)
+    # print('f1-score:', (2 * precision * recall) / (precision + recall))
+    #
+    print('\nllama3 lora')
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3-lora.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-test-llama3-lora.json')
     gene_precision = precision_right_number_gene / precison_all_number_gene
     gene_recall = recall_right_number_gene / recall_all_number_gene
     print('gene precison:', precision_right_number_gene / precison_all_number_gene)
@@ -264,6 +353,32 @@ if __name__ == '__main__':
     print('strain precison:', strain_precision)
     print('strain recall:', strain_recall)
     print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+
+    recall = (recall_right_number_strain + recall_right_number_gene) / (
+            recall_all_number_strain + recall_all_number_gene)
+    precision = (precision_right_number_strain + precision_right_number_gene) / (
+            precison_all_number_strain + precison_all_number_gene)
+    print('precision:', precision)
+    print('recall:', recall)
+    print('f1-score:', (2 * precision * recall) / (precision + recall))
+    #
+    print('\nqwen lora')
+    precision_right_number_strain, precison_all_number_strain, recall_right_number_strain, recall_all_number_strain = strain_name_accuracy(
+        '../../Data/NER Data/IE-test-qwen-lora.json')
+    precision_right_number_gene, precison_all_number_gene, recall_right_number_gene, recall_all_number_gene = gene_name_accuracy(
+        '../../Data/NER Data/IE-test-qwen-lora.json')
+    gene_precision = precision_right_number_gene / precison_all_number_gene
+    gene_recall = recall_right_number_gene / recall_all_number_gene
+    print('gene precison:', precision_right_number_gene / precison_all_number_gene)
+    print('gene recall:', recall_right_number_gene / recall_all_number_gene)
+    print('gene f1-score:', (2 * gene_precision * gene_recall) / (gene_precision + gene_recall))
+
+    strain_precision = precision_right_number_strain / precison_all_number_strain
+    strain_recall = recall_right_number_strain / recall_all_number_strain
+    print('strain precison:', strain_precision)
+    print('strain recall:', strain_recall)
+    print('strain f1-score:', (2 * strain_precision * strain_recall) / (strain_precision + strain_recall))
+
     recall = (recall_right_number_strain + recall_right_number_gene) / (
             recall_all_number_strain + recall_all_number_gene)
     precision = (precision_right_number_strain + precision_right_number_gene) / (

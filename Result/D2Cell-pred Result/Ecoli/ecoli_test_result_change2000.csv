@@ -1,0 +1,135 @@
+product index,pert index,true label,predict label,product,inf_label_01,fseof_predict,ID,name,fvseof_predict
+466,[2900],1,1,hom__L_c,1,1,hom__L_c,L-Homoserine,1
+1512,[342],0,0,pyr_c,0,1,pyr_c,Pyruvate,1
+1098,[509],1,1,4abut_c,1,1,4abut_c,4-Aminobutanoate,1
+1512,[1258],0,0,pyr_c,0,1,pyr_c,Pyruvate,1
+1249,[779],0,0,q8_c,0,1,q8_c,Ubiquinone-8,1
+155,[903],1,1,octa_c,1,1,octa_c,Octanoate (n-C8:0),1
+1357,[2973],0,0,ribflv_c,0,1,ribflv_c,Riboflavin C17H20N4O6,1
+1600,[261],1,1,leu__L_c,1,1,leu__L_c,L-Leucine,1
+855,[2885],0,0,fum_c,0,1,fum_c,Fumarate,1
+107,[1778],1,1,ala_B_c,1,1,ala_B_c,Beta-Alanine,1
+655,[1017],1,1,cinnm_c,1,1,cinnm_c,Trans-Cinnamate,1
+1645,[1286],1,1,5aop_c,1,1,5aop_c,5-Amino-4-oxopentanoate,1
+655,[1118],0,0,cinnm_c,0,1,cinnm_c,Trans-Cinnamate,1
+1512,[54],0,1,pyr_c,0,1,pyr_c,Pyruvate,1
+406,[2873],0,0,pnto__R_c,0,1,pnto__R_c,(R)-Pantothenate,1
+897,[2855],1,0,suchms_c,1,1,suchms_c,O-Succinyl-L-homoserine,1
+1357,[2869],0,0,ribflv_c,0,1,ribflv_c,Riboflavin C17H20N4O6,1
+184,[2884],1,1,ser__L_c,1,1,ser__L_c,L-Serine,1
+1035,[403],0,0,phe__L_c,0,1,phe__L_c,L-Phenylalanine,1
+233,[363],0,0,glyclt_c,0,1,glyclt_c,Glycolate C2H3O3,1
+1385,[1373],0,0,succ_c,0,1,succ_c,Succinate,1
+339,[681],1,1,nad_c,1,1,nad_c,Nicotinamide adenine dinucleotide,1
+551,[2422],0,0,trp__L_c,0,1,trp__L_c,L-Tryptophan,1
+466,[2036],0,0,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+457,[796],0,0,acnam_c,0,1,acnam_c,N-Acetylneuraminate,1
+932,[595],1,1,anth_c,1,1,anth_c,Anthranilate,1
+1448,[797],0,0,val__L_c,0,1,val__L_c,L-Valine,1
+107,[1867],0,0,ala_B_c,0,0,ala_B_c,Beta-Alanine,0
+471,[1879],0,0,12ppd__R_c,0,0,12ppd__R_c,"(R)-Propane-1,2-diol",0
+1130,[1432],0,0,ala__D_c,0,1,ala__D_c,D-Alanine,1
+1448,[2788],0,0,val__L_c,0,0,val__L_c,L-Valine,0
+91,[885],1,0,ac_c,1,0,ac_c,Acetate,1
+91,[1273],1,1,ac_c,1,1,ac_c,Acetate,1
+233,[1904],0,0,glyclt_c,0,0,glyclt_c,Glycolate C2H3O3,0
+1448,[2786],0,0,val__L_c,0,0,val__L_c,L-Valine,0
+1579,[303],0,1,athr__L_c,0,1,athr__L_c,L-Allo-threonine,1
+551,[698],0,1,trp__L_c,0,1,trp__L_c,L-Tryptophan,1
+274,[2841],1,1,arg__L_c,1,1,arg__L_c,L-Arginine,1
+503,[2636],0,0,tyr__L_c,0,0,tyr__L_c,L-Tyrosine,0
+107,[822],1,1,ala_B_c,1,1,ala_B_c,Beta-Alanine,1
+339,[1694],1,1,nad_c,1,1,nad_c,Nicotinamide adenine dinucleotide,1
+551,[905],1,1,trp__L_c,1,1,trp__L_c,L-Tryptophan,1
+1573,[938],0,1,h2_c,0,1,h2_c,Hydrogen,1
+1233,[27],1,1,orot_c,1,1,orot_c,Orotate C5H3N2O4,1
+1037,[2939],0,1,15dap_c,0,0,15dap_c,"1,5-Diaminopentane",0
+457,[331],0,0,acnam_c,0,1,acnam_c,N-Acetylneuraminate,1
+406,[1675],0,0,pnto__R_c,0,0,pnto__R_c,(R)-Pantothenate,0
+1410,[2629],1,1,pheme_c,1,1,pheme_c,Protoheme C34H30FeN4O4,1
+300,[595],1,1,skm_c,1,1,skm_c,Shikimate,1
+780,[2826],0,0,utp_c,0,1,utp_c,UTP C9H11N2O15P3,1
+1600,[36],1,1,leu__L_c,1,1,leu__L_c,L-Leucine,1
+155,[96],0,0,octa_c,0,1,octa_c,Octanoate (n-C8:0),1
+91,[69],0,1,ac_c,0,1,ac_c,Acetate,1
+318,[1537],0,0,met__D_c,0,1,met__D_c,D-Methionine,1
+855,[2479],1,1,fum_c,1,1,fum_c,Fumarate,1
+855,[2313],1,1,fum_c,1,1,fum_c,Fumarate,1
+570,[1251],1,1,acmana_c,1,1,acmana_c,N-Acetyl-D-mannosamine,1
+1512,[1369],1,1,pyr_c,1,1,pyr_c,Pyruvate,1
+855,[2935],1,1,fum_c,1,1,fum_c,Fumarate,1
+1723,[2555],1,1,3hpp_c,1,1,3hpp_c,3-Hydroxypropanoate,1
+91,[1857],1,1,ac_c,1,1,ac_c,Acetate,1
+1142,[2179],1,1,nmn_c,1,1,nmn_c,NMN C11H14N2O8P,1
+1098,[531],1,1,4abut_c,1,1,4abut_c,4-Aminobutanoate,1
+405,[686],1,1,etoh_c,1,1,etoh_c,Ethanol,1
+300,[2096],1,1,skm_c,1,1,skm_c,Shikimate,1
+1224,[1772],1,1,agm_c,1,1,agm_c,Agmatine,1
+1525,[1025],0,0,mal__D_c,0,1,mal__D_c,D-Malate,1
+855,[1793],0,0,fum_c,0,1,fum_c,Fumarate,1
+406,[1448],1,1,pnto__R_c,1,1,pnto__R_c,(R)-Pantothenate,1
+1035,[907],0,1,phe__L_c,0,1,phe__L_c,L-Phenylalanine,1
+91,[2077],1,1,ac_c,1,1,ac_c,Acetate,1
+1448,[2436],0,0,val__L_c,0,1,val__L_c,L-Valine,1
+1525,[792],0,0,mal__D_c,0,1,mal__D_c,D-Malate,1
+406,[1124],1,1,pnto__R_c,1,1,pnto__R_c,(R)-Pantothenate,1
+1448,[66],0,1,val__L_c,0,1,val__L_c,L-Valine,1
+855,[1778],1,0,fum_c,1,1,fum_c,Fumarate,1
+1410,[73],1,1,pheme_c,1,1,pheme_c,Protoheme C34H30FeN4O4,1
+736,[261],0,1,13ppd_c,0,1,13ppd_c,"1,3-Propanediol",1
+91,[1881],1,1,ac_c,1,1,ac_c,Acetate,1
+274,[124],1,1,arg__L_c,1,1,arg__L_c,L-Arginine,1
+570,[600],0,0,acmana_c,0,1,acmana_c,N-Acetyl-D-mannosamine,1
+551,[2579],1,1,trp__L_c,1,1,trp__L_c,L-Tryptophan,1
+655,[2421],0,0,cinnm_c,0,1,cinnm_c,Trans-Cinnamate,1
+1037,[1423],1,1,15dap_c,1,1,15dap_c,"1,5-Diaminopentane",1
+1525,[341],0,0,mal__D_c,0,1,mal__D_c,D-Malate,1
+107,[2076],1,1,ala_B_c,1,1,ala_B_c,Beta-Alanine,1
+551,[999],1,1,trp__L_c,1,1,trp__L_c,L-Tryptophan,1
+1098,[2025],0,0,4abut_c,0,1,4abut_c,4-Aminobutanoate,1
+318,[640],0,0,met__D_c,0,1,met__D_c,D-Methionine,1
+271,[1784],0,0,ghb_c,0,1,ghb_c,Gamma-hydroxybutyrate,1
+406,[2131],0,1,pnto__R_c,0,1,pnto__R_c,(R)-Pantothenate,1
+1142,[2441],1,1,nmn_c,1,1,nmn_c,NMN C11H14N2O8P,1
+551,[1240],0,0,trp__L_c,0,1,trp__L_c,L-Tryptophan,1
+1525,[2609],0,0,mal__D_c,0,1,mal__D_c,D-Malate,1
+855,[2982],0,0,fum_c,0,1,fum_c,Fumarate,1
+1385,[2214],1,1,succ_c,1,1,succ_c,Succinate,1
+233,[2541],1,1,glyclt_c,1,1,glyclt_c,Glycolate C2H3O3,1
+1789,[1578],1,1,alltn_c,1,1,alltn_c,Allantoin,1
+736,[2533],0,0,13ppd_c,0,1,13ppd_c,"1,3-Propanediol",1
+91,[2772],0,1,ac_c,0,1,ac_c,Acetate,1
+1524,[2864],0,0,lac__L_c,0,1,lac__L_c,L-Lactate,1
+736,[1580],0,0,13ppd_c,0,1,13ppd_c,"1,3-Propanediol",1
+405,[1175],1,1,etoh_c,1,1,etoh_c,Ethanol,1
+405,[2949],1,1,etoh_c,1,1,etoh_c,Ethanol,1
+91,[1879],1,1,ac_c,1,1,ac_c,Acetate,1
+1524,[2230],1,1,lac__L_c,1,1,lac__L_c,L-Lactate,1
+94,[972],1,1,citr__L_c,1,1,citr__L_c,L-Citrulline,1
+471,[331],0,0,12ppd__R_c,0,1,12ppd__R_c,"(R)-Propane-1,2-diol",1
+405,[2313],1,1,etoh_c,1,1,etoh_c,Ethanol,1
+1525,[2935],1,1,mal__D_c,1,1,mal__D_c,D-Malate,1
+184,[3013],0,0,ser__L_c,0,0,ser__L_c,L-Serine,0
+91,[638],0,0,ac_c,0,1,ac_c,Acetate,1
+736,[1198],1,1,13ppd_c,1,1,13ppd_c,"1,3-Propanediol",1
+1385,[153],1,1,succ_c,1,1,succ_c,Succinate,1
+1512,[2691],0,0,pyr_c,0,1,pyr_c,Pyruvate,1
+339,[1869],0,0,nad_c,0,1,nad_c,Nicotinamide adenine dinucleotide,1
+471,[363],1,1,12ppd__R_c,1,1,12ppd__R_c,"(R)-Propane-1,2-diol",1
+855,[1432],0,0,fum_c,0,1,fum_c,Fumarate,1
+399,[840],0,1,gam_c,0,1,gam_c,D-Glucosamine,1
+471,[388],0,1,12ppd__R_c,0,1,12ppd__R_c,"(R)-Propane-1,2-diol",1
+91,[264],0,0,ac_c,0,1,ac_c,Acetate,1
+746,[2538],1,1,ura_c,1,1,ura_c,Uracil,1
+374,[1803],0,0,arab__D_c,0,1,arab__D_c,D Arabinose C5H10O5,1
+107,[2943],0,1,ala_B_c,0,1,ala_B_c,Beta-Alanine,1
+271,[54],1,0,ghb_c,1,1,ghb_c,Gamma-hydroxybutyrate,1
+551,[2421],0,0,trp__L_c,0,1,trp__L_c,L-Tryptophan,1
+466,[2],0,0,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+91,[1958],1,1,ac_c,1,1,ac_c,Acetate,1
+855,[1543],0,0,fum_c,0,1,fum_c,Fumarate,1
+1512,[484],0,0,pyr_c,0,1,pyr_c,Pyruvate,1
+506,[1199],1,1,cys__L_c,1,1,cys__L_c,L-Cysteine,1
+1385,[340],0,1,succ_c,0,1,succ_c,Succinate,1
+318,[2096],1,1,met__D_c,1,1,met__D_c,D-Methionine,1
+64,[2349],1,1,lcts_c,1,1,lcts_c,Lactose C12H22O11,1

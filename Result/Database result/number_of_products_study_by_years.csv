@@ -1,52 +1,52 @@
 year,product,num_papers
-2000,Ethanol,1
+2000,Ethanol,3
 2001,Ethanol,0
-2002,Ethanol,1
-2003,Ethanol,6
+2002,Ethanol,3
+2003,Ethanol,8
 2004,Ethanol,3
-2005,Ethanol,5
-2006,Ethanol,4
+2005,Ethanol,9
+2006,Ethanol,6
 2007,Ethanol,6
-2008,Ethanol,5
-2009,Ethanol,12
-2010,Ethanol,18
-2011,Ethanol,15
-2012,Ethanol,19
-2013,Ethanol,24
-2014,Ethanol,27
-2015,Ethanol,24
-2016,Ethanol,34
-2017,Ethanol,34
-2018,Ethanol,27
-2019,Ethanol,29
-2020,Ethanol,26
-2021,Ethanol,17
-2022,Ethanol,24
-2023,Ethanol,15
+2008,Ethanol,11
+2009,Ethanol,18
+2010,Ethanol,23
+2011,Ethanol,16
+2012,Ethanol,24
+2013,Ethanol,30
+2014,Ethanol,30
+2015,Ethanol,29
+2016,Ethanol,42
+2017,Ethanol,39
+2018,Ethanol,30
+2019,Ethanol,32
+2020,Ethanol,37
+2021,Ethanol,19
+2022,Ethanol,25
+2023,Ethanol,19
 2000,Lactic acid,0
 2001,Lactic acid,1
 2002,Lactic acid,0
-2003,Lactic acid,1
+2003,Lactic acid,2
 2004,Lactic acid,1
 2005,Lactic acid,1
 2006,Lactic acid,4
 2007,Lactic acid,1
 2008,Lactic acid,2
-2009,Lactic acid,1
+2009,Lactic acid,2
 2010,Lactic acid,5
-2011,Lactic acid,5
-2012,Lactic acid,7
+2011,Lactic acid,6
+2012,Lactic acid,8
 2013,Lactic acid,11
-2014,Lactic acid,5
-2015,Lactic acid,9
-2016,Lactic acid,12
-2017,Lactic acid,15
-2018,Lactic acid,12
-2019,Lactic acid,15
-2020,Lactic acid,19
-2021,Lactic acid,13
+2014,Lactic acid,9
+2015,Lactic acid,11
+2016,Lactic acid,18
+2017,Lactic acid,20
+2018,Lactic acid,13
+2019,Lactic acid,19
+2020,Lactic acid,20
+2021,Lactic acid,14
 2022,Lactic acid,15
-2023,Lactic acid,10
+2023,Lactic acid,12
 2000,Succinic acid,0
 2001,Succinic acid,1
 2002,Succinic acid,2
@@ -55,46 +55,22 @@ year,product,num_papers
 2005,Succinic acid,2
 2006,Succinic acid,2
 2007,Succinic acid,2
-2008,Succinic acid,4
+2008,Succinic acid,6
 2009,Succinic acid,5
 2010,Succinic acid,3
 2011,Succinic acid,3
 2012,Succinic acid,5
-2013,Succinic acid,4
-2014,Succinic acid,12
-2015,Succinic acid,8
-2016,Succinic acid,14
-2017,Succinic acid,16
-2018,Succinic acid,11
+2013,Succinic acid,6
+2014,Succinic acid,15
+2015,Succinic acid,12
+2016,Succinic acid,18
+2017,Succinic acid,18
+2018,Succinic acid,12
 2019,Succinic acid,7
-2020,Succinic acid,10
+2020,Succinic acid,13
 2021,Succinic acid,10
 2022,Succinic acid,11
-2023,Succinic acid,9
-2000,Glycerol,0
-2001,Glycerol,0
-2002,Glycerol,0
-2003,Glycerol,3
-2004,Glycerol,2
-2005,Glycerol,0
-2006,Glycerol,1
-2007,Glycerol,1
-2008,Glycerol,2
-2009,Glycerol,2
-2010,Glycerol,9
-2011,Glycerol,6
-2012,Glycerol,4
-2013,Glycerol,5
-2014,Glycerol,8
-2015,Glycerol,13
-2016,Glycerol,3
-2017,Glycerol,12
-2018,Glycerol,7
-2019,Glycerol,6
-2020,Glycerol,5
-2021,Glycerol,9
-2022,Glycerol,3
-2023,Glycerol,8
+2023,Succinic acid,10
 2000,"2,3-butanediol",0
 2001,"2,3-butanediol",0
 2002,"2,3-butanediol",0
@@ -104,21 +80,93 @@ year,product,num_papers
 2006,"2,3-butanediol",0
 2007,"2,3-butanediol",0
 2008,"2,3-butanediol",0
-2009,"2,3-butanediol",0
+2009,"2,3-butanediol",1
 2010,"2,3-butanediol",2
 2011,"2,3-butanediol",0
 2012,"2,3-butanediol",7
-2013,"2,3-butanediol",8
-2014,"2,3-butanediol",8
-2015,"2,3-butanediol",12
-2016,"2,3-butanediol",9
-2017,"2,3-butanediol",12
+2013,"2,3-butanediol",9
+2014,"2,3-butanediol",9
+2015,"2,3-butanediol",16
+2016,"2,3-butanediol",11
+2017,"2,3-butanediol",18
 2018,"2,3-butanediol",14
-2019,"2,3-butanediol",5
-2020,"2,3-butanediol",7
-2021,"2,3-butanediol",9
+2019,"2,3-butanediol",7
+2020,"2,3-butanediol",9
+2021,"2,3-butanediol",10
 2022,"2,3-butanediol",4
 2023,"2,3-butanediol",8
+2000,Glycerol,0
+2001,Glycerol,0
+2002,Glycerol,0
+2003,Glycerol,3
+2004,Glycerol,2
+2005,Glycerol,1
+2006,Glycerol,2
+2007,Glycerol,1
+2008,Glycerol,3
+2009,Glycerol,2
+2010,Glycerol,9
+2011,Glycerol,6
+2012,Glycerol,4
+2013,Glycerol,5
+2014,Glycerol,9
+2015,Glycerol,14
+2016,Glycerol,4
+2017,Glycerol,13
+2018,Glycerol,7
+2019,Glycerol,8
+2020,Glycerol,5
+2021,Glycerol,9
+2022,Glycerol,3
+2023,Glycerol,9
+2000,Butanol,1
+2001,Butanol,0
+2002,Butanol,0
+2003,Butanol,0
+2004,Butanol,0
+2005,Butanol,0
+2006,Butanol,0
+2007,Butanol,0
+2008,Butanol,4
+2009,Butanol,4
+2010,Butanol,2
+2011,Butanol,2
+2012,Butanol,5
+2013,Butanol,6
+2014,Butanol,8
+2015,Butanol,14
+2016,Butanol,12
+2017,Butanol,20
+2018,Butanol,14
+2019,Butanol,6
+2020,Butanol,9
+2021,Butanol,5
+2022,Butanol,4
+2023,Butanol,3
+2000,Xylitol,0
+2001,Xylitol,1
+2002,Xylitol,0
+2003,Xylitol,3
+2004,Xylitol,0
+2005,Xylitol,1
+2006,Xylitol,1
+2007,Xylitol,2
+2008,Xylitol,3
+2009,Xylitol,4
+2010,Xylitol,5
+2011,Xylitol,8
+2012,Xylitol,3
+2013,Xylitol,6
+2014,Xylitol,14
+2015,Xylitol,13
+2016,Xylitol,8
+2017,Xylitol,9
+2018,Xylitol,2
+2019,Xylitol,5
+2020,Xylitol,3
+2021,Xylitol,10
+2022,Xylitol,3
+2023,Xylitol,5
 2000,Acetic acid,0
 2001,Acetic acid,1
 2002,Acetic acid,1
@@ -127,10 +175,10 @@ year,product,num_papers
 2005,Acetic acid,2
 2006,Acetic acid,1
 2007,Acetic acid,1
-2008,Acetic acid,0
+2008,Acetic acid,1
 2009,Acetic acid,5
 2010,Acetic acid,5
-2011,Acetic acid,0
+2011,Acetic acid,1
 2012,Acetic acid,4
 2013,Acetic acid,3
 2014,Acetic acid,10
@@ -139,58 +187,10 @@ year,product,num_papers
 2017,Acetic acid,10
 2018,Acetic acid,6
 2019,Acetic acid,5
-2020,Acetic acid,7
+2020,Acetic acid,8
 2021,Acetic acid,4
 2022,Acetic acid,6
 2023,Acetic acid,4
-2000,Butanol,0
-2001,Butanol,0
-2002,Butanol,0
-2003,Butanol,0
-2004,Butanol,0
-2005,Butanol,0
-2006,Butanol,0
-2007,Butanol,0
-2008,Butanol,3
-2009,Butanol,3
-2010,Butanol,2
-2011,Butanol,2
-2012,Butanol,5
-2013,Butanol,5
-2014,Butanol,7
-2015,Butanol,11
-2016,Butanol,9
-2017,Butanol,14
-2018,Butanol,11
-2019,Butanol,2
-2020,Butanol,5
-2021,Butanol,5
-2022,Butanol,4
-2023,Butanol,3
-2000,Xylitol,0
-2001,Xylitol,1
-2002,Xylitol,0
-2003,Xylitol,2
-2004,Xylitol,0
-2005,Xylitol,0
-2006,Xylitol,0
-2007,Xylitol,0
-2008,Xylitol,2
-2009,Xylitol,3
-2010,Xylitol,5
-2011,Xylitol,8
-2012,Xylitol,3
-2013,Xylitol,4
-2014,Xylitol,13
-2015,Xylitol,8
-2016,Xylitol,6
-2017,Xylitol,9
-2018,Xylitol,2
-2019,Xylitol,4
-2020,Xylitol,2
-2021,Xylitol,10
-2022,Xylitol,3
-2023,Xylitol,4
 2000,Lycopene,1
 2001,Lycopene,1
 2002,Lycopene,0
@@ -202,19 +202,19 @@ year,product,num_papers
 2008,Lycopene,3
 2009,Lycopene,1
 2010,Lycopene,1
-2011,Lycopene,0
-2012,Lycopene,3
+2011,Lycopene,1
+2012,Lycopene,4
 2013,Lycopene,2
-2014,Lycopene,3
-2015,Lycopene,6
+2014,Lycopene,4
+2015,Lycopene,7
 2016,Lycopene,4
 2017,Lycopene,5
-2018,Lycopene,7
+2018,Lycopene,8
 2019,Lycopene,9
-2020,Lycopene,7
+2020,Lycopene,8
 2021,Lycopene,7
-2022,Lycopene,7
-2023,Lycopene,10
+2022,Lycopene,8
+2023,Lycopene,11
 2000,Isobutanol,0
 2001,Isobutanol,0
 2002,Isobutanol,0
@@ -230,15 +230,63 @@ year,product,num_papers
 2012,Isobutanol,4
 2013,Isobutanol,4
 2014,Isobutanol,5
-2015,Isobutanol,4
-2016,Isobutanol,3
-2017,Isobutanol,4
-2018,Isobutanol,6
+2015,Isobutanol,5
+2016,Isobutanol,5
+2017,Isobutanol,6
+2018,Isobutanol,9
 2019,Isobutanol,8
-2020,Isobutanol,9
-2021,Isobutanol,4
-2022,Isobutanol,8
+2020,Isobutanol,11
+2021,Isobutanol,6
+2022,Isobutanol,9
 2023,Isobutanol,5
+2000,3-hydroxypropionic acid,0
+2001,3-hydroxypropionic acid,0
+2002,3-hydroxypropionic acid,0
+2003,3-hydroxypropionic acid,0
+2004,3-hydroxypropionic acid,0
+2005,3-hydroxypropionic acid,0
+2006,3-hydroxypropionic acid,0
+2007,3-hydroxypropionic acid,0
+2008,3-hydroxypropionic acid,0
+2009,3-hydroxypropionic acid,1
+2010,3-hydroxypropionic acid,0
+2011,3-hydroxypropionic acid,0
+2012,3-hydroxypropionic acid,0
+2013,3-hydroxypropionic acid,4
+2014,3-hydroxypropionic acid,3
+2015,3-hydroxypropionic acid,6
+2016,3-hydroxypropionic acid,7
+2017,3-hydroxypropionic acid,8
+2018,3-hydroxypropionic acid,8
+2019,3-hydroxypropionic acid,4
+2020,3-hydroxypropionic acid,5
+2021,3-hydroxypropionic acid,5
+2022,3-hydroxypropionic acid,4
+2023,3-hydroxypropionic acid,13
+2000,L-lysine,1
+2001,L-lysine,0
+2002,L-lysine,0
+2003,L-lysine,0
+2004,L-lysine,0
+2005,L-lysine,1
+2006,L-lysine,0
+2007,L-lysine,3
+2008,L-lysine,0
+2009,L-lysine,0
+2010,L-lysine,2
+2011,L-lysine,4
+2012,L-lysine,0
+2013,L-lysine,3
+2014,L-lysine,3
+2015,L-lysine,2
+2016,L-lysine,7
+2017,L-lysine,8
+2018,L-lysine,5
+2019,L-lysine,4
+2020,L-lysine,6
+2021,L-lysine,4
+2022,L-lysine,6
+2023,L-lysine,6
 2000,Pyruvic acid,0
 2001,Pyruvic acid,0
 2002,Pyruvic acid,0
@@ -259,34 +307,10 @@ year,product,num_papers
 2017,Pyruvic acid,8
 2018,Pyruvic acid,3
 2019,Pyruvic acid,1
-2020,Pyruvic acid,5
-2021,Pyruvic acid,4
+2020,Pyruvic acid,7
+2021,Pyruvic acid,5
 2022,Pyruvic acid,1
 2023,Pyruvic acid,4
-2000,L-lysine,1
-2001,L-lysine,0
-2002,L-lysine,0
-2003,L-lysine,0
-2004,L-lysine,0
-2005,L-lysine,1
-2006,L-lysine,0
-2007,L-lysine,3
-2008,L-lysine,0
-2009,L-lysine,0
-2010,L-lysine,2
-2011,L-lysine,3
-2012,L-lysine,0
-2013,L-lysine,3
-2014,L-lysine,3
-2015,L-lysine,2
-2016,L-lysine,6
-2017,L-lysine,8
-2018,L-lysine,5
-2019,L-lysine,4
-2020,L-lysine,5
-2021,L-lysine,4
-2022,L-lysine,5
-2023,L-lysine,5
 2000,Acetoin,0
 2001,Acetoin,0
 2002,Acetoin,0
@@ -301,40 +325,16 @@ year,product,num_papers
 2011,Acetoin,0
 2012,Acetoin,1
 2013,Acetoin,5
-2014,Acetoin,4
+2014,Acetoin,5
 2015,Acetoin,4
-2016,Acetoin,6
-2017,Acetoin,5
+2016,Acetoin,8
+2017,Acetoin,6
 2018,Acetoin,10
 2019,Acetoin,5
-2020,Acetoin,4
+2020,Acetoin,5
 2021,Acetoin,3
 2022,Acetoin,3
-2023,Acetoin,3
-2000,3-hydroxypropionic acid,0
-2001,3-hydroxypropionic acid,0
-2002,3-hydroxypropionic acid,0
-2003,3-hydroxypropionic acid,0
-2004,3-hydroxypropionic acid,0
-2005,3-hydroxypropionic acid,0
-2006,3-hydroxypropionic acid,0
-2007,3-hydroxypropionic acid,0
-2008,3-hydroxypropionic acid,0
-2009,3-hydroxypropionic acid,0
-2010,3-hydroxypropionic acid,0
-2011,3-hydroxypropionic acid,0
-2012,3-hydroxypropionic acid,0
-2013,3-hydroxypropionic acid,3
-2014,3-hydroxypropionic acid,3
-2015,3-hydroxypropionic acid,3
-2016,3-hydroxypropionic acid,4
-2017,3-hydroxypropionic acid,6
-2018,3-hydroxypropionic acid,8
-2019,3-hydroxypropionic acid,4
-2020,3-hydroxypropionic acid,4
-2021,3-hydroxypropionic acid,4
-2022,3-hydroxypropionic acid,4
-2023,3-hydroxypropionic acid,11
+2023,Acetoin,4
 2000,Squalene,0
 2001,Squalene,0
 2002,Squalene,0
@@ -350,30 +350,30 @@ year,product,num_papers
 2012,Squalene,1
 2013,Squalene,1
 2014,Squalene,2
-2015,Squalene,3
+2015,Squalene,4
 2016,Squalene,4
-2017,Squalene,2
+2017,Squalene,3
 2018,Squalene,6
 2019,Squalene,4
-2020,Squalene,9
-2021,Squalene,4
-2022,Squalene,9
+2020,Squalene,10
+2021,Squalene,5
+2022,Squalene,11
 2023,Squalene,4
-2000,Lactate,0
-2001,Lactate,0
+2000,Lactate,1
+2001,Lactate,1
 2002,Lactate,1
 2003,Lactate,0
-2004,Lactate,0
+2004,Lactate,1
 2005,Lactate,3
-2006,Lactate,0
-2007,Lactate,1
+2006,Lactate,1
+2007,Lactate,2
 2008,Lactate,1
-2009,Lactate,1
+2009,Lactate,2
 2010,Lactate,2
-2011,Lactate,1
+2011,Lactate,2
 2012,Lactate,2
 2013,Lactate,2
-2014,Lactate,4
+2014,Lactate,5
 2015,Lactate,4
 2016,Lactate,2
 2017,Lactate,3
@@ -383,6 +383,30 @@ year,product,num_papers
 2021,Lactate,3
 2022,Lactate,8
 2023,Lactate,3
+2000,Succinate,0
+2001,Succinate,1
+2002,Succinate,0
+2003,Succinate,0
+2004,Succinate,1
+2005,Succinate,0
+2006,Succinate,1
+2007,Succinate,1
+2008,Succinate,1
+2009,Succinate,1
+2010,Succinate,3
+2011,Succinate,2
+2012,Succinate,1
+2013,Succinate,4
+2014,Succinate,2
+2015,Succinate,4
+2016,Succinate,6
+2017,Succinate,5
+2018,Succinate,5
+2019,Succinate,3
+2020,Succinate,4
+2021,Succinate,1
+2022,Succinate,3
+2023,Succinate,4
 2000,P-coumaric acid,0
 2001,P-coumaric acid,0
 2002,P-coumaric acid,0
@@ -399,44 +423,20 @@ year,product,num_papers
 2013,P-coumaric acid,0
 2014,P-coumaric acid,0
 2015,P-coumaric acid,3
-2016,P-coumaric acid,1
+2016,P-coumaric acid,2
 2017,P-coumaric acid,3
 2018,P-coumaric acid,1
-2019,P-coumaric acid,4
+2019,P-coumaric acid,5
 2020,P-coumaric acid,7
-2021,P-coumaric acid,4
+2021,P-coumaric acid,5
 2022,P-coumaric acid,6
 2023,P-coumaric acid,11
-2000,Acetone,0
-2001,Acetone,0
-2002,Acetone,0
-2003,Acetone,0
-2004,Acetone,0
-2005,Acetone,0
-2006,Acetone,0
-2007,Acetone,0
-2008,Acetone,0
-2009,Acetone,1
-2010,Acetone,1
-2011,Acetone,2
-2012,Acetone,2
-2013,Acetone,4
-2014,Acetone,2
-2015,Acetone,4
-2016,Acetone,5
-2017,Acetone,2
-2018,Acetone,3
-2019,Acetone,1
-2020,Acetone,4
-2021,Acetone,4
-2022,Acetone,3
-2023,Acetone,0
 2000,Butyric acid,0
 2001,Butyric acid,0
 2002,Butyric acid,0
 2003,Butyric acid,0
 2004,Butyric acid,0
-2005,Butyric acid,0
+2005,Butyric acid,1
 2006,Butyric acid,0
 2007,Butyric acid,0
 2008,Butyric acid,0
@@ -444,38 +444,38 @@ year,product,num_papers
 2010,Butyric acid,1
 2011,Butyric acid,0
 2012,Butyric acid,1
-2013,Butyric acid,0
+2013,Butyric acid,1
 2014,Butyric acid,2
-2015,Butyric acid,1
+2015,Butyric acid,3
 2016,Butyric acid,3
-2017,Butyric acid,5
+2017,Butyric acid,6
 2018,Butyric acid,7
-2019,Butyric acid,3
-2020,Butyric acid,3
-2021,Butyric acid,6
-2022,Butyric acid,3
+2019,Butyric acid,5
+2020,Butyric acid,4
+2021,Butyric acid,7
+2022,Butyric acid,4
 2023,Butyric acid,2
-2000,5-aminolevulinic acid,0
-2001,5-aminolevulinic acid,0
-2002,5-aminolevulinic acid,0
-2003,5-aminolevulinic acid,0
-2004,5-aminolevulinic acid,0
-2005,5-aminolevulinic acid,0
-2006,5-aminolevulinic acid,0
-2007,5-aminolevulinic acid,0
-2008,5-aminolevulinic acid,0
-2009,5-aminolevulinic acid,0
-2010,5-aminolevulinic acid,0
-2011,5-aminolevulinic acid,1
-2012,5-aminolevulinic acid,0
-2013,5-aminolevulinic acid,0
-2014,5-aminolevulinic acid,1
-2015,5-aminolevulinic acid,2
-2016,5-aminolevulinic acid,1
-2017,5-aminolevulinic acid,3
-2018,5-aminolevulinic acid,4
-2019,5-aminolevulinic acid,3
-2020,5-aminolevulinic acid,4
-2021,5-aminolevulinic acid,6
-2022,5-aminolevulinic acid,6
-2023,5-aminolevulinic acid,4
+2000,Hydrogen,0
+2001,Hydrogen,0
+2002,Hydrogen,0
+2003,Hydrogen,0
+2004,Hydrogen,0
+2005,Hydrogen,0
+2006,Hydrogen,0
+2007,Hydrogen,1
+2008,Hydrogen,2
+2009,Hydrogen,2
+2010,Hydrogen,5
+2011,Hydrogen,3
+2012,Hydrogen,7
+2013,Hydrogen,1
+2014,Hydrogen,4
+2015,Hydrogen,4
+2016,Hydrogen,6
+2017,Hydrogen,2
+2018,Hydrogen,1
+2019,Hydrogen,1
+2020,Hydrogen,4
+2021,Hydrogen,3
+2022,Hydrogen,1
+2023,Hydrogen,0

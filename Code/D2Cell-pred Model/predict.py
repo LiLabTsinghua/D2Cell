@@ -10,7 +10,7 @@ def predict(train_loader, config, edge_index, edge_weight, model_path, product2i
     model = D2Cell_Model(config, edge_index, edge_weight)
     model.to('cuda')
     model.load_state_dict(torch.load(model_path))
-    df_product2idx = pd.read_excel(product2idx_path)
+    df_product2idx = pd.read_csv(product2idx_path)
     model.eval()
     gt_list = []
     correct = 0
@@ -77,7 +77,7 @@ def predict(train_loader, config, edge_index, edge_weight, model_path, product2i
     predict_data={'product index': product_list, 'pert index': pert_list, 'true label': gt_list, 'predict label': predict_list,
                   'product': product_name_list, 'inf_label_01': gt_list}
     predict_data = pd.DataFrame(predict_data)
-    predict_data.to_excel(output_path, index=False)
+    predict_data.to_csv(output_path, index=False)
 
 
 if __name__ == '__main__':
@@ -88,20 +88,20 @@ if __name__ == '__main__':
     parser.add_argument('--num_gnn_layers', type=int, default=1, help='numbers of gnn layers.')
     parser.add_argument('--device', type=str, default='cuda', help='used device.')
     parser.add_argument('--num_met', type=int, default=2000, help='number of metabolites.')
-    parser.add_argument('--output_path', type=str, default='../predict_file/ecoli_predict.xlsx',
+    parser.add_argument('--output_path', type=str, default='../../predict_file/ecoli_predict.csv',
                         help='result output path')
-    parser.add_argument('--model_path', type=str, default='',
+    parser.add_argument('--model_path', type=str, default='../../save_model/ecoli_model/ecoli_D2Cell_pred_model.pth',
                         help='model_path of model.')
-    parser.add_argument('--product2idx_path', type=str, default='../../Data/D2Cell-pred Data/Ecoli/ecoli-product2idx.xlsx',
+    parser.add_argument('--product2idx_path', type=str, default='../../Data/D2Cell-pred Data/Ecoli/ecoli-product2idx.csv',
                         help='ecoli-product2idx.xlsx')
     parser.add_argument('--test_dataset', type=str,
-                        default='../../Data/D2Cell-pred Data/Ecoli/ecoli_test_dataset.xlsx',
+                        default='../../Data/D2Cell-pred Data/Ecoli/ecoli_test_dataset.csv',
                         help='test dataset')
     parser.add_argument('--GEMs', type=str,
                         default='../../Data/D2Cell-pred Data/Ecoli/iML1515_S.txt',
                         help='GEMs path')
     parser.add_argument('--IgnoreMets', type=str,
-                        default='../../Data/D2Cell-pred Data/Ecoli/IgnoreMets_iML1515.xlsx',
+                        default='../../Data/D2Cell-pred Data/Ecoli/IgnoreMets_iML1515.csv',
                         help='IgnoreMets path')
     args = parser.parse_args()
 

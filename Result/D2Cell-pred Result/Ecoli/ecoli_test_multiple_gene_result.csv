@@ -1,0 +1,344 @@
+product index,pert index,true label,predict label,product,inf_label_01,fseof_predict,ID,name,fvseof_predict
+712,"[630, 1240]",0,1,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1558,"[1958, 2313, 2338]",1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+1416,"[363, 964, 1344, 1904, 2016, 2090, 2155, 2177, 2313]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+712,[1007],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+411,"[567, 1339, 1367, 1518, 1519, 2492]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1558,[484],1,0,lac__D_c,1,0,lac__D_c,D-Lactate,0
+1251,"[107, 256, 1466]",0,1,orn_c,0,1,orn_c,Ornithine,1
+420,"[184, 1025, 1368]",0,0,glx_c,0,1,glx_c,Glyoxylate,1
+1039,"[1860, 2515, 3013, 630, 1368]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+968,"[2421, 2422]",1,1,pppn_c,1,1,pppn_c,Phenylpropanoate,1
+397,"[2864, 2884, 2973, 521, 792]",0,0,mal__L_c,0,0,mal__L_c,L-Malate,0
+1416,"[1879, 2480, 2860, 331, 639, 796, 1333, 1380]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+712,"[2146, 2756]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+712,"[344, 830, 835, 999, 1130, 1497]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+968,"[2905, 796, 797]",0,0,pppn_c,0,1,pppn_c,Phenylpropanoate,1
+1039,"[344, 999, 1497, 2146, 2332]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+237,"[1017, 1662, 1919, 2116, 2246, 2338, 2846]",1,1,all__D_c,1,1,all__D_c,D-Allose,1
+397,"[1348, 1368, 2037, 2308]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1701,"[2555, 2852, 403, 621]",0,0,acetol_c,0,1,acetol_c,Acetol cytosol,1
+445,"[1224, 1862]",1,0,cytd_c,1,1,cytd_c,Cytidine,1
+411,"[567, 1339, 1367, 1518, 1519, 2492, 2532]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+397,"[261, 2037, 2267, 2365, 2609]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1427,"[261, 331, 403, 484, 797, 972, 1351, 1384]",0,0,acglu_c,0,1,acglu_c,N-Acetyl-L-glutamate,1
+413,[822],1,1,altrn_c,1,1,altrn_c,D-Altronate,1
+1446,"[363, 442, 484, 1333, 1336, 1431]",0,0,glyc_c,0,1,glyc_c,Glycerol,1
+445,[716],0,1,cytd_c,0,1,cytd_c,Cytidine,1
+712,[1333],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+1251,"[1623, 1772, 2982]",1,1,orn_c,1,1,orn_c,Ornithine,1
+1039,"[1860, 2515, 2524, 3013, 630, 893]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+445,"[1, 716]",0,1,cytd_c,0,1,cytd_c,Cytidine,1
+712,"[2715, 1240]",0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+411,"[21, 344, 1341, 1497, 2146, 2479, 2581, 3022]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1701,"[1039, 1336, 1919, 2137]",1,1,acetol_c,1,1,acetol_c,Acetol cytosol,1
+1362,"[796, 1023]",1,1,ptrc_c,1,1,ptrc_c,Putrescine,1
+1416,"[363, 964, 1344, 1904, 2016, 2090, 2155, 2177, 2312]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+14,"[287, 639, 681, 1118, 1178, 2693]",1,1,lyx__L_c,1,1,lyx__L_c,L-Lyxose,1
+420,"[1777, 2885, 184, 1025, 1368]",0,0,glx_c,0,0,glx_c,Glyoxylate,0
+968,"[796, 797]",0,0,pppn_c,0,1,pppn_c,Phenylpropanoate,1
+411,"[2554, 2715, 2883, 2944, 303, 640]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+1039,"[2146, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+968,"[2312, 2313]",1,1,pppn_c,1,1,pppn_c,Phenylpropanoate,1
+411,"[2883, 2, 3, 976]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+522,"[169, 756]",1,1,hxa_c,1,1,hxa_c,Hexanoate (n-C6:0),1
+420,[2884],1,1,glx_c,1,1,glx_c,Glyoxylate,1
+420,"[261, 1369, 1700, 2541, 2884]",1,1,glx_c,1,1,glx_c,Glyoxylate,1
+397,"[1869, 2609, 2864, 341, 484, 1419, 1433]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1416,"[363, 964, 1344, 1847, 2155, 2312, 2849]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+1362,"[2539, 2864]",0,1,ptrc_c,0,0,ptrc_c,Putrescine,0
+1536,"[886, 2155, 2474, 2576, 2889]",1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+411,"[1038, 1199, 1367, 1428, 1819, 2156]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+712,[630],0,1,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1039,"[344, 544, 1497]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+41,"[1303, 1368]",1,0,thr__L_c,1,1,thr__L_c,L-Threonine,1
+397,"[353, 1093, 1348, 1857, 2000, 2935, 2949]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1558,"[1348, 1847, 2312]",1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+1362,"[1573, 2539]",0,1,ptrc_c,0,1,ptrc_c,Putrescine,1
+41,"[351, 1368]",1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+397,"[353, 1093, 1348, 1857, 2000]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1315,"[1919, 2338, 2889]",1,1,inost_c,1,1,inost_c,Myo-Inositol,1
+411,"[344, 1497, 2146, 2479, 2581, 3022]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1315,[2846],0,1,inost_c,0,1,inost_c,Myo-Inositol,1
+1362,"[822, 1023]",1,0,ptrc_c,1,1,ptrc_c,Putrescine,1
+413,[2338],0,0,altrn_c,0,1,altrn_c,D-Altronate,1
+420,"[2541, 2884]",1,1,glx_c,1,1,glx_c,Glyoxylate,1
+1279,[1933],1,1,cit_c,1,1,cit_c,Citrate,1
+1315,"[403, 822, 1373]",0,0,inost_c,0,1,inost_c,Myo-Inositol,1
+1251,"[2488, 107, 1466]",0,1,orn_c,0,0,orn_c,Ornithine,0
+1427,"[1847, 2000, 2488, 2867]",1,1,acglu_c,1,1,acglu_c,N-Acetyl-L-glutamate,1
+1416,"[1879, 2480, 2860, 639, 1333]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+41,[1293],1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+1558,"[341, 442, 500, 797, 1433]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+1315,"[403, 639, 822, 1373]",0,1,inost_c,0,1,inost_c,Myo-Inositol,1
+1416,"[1879, 2480, 2860, 388, 500, 574, 661, 1333]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+1536,"[2474, 2576]",1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+1251,[1623],1,1,orn_c,1,1,orn_c,Ornithine,1
+1536,"[958, 1060]",0,1,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+1039,"[1860, 2511, 2515, 2524, 3013, 893]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+411,[1777],0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+41,"[1867, 2819, 2864, 2884]",0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+1416,"[2135, 2860]",0,0,12ppd__S_c,0,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+351,"[2202, 126, 403, 692, 1330]",0,0,malt_c,0,1,malt_c,Maltose C12H22O11,1
+411,"[1367, 1518, 1519, 2492]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+290,"[1580, 1867, 580, 640, 1348]",0,0,asp__L_c,0,1,asp__L_c,L-Aspartate,1
+397,"[2609, 2864]",0,1,mal__L_c,0,1,mal__L_c,L-Malate,1
+1279,[417],0,1,cit_c,0,1,cit_c,Citrate,1
+1039,"[1, 2146, 2409, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+1701,"[2555, 2852]",0,0,acetol_c,0,1,acetol_c,Acetol cytosol,1
+41,"[351, 1303, 1348, 1368]",1,0,thr__L_c,1,1,thr__L_c,L-Threonine,1
+397,"[2338, 2533, 331, 442, 484, 796, 797, 1025, 1368]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1536,"[1013, 1330, 2474, 2576, 2636]",1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+1427,"[2488, 2867]",1,0,acglu_c,1,0,acglu_c,N-Acetyl-L-glutamate,0
+411,"[1860, 2409, 3013, 630, 963, 1065, 1506]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+411,[1297],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1296,[2338],0,0,mana_c,0,1,mana_c,D-Mannonate,1
+712,"[1860, 2515, 2715, 3013, 630, 893, 963, 1506]",0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+896,"[2786, 2788, 55, 1093]",0,0,3mob_c,0,0,3mob_c,3-Methyl-2-oxobutanoate,0
+1362,"[57, 1023]",1,0,ptrc_c,1,1,ptrc_c,Putrescine,1
+397,"[353, 1093, 1124, 1348, 1857, 1919, 2000, 2935, 2949]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+557,[484],0,1,lys__L_c,0,1,lys__L_c,L-Lysine,1
+1558,[2877],1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+41,[1517],0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+1039,"[544, 1497]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+522,"[1685, 2272]",0,1,hxa_c,0,0,hxa_c,Hexanoate (n-C6:0),0
+1536,"[2529, 2846, 958, 1060, 1120]",0,0,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+1536,[886],1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+712,[2756],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,0
+712,[2849],0,1,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1315,"[1919, 2155, 2338, 2889]",1,1,inost_c,1,1,inost_c,Myo-Inositol,1
+1536,"[2402, 639, 958, 1060, 1373]",0,0,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+411,"[999, 1038, 1199, 1367, 1428, 1819, 2156]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1558,"[442, 797, 822]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+1558,"[1958, 2313]",1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+411,"[1860, 2355, 2409, 2468, 2511, 2515, 2857, 3013, 439, 580, 640]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+1787,"[1803, 2155, 2197, 2634, 2694, 1177]",0,0,xyl__D_c,0,1,xyl__D_c,D-Xylose,1
+1029,"[363, 421, 1432]",0,0,ala__L_c,0,1,ala__L_c,L-Alanine,1
+411,[1038],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+41,"[1, 2720]",1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+1416,"[1879, 2480, 2860, 574]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+411,"[1038, 1367]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1558,[2000],0,1,lac__D_c,0,1,lac__D_c,D-Lactate,1
+445,"[1465, 1517, 2232]",1,0,cytd_c,1,1,cytd_c,Cytidine,1
+1029,"[1879, 1937, 2948]",1,1,ala__L_c,1,1,ala__L_c,L-Alanine,1
+968,"[905, 906]",0,0,pppn_c,0,1,pppn_c,Phenylpropanoate,1
+14,"[1803, 2155, 2197, 2634, 2694, 1177]",0,0,lyx__L_c,0,1,lyx__L_c,L-Lyxose,1
+1039,"[2515, 630, 893]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+41,"[2073, 1058]",0,1,thr__L_c,0,1,thr__L_c,L-Threonine,1
+237,"[2533, 146, 403, 600, 730, 822, 1330]",0,0,all__D_c,0,1,all__D_c,D-Allose,1
+557,[2000],1,1,lys__L_c,1,1,lys__L_c,L-Lysine,1
+290,"[64, 351, 2096, 2156, 2864]",1,1,asp__L_c,1,1,asp__L_c,L-Aspartate,1
+1416,"[619, 1344]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+1039,"[1860, 2515, 3013, 630, 816, 893, 963, 1506]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+1416,"[363, 964, 1344, 1847, 1904, 2016, 2090, 2155, 2177]",1,0,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+2,"[663, 1333]",0,0,dhap_c,0,1,dhap_c,Dihydroxyacetone phosphate,1
+1251,[107],0,1,orn_c,0,1,orn_c,Ornithine,1
+773,[2338],0,0,glcn_c,0,1,glcn_c,D-Gluconate,1
+1265,[361],0,1,hdca_c,0,1,hdca_c,Hexadecanoate (n-C16:0),1
+411,"[2554, 2883, 2944, 303]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+1039,"[344, 999, 1008, 1497, 2146, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+397,"[2640, 797]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1558,"[341, 442, 1179, 1433]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+522,"[169, 462, 756, 1612, 1847, 1958, 2000, 2312, 2313]",1,1,hxa_c,1,1,hxa_c,Hexanoate (n-C6:0),1
+1536,"[639, 958, 1060, 1373]",0,1,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+411,[2409],0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+397,"[1869, 2609, 2864, 341, 484]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+712,[1199],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+445,"[429, 639, 681]",1,1,cytd_c,1,1,cytd_c,Cytidine,0
+397,"[353, 1093, 1348, 1857, 1919, 2000, 2935, 2949]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+351,"[1547, 1797, 2202, 126, 403, 692, 822, 833, 1330]",0,0,malt_c,0,1,malt_c,Maltose C12H22O11,1
+1362,"[1973, 2539]",0,1,ptrc_c,0,1,ptrc_c,Putrescine,1
+411,[893],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1296,[822],1,1,mana_c,1,1,mana_c,D-Mannonate,1
+411,"[21, 1341]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+411,"[949, 999, 1038, 1199, 1367, 1428, 1819, 2156]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+397,"[1348, 1368, 1457, 2037, 2308]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1536,"[403, 639, 1373]",0,0,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+420,"[1700, 2541, 2884]",1,1,glx_c,1,1,glx_c,Glyoxylate,1
+411,"[2515, 2554, 2715, 2883, 2944, 303, 640]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+712,"[1199, 2756]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+1039,"[344, 999, 1008, 1497, 2146, 2409, 2478, 2479]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+522,"[1685, 1978, 2272, 96, 331, 442, 484, 796, 797]",0,0,hxa_c,0,0,hxa_c,Hexanoate (n-C6:0),0
+1029,"[1857, 1937, 1958, 2000, 2313, 2949]",1,1,ala__L_c,1,1,ala__L_c,L-Alanine,1
+712,[1240],0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1039,"[999, 2146, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+411,"[567, 1339, 1367, 1519, 2492, 2532]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1701,"[2555, 2852, 403]",0,0,acetol_c,0,1,acetol_c,Acetol cytosol,1
+397,"[560, 2365, 2609]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1558,"[2864, 331, 796]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+1039,"[344, 999, 2146, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+557,"[2093, 2118]",0,0,lys__L_c,0,1,lys__L_c,L-Lysine,1
+420,[1368],0,0,glx_c,0,1,glx_c,Glyoxylate,1
+445,"[2981, 1, 716]",0,1,cytd_c,0,0,cytd_c,Cytidine,0
+712,[2523],0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,0
+397,"[2864, 2884, 521, 792]",0,0,mal__L_c,0,0,mal__L_c,L-Malate,0
+425,[2338],0,0,galctn__L_c,0,1,galctn__L_c,L-Galactonate,1
+1416,"[363, 964, 1344, 1847, 2155, 2312, 2849, 2896]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+1265,[1877],1,1,hdca_c,1,1,hdca_c,Hexadecanoate (n-C16:0),1
+41,"[557, 2574]",1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+411,[197],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+853,"[1940, 2047, 2166, 2167, 2680]",0,0,glu__L_c,0,1,glu__L_c,L-Glutamate,1
+522,[169],1,1,hxa_c,1,1,hxa_c,Hexanoate (n-C6:0),1
+1039,"[1860, 2515, 2524, 3013, 630, 963, 1506]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+41,[2884],0,1,thr__L_c,0,1,thr__L_c,L-Threonine,1
+411,"[2855, 2883, 2886, 3, 976, 1016]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+1039,"[344, 999, 1497, 2146, 2884]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+712,"[344, 999, 1199, 1497, 2146, 2479, 3022]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+351,"[31, 281, 686, 1642, 1919, 2208, 2349, 2846]",1,1,malt_c,1,1,malt_c,Maltose C12H22O11,1
+1362,"[2312, 2539]",0,1,ptrc_c,0,0,ptrc_c,Putrescine,0
+411,[1341],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+712,"[1130, 2351]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+1416,"[1879, 2480, 2860, 388, 403, 500, 574, 639, 661]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+411,[1370],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1039,"[344, 995, 999, 1008, 1497, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+445,"[2740, 346]",0,0,cytd_c,0,0,cytd_c,Cytidine,0
+397,"[1093, 1348]",1,0,mal__L_c,1,1,mal__L_c,L-Malate,1
+712,[2146],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+1362,"[1023, 1348]",1,0,ptrc_c,1,1,ptrc_c,Putrescine,1
+557,"[856, 1372]",1,1,lys__L_c,1,1,lys__L_c,L-Lysine,1
+1787,"[287, 639, 681, 1118, 1178, 2693]",1,1,xyl__D_c,1,1,xyl__D_c,D-Xylose,1
+425,[822],1,1,galctn__L_c,1,1,galctn__L_c,L-Galactonate,1
+1536,"[1919, 2155, 2889]",1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+1039,[2409],1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+397,"[1857, 2000, 2312, 2949]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1446,"[363, 442, 484, 1333, 1431]",0,0,glyc_c,0,1,glyc_c,Glycerol,1
+1315,[1330],1,0,inost_c,1,1,inost_c,Myo-Inositol,1
+411,[2813],0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+1039,"[1860, 2515, 3013, 630, 893]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+1039,"[1860, 2515, 3013, 630, 816, 963, 1506]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+411,[2883],0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+773,[822],1,1,glcn_c,1,1,glcn_c,D-Gluconate,1
+1446,"[1879, 1958, 2000, 2849, 2947]",1,1,glyc_c,1,1,glyc_c,Glycerol,1
+1039,"[1517, 630, 893, 963, 1506]",0,0,ser__D_c,0,1,ser__D_c,D-Serine,1
+1362,"[2338, 2539]",0,1,ptrc_c,0,1,ptrc_c,Putrescine,1
+541,"[2533, 146, 403, 600, 730, 822, 1330]",0,0,glc__D_c,0,0,glc__D_c,D-Glucose,0
+397,"[2076, 1093]",0,1,mal__L_c,0,1,mal__L_c,L-Malate,1
+1265,[1698],0,0,hdca_c,0,1,hdca_c,Hexadecanoate (n-C16:0),1
+41,[2809],0,0,thr__L_c,0,1,thr__L_c,L-Threonine,1
+41,[1368],1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+397,"[2864, 2884, 521]",0,0,mal__L_c,0,0,mal__L_c,L-Malate,0
+853,"[424, 531, 650, 651, 1164]",1,1,glu__L_c,1,1,glu__L_c,L-Glutamate,1
+1416,"[1879, 2480, 2860, 331, 639, 796, 1333]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+411,"[2944, 1367]",0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+1427,"[1919, 2488, 2867, 2900]",1,1,acglu_c,1,1,acglu_c,N-Acetyl-L-glutamate,1
+1315,"[1770, 1919, 2155, 2338, 2889]",1,1,inost_c,1,1,inost_c,Myo-Inositol,1
+41,[1],1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+1558,"[2000, 331, 341, 442, 714, 797, 1433]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+1039,"[1860, 2515, 630, 893]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+557,"[2372, 2888]",0,1,lys__L_c,0,0,lys__L_c,L-Lysine,0
+411,"[2083, 2855, 2883, 2, 3, 976, 1016]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+1416,"[363, 964, 1344, 1904, 1919, 2016, 2090, 2155, 2177]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+290,"[1580, 1867, 2338, 262, 403, 580, 640, 1348, 1384, 1433]",0,0,asp__L_c,0,1,asp__L_c,L-Aspartate,1
+1039,"[1860, 2515, 2524, 3013, 630, 893, 962, 963]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+896,"[1270, 1272, 1571, 2609]",1,1,3mob_c,1,1,3mob_c,3-Methyl-2-oxobutanoate,1
+557,"[577, 602]",1,1,lys__L_c,1,1,lys__L_c,L-Lysine,1
+411,"[1038, 1367, 1428, 1819, 2156]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+411,[2554],0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+411,"[2465, 2515, 2554, 2715, 2883, 2944, 303, 640]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+397,"[1348, 1368, 2037]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+712,"[1860, 2515, 2715, 3013, 630, 963, 1506]",0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1427,"[331, 484, 972, 1351]",0,0,acglu_c,0,1,acglu_c,N-Acetyl-L-glutamate,1
+41,"[1517, 2653, 2809, 1204, 1271]",0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+411,"[1339, 1367, 1370, 1519, 2492, 2532]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+445,[2232],1,1,cytd_c,1,1,cytd_c,Cytidine,1
+445,"[1595, 2471, 2740]",0,0,cytd_c,0,0,cytd_c,Cytidine,0
+522,[1685],0,1,hxa_c,0,0,hxa_c,Hexanoate (n-C6:0),0
+1416,"[363, 964, 1344, 2155, 2849]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+1416,"[1879, 2480, 2860, 331, 388, 500, 574, 639, 661]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+41,"[1517, 1204]",0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+41,"[1867, 2884]",0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+712,"[1860, 2346, 2351, 2515, 2646, 3013]",0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+557,"[56, 976, 1301, 1372, 1389]",1,1,lys__L_c,1,1,lys__L_c,L-Lysine,1
+397,"[822, 1017, 1847, 1958, 2000, 2312, 2313, 2541, 2884]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+411,"[1537, 1860, 2857, 3013, 630, 963, 1065, 1506]",0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+411,"[1038, 1367, 1428, 1819]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+411,"[2083, 2855, 2883, 2, 3, 976]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+411,"[1428, 2883]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1427,"[403, 972, 1351, 1384]",0,0,acglu_c,0,1,acglu_c,N-Acetyl-L-glutamate,1
+445,"[1945, 2155, 2197]",0,0,cytd_c,0,1,cytd_c,Cytidine,1
+1039,"[344, 999, 1497, 2146, 2332, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+1315,"[254, 403, 639, 822, 1373]",0,1,inost_c,0,0,inost_c,Myo-Inositol,0
+1427,"[1777, 1847, 1919, 2000, 2313, 2488, 2867, 2900]",1,1,acglu_c,1,1,acglu_c,N-Acetyl-L-glutamate,1
+968,"[1389, 2312, 2313]",1,1,pppn_c,1,1,pppn_c,Phenylpropanoate,1
+397,"[1777, 521, 751, 849, 1093]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1039,"[344, 999, 1497, 2146, 2332, 2409, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+1039,"[630, 893, 963, 1506]",0,0,ser__D_c,0,1,ser__D_c,D-Serine,1
+1362,"[457, 1023]",1,0,ptrc_c,1,1,ptrc_c,Putrescine,1
+1251,"[107, 1466]",0,1,orn_c,0,1,orn_c,Ornithine,1
+1039,"[344, 999, 1497, 2146, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+1558,"[484, 1847, 1857, 1958, 2230, 2313, 2949]",1,1,lac__D_c,1,0,lac__D_c,D-Lactate,0
+411,[2886],0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+1265,[182],1,1,hdca_c,1,1,hdca_c,Hexadecanoate (n-C16:0),1
+41,"[793, 2337]",1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+41,"[2819, 2884]",0,0,thr__L_c,0,1,thr__L_c,L-Threonine,1
+445,"[1517, 2232]",1,1,cytd_c,1,1,cytd_c,Cytidine,1
+41,"[1, 303, 351, 557, 1137, 1348, 1372]",0,0,thr__L_c,0,1,thr__L_c,L-Threonine,1
+1039,"[1860, 2515, 3013, 303, 630, 816, 893, 963, 1506]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+411,"[2554, 2883, 2944, 303, 640]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+541,"[1017, 1662, 1919, 2116, 2246, 2338, 2846]",1,1,glc__D_c,1,1,glc__D_c,D-Glucose,1
+712,[850],1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+1039,"[344, 999, 1497, 1819, 2146, 2332, 2409, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+557,"[1572, 2492, 2817, 2888, 2905]",0,0,lys__L_c,0,1,lys__L_c,L-Lysine,1
+1558,[893],0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+712,"[344, 999, 1199, 1497, 2146, 2409, 2479, 3022]",1,1,cys__D_c,1,1,cys__D_c,D-Cysteine,1
+351,"[31, 281, 686, 1642, 1919, 2208, 2338, 2349, 2846]",1,1,malt_c,1,1,malt_c,Maltose C12H22O11,1
+1416,"[1879, 2480, 2860, 388, 500, 574, 639, 661, 797]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+290,"[64, 351, 822, 1778, 1919, 2096, 2156, 2864, 2900, 2949]",1,1,asp__L_c,1,1,asp__L_c,L-Aspartate,1
+41,"[2309, 821]",0,0,thr__L_c,0,1,thr__L_c,L-Threonine,1
+411,[2492],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1251,"[972, 1623, 2982]",1,1,orn_c,1,1,orn_c,Ornithine,1
+445,"[79, 955, 1224]",1,1,cytd_c,1,1,cytd_c,Cytidine,1
+397,"[560, 2609]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1536,"[2155, 2474, 2576, 2889]",1,1,galct__D_c,1,1,galct__D_c,D-Galactarate,1
+411,[976],0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+411,[1367],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+411,"[1537, 2857]",0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+1416,"[363, 964, 1344, 2090]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1
+420,"[1025, 1368]",0,0,glx_c,0,1,glx_c,Glyoxylate,1
+397,"[2037, 2267, 2365, 2609]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1536,[2402],0,0,galct__D_c,0,1,galct__D_c,D-Galactarate,1
+397,"[2076, 849, 1093]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+411,"[2554, 2883]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+41,[351],1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+1701,"[1039, 1336, 1919]",1,1,acetol_c,1,1,acetol_c,Acetol cytosol,1
+1039,"[344, 999, 1008, 1497, 2146, 2409]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+397,"[1869, 2609, 2864, 341, 403, 484, 1419, 1433]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+411,"[1860, 3013, 630, 963, 1065, 1506]",0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+1416,"[1879, 2480, 2860, 388, 500, 574, 639, 661, 796]",0,0,12ppd__S_c,0,0,12ppd__S_c,"(S)-Propane-1,2-diol",0
+1251,"[1623, 2982]",1,0,orn_c,1,1,orn_c,Ornithine,1
+1039,"[1860, 2060, 3013]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+712,"[2646, 835]",0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1039,"[1860, 2515, 3013, 630, 816]",0,0,ser__D_c,0,0,ser__D_c,D-Serine,0
+397,"[521, 751, 849, 1093]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1558,"[442, 797]",0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+41,"[1517, 1819, 1867, 2073, 2653, 2864, 2888]",1,0,thr__L_c,1,0,thr__L_c,L-Threonine,0
+1558,"[1857, 1958, 2016, 2313, 2949]",1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+397,"[1124, 2313]",1,1,mal__L_c,1,1,mal__L_c,L-Malate,1
+1427,"[972, 1351]",0,1,acglu_c,0,1,acglu_c,N-Acetyl-L-glutamate,1
+41,"[1, 1137, 1293, 2720, 2787]",1,1,thr__L_c,1,1,thr__L_c,L-Threonine,1
+411,[261],1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+1039,[893],0,0,ser__D_c,0,1,ser__D_c,D-Serine,1
+712,[2366],0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,0
+712,[2715],0,0,cys__D_c,0,1,cys__D_c,D-Cysteine,1
+1029,"[341, 421, 442, 484, 797, 1433]",0,0,ala__L_c,0,1,ala__L_c,L-Alanine,1
+1558,[1361],0,0,lac__D_c,0,1,lac__D_c,D-Lactate,1
+397,"[1869, 2609, 2640, 2864, 341, 403, 484, 1419, 1433]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+411,[1713],0,0,met__L_c,0,1,met__L_c,L-Methionine,1
+411,"[344, 839, 893, 952, 995, 999, 1341, 1497, 1955, 2096, 2156]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+397,"[341, 484, 796, 1433]",0,0,mal__L_c,0,1,mal__L_c,L-Malate,1
+1039,"[2146, 2409, 2479, 3022]",1,1,ser__D_c,1,1,ser__D_c,D-Serine,1
+1039,"[2060, 3013]",0,0,ser__D_c,0,1,ser__D_c,D-Serine,1
+411,"[344, 893, 1497, 2146, 2479, 2581, 3022]",1,1,met__L_c,1,1,met__L_c,L-Methionine,1
+450,[2338],0,0,galctn__D_c,0,1,galctn__D_c,D-Galactonate,1
+1558,[2409],1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+1446,"[1879, 1958, 2000, 2849, 2852, 2947]",1,1,glyc_c,1,1,glyc_c,Glycerol,1
+351,"[1547, 1797, 2202, 126, 403, 692, 833, 1330]",0,0,malt_c,0,1,malt_c,Maltose C12H22O11,1
+411,[2857],0,0,met__L_c,0,0,met__L_c,L-Methionine,0
+411,"[2083, 2855, 2883, 3, 976, 1016]",0,1,met__L_c,0,0,met__L_c,L-Methionine,0
+351,"[686, 1642, 1919, 2208, 2846]",1,1,malt_c,1,1,malt_c,Maltose C12H22O11,1
+1558,"[1857, 1958, 2695, 2949]",1,1,lac__D_c,1,1,lac__D_c,D-Lactate,1
+1701,"[1039, 1336]",1,1,acetol_c,1,1,acetol_c,Acetol cytosol,1
+41,[1867],0,0,thr__L_c,0,0,thr__L_c,L-Threonine,0
+1039,"[630, 893]",0,0,ser__D_c,0,1,ser__D_c,D-Serine,1
+450,[822],1,1,galctn__D_c,1,1,galctn__D_c,D-Galactonate,1
+1416,"[363, 964, 1344, 1904, 2016, 2090, 2177, 2849]",1,1,12ppd__S_c,1,1,12ppd__S_c,"(S)-Propane-1,2-diol",1

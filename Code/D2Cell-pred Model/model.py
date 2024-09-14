@@ -26,8 +26,10 @@ class MLP(torch.nn.Module):
         layers = [l for l in layers if l is not None][:-1]
         self.activation = last_layer_act
         self.network = torch.nn.Sequential(*layers)
+
     def forward(self, x):
         return self.network(x)
+
 
 class FlattenMLP(nn.Module):
     def __init__(self, reaction_size, hidden_size):
@@ -37,14 +39,14 @@ class FlattenMLP(nn.Module):
         :param hidden_size: sizes of the hidden layers
         """
         super(FlattenMLP, self).__init__()
-        self.flatten = nn.Flatten(start_dim=1)  
-        self.fc1 = nn.Linear(reaction_size*hidden_size, 1024)  
+        self.flatten = nn.Flatten(start_dim=1)
+        self.fc1 = nn.Linear(reaction_size * hidden_size, 1024)
         self.bn1 = nn.BatchNorm1d(1024)
         self.relu1 = nn.ReLU()
         self.fc2 = nn.Linear(1024, 512)
         self.bn2 = nn.BatchNorm1d(512)
         self.relu2 = nn.ReLU()
-        self.fc3 = nn.Linear(512, 128)  
+        self.fc3 = nn.Linear(512, 128)
         self.bn3 = nn.BatchNorm1d(128)
         self.relu3 = nn.ReLU()
 
@@ -60,6 +62,39 @@ class FlattenMLP(nn.Module):
         x = self.bn3(x)
         x = self.relu3(x)
         return x
+
+
+class DecoderBlock(nn.Module):
+    def __init__(self, embed_size, heads, forward_expansion, dropout):
+        """
+        DecoderBlock
+        :param embed_size: The embedding size of each input sequence element
+        :param heads: The number of parallel attention heads
+        :param forward_expansion: The expansion factor, mapping the embedding dimension to a wider dimension
+        :param dropout: Regularization parameter
+        """
+        super(DecoderBlock, self).__init__()
+        self.attention = nn.MultiheadAttention(embed_dim=embed_size, num_heads=heads)
+        self.norm1 = nn.LayerNorm(embed_size)
+        self.norm2 = nn.LayerNorm(embed_size)
+
+        self.feed_forward = nn.Sequential(
+            nn.Linear(embed_size, forward_expansion * embed_size),
+            nn.ReLU(),
+            nn.Linear(forward_expansion * embed_size, embed_size),
+        )
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        attention, attention_weight = self.attention(x, x, x)
+        x = self.norm1(attention + x)
+        x = self.dropout(x)
+
+        forward = self.feed_forward(x)
+        out = self.norm2(forward + x)
+        out = self.dropout(out)
+        return out
 
 
 class D2Cell_Model(torch.nn.Module):
@@ -89,7 +124,7 @@ class D2Cell_Model(torch.nn.Module):
         self.pert_emb = nn.Embedding(self.num_pert, hidden_size, max_norm=True)
         self.product_emb = nn.Embedding(self.num_product, hidden_size, max_norm=True)
         self.meta_graph_emb = nn.Embedding(self.num_met, hidden_size, max_norm=True)
-        
+
         # transformation layer
         self.emb_mlp = MLP([hidden_size, hidden_size, hidden_size], last_layer_act='ReLU')
         self.product_mlp = MLP([hidden_size, hidden_size, hidden_size], last_layer_act='ReLU')
@@ -99,8 +134,6 @@ class D2Cell_Model(torch.nn.Module):
         # use different GNN for GEM embedding
         for i in range(1, self.num_layers + 1):
             self.layers_gem_gnn.append(SGConv(hidden_size, hidden_size, 2))
-        # for i in range(1, self.num_layers + 1):
-        #     self.layers_emb_pos.append(GCNConv(hidden_size, hidden_size))
 
         self.layers_meta_gnn = torch.nn.ModuleList()
         # use different GNN for meta embedding
@@ -109,6 +142,9 @@ class D2Cell_Model(torch.nn.Module):
 
         # decoder shared MLP
         self.pert_mlp = MLP([hidden_size, hidden_size, hidden_size], last_layer_act='linear')
+
+        self.transformer_decoder = DecoderBlock(embed_size=384, heads=4, forward_expansion=2, dropout=0.05)
+
         self.ff_layer = nn.Sequential(
             nn.Linear(384, 1024),
             nn.ReLU(),
@@ -129,12 +165,10 @@ class D2Cell_Model(torch.nn.Module):
         edge_index = data.edge_index.to(self.args['device'])
         edge_weight = data.edge_weight.to(self.args['device'])
         unique_batch = len(data.batch.unique())
-        # product_index = torch.LongTensor(product_index).to(self.args['device'])
         product_add_list = list(range(unique_batch))
-        # product_add_list = [x * self.num_met for x in product_add_list]
-        # product_index += torch.LongTensor(product_add_list).to(self.args['device'])
 
-        pos_emb = self.meta_graph_emb(torch.LongTensor(list(range(self.num_met))).repeat(unique_batch, ).to(self.args['device']))
+        pos_emb = self.meta_graph_emb(
+            torch.LongTensor(list(range(self.num_met))).repeat(unique_batch, ).to(self.args['device']))
         for idx, layer in enumerate(self.layers_gem_gnn):
             pos_emb = layer(pos_emb, edge_index, edge_weight)
             if idx < len(self.layers_gem_gnn) - 1:
@@ -152,7 +186,6 @@ class D2Cell_Model(torch.nn.Module):
                 meta_emb = meta_emb.relu()
         product_emb = meta_emb[product_index]
         product_emb = self.product_mlp(product_emb)
-
 
         pert_emb_all = self.pert_emb(torch.arange(self.num_pert, device=self.args['device']))
         pert_emb_sum_list = []

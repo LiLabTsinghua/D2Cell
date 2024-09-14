@@ -5,13 +5,13 @@ from IE_accuracy import calculate_accuracy
 
 # Data for plotting
 def bar_f1score(scores, fig_name):
-    methods = ['Qwen1.5-110B', 'Gemini Pro', ' Claude-3', 'GPT-4', 'Qwen-Lora']
+    methods = ['Qwen1.5-110B', 'Qwen1.5-14B', 'Gemini Pro', ' Claude-3', 'GPT-4', 'Llama3', 'Llama3-Lora', 'Qwen-Lora']
     shots = ['Precision', 'Recall', 'F1 Score']
     plt.rcParams['pdf.fonttype'] = 42
     # Plot details
-    bar_width = 0.15  # width of the bars
+    bar_width = 0.1  # width of the bars
     index = np.arange(len(shots))
-    colors = ['#c7e9b4', '#7fcdbb', '#41b6c4', '#41b6c4', '#225ea8']
+    colors = ['#ffffd9', '#edf8b1','#c7e9b4', '#7fcdbb', '#41b6c4', '#41b6c4', '#225ea8', '#253494']
     plt.rcParams['font.family'] = 'Arial'
     plt.rcParams.update({'font.size': 7})
     fig, ax = plt.subplots(figsize=(2, 1.5), dpi=400)
@@ -19,7 +19,7 @@ def bar_f1score(scores, fig_name):
     for i, method in enumerate(methods):
         ax.bar(index + i * bar_width, scores[i], color=colors[i],
                width=bar_width, label=method, capsize=5, edgecolor='black', linewidth=0.5)
-    ax.set_xticks(index + bar_width + bar_width + bar_width / 50)
+    ax.set_xticks(index + bar_width + bar_width + bar_width + bar_width)
     ax.set_xticklabels(shots)
     ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.2), ncol=5, fontsize=5)
     plt.ylabel('NER performance (%)', fontsize=7)

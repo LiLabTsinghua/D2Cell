@@ -1,0 +1,70 @@
+product index,pert index,true label,predict label,product,inf_label_01,fvseof_predict,fseof_predict,ID,name
+367,[185],0,1,lac_DASH_L_c,0,1,1,lac_DASH_L_c,L-Lactate
+157,"[326, 429]",0,0,ser_DASH_L_c,0,1,1,ser_DASH_L_c,L-Serine
+274,[175],1,1,4abut_c,1,1,1,4abut_c,4-Aminobutanoate
+367,"[681, 405]",0,1,lac_DASH_L_c,0,1,1,lac_DASH_L_c,L-Lactate
+367,[1453],1,1,lac_DASH_L_c,1,0,0,lac_DASH_L_c,L-Lactate
+64,[279],0,0,glu_DASH_L_c,0,1,1,glu_DASH_L_c,L-Glutamate
+356,[1090],0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+356,"[947, 405, 185]",0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+45,[408],1,1,ala_DASH_L_c,1,1,1,ala_DASH_L_c,L-Alanine
+157,"[1241, 429]",0,0,ser_DASH_L_c,0,0,0,ser_DASH_L_c,L-Serine
+157,"[1241, 1179, 1105, 429]",0,0,ser_DASH_L_c,0,0,0,ser_DASH_L_c,L-Serine
+45,[1180],0,0,ala_DASH_L_c,0,1,1,ala_DASH_L_c,L-Alanine
+367,"[672, 34]",1,1,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+356,[1098],0,0,val_DASH_L_c,0,0,0,val_DASH_L_c,L-Valine
+367,"[1453, 1177]",1,1,lac_DASH_L_c,1,0,0,lac_DASH_L_c,L-Lactate
+356,[845],0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+367,"[408, 499, 681, 406, 1177]",1,1,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+67,[324],0,0,citr_DASH_L_c,0,1,1,citr_DASH_L_c,L-Citrulline
+367,[681],0,1,lac_DASH_L_c,0,1,1,lac_DASH_L_c,L-Lactate
+67,[1096],0,1,citr_DASH_L_c,0,1,1,citr_DASH_L_c,L-Citrulline
+274,[396],1,1,4abut_c,1,1,1,4abut_c,4-Aminobutanoate
+586,[1471],1,1,anth_c,1,1,1,anth_c,Anthranilate
+274,[581],0,0,4abut_c,0,1,1,4abut_c,4-Aminobutanoate
+356,"[516, 484]",0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+367,"[408, 499, 406, 1177]",1,1,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+356,"[326, 325]",1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+626,[806],1,1,glyclt_c,1,1,1,glyclt_c,Glycolate
+356,[326],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+356,[210],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+64,[185],0,1,glu_DASH_L_c,0,1,1,glu_DASH_L_c,L-Glutamate
+274,[947],0,1,4abut_c,0,1,1,4abut_c,4-Aminobutanoate
+626,[34],0,1,glyclt_c,0,1,1,glyclt_c,Glycolate
+356,[484],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+367,"[1180, 1271, 1178, 405]",0,0,lac_DASH_L_c,0,0,0,lac_DASH_L_c,L-Lactate
+274,[1168],0,0,4abut_c,0,1,1,4abut_c,4-Aminobutanoate
+356,"[175, 1177, 957]",1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+356,[982],0,0,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+586,[699],0,1,anth_c,0,1,1,anth_c,Anthranilate
+356,[1288],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+356,[516],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+11,"[957, 681]",0,0,ac_c,0,1,1,ac_c,Acetate
+356,"[1098, 1097]",0,0,val_DASH_L_c,0,0,0,val_DASH_L_c,L-Valine
+367,"[1180, 1271, 1453, 1178, 405]",0,0,lac_DASH_L_c,0,0,0,lac_DASH_L_c,L-Lactate
+356,"[1288, 1256]",1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+356,[1288],0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+367,"[1444, 806]",0,1,lac_DASH_L_c,0,1,1,lac_DASH_L_c,L-Lactate
+157,"[469, 407, 333, 1201]",1,1,ser_DASH_L_c,1,1,1,ser_DASH_L_c,L-Serine
+64,[957],1,0,glu_DASH_L_c,1,1,1,glu_DASH_L_c,L-Glutamate
+367,"[1180, 1271, 1453, 1178, 1172, 405]",0,0,lac_DASH_L_c,0,0,0,lac_DASH_L_c,L-Lactate
+11,"[957, 1171, 1170, 681]",0,0,ac_c,0,1,1,ac_c,Acetate
+367,[957],1,0,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+67,[1096],1,1,citr_DASH_L_c,1,1,1,citr_DASH_L_c,L-Citrulline
+157,"[469, 1201]",1,1,ser_DASH_L_c,1,1,1,ser_DASH_L_c,L-Serine
+367,[1177],1,1,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+103,[1453],0,0,dha_c,0,1,1,dha_c,Dihydroxyacetone
+64,[1051],1,1,glu_DASH_L_c,1,1,1,glu_DASH_L_c,L-Glutamate
+356,[318],1,0,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+356,[516],0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+274,[1353],1,1,4abut_c,1,1,1,4abut_c,4-Aminobutanoate
+274,[469],1,1,4abut_c,1,1,1,4abut_c,4-Aminobutanoate
+367,[405],0,0,lac_DASH_L_c,0,1,1,lac_DASH_L_c,L-Lactate
+356,[1256],0,1,val_DASH_L_c,0,1,1,val_DASH_L_c,L-Valine
+367,"[408, 499, 681, 406, 400, 1177]",1,1,lac_DASH_L_c,1,1,1,lac_DASH_L_c,L-Lactate
+274,[1241],0,0,4abut_c,0,1,0,4abut_c,4-Aminobutanoate
+11,"[185, 1453]",1,1,ac_c,1,1,1,ac_c,Acetate
+157,"[1098, 1201]",1,1,ser_DASH_L_c,1,1,1,ser_DASH_L_c,L-Serine
+356,[73],1,1,val_DASH_L_c,1,1,1,val_DASH_L_c,L-Valine
+103,[681],1,1,dha_c,1,1,1,dha_c,Dihydroxyacetone
+67,[324],1,0,citr_DASH_L_c,1,1,1,citr_DASH_L_c,L-Citrulline

@@ -1,10 +1,778 @@
 organisms,counts
-E. coli,1551
-S. cerevisiae,706
-C. glutamicum,233
-Y. lipolytica,187
-B. subtilis,107
-P. pastoris,59
-P. putida,54
-C. acetobutylicum,33
-Others,1191
+Escherichia coli,2030
+Saccharomyces cerevisiae,842
+Corynebacterium glutamicum,306
+Yarrowia lipolytica,225
+Bacillus subtilis,160
+Pichia pastoris,123
+Pseudomonas putida,72
+yeast,67
+Bacillus licheniformis,45
+Clostridium acetobutylicum,43
+Kluyveromyces marxianus,37
+Klebsiella pneumoniae,32
+Synechocystis,28
+Synechococcus elongatus,26
+Lactococcus lactis,25
+Ralstonia eutropha,25
+Streptomyces,24
+Cupriavidus necator,24
+Aspergillus niger,23
+Rhodosporidium toruloides,22
+Zymomonas mobilis,21
+Aspergillus oryzae,20
+Bacillus amyloliquefaciens,19
+Clostridium tyrobutyricum,19
+Enterobacter aerogenes,17
+Chinese hamster ovary (CHO) cells,16
+Bacillus,15
+Gluconobacter oxydans,15
+bacteria,14
+Rhodobacter sphaeroides,13
+Saccharomyces,13
+Candida glabrata,12
+Pseudomonas aeruginosa,12
+Komagataella phaffii,12
+Trichoderma reesei,12
+Mannheimia succiniciproducens,11
+Pseudomonas,11
+Streptomyces hygroscopicus,11
+Clostridium,11
+Candida tropicalis,11
+Corynebacterium crenatum,11
+Chlamydomonas reinhardtii,11
+Halomonas bluephagenesis,11
+Rhodotorula toruloides,10
+Halomonas,10
+Klebsiella oxytoca,10
+Saccharopolyspora erythraea,10
+Synechococcus,10
+Synechocystis sp. PCC 6803,10
+Hansenula polymorpha,9
+Lactobacillus plantarum,9
+Paenibacillus polymyxa,8
+Streptomyces coelicolor,8
+Pichia kudriavzevii,8
+Clostridium beijerinckii,8
+Candida glycerinogenes,7
+Schizosaccharomyces pombe,7
+Aureobasidium pullulans,7
+Pseudomonas chlororaphis,7
+Actinobacillus succinogenes,7
+Aspergillus terreus,7
+Aspergillus,7
+Scheffersomyces stipitis,6
+Streptomyces lividans,6
+Xanthophyllomyces dendrorhous,6
+Bacillus coagulans,6
+Methylobacterium extorquens,6
+Lactobacillus reuteri,6
+Ogataea polymorpha,6
+Ashbya gossypii,6
+Clostridium ljungdahlii,6
+Pseudomonas taiwanensis,6
+Myceliophthora thermophila,6
+Actinosynnema pretiosum,6
+Issatchenkia orientalis,5
+Bacillus thuringiensis,5
+Pseudomonas fluorescens,5
+Pediococcus acidilactici,5
+Spathaspora passalidarum,5
+Streptomyces albulus,5
+Rhodopseudomonas palustris,5
+Acinetobacter baylyi,5
+Salvia miltiorrhiza,5
+Lipomyces starkeyi,5
+Lactobacillus,5
+Sinorhizobium meliloti,5
+Escherichia,5
+Geobacillus thermoglucosidasius,5
+Clostridium thermocellum,5
+Vibrio natriegens,5
+Aspergillus nidulans,5
+Saccharopolyspora spinosa,5
+Bacillus megaterium,5
+Ustilago maydis,5
+Serratia marcescens,5
+Synechocystis sp. PCC6803,5
+Agrobacterium,4
+Candida magnoliae,4
+Aeromonas hydrophila,4
+Rhodococcus,4
+Candida famata,4
+Starmerella bombicola,4
+Kluyveromyces lactis,4
+Phaeodactylum tricornutum,4
+Neurospora crassa,4
+Blakeslea trispora,4
+Rhodococcus opacus,4
+Zygosaccharomyces rouxii,4
+Fusarium oxysporum,4
+Streptomyces rimosus,4
+Yeast,4
+Clostridium autoethanogenum,4
+Rhodobacter capsulatus,4
+Propionibacterium acidipropionici,4
+Schizochytrium sp.,4
+Mycobacterium neoaurum,4
+Penicillium oxalicum,4
+Monascus purpureus,4
+Synechococcus sp. PCC 7002,4
+Arabidopsis thaliana,4
+Nicotiana benthamiana,4
+Streptomyces avermitilis,4
+Fusarium fujikuroi,4
+Synechococcus elongatus PCC 7942,4
+Sphingomonas,3
+Torulopsis glabrata,3
+thraustochytrid,3
+Thermobifida fusca,3
+Rhodotorula mucilaginosa,3
+Thermoanaerobacterium saccharolyticum,3
+Lactobacillus brevis,3
+Streptomyces roseosporus,3
+Schizochytrium,3
+Streptomyces venezuelae,3
+Clostridium cellulovorans,3
+Streptomyces lincolnensis,3
+Komagataeibacter xylinus,3
+Bacillus velezensis,3
+Acetobacterium woodii,3
+Aureobasidium melanogenum,3
+Corynebacterium ammoniagenes,3
+Methylobacterium,3
+Pichia anomala,3
+Mycobacterium,3
+Mucor circinelloides,3
+Saccharomyces boulardii,3
+Pseudomonas denitrificans,3
+Lactobacillus paracasei,3
+Lactobacillus casei,3
+Acetobacter pasteurianus,3
+Lactiplantibacillus plantarum,3
+Streptomyces tsukubaensis,3
+Thermoanaerobacterium,3
+Phaffia rhodozyma,3
+Amycolatopsis balhimycina,3
+Candida boidinii,3
+Methylomicrobium alcaliphilum,3
+Mortierella alpina,3
+Shewanella oneidensis,3
+Pseudomonas mendocina,3
+Clostridium cellulolyticum,3
+Agrobacterium tumefaciens,3
+Chlorella zofingiensis,3
+CHO cells,3
+Bacillus cereus,3
+Burkholderia sacchari,3
+Chinese Hamster Ovary (CHO) cells,3
+Nannochloropsis oceanica,3
+Pseudomonas putida KT2440,3
+Catharanthus roseus,3
+Streptomyces albus,3
+Methylobacterium extorquens AM1,3
+Propionibacterium jensenii,2
+Salmonella,2
+Klebsiella,2
+Coprinopsis cinerea,2
+Synechocystis sp.,2
+Ogataea (Hansenula) polymorpha,2
+Methylomonas,2
+Ketogulonigenium,2
+Kluyveromyces,2
+Alternaria alternata,2
+Propionibacterium,2
+Candida utilis,2
+Pichia stipitis,2
+Corynebacterium,2
+top-fermenting yeast,2
+Methylomicrobium buryatense,2
+Lactobacillus delbrueckii,2
+Artemisia annua,2
+Rhizopus oryzae,2
+Cutaneotrichosporon oleaginosum,2
+Anabaena,2
+Pichia guilliermondii,2
+Basfia,2
+Methylotuvimicrobium alcaliphilum,2
+Not mentioned,2
+Rhodotorula glutinis,2
+Trichosporon asahii,2
+Burkholderia,2
+Lactobacillus acidophilus,2
+Saccharopolyspora,2
+Methylorubrum extorquens,2
+Thermococcus onnurineus NA1,2
+Klebsiella sp.,2
+yeasts,2
+Streptomyces spp.,2
+Cupriavidus necator H16,2
+Elizabethkingia meningoseptica,2
+Wickerhamomyces ciferrii,2
+Vibrio,2
+Pichia ciferrii,2
+Halomonas TD01,2
+Halomonas elongata,2
+Myxococcus xanthus,2
+Geobacillus,2
+Methylomonas sp. DH-1,2
+Rhodococcus ruber,2
+Parageobacillus thermoglucosidasius,2
+Streptomyces albidoflavus,2
+engineered strain,2
+Streptococcus zooepidemicus,2
+Staphylococcus aureus,2
+Ketogulonicigenium vulgare,2
+Enterobacter cloacae,2
+Bacillus pumilus,2
+Saitozyma podzolica,2
+Dunaliella tertiolecta,2
+Thraustochytrium,2
+Enterobacter,2
+Arthrospira platensis,2
+Anabaena sp. PCC 7120,2
+Streptomyces pristinaespiralis,2
+Methylorubrum extorquens AM1,2
+Streptomyces gilvosporeus,2
+Neochloris oleoabundans,2
+Streptomyces sp. RM7011,2
+Chlorella sorokiniana,2
+Bacillus circulans,2
+Sorangium cellulosum,2
+Bacillus subtilis natto,2
+Aspergillus carbonarius,2
+Synechococcus sp. PCC7002,2
+Panax notoginseng,2
+Shewanella oneidensis MR-1,2
+Pseudomonas putida S12,2
+Saccharopolyspora pogona,2
+Chlorella protothecoides,2
+Schizophyllum commune,2
+Trichoderma harzianum,2
+Synechococcus elongatus UTEX 2973,2
+Caldicellulosiruptor bescii,2
+Amycolatopsis mediterranei,2
+Scenedesmus obliquus,2
+Chinese hamster ovary cells,2
+Thermoanaerobacterium aotearoense,2
+Bombyx mori,2
+Nannochloropsis gaditana,2
+Halomonas sp. Y3,2
+Clostridium saccharoperbutylacetonicum,2
+fungal sp. No. 11243,2
+Acidithiobacillus ferrooxidans,2
+Salmonella enterica,2
+Haematococcus pluvialis,2
+Streptomyces coelicolor M512,2
+Pseudomonas stutzeri,2
+Alcaligenes faecalis,2
+Scenedesmus sp.,2
+Streptomyces chattanoogensis,2
+Rhodotorula,1
+Lactobacillus lactis,1
+Raoultella ornithinolytica,1
+Yersinia,1
+Ascaris suum,1
+Wickerhamomyces anomalus,1
+Brettanomyces bruxellensis,1
+Bipolaris sorokiniana,1
+Schwanniomyces occidentalis,1
+Bacillus methanolicu,1
+brewer’s yeast,1
+Moritella marina,1
+Alternaria,1
+Propionibacterium freudenreichii,1
+Nocardia,1
+Aspergillus flavus and Rhizopus oryzae,1
+Ensifer,1
+Actinoplanes,1
+Gluconobacter japonicus,1
+Kodamaea,1
+Ganoderma lucidum,1
+Sporolactobacillus inulinus,1
+Arthrobacter simplex,1
+Coriolus versicolor,1
+Corynebacteria,1
+Rhodococcus jostii RHA1,1
+Scheffersomyces,1
+lager yeast,1
+Trichosporon moniliiforme,1
+Auxenochlorella protothecoides,1
+Acidithiobacillus,1
+Thermotoga,1
+Arthrobacter,1
+Streptoverticillium mobaraense,1
+BHK-21,1
+Corynebacter,1
+Candida,1
+Polyamine metabolic genes knockout strain,1
+Schizochytrium limacinum,1
+Corynebacterium lilium,1
+Thermoanaerobacter ethanolicus,1
+Cryptococcus curvatus,1
+Clostridium diolis,1
+LY04,1
+Enterococcus faecalis,1
+Lentibacillus salarius,1
+Acidithiobacillus cal,1
+psychrotrophic yeast,1
+Williopsis saturnus,1
+Saccharomyces pastorianus,1
+Candida albicans,1
+cereal vinegar,1
+lager brewing yeast,1
+Sporidiobolus pararoseus,1
+Saprochaete,1
+Bifidobacterium,1
+Trichoderma,1
+Serratia,1
+Aureobasidium,1
+Acetobacter,1
+Lachancea,1
+mixed culture,1
+Weissella cibaria,1
+W3110,1
+Brevibacterium linens,1
+Peptoniphilaceae,1
+Rhodotorula paludigena,1
+Serratia sp.,1
+Citrobacter sp.,1
+Lactobacillus fermentum,1
+Yarrowia lipolytica and Debaryomyces hansenii,1
+Schleiferilactobacillus,1
+grapevine,1
+Bacillus licheformis,1
+tyrA mutant,1
+Corynebacterium acetoacidophilum,1
+Pichia,1
+Trametes versicolor,1
+Candidatus Accumulibacter,1
+Butyrivibrio,1
+Saccaromyces cerevisiae,1
+Streptomyces cinnamonensis,1
+Thermoanaerobacter,1
+HEK-293,1
+Ketogulonigenium vulgare,1
+Propionibacterium freudenreichii subsp. shermanii,1
+Alicyclobacillus acidocaldarius,1
+KGSADH,1
+Vitreoscilla hemoglobin,1
+industrial yeast strain,1
+Actinobacteria,1
+Pseudomonas entomophila,1
+Crabtree-negative yeast,1
+Hydrogenophaga,1
+Methylosinus trichosporium,1
+Streptomyces species,1
+Amycolatopsis japonicum,1
+methanotrophic bacteria,1
+Gram-negative,1
+Magnetospirillum magneticum,1
+Recombinant microbes,1
+industrial metabolite-producing strains,1
+Bacteroides thetaiotaomicron,1
+microbial strain,1
+Acholeplasma laidlawii,1
+GLALD-7,1
+BL21,1
+N-acetylneuraminic acid lyase,1
+Mad1415,1
+Penicillium brevicompactum,1
+Microbial,1
+cpcB*L7*IspS,1
+CupriaVidus necator,1
+plant cell,1
+insect cell,1
+Geobacter sulfurreducens,1
+Crypthecodinium cohnii,1
+bacteria or yeast,1
+tomato,1
+Mannheimia,1
+SanSyn,1
+Comamonas,1
+Lachancea kluyveri,1
+Coelastrum,1
+engineered bacterium,1
+Lactobacillus bulgaricus,1
+Nesterenkonia,1
+haloarchaeal,1
+Corynebacterium crenatium,1
+T. saccharolyticum,1
+fungal cell,1
+Achromobacter,1
+Ogataea,1
+sake yeast,1
+Candida krusei,1
+Serratia plymuthica,1
+Rhodovulum sulfidophilum,1
+Tripterygium wilfordii,1
+Alpinia oxyphylla,1
+SmCYP98A,1
+Caldicellulosiruptor,1
+Amorphotheca,1
+Blastobotrys (Arxula) adeninivorans,1
+"Firmicutes, Bacteroidetes, and Proteobacteria",1
+Gluconobacter,1
+Chromobacterium,1
+Ashbya,1
+Citrobacter,1
+Thauera butanivorans,1
+Rhodosporidium azoricum,1
+Deinococcus radiodurans,1
+Rhodothermus marinus,1
+Bacillus tequilensis,1
+Yeasts,1
+Amorphotheca resinae,1
+cyanobacteria,1
+Umbelopsis isabellina,1
+Cryptococcus,1
+tobacco,1
+Hyphomicrobium,1
+Desulfovibrio,1
+Xanthophyllomyces,1
+Candida subtropicalis,1
+Azotobacter vinelandii,1
+non-conventional yeasts,1
+Corynebacterium Glutamicum,1
+Sphingobium sp.,1
+Angel-derived K-a and W303-1A,1
+Saccharomyces Cerevisiae,1
+Bacillus Subtilis,1
+Trichosporon oleaginosus,1
+Haloferax mediterranei,1
+Pseudomonas syringae,1
+Shewanella,1
+Acidithiobacillus Ameehan,1
+Physcomitrella patens,1
+Brevibacillus,1
+Lager yeast,1
+Metschnikowia,1
+Ustilago,1
+Penicillium chrysogenum,1
+Pseudoclostridium thermosuccinogenes,1
+Saccharomycopsis,1
+Recombinant Saccharomyces cerevisiae,1
+Parageobacillus,1
+Rhodospirillum rubrum,1
+Komagataeibacter,1
+Lachancea thermotolerans,1
+Cupriavidus metallidurans,1
+Bacillus paralicheniformis,1
+Cephalosporin C-producing microbe,1
+Clostridium sp. N-4,1
+Monoraphidium dybowskii,1
+Pseudonocardia thermophila,1
+Bordetella pertussis,1
+Herbaspirillum seropedicae,1
+bovine NP cells,1
+Streptomyces bingchenggensis,1
+Mycobacterium vanbaalenii,1
+Saccharomyces cerevisiae AGY001,1
+tobacco chloroplast,1
+Streptomyces erumpens,1
+Bacillus safensis,1
+Rosetta (DE3) cells,1
+Streptomyces xiamenensis,1
+Pachysolen tannophilus,1
+Escherichiacoli,1
+Microbulbifer thermotolerans,1
+Bifidobacterium adolescentis,1
+Capsicum frutescens,1
+Bacillus thuringiensis var. kurstaki HD-1,1
+Glarea lozoyensis,1
+Salmonella typhimurium LT2,1
+Sporosarcina,1
+Leuconostoc pseudomesenteroides,1
+Bacillus paranthracis,1
+Halomonas salina,1
+Wickerhamiella domercqiae var. sophorolipid,1
+Chlorella vulgaris,1
+Fusarium sp. HKF15,1
+Pseudozyma tsukubaensis,1
+Tetraselmis sp.,1
+Chlorella vulgaris ESP-31,1
+Streptomyces GF3587,1
+Corynebacterium glutamicum ssp. lactofermentum,1
+Alteromonas mediterranea,1
+Streptomyces spiramyceticus,1
+Spodoptera frugiperda (Sf9) insect cell line,1
+Achromobacter xylosoxidans,1
+Chinese hamster ovary (CHO) cell line,1
+not explicitly stated,1
+Aspergillus flavipes,1
+Moloney murine leukemia virus (MoMLV) producer cell line,1
+Arthrobacter globiformis,1
+Desulfovibrio vulgaris,1
+Thermobifida fusca muS,1
+Chlamydomonas,1
+Phellinus baumii,1
+Cordyceps kyushuensis,1
+NIH3T3 cells,1
+Streptomyces flavoviridis,1
+Streptomyces DAUFPE 3060,1
+Aureobasidium pullulans var. melanogenium,1
+Chaetomella raphigera,1
+Camptotheca acuminata,1
+Aspergillus phoenicis,1
+A. terreus,1
+Napoleon table grapes,1
+Paenibacillus brasilensis,1
+Citrobacter braakii,1
+Halomonas spp.,1
+Rhizopus sp.,1
+Shiraia bambusicola,1
+Pediococcus pentosaceus,1
+Bifidobacterium longum,1
+Corynebacterium sp.,1
+Serratia fonticola,1
+Thermomicrobium roseum,1
+Klebsiella variicola,1
+Aspergillus saccharolyticus,1
+Meyerozyma sp.,1
+Saccharomyces kluyveri,1
+Clostridium sp.,1
+Trametes ochracea,1
+Tn-5 insect cells,1
+P. mendocina NK-01,1
+Micromonospora echinospora,1
+Tomato,1
+Nonomuraea sp.,1
+Vibrio fluvialis,1
+Apple (Malus domestica),1
+Streptomyces thermocyaneoviolaceus,1
+"thermotolerant butane-2,3-diol-producing strain",1
+Mycobacterium fortuitum,1
+Komagatella (Pichia) pastoris,1
+thermophilic PETase,1
+Brevibacillus choshinensis,1
+"Paenarthrobacter nitroguajacolicus C1, Pseudomonas putida C2, Paenarthrobacter ureafaciens AT",1
+Synechococcus sp. strain NKBG 15041c,1
+Acinetobacter calcoaceticus,1
+Methanosarcina barkeri,1
+microalgae,1
+Streptomyces sp. CB03234,1
+Parachlorella kessleri,1
+Nocardia sp.,1
+reovirus,1
+P. putida KT2440,1
+Sulfurihydrogenibium yellowstonense,1
+Cladophora glomerata,1
+Cupriavidus malaysiensis,1
+Gluconobacter cerinus,1
+Metarhizium anisopliae var. lepidiotum,1
+K. baliensis,1
+Streptomyces albulus PD-1,1
+Debaryomyces hansenii,1
+Paracoccus denitrificans,1
+Monascus pilosus,1
+Escherichia coli YLC20 and Meyerozyma guilliermondii MG57,1
+Clostridium paraputrificum,1
+Phomopsis,1
+Klebsiella pneumonia,1
+Streptomyces actuosus,1
+Kodamea ohmeri,1
+fungus,1
+Thermus thermophilus,1
+Zymobacter palmae,1
+Chinese Hamster Ovary (CHO) cell,1
+Nostoc PCC7120,1
+Trichoderma atroviride,1
+Rhizopus stolonifer var. reflexus TP-02,1
+Bacillus brevis,1
+murein hybridoma CT04,1
+Arthrobacter sulfureus,1
+Mortierella isabellina,1
+Dichotomomyces cejpii,1
+rice straw,1
+Chlamydomonas sp. JSC4,1
+Spirosoma linguale,1
+Pichia GS115,1
+Z. rouxii,1
+Lactobacillus intermedius,1
+recombinant cells,1
+Halomonas hydrothermalis,1
+Lactobacillus diolivorans,1
+Nostoc PCC 7120,1
+Lysinibacillus sphaericus,1
+Atrina pectinata japonica,1
+M. circinelloides,1
+Candida hispaniensis,1
+Saccharomyces sp. W0,1
+Brassica napus,1
+Sporomusa ovata,1
+CHO-K1 cells,1
+Mucor sp. RRL001,1
+Anabaena sp. strain PCC 7120,1
+Ustilago cynodontis,1
+Pigeon pea hairy root cultures (PPHRCs),1
+Issatchenkia,1
+insect cells,1
+Leishmania tarentolae,1
+Spodoptera frugiperda cells,1
+Pseudomonas sp.,1
+Agaricus brasiliensis,1
+Myxococcus xanthus DK1622,1
+Metarhizium anisopliae,1
+Actinobacteria sp.,1
+Angiococcus disciformis,1
+Paenibacillus glucanolyticus,1
+Not explicitly stated,1
+Gordonia sihwensis,1
+Magnusiomyces magnusii,1
+Stauroneis sp.,1
+Rhodotorula taiwanensis,1
+Mycobacterium tuberculosis,1
+Paracoccus aminophilus,1
+Clostridium aceticum,1
+Bacillus subtilis subsp. inaquosorum,1
+HEK 293,1
+Pseudomonas protegens,1
+Pantoea ananatis,1
+Fusarium solani pisi,1
+Streptomyces microaureus,1
+Coprinus cinereus,1
+Burkholderia glumae,1
+Alcaligenes sp. A-04,1
+Penicillium citrinum,1
+Streptomyces natalensis,1
+Lactococcus lactis subsp. cremoris,1
+Basfia succiniciproducens,1
+Pichia angophorae,1
+Nicotiana tabacum,1
+Pichia (Scheffersomyces) stipitis,1
+Paenibacillus shirakamiensis,1
+Camelina sativa,1
+Chlamydomonas sp.,1
+Aureobasidium pullulans var. melanogenum,1
+Rhodococcus jostii,1
+Paecilomyces saturatus,1
+BHK cell lines,1
+Paraburkholderia graminis,1
+Bovine calf articular chondrocytes,1
+Methylomonas sp.,1
+Arthrobacter sp.,1
+Methanococcus maripaludis,1
+SaOs-2,1
+Clostridium pasteurianum,1
+Methanocorpusculum,1
+Chinese cabbage hairy roots,1
+Scutellaria baicalensis,1
+Cellulomonas sp. strain FA1,1
+Sulfolobus solfataricus,1
+Komagataeibacter rhaeticus,1
+Pseudomonas mutabilis,1
+Streptomyces albus J1074,1
+Coriolopsis gallica,1
+Streptomyces hygrospinosus var. beijingensis,1
+Methylosinus trichosporium OB3b,1
+Oryza sativa,1
+Bovine chondrocytes,1
+mice,1
+Halomonas campaniensis,1
+Thermotoga sp.,1
+Streptomyces psammoticus,1
+Bacillus vallismortis,1
+Pseudomonas sp. strain VLB120,1
+Alkaliphilic cyanobacteria,1
+Myroides sp. ZB35,1
+Pseudomonas stutzeri Rhl,1
+Novibacillus thermophiles,1
+Clostridium glutamicum,1
+CHO (Chinese-hamster ovary) cells,1
+Streptomyces fungicidicus,1
+Monascus ruber,1
+Tripterygium wilfordii Hook. f.,1
+Rasamsonia emersonii,1
+Rhodococcus erythropolis,1
+"Thermus thermophiles, Thermotoga maritima, Archaeoglobus fulgidus",1
+D. hansenii var. hansenii,1
+Shewanella marisflavi,1
+Halomonas sp. KM-1,1
+Hyphomicrobium denitrificans,1
+Halomonas cupida,1
+Bacillus sp. D1,1
+Barrientosiimonas sp.,1
+K. pneumoniae,1
+Thermoanaerobacterium aciditolerans,1
+banana,1
+Ralstonia solanacearum,1
+EPC cell lines,1
+Brevibacterium oxidans IH-35 A,1
+Limnothrix/Pseudanabaena sp. strain ABRG5-3,1
+FZ661T,1
+Rhodopseudomonas faecalis,1
+Crambe abyssinica hairy roots,1
+Ralstonia sp. strain TRW-1,1
+Clostridium saccharolyticum and Zymomonas anaerobia,1
+alphaproteobacteria,1
+BmCESH,1
+B. licheniformis,1
+Helianthus annuus,1
+Talaromyces pinophilus,1
+S. erythraea,1
+Methylovorus sp. MP688,1
+Shimwellia blattae,1
+Aspergillus flavus,1
+Streptomyces reveromyceticus,1
+Pasteurella multocida,1
+Escherichia coli MG1655,1
+Delftia acidovorans,1
+Rhizopus microsporus var. rhizopodiformis,1
+Sterolibacterium denitrificans,1
+Pseudomonas asiatica,1
+Brevibacterium flavum,1
+Clostridium tetanomorphum,1
+ovine aorta,1
+Lactic acid bacteria,1
+Trichosporonoides oedocephalis,1
+E. coli DH5α,1
+Streptomyces rubiginosus,1
+Schefersomyces stipitis,1
+Desulfovibrio desulfuricans,1
+Komagataella phaffii GS115,1
+Aureobasidium pullulans var. aubasidani,1
+Trichosporon fermentans,1
+Chlorella pyrenoidosa,1
+Synechoccous elongatus PCC 7942,1
+canola and soybean plants,1
+Paecilomyces marquandii,1
+Candida guilliermondii,1
+Streptomyces hygroscopicus var. ascomyceticus,1
+Streptomyces peucetius var. caesius,1
+Atropa belladonna,1
+Pseudomonas corrugata,1
+B. megaterium,1
+Anabaena siamensis,1
+Phellinus igniarius,1
+murine mesenchymal stem cells,1
+tobacco transplastomic plants,1
+Streptomyces clavuligerus,1
+Halomonas sp.,1
+transgenic mice,1
+Scomberomorus lineolatus fish skin,1
+Lactuca sativa L.,1
+Candida viswanathii,1
+Schlegella brevitalea,1
+Phomopsis sp. A123,1
+Brassica juncea L.,1
+Pseudozyma antarctica,1
+Clostridium sp. strain BOH3,1
+Vitis vinifera,1
+Streptomyces sp.,1
+Tribonema minus,1
+Panax ginseng,1
+Pestalotiopsis terminaliae,1
+Rhodococcus opacus PD630,1
+Streptomyces fradiae,1
+Chryseobacterium sp. CA49,1
+mouse insulinoma cells,1
+Acinetobacter radioresistens,1
+Stenotrophomonas nitritireducens,1
+hybridoma cells,1
+CHO cell line,1
+Moorella thermoacetica,1
+Sphingomonas sp.,1
+Trichosporon cutaneum,1
+Escherichia coli K12,1
+Fistulifera solaris,1
+Pseudomonas sp. LFM046,1

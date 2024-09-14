@@ -18,13 +18,14 @@ def plot_dual_kernel_density(data1, data2, data3, figure_path, max_ylim):
     plt.gca().spines['left'].set_linewidth(0.5)
     plt.gca().spines['right'].set_linewidth(0.5)
 
-    sns.kdeplot(data2, fill=True, color='#225ea8', label='Cellulosic Ethanol')
+    sns.kdeplot(data2, fill=True, color='#225ea8', label='Cellulosic ethanol')
     sns.kdeplot(data1, fill=True, color='#41ab5d', label='Monoterpene')
     sns.kdeplot(data3, fill=True, color='#ce1256', label='Protein')
 
-    plt.xlabel('Accuracy of Data Extraction', fontsize=8)
+    plt.xlabel('Accuracy of data extraction', fontsize=8)
     plt.ylabel('Density', fontsize=8)
-    legend = plt.legend(frameon=False, fontsize=7, ncol=3, handletextpad=0.25)
+    legend = plt.legend(frameon=False, fontsize=7, ncol=3, handletextpad=0.2, handlelength=1, borderaxespad=0)
+
     plt.ylim(0,max_ylim)
     plt.xlim(-0.3,1.5)
 
@@ -39,10 +40,10 @@ def check_result(df):
     df = df[df['knock out gene'].notnull() | df['overexpress gene'].notnull() | df[
         'heterologous gene'].notnull()]
     data_list = []
-    paper_list = sorted(list(set(df['paper number'].tolist())))
+    paper_list = sorted(list(set(df['doi'].tolist())))
     for paper_id in paper_list:
-        df_paper = df[df['paper number'] == paper_id]
-        data_list.append(len(df_paper[df_paper['Check type'] == 'yes']) / len(df_paper))
+        df_paper = df[df['doi'] == paper_id]
+        data_list.append(len(df_paper[df_paper['Check'] == 'yes']) / len(df_paper))
     return data_list
 
 

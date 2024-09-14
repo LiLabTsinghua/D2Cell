@@ -1,302 +1,293 @@
-paper number,doi,strain,product,product titer,medium,carbon source,carbon source concentration,vessel and feed mode,ph,time,temperature,parent strain,knock out gene,overexpress gene,heterologous gene,check,feedback,Check type
-,,,,,,,,,,,,,,,,,,
-p1,Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,47.27 mg liter Ϫ1,YP medium containing 20 g liter Ϫ1 glycerol,Glycerol,20 g liter Ϫ1,Shake flask cultivation,5.0,48 h,28°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,×OE,,
-p1,Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,89.2 mg liter Ϫ1,Fed-batch fermentation with a feed rate of 16 g h Ϫ1,Glucose,Not specified,Bioreactor,5.0,100 h,25°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,×OE,,
-p1,Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,108.5 mg liter Ϫ1,Fed-batch fermentation with a feed rate of 16 g h Ϫ1,Glucose,Not specified,Bioreactor,5.0,100 h,25°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,×OE,,
-p1,Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,not available,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,×OE,,
-,,,,,,,,,,,,,,,,,,
-p2,TomasG2020AEM,cPOS5,Fab,2.34 Ϯ 0.52,Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5.0,24 h,Not specified,P. pastoris X-33,,POS5,,√,,yes
-p2,TomasG2020AEM,cPOS5,Fab,1.07 Ϯ 0.21,Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5.0,24 h,Not specified,P. pastoris X-33,,POS5,,√,,yes
-p2,TomasG2020AEM,cPOS5,recombinant Fab,"FC, 1.07 Ϯ 0.21",Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5.0,24 h,Not specified,P. pastoris X-33,,POS5,,重复,,yes
-p2,TomasG2020AEM,cPOS5,recombinant Fab,"FC, 2.34 Ϯ 0.52",Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5.0,24 h,Not specified,P. pastoris X-33,,POS5,,重复,,yes
-,,,,,,,,,,,,,,,,,,
-p3,Delic2014MCF,trp∆yap1,trypsinogen,2-fold,YPD,glucose,20 g/L,shake flask,6.0,48 h,28°C,trp,YAP1,trypsinogen,TRP,×YAP1应该是OE,,
-p3,Delic2014MCF,trpYAP1,trypsinogen,1.58-fold higher secretion yields,M2 minimal medium,glucose,20 g/L,shake flask,6.0,24 h,28°C,trp,,P. pastoris YAP1;YAP1;trypsinogen,TRP,√,,yes
-,,,,,,,,,,,,,,,,,,
-p4,Krainer2012MCF,Mut S,HRP,7-fold more efficient into product compared to the Mut + strain,YPD agar plates containing 25 mg•l -1 zeocin,Glucose,1%,shake flasks at 28 C and 230 rpm for max. 24 h,5,60 h,28 C,,,,,√,,yes
-p4,Krainer2012MCF,Mut S,HRP,3-fold higher volumetric productivity than for the Mut + strain,"basal salt medium (26.7 ml•l -1 85% phosphoric acid, 1.17 g•l -1 YNB w/o amino acids and ammonia sulfate, 10 g•l -1 (NH4)2SO4, 400 mg•l -1 biotin, 20 g•l -1 glucose)",Methanol,0.5% (v/v),"3 l or 5 l working volume glass bioreactor (Infors, Switzerland)",5,60 h,28 C,,,,,√,,yes
-p4,Krainer2012MCF,Mut S,recombinant protein,7-fold more efficient into product compared to the Mut + strain,YPD agar plates containing 25 mg•l -1 zeocin,Glucose,1%,shake flasks at 28 C and 230 rpm for max. 24 h,5,60 h,28 C,,,,,重复,,yes
-p4,Krainer2012MCF,Mut S,recombinant protein,more than 3-fold higher volumetric productivity,"basal salt medium (26.7 ml•l -1 85% phosphoric acid, 1.17 g•l -1 YNB w/o amino acids and ammonia sulfate, 10 g•l -1 (NH4)2SO4, 400 mg•l -1 biotin, 20 g•l -1 glucose)",Methanol,0.5% (v/v),"3 l or 5 l working volume glass bioreactor (Infors, Switzerland)",5,60 h,28 C,,,,,重复,,
-,,,,,,,,,,,,,,,,,,
-p5,Li 2015BMC,GS115/Phy,phytase,0.13 g/L,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,GS115/Phy,phytase,414 U/mL,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,6c/HAC1,phytase,0.75 g/L,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,6c/HAC1,phytase,9.58 g/L,BSM,"glycerol/methanol (2:1, v/v)",40 ± 2 g/h,10-L fermenter,6.0,120 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,6c/HAC1,phytase,2119 U/mL,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,6c/HAC1,phytase,"35,032 U/mL",BSM,"glycerol/methanol (2:1, v/v)",40 ± 2 g/h,10-L fermenter,6.0,120 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,√,,yes
-p5,Li 2015BMC,GS115/AOXm,phytase,560 U/mL,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,P. pastoris GS115,,,PHY;phytase,OE：PHY,,
-p5,Li 2015BMC,GS115/αE10,phytase,626 U/mL,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,P. pastoris GS115,,,PHY;phytase,OE：PHY,,
-p5,Li 2015BMC,GS115/6c,phytase,1511 U/mL,BMMY,methanol,1% (v/v),shaken flask,6.0,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,√,,yes
-,,,,,,,,,,,,,,,,,,
-p6,Lukas2019MCF,∆vam6∆pep4 + SBH1OE,CES,"83% and 75% for ∆ypt7∆pep4 and ∆vam6∆pep4, respectively",Buffered BM medium,Glucose,100 mM,Fed-batch,5.0,75 h,25 °C,,PEP4;VAM6,SBH1,,这里菌株和操作&结果有点没对上,这篇文字中有些结果没提出来,
-p6,Lukas2019MCF,HyHEL-Fab ∆ypt7,HyHEL-Fab,46% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5.0,75 h,25 °C,Fab#34,YPT7,HyHEL-Fab;KAR2;RHO4;SBH1,Fab;HyHEL-Fab,OE没有KAR2&RHO4&SBH1,,
-p6,Lukas2019MCF,HyHEL-Fab ∆ypt7,HyHEL-Fab,41% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5.0,75 h,25 °C,Fab#34,YPT7,HyHEL-Fab;KAR2;RHO4;SBH1,Fab;HyHEL-Fab,菌株应该是vam6；KO应该是vam6；OE没有KAR2&RHO4&SBH1,,
-p6,Lukas2019MCF,∆ypt7∆pep4,HyHEL-Fab,51% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5.0,75 h,25 °C,,YPT7,PEP4,,OE应该是KO,,
-p6,Lukas2019MCF,∆ypt7∆vps70,HyHEL-Fab,62% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5.0,75 h,25 °C,,YPT7,VPS70,,OE应该是KO,,
-,,,,,,,,,,,,,,,,,,
-p7,Navone2021MCF,AppA (P HpFMD ),AppA phytase,1.53 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,,,AppA,,√,,yes
-p7,Navone2021MCF,AppA (P HpFMD ),AppA phytase,2.08 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,,,AppA,,×OEHAC1,,
-p7,Navone2021MCF,AppA-HAC1 (P HpFMD-HpMOX ),AppA phytase,1.36 ± 0.05-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P HpFMD ),,AppA;HAC1,,√,,yes
-p7,Navone2021MCF,AppA-HAC1 (P HpFMD-HpMOX ),HAC1,30% increased yield,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P HpFMD ),,AppA;HAC1,,product是AppA,,
-p7,Navone2021MCF,AppA-HAC1 (P AOX1-CAT1 ),AppA phytase,1.31 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P AOX1 ),,AppA;HAC1,,√,,yes
-p7,Navone2021MCF,AppA-HAC1 (P DAS1/2 ),AppA phytase,1.38 ± 0.07-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P DAS1 ),,AppA;HAC1,,√,,yes
-p7,Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),AppA phytase,2.14 ± 0.03-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,√,,yes
-p7,Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),AppA phytase,1.40 ± 0.02-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,√,,yes
-p7,Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),PDI,1.40 ± 0.02-fold compared to AppA (P HpFMD ),Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6.0,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,product是AppA,,
-,,,,,,,,,,,,,,,,,,
-p8,Duan2019JB,G/9KG,yEGFP,233.5 ± 3.8 (PDI1),BMMT,Methanol,0.5%,Shake flask,6.0,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,OE: PDI,,
-p8,Duan2019JB,G/9KG,yEGFP,210.5 ± 19.0 (BiP),BMMT,Methanol,0.5%,Shake flask,6.0,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,OE: BiP,,
-p8,Duan2019JB,G/9KG,yEGFP,367.5 ± 10.2 (HAC1),BMMT,Methanol,0.5%,Shake flask,6.0,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,OE: HAC1,,
-,,,,,,,,,,,,,,,,,,
-p9,Jiao2018PEP,GS115/pAOα-5ROL 11#,ROL,"20,500 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,115 h,27 °C,GS115,,Hrd1;ROL;Ubc1,ROL,无OE,,
-p9,Jiao2018PEP,GS115/pAOα-5ROL 11#,ROL,5.41 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,115 h,27 °C,GS115,,Hrd1;ROL;Ubc1,ROL,无OE,,
-p9,Jiao2018PEP,GS115/5ROL-Ubc1 22#,ROL,"26,860 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,OE:Ubc1,,
-p9,Jiao2018PEP,GS115/5ROL-Ubc1 22#,ROL,6.10 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,OE:Ubc1,,
-p9,Jiao2018PEP,GS115/5ROL-Ubc1 22#,Ubc1,6.10 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,重复,,
-p9,Jiao2018PEP,GS115/5ROL-Hrd1 15#,ROL,"29,660 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,OE:Hrd,,
-p9,Jiao2018PEP,GS115/5ROL-Hrd1 15#,ROL,6.35 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,OE:Hrd,,
-p9,Jiao2018PEP,GS115/5ROL-Hrd1-Ubc1 1#,ROL,"33,900 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,√,,yes
-p9,Jiao2018PEP,GS115/5ROL-Hrd1-Ubc1 1#,ROL,7.17 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,√,,yes
-,,,,,,,,,,,,,,,,,,
-p10,Li2010BBRC,yJC100:pPDI:pAM1,SLPI protein,1.70 mg/L,methanol-based medium,methanol,not specified,shake flask,not specified,72 h,30 °C,yJC100,,PDI;SLPI,SLPI,√,,yes
-,,,,,,,,,,,,,,,,,,
-p11,Liu2023LWT,GS115-7DEX,DEX,121.02 U/mL,Buffered methanol-complex medium (BMMY),Methanol,10 g/L,Shake flask fermentation,5.0,144 h,30 • C,GS115,,DEX;Hac1;Ubc1,DEX,OE：DEX,,
-p11,Liu2023LWT,GS115-7DEX,DEX,619.78 U/mL,Buffered methanol-complex medium (BMMY),Methanol,10 g/L,Fed-batch high cell density fermentation in a 5-L fermenter,5.0,96 h,25 • C,GS115,,DEX;Hac1;Ubc1,DEX,√,,yes
-p11,Liu2023LWT,GS115-7DEX,DEX,3257.23 U/mL,Buffered methanol-complex medium (BMMY) with sorbitol co-feeding,Sorbitol and methanol,50 g/L sorbitol and 10 g/L methanol,Fed-batch high cell density fermentation in a 5-L fermenter,5.0,138 h,25 • C,GS115,,DEX;Hac1;Ubc1,DEX,√,,yes
-,,,,,,,,,,,,,,,,,,
-p12,Nocon2014ME,X-33_hSOD_NTS,hSOD,4 mg g À 1,YPD medium supplemented with 2 mM CuCl 2 and 0.02 mM ZnSO 4,Glucose,20 g L À 1,"100 mL wide neck shake flasks without baffles, batch mode",5,48 h,25 1C,,,hSOD,hSOD,√,,yes
-p12,Nocon2014ME,X-33_hSOD_NTS,hSOD,272 mg L À 1,Fed batch culture,Glucose,Not specified,Not specified,Not specified,Not specified,Not specified,,,hSOD,hSOD,√,,yes
-,,,,,,,,,,,,,,,,,,
-p13,Prabhu2016CES,GS-hIFN-c/Kar2p + PDI,hIFN-c,1.56 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Kar2p;PDI,hIFN-c,√,这篇漏掉了一些文字信息,yes
-p13,Prabhu2016CES,GS-hIFN-c/PDI,hIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c/Ydj1p,hIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,√,,yes
-p13,Prabhu2016CES,GS-hIFN-c,hIFN-c,0.22 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS115,,,hIFN-c,√,,yes
-,,,,,,,,,,,,,,,,,,
-p14,Prahbu2018CES,GS-hIFN-c/Kar2p + PDI,hIFN-c,1.56 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Kar2p;PDI,hIFN-c,,同上篇,yes
-p14,Prahbu2018CES,GS-hIFN-c/PDI,hIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c/Ydj1p,hIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,,,yes
-p14,Prahbu2018CES,GS-hIFN-c,hIFN-c,0.22 mg L⁻¹,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS115,,,hIFN-c,,,yes
-,,,,,,,,,,,,,,,,,,
-p15,Resina2009NB,ROL,Rol,40 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,Rol,about 40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,extracellular Rol levels,30-40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,extracellular Rol levels,280 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,extracellular lipase levels,30-40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,extracellular lipase levels,280 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL,extracellular lipase levels,about 40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_HAC1,Rol,73 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,,HAC1;ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_HAC1,Rol,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_HAC1,extracellular Rol levels,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_HAC1,extracellular lipase levels,73 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_DGAS1,Rol,240 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,GAS1,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_DGAS1,extracellular lipase levels,240 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,ROL,ROL,√,,yes
-p15,Resina2009NB,ROL_HAC1/DGAS1,Rol,about 2-fold higher than in the producing control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,HAC1;ROL,ROL,√,,yes
-,,,,,,,,,,,,,,,,,,
-p16,Sha2013EMT,PDI-1-SRCL-1,recombinant strain PDI-1-SRCL-1,190 U/mL,YPD-Zeocin,methanol,1%,shaking flask,6.0,5 d,28-30°C,SRCL-1,,PDI;proRCL,proRCL,√,,yes
-p16,Sha2013EMT,PDI-1-SRCL-1,recombinant strain PDI-1-SRCL-1,one-fold increase compared to the recombinant strain SRCL-1 with only one copy lipase gene,YPD-Zeocin,methanol,1%,shaking flask,6.0,5 d,28-30°C,SRCL-1,,PDI;proRCL,proRCL,√,,yes
-p16,Sha2013EMT,PDI-1-SRCL-5,recombinant strain PDI-1-SRCL-5,355 U/mL,YPD-Zeocin,methanol,1%,shaking flask,6.0,5 d,28-30°C,SRCL-5,,PDI;proRCL,proRCL,√,,yes
-p16,Sha2013EMT,SRCL-3,recombinant strain SRCL-1,280 U/mL,YPD-G418,methanol,1%,shaking flask,6.0,5 d,28-30°C,SRCL-1,,proRCL,proRCL,√,,yes
-p16,Sha2013EMT,SRCL-3,recombinant strain SRCL-3,280 U/mL,YPD-G418,methanol,1%,shaking flask,6.0,5 d,28-30°C,SRCL-1,,proRCL,proRCL,√,,yes
-,,,,,,,,,,,,,,,,,,yes
-p17,Vad2005JB,GS115/K10,hPTH,6 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K10,intact hPTH,6 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,hPTH,33 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,hPTH,55 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,hPTH,100 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,hPTH,over 300 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,√,,yes
-p17,Vad2005JB,GS115/K23,intact hPTH,33 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,intact hPTH,55 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,intact hPTH,100 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,"OE:hPTH(AOX1,HIS4是筛选标记基因）",,
-p17,Vad2005JB,GS115/K23,intact hPTH,over 300 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,√,,yes
-,,,,,,,,,,,,,,,,,,
-p18,Wang2012EMT,VHb +,VHb,21.2 nmol/g DCW,"BMGY medium, BMMY medium","Glycerol, Methanol","1% (w/v), 0.5% (v/v)","Shaking flask, 10-L fermentor",5.5,"96 h, 116 h, 121 h","28°C, 30°C",GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,3550 U/mL,"BMGY medium, BMMY medium","Glycerol, Methanol","1% (w/v), 0.5% (v/v)","Shaking flask, 10-L fermentor",5.5,"96 h, 116 h, 121 h","28°C, 30°C",GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,"29,500 U/mL",FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,"33,000 U/mL",FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,1.64-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,1.91-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-p18,Wang2012EMT,VHb +,YlLIP2,1.16-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,√,,yes
-,,,,,,,,,,,,,,,,,,
-p19,Wu2017EMT,TU-6,AnGOD,Not specified,MM-glucose,Glucose,2%,Shake flask,28°C,48 h,200 rpm,,pyr4,,AnGOD,√,,yes
-p19,Wu2017EMT,TG,AnGOD,Not specified,MM-glucose,Glucose,2%,Shake flask,28°C,48 h,200 rpm,TU-6,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,OE: AnGOD,,
-p19,Wu2017EMT,TGsnc,AnGOD,0.61 U/ml,MM-Avicel,Avicel,2%,Shake flask,28°C,44 h,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,OE：AnGOD;snc1,,
-p19,Wu2017EMT,TGbip,AnGOD,Not specified,MM-Avicel,Avicel,2%,Shake flask,28°C,Not specified,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,OE：AnGOD;bip,,
-p19,Wu2017EMT,TGhac,AnGOD,Not specified,MM-Avicel,Avicel,2%,Shake flask,28°C,Not specified,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,OE：AnGOD;hac1,,
-,,,,,,,,,,,,,,,,,,
-p20,Zahrl2023ME,P AOX1 -Fab#9,Fab,1.3-fold,,Glucose,10 g/L,Small-scale screening cultivations in deep well plates (DWP),5.0,24 h,25 • C,,,Fab,,这篇信息主要在表格里,,yes
-p20,Zahrl2023ME,P AOX1 -CES,CES,1.3-fold,,Glycerol,10 g/L,Small-scale screening cultivations in deep well plates (DWP),5.0,24 h,25 • C,,,CES,,,,yes
-,,,,,,,,,,,,,,,,,,
-p21,Zhu2014PB,GSG-1Sman,mannanase,46 U/mL,BMGY,glucose,20 g/L,shake flask,5.0,48 h,30°C,P. pastoris GS115,,alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-p21,Zhu2014PB,GSG-2Sman,mannanase,82 U/mL,BMGY,glucose,20 g/L,shake flask,5.0,48 h,30°C,GSG-1Sman;P. pastoris GS115,,alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-p21,Zhu2014PB,GSG-3Sman,mannanase,118 U/mL,BMGY,glucose,20 g/L,shake flask,5.0,48 h,30°C,GSG-2Sman;P. pastoris GS115,,alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-p21,Zhu2014PB,GSG-3Sman-PDI,mannanase,177 U/mL,BMGY,glucose,20 g/L,shake flask,5.0,48 h,30°C,GSG-3Sman,,PDI;alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-p21,Zhu2014PB,GSG-3Sman-Hac1p,mannanase,212 U/mL,BMGY,glucose,20 g/L,shake flask,5.0,48 h,30°C,GSG-3Sman,,Hac1p;alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-p21,Zhu2014PB,GSG-3Sman-Hac1p,mannanase,2980 U/mL,fed-batch fermentation,glucose,below 100 mg/L,1 L-scale laboratory fermenter,5.0,96 h,30°C,GSG-3Sman,,Hac1p;alkaline ␤-mannanase;β-mannanase,alkaline ␤-mannanase,√,,yes
-,,,,,,,,,,,,,,,,,,
-p22,He2020FBB,opt-hLYZ-6C-EP,Pdi1 and Ero1 molecular chaperones,0.34 ± 0.02 mg/mL,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-EP,antibacterial activity against M. lysodeikicus,"21,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-EP,opt-hLYZ expression cassette,0.34 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C,antibacterial activity against M. lysodeikicus,"14,680 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C,opt-hLYZ expression cassette,0.22 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C,opt-hLYZ expression cassette,0.22 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,antibacterial activity against M. lysodeikicus,"9,200 ± 500 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,mRNA levels of the hLYZ gene,0.14 ± 0.02,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,mRNA levels of the hLYZ gene,"9,200 ± 500 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.10 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.14 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.14 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,recombinant P. pastoris strains,0.10 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-1C,recombinant P. pastoris strains,0.14 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,antibacterial activity against M. lysodeikicus,"11,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,mRNA levels of the hLYZ gene,0.17 ± 0.01,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,mRNA levels of the hLYZ gene,"11,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,opt-hLYZ expression cassette,0.17 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,opt-hLYZ expression cassette,0.17 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-3C,recombinant P. pastoris strains,0.17 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-12C,antibacterial activity against M. lysodeikicus,"14,100 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-12C,mRNA levels of the hLYZ gene,0.19 ± 0.01,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-12C,mRNA levels of the hLYZ gene,"14,100 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-12C,opt-hLYZ expression cassette,0.19 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-12C,opt-hLYZ expression cassette,0.19 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-P,antibacterial activity against M. lysodeikicus,"15,600 ± 360 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,Pdi1;hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-P,opt-hLYZ expression cassette,0.26 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,Pdi1;hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-E,antibacterial activity against M. lysodeikicus,"16,500 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5.0,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,Ero1;hLYZ;opt-hLYZ,human lysozyme,√,,yes
-p22,He2020FBB,opt-hLYZ-6C-E,opt-hLYZ expression cassette,0.27 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5.0,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,Ero1;hLYZ;opt-hLYZ,human lysozyme,√,,yes
-,,,,,,,,,,,,,,,,,,
-p23,Jayachandran2017plosOne,GSCALB,CALB,478U/ml,BMMY,Methanol,0.5-1% (v/v),Shake flask,6.0,6 days,28˚C,P. pastoris GS115,CALB,CALB,,√,,yes
-p23,Jayachandran2017plosOne,GSCALBNOX,CALB,640U/ml,BMMY,Methanol,0.5-1% (v/v),Shake flask,6.0,6 days,28˚C,GSCALB;P. pastoris GS115,CALB;noxE,CALB;noxE,ADK1;noxE,√,,yes
-p23,Jayachandran2017plosOne,GSCALBNOX,CALB activity,34% augment in CALB activity in GSCALBNOX,BMMY,Methanol,0.5-1% (v/v),Shake flask,6.0,6 days,28˚C,GSCALB;P. pastoris GS115,CALB;noxE,CALB;noxE,ADK1;noxE,√,,yes
-,,,,,,,,,,,,,,,,,,
-p24,Marx2006FEMS,X-331pPICZFLDaROL DGAS1,recombinant ROL,0.12 AE 0.031 AU/OD,BMS,methylamine,0.4% (w/v),shake flask,6.0,24 h,28°C,X-331pPICZFLDaROL,GAS1,ROL,ROL,√,,yes
-p24,Marx2006FEMS,X-331pPICZFLDaROL,recombinant ROL,0.10 AE 0.006 AU/OD,BMS,methylamine,0.4% (w/v),shake flask,6.0,24 h,28°C,X-33,,ROL,ROL,√,,yes
-,,,,,,,,,,,,,,,,,,
-p25,Resina2009NB,ROL,Rol,40 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,,ROL,ROL,同P15,,yes
-p25,Resina2009NB,ROL,Rol,about 40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL,extracellular Rol levels,30-40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL,extracellular Rol levels,280 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL,extracellular lipase levels,30-40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL,extracellular lipase levels,280 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL,extracellular lipase levels,about 40 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,,,yes
-p25,Resina2009NB,ROL_HAC1,Rol,73 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,,HAC1;ROL,ROL,,,yes
-p25,Resina2009NB,ROL_HAC1,Rol,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,,,yes
-p25,Resina2009NB,ROL_HAC1,extracellular Rol levels,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,,,yes
-p25,Resina2009NB,ROL_HAC1,extracellular lipase levels,73 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,,,yes
-p25,Resina2009NB,ROL_DGAS1,Rol,240 AU mL À1,BMS,Sorbitol,1% (w/v),Shake flask,6.0,72 h,30 8C,X-33,GAS1,ROL,ROL,,,yes
-p25,Resina2009NB,ROL_DGAS1,extracellular lipase levels,240 AU mL À1,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,ROL,ROL,,,yes
-p25,Resina2009NB,ROL_HAC1/DGAS1,Rol,about 2-fold higher than in the producing control strain,Fed-batch,Sorbitol,1 g L À1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,HAC1;ROL,ROL,,,yes
-,,,,,,,,,,,,,,,,,,
-p26,Zahrl2018Micobiol,P AOX1 -HyHEL-Fab#8,Fab,several-fold higher for P AOX1 -HyHEL-Fab#8 (cultivated on methanol) than for P GAP -HyHEL-Fab#34 (cultivated on glucose),,,,,,,,,,,,√,,yes
-p26,Zahrl2018Micobiol,P GAP -HyHEL-Fab#34,Fab,0.85 g/g,,,,,,,,,,,,这个数据没有找到，原文里只有0.85 Fold change,,
-,,,,,,,,,,,,,,,,,,yes
-p27,Bankefa2018BioresBiop,GSgox,Gox,24.6 U/mL,Shake flask,Methanol,5 g/L,Batch,6.0,72 h,30 °C,,,,gox,√,,yes
-p27,Bankefa2018BioresBiop,GSgox-Pp,Gox,68.1 U/mL,Shake flask,YE/methanol (5:1),5 g/L,Batch,6.0,72 h,30 °C,GSgox,,PpHac1p,Glucose oxidase;gox,√,,yes
-p27,Bankefa2018BioresBiop,GSgox-Pp,Gox,787.4 U/mL,Stirred tank reactor,YE/methanol (5:1),5 g/L,Fed-batch,6.0,96 h,30 °C,GSgox,,PpHac1p,Glucose oxidase;gox,√,,yes
-,,,,,,,,,,,,,,,,,,
-p28,Han2019BBE,P. pastoris GS115,rPAE,309 U/mL,Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115,rPAE,886 U/mL,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115,rPAE,"1,053 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,020 U/mL",Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,665 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,805 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,3.3-fold,Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,1.9-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,1.7-fold,Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.3-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,20°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.1-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,24°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-p28,Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.8-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,28°C,P. pastoris GS115,,HAC1,lasB;rPAE,√,,yes
-,,,,,,,,,,,,,,,,,,
-p29,Helian2020JIMB,GS115(4phy),phytase,513.26 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115,,,phy;phytase,√,,yes
-p29,Helian2020JIMB,GS115(4phy),phytase,234.35%,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26℃,GS115,,,phy;phytase,√,,yes
-p29,Helian2020JIMB,GAP03,phytase,694.60 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115(4phy),,PDI,phy;phytase,√,,yes
-p29,Helian2020JIMB,GAP03,phytase,35.33%,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26℃,GS115(4phy),,PDI,phy;phytase,√,,yes
-p29,Helian2020JIMB,GS115(4phy)(△Pep4)(PDI),phytase,743.91 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115;GS115(4phy),Pep4,PDI;phytase,PDI;phy;phytase,√,,yes
-p29,Helian2020JIMB,GS115(4phy)(△Pep4)(PDI),phytase,"30,246 U/mL",fed-batch fermentation in a 50-L fermenter,glycerol,40 g/L,fed-batch,6,180 h,26℃,GS115;GS115(4phy),Pep4,PDI;phytase,PDI;phy;phytase,√,,yes
-,,,,,,,,,,,,,,,,,,
-p30,Jie2016JIMB,P. pastoris GS115/ pPIC9 K-pgus,PGUS,20.5-80.4 % increase in the product titers per liter of supernatant,BMGY,Glycerol,1%,"Shaker flask, fed-batch",6.0,48-96 h,28 °C,P. pastoris GS115,,AFT1;AHA1;ENO;FBA;GLO1;GPM;HAC1;HSF1;ICL1;IRE1;MDH1;MIG1;NRG1;PAS_chr3_0292;PAS_chr4_0169;PGUS;PRX1;RPN4;SBA1;SIS1;TPX;YAP1;YPT6;ZWF1,,√,,yes
-p30,Jie2016JIMB,P. pastoris GS115/ pPIC9 K-atxyn,AtXYN,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,P. pastoris GS115,,,,,,
-,,,,,,,,,,,,,,,,,,
-p31,Nocon2016AMB,SOD,recombinant hSOD,28.4 mg/g soluble protein,YPD supplemented with 2 mM CuCl2 and 0.02 mM ZnSO4,Glucose,50 g/L,Shake flask without baffles,Not specified,48 h,25°C,X-33,,,hSOD,√,,yes
-p31,Nocon2016AMB,SOD,recombinant hSOD,3% of cellular protein,YPD supplemented with 2 mM CuCl2 and 0.02 mM ZnSO4,Glucose,50 g/L,Shake flask without baffles,Not specified,48 h,25°C,X-33,,,hSOD,√,,yes
-,,,,,,,,,,,,,,,,,,
-p32,Suma2014AMB,GS115,Glargine precursor species,56.3 mg/l,YNBD medium,Dextrose,2%,Shake flask,6.0,48 h,30 °C,,,Glargine;KEX2,Glargine,√,,yes
-p32,Suma2014AMB,GS115,two-chain Glargine product,1.25 mg/l,YNBD medium,Dextrose,2%,Shake flask,6.0,48 h,30 °C,,,Glargine;KEX2,Glargine,√,,yes
-,,,,,,,,,,,,,,,,,,
-p33,Sun2019BBE,PJF06,Hac1 overexpression,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√（P0547是启动子而非Heterologouse gene）,,yes
-p33,Sun2019BBE,PJF06,Hac1 overexpression,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF06,rbLf,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF06,rbLf,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF06,rbLf titer,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF06,rbLf titer,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF03,Kex2 overexpression,59.7% increase,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF02,,Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF04,Kex2 overexpression,188.9% increase,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF02,,Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF01,rbLf,51.9 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,P. pastoris GS115,,rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF01,rbLf titer,51.9 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,P. pastoris GS115,,rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF02,rbLf,121.6 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF01,,rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF02,rbLf titer,121.6 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,PJF01,,rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF07,rbLf,225.3 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,P. pastoris GS115;PJF01,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-p33,Sun2019BBE,PJF07,rbLf titer,225.3 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.5%,5 L standard fermenter,6.0,96 h,30°C,P. pastoris GS115;PJF01,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,√,,yes
-,,,,,,,,,,,,,,,,,,
-p34,Wu2013JIMB,GS115 pep44yps14,HSA/PTH (1-34) fusion protein,80 % of the secreted product remaining intact in pep44yps14,Fed-batch fermentation,Methanol,0.5 %,30L bioreactor with a working volume of 12L BSM,5.5,33 h,28 °C,GS115;GS115 pep44,PEP4;YPS1,,HSA;HSA/PTH (1-34);PTH,√,,yes
-p34,Wu2013JIMB,GS115 pep44yps14,HSA/PTH (1-34) fusion protein,"For the pep44yps14 mutant, most secreted protein remained intact during the 33 h-fermentation, although degradation products gradually increased after 25 h.",Fed-batch fermentation,Methanol,0.5 %,30L bioreactor with a working volume of 12L BSM,5.5,33 h,28 °C,GS115;GS115 pep44,PEP4;YPS1,,HSA;HSA/PTH (1-34);PTH,√,,yes
-,,,,,,,,,,,,,,,,,,
-p35,Yang2016AMB,Lp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Lp1,,PDI;pglyrp-1,,错误：19kDa是分子量而非产量,,
-p35,Yang2016AMB,Lp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Lp1,,BiP;pglyrp-1,,,,
-p35,Yang2016AMB,Lp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Lp1,,BiP;PDI;pglyrp-1,,,,
-p35,Yang2016AMB,Mp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Mp1,,PDI;pglyrp-1,,,,
-p35,Yang2016AMB,Mp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Mp1,,BiP;pglyrp-1,,,,
-p35,Yang2016AMB,Mp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Mp1,,BiP;PDI;pglyrp-1,,,,
-p35,Yang2016AMB,Hp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Hp1,,PDI;pglyrp-1,,,,
-p35,Yang2016AMB,Hp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Hp1,,BiP;pglyrp-1,,,,
-p35,Yang2016AMB,Hp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6.0,48 h,28 °C,Hp1,,BiP;PDI;pglyrp-1,,,,
-,,,,,,,,,,,,,,,,,,
-p36,Huang2020Bioeng,2pRML-X33K,extracellular protein,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33K,extracellular protein,0.012 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33K,lipase,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33K,pRML,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,extracellular protein,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,extracellular protein,0.017 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,lipase,1016 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,lipase,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,pRML,1016 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33P,pRML,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33K,extracellular protein,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33K,lipase,705 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33K,lipase,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33K,pRML,705 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33K,pRML,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33P,extracellular protein,0.015 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33P,lipase,1430 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33P,pRML,1430 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,√,,yes
-p36,Huang2020Bioeng,2pRML-X33,lipase,1023 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,,,,pRML,√,,yes
-p36,Huang2020Bioeng,2pRML-X33,pRML,1023 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,,,,pRML,√,,yes
-p36,Huang2020Bioeng,4pRML-X33E,lipase,620 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,ERO1,pRML;prml,√,,yes
-p36,Huang2020Bioeng,4pRML-X33E,pRML,620 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,ERO1,pRML;prml,√,,yes
-,,,,,,,,,,,,,,,,,,
-p37,Yu2020BiocaB,GS115/pPIC9K/pGAPZaA-cgkZDPst,recombinant j-carrageenase,2.73 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,GS115/ pPIC9K-cgkZDPst;GS115/pPIC9K-cgkZDPst,,cgkZDPst,cgkZDPst,√,,yes
-p37,Yu2020BiocaB,GS115/pPIC9K/pGAPZaA-cgkZDPst,recombinant j-carrageenase,7.96 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C with 0.15% methanol induction every 24 h,GS115/ pPIC9K-cgkZDPst;GS115/pPIC9K-cgkZDPst,,cgkZDPst,cgkZDPst,√,,yes
-p37,Yu2020BiocaB,GS115/pGAPZaA-cgkZDPst,recombinant j-carrageenase,2.62 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,Pichia pastoris GS-115,,cgkZDPst,cgkZDPst,√,,yes
-p37,Yu2020BiocaB,GS115/pPIC9K-cgkZDPst,recombinant j-carrageenase,5.7 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,Pichia pastoris GS-115,,cgkZDPst,cgkZDPst,√,,yes
-,,,,,,,,,,,,,,,,,,
-p38,Gasser2005BB,SMD1168H,2F5 Fab light and heavy chain,2.0 mg/L,Fed batch fermentation,Glucose,550 g/L,MBR mini bioreactor with a final working volume of 1.75 L,5.0,97 h,258C,P. pastoris strain X33,pep4,,,√,,yes
-p38,Gasser2005BB,SMD1168H,2F5 Fab light and heavy chain,41.2 mg/L,Fed batch fermentation,Glucose,550 g/L,MBR mini bioreactor with a final working volume of 1.75 L,5.0,97 h,258C,P. pastoris strain X33,pep4,,,√,,yes
-,,,,,,,,,,,,,,,,,,
-p39,Inan2005BB,X-33,Na-ASP1,The single copy clone (no. 46) showed the highest secretion of Na-ASP1 protein,BMMY media,Methanol,Not specified,Shake flask,Not specified,12 h,30°C,,,,Na-ASP1,OE：PDI,,
-p39,Inan2005BB,X-33,Na-ASP1,There was an increase in the amount of Na-ASP1 secreted for all the clones overexpressing PDI protein as compared to the host strain,BMMY media,Methanol,Not specified,Shake flask,Not specified,12 h,30°C,,,,Na-ASP1,OE：PDI,,
-,,,,,,,,,,,,,,,,,,
-p40,Zhou2023BB,M1,Glucose oxidase (GOD),3140.0 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,P. pastoris GS115,,,GOD;MGOD1,√,,yes
-p40,Zhou2023BB,GM1,Glucose oxidase (GOD),8617.4 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,√,,yes
-p40,Zhou2023BB,5GM1,Glucose oxidase (GOD),22422.8 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,√,,yes
-p40,Zhou2023BB,8GM1,Glucose oxidase (GOD),22769.5 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,√,,yes
-p40,Zhou2023BB,8GM1,Glucose oxidase (GOD),9780.9 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,√,,yes
-p40,Zhou2023BB,G1Ees,Glucose oxidase (GOD),43095.1 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,8GM1,,EES;GOD;MGOD1,GOD,√,,yes
-p40,Zhou2023BB,G1Sec,Glucose oxidase (GOD),26031.15 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,8GM1,,GOD;MGOD1;SEC. 22,GOD,√,,yes
-p40,Zhou2023BB,G1EeSe,Glucose oxidase (GOD),49065.2 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6.0,144 h,30°C,8GM1,,EES;GOD;MGOD1;SEC. 22,GOD,√,,yes
-p40,Zhou2023BB,G1EeSe,Glucose oxidase (GOD),30.7 g/L,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Fed-batch fermentation in a 5-L bioreactor,5.5,288 h,30°C,8GM1,,EES;GOD;MGOD1;SEC. 22,GOD,√,,yes
+﻿doi,strain,product,product titer,medium,carbon source,carbon source concentration,vessel and feed mode,ph,time,temperature,parent strain,knock out gene,overexpress gene,heterologous gene,Check
+,,,,,,,,,,,,,,,
+Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,47.27 mg liter ?1,YP medium containing 20 g liter ?1 glycerol,Glycerol,20 g liter ?1,Shake flask cultivation,5,48 h,28°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,
+Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,89.2 mg liter ?1,Fed-batch fermentation with a feed rate of 16 g h ?1,Glucose,Not specified,Bioreactor,5,100 h,25°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,
+Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,108.5 mg liter ?1,Fed-batch fermentation with a feed rate of 16 g h ?1,Glucose,Not specified,Bioreactor,5,100 h,25°C,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,
+Gasser2007AEM,P. pastoris SMD1168,2F5 Fab fragment,not available,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,,,2F5 Fab;BFR2;BMH2;COG6;COY1;CUP5;Ero1;HAC1;Hac1;KIN2;Kar2;PDI1;Pdi1;SSA4;SSE1;SSO2,human trypsinogen 1,
+,,,,,,,,,,,,,,,
+TomasG2020AEM,cPOS5,Fab,2.34 ? 0.52,Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5,24 h,Not specified,P. pastoris X-33,,POS5,,yes
+TomasG2020AEM,cPOS5,Fab,1.07 ? 0.21,Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5,24 h,Not specified,P. pastoris X-33,,POS5,,yes
+TomasG2020AEM,cPOS5,recombinant Fab,"FC, 1.07 ? 0.21",Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5,24 h,Not specified,P. pastoris X-33,,POS5,,yes
+TomasG2020AEM,cPOS5,recombinant Fab,"FC, 2.34 ? 0.52",Glucose minimal medium,Glucose,Not specified,Baffled shake flask cultures,5,24 h,Not specified,P. pastoris X-33,,POS5,,yes
+,,,,,,,,,,,,,,,
+Delic2014MCF,trp?yap1,trypsinogen,2-fold,YPD,glucose,20 g/L,shake flask,6,48 h,28°C,trp,YAP1,trypsinogen,TRP,
+Delic2014MCF,trpYAP1,trypsinogen,1.58-fold higher secretion yields,M2 minimal medium,glucose,20 g/L,shake flask,6,24 h,28°C,trp,,P. pastoris YAP1;YAP1;trypsinogen,TRP,yes
+,,,,,,,,,,,,,,,
+Krainer2012MCF,Mut S,HRP,7-fold more efficient into product compared to the Mut + strain,YPD agar plates containing 25 mg?l -1 zeocin,Glucose,1%,shake flasks at 28 C and 230 rpm for max. 24 h,5,60 h,28 C,,,,,yes
+Krainer2012MCF,Mut S,HRP,3-fold higher volumetric productivity than for the Mut + strain,"basal salt medium (26.7 ml?l -1 85% phosphoric acid, 1.17 g?l -1 YNB w/o amino acids and ammonia sulfate, 10 g?l -1 (NH4)2SO4, 400 mg?l -1 biotin, 20 g?l -1 glucose)",Methanol,0.5% (v/v),"3 l or 5 l working volume glass bioreactor (Infors, Switzerland)",5,60 h,28 C,,,,,yes
+Krainer2012MCF,Mut S,recombinant protein,7-fold more efficient into product compared to the Mut + strain,YPD agar plates containing 25 mg?l -1 zeocin,Glucose,1%,shake flasks at 28 C and 230 rpm for max. 24 h,5,60 h,28 C,,,,,yes
+Krainer2012MCF,Mut S,recombinant protein,more than 3-fold higher volumetric productivity,"basal salt medium (26.7 ml?l -1 85% phosphoric acid, 1.17 g?l -1 YNB w/o amino acids and ammonia sulfate, 10 g?l -1 (NH4)2SO4, 400 mg?l -1 biotin, 20 g?l -1 glucose)",Methanol,0.5% (v/v),"3 l or 5 l working volume glass bioreactor (Infors, Switzerland)",5,60 h,28 C,,,,,
+,,,,,,,,,,,,,,,
+Li 2015BMC,GS115/Phy,phytase,0.13 g/L,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,yes
+Li 2015BMC,GS115/Phy,phytase,414 U/mL,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,yes
+Li 2015BMC,6c/HAC1,phytase,0.75 g/L,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,yes
+Li 2015BMC,6c/HAC1,phytase,9.58 g/L,BSM,"glycerol/methanol (2:1, v/v)",40 ± 2 g/h,10-L fermenter,6,120 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,yes
+Li 2015BMC,6c/HAC1,phytase,2119 U/mL,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,yes
+Li 2015BMC,6c/HAC1,phytase,"35,032 U/mL",BSM,"glycerol/methanol (2:1, v/v)",40 ± 2 g/h,10-L fermenter,6,120 h,30 °C,GS115/6c,,HAC1;PHY,PHY;phytase,yes
+Li 2015BMC,GS115/AOXm,phytase,560 U/mL,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,P. pastoris GS115,,,PHY;phytase,
+Li 2015BMC,GS115/αE10,phytase,626 U/mL,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,P. pastoris GS115,,,PHY;phytase,
+Li 2015BMC,GS115/6c,phytase,1511 U/mL,BMMY,methanol,1% (v/v),shaken flask,6,96 h,30 °C,P. pastoris GS115,,PHY,PHY;phytase,yes
+,,,,,,,,,,,,,,,
+Lukas2019MCF,?vam6?pep4 + SBH1OE,CES,"83% and 75% for ?ypt7?pep4 and ?vam6?pep4, respectively",Buffered BM medium,Glucose,100 mM,Fed-batch,5,75 h,25 °C,,PEP4;VAM6,SBH1,,
+Lukas2019MCF,HyHEL-Fab ?ypt7,HyHEL-Fab,46% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5,75 h,25 °C,Fab#34,YPT7,HyHEL-Fab;KAR2;RHO4;SBH1,Fab;HyHEL-Fab,
+Lukas2019MCF,HyHEL-Fab ?ypt7,HyHEL-Fab,41% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5,75 h,25 °C,Fab#34,YPT7,HyHEL-Fab;KAR2;RHO4;SBH1,Fab;HyHEL-Fab,
+Lukas2019MCF,?ypt7?pep4,HyHEL-Fab,51% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5,75 h,25 °C,,YPT7,PEP4,,
+Lukas2019MCF,?ypt7?vps70,HyHEL-Fab,62% higher,Buffered BM medium,Glucose,100 mM,Fed-batch,5,75 h,25 °C,,YPT7,VPS70,,
+,,,,,,,,,,,,,,,
+Navone2021MCF,AppA (P HpFMD ),AppA phytase,1.53 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,,,AppA,,yes
+Navone2021MCF,AppA (P HpFMD ),AppA phytase,2.08 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,,,AppA,,
+Navone2021MCF,AppA-HAC1 (P HpFMD-HpMOX ),AppA phytase,1.36 ± 0.05-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P HpFMD ),,AppA;HAC1,,yes
+Navone2021MCF,AppA-HAC1 (P HpFMD-HpMOX ),HAC1,30% increased yield,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P HpFMD ),,AppA;HAC1,,
+Navone2021MCF,AppA-HAC1 (P AOX1-CAT1 ),AppA phytase,1.31 ± 0.01-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P AOX1 ),,AppA;HAC1,,yes
+Navone2021MCF,AppA-HAC1 (P DAS1/2 ),AppA phytase,1.38 ± 0.07-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P DAS1 ),,AppA;HAC1,,yes
+Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),AppA phytase,2.14 ± 0.03-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,yes
+Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),AppA phytase,1.40 ± 0.02-fold increase,Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,yes
+Navone2021MCF,AppA-PDI (P HpFMD-HpMOX ),PDI,1.40 ± 0.02-fold compared to AppA (P HpFMD ),Buffered minimal methanol (BMM) medium with 1% methanol (BMM2),Methanol,1%,Deep-well-plates (DWP),6,132 h,28°C,AppA (P HpFMD ),,AppA;PDI,,
+,,,,,,,,,,,,,,,
+Duan2019JB,G/9KG,yEGFP,233.5 ± 3.8 (PDI1),BMMT,Methanol,0.50%,Shake flask,6,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,
+Duan2019JB,G/9KG,yEGFP,210.5 ± 19.0 (BiP),BMMT,Methanol,0.50%,Shake flask,6,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,
+Duan2019JB,G/9KG,yEGFP,367.5 ± 10.2 (HAC1),BMMT,Methanol,0.50%,Shake flask,6,24 h,30 °C,GS115,,BiP;Dan4;Dse4;Fre2;GAS1;HAC1;Msb2;PDI;α-MF,Gal;SECA;yEGFP,
+,,,,,,,,,,,,,,,
+Jiao2018PEP,GS115/pAOα-5ROL 11#,ROL,"20,500 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,115 h,27 °C,GS115,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/pAOα-5ROL 11#,ROL,5.41 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,115 h,27 °C,GS115,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Ubc1 22#,ROL,"26,860 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Ubc1 22#,ROL,6.10 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Ubc1 22#,Ubc1,6.10 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,120 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Hrd1 15#,ROL,"29,660 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Hrd1 15#,ROL,6.35 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,
+Jiao2018PEP,GS115/5ROL-Hrd1-Ubc1 1#,ROL,"33,900 U/mL",Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,yes
+Jiao2018PEP,GS115/5ROL-Hrd1-Ubc1 1#,ROL,7.17 g/L,Sorbitol/methanol co-feeding strategy,Sorbitol/methanol,Not specified,3-L fermenter,5.5,127 h,27 °C,GS115/pAOα-5ROL 11#,,Hrd1;ROL;Ubc1,ROL,yes
+,,,,,,,,,,,,,,,
+Li2010BBRC,yJC100:pPDI:pAM1,SLPI protein,1.70 mg/L,methanol-based medium,methanol,not specified,shake flask,not specified,72 h,30 °C,yJC100,,PDI;SLPI,SLPI,yes
+,,,,,,,,,,,,,,,
+Liu2023LWT,GS115-7DEX,DEX,121.02 U/mL,Buffered methanol-complex medium (BMMY),Methanol,10 g/L,Shake flask fermentation,5,144 h,30 ? C,GS115,,DEX;Hac1;Ubc1,DEX,
+Liu2023LWT,GS115-7DEX,DEX,619.78 U/mL,Buffered methanol-complex medium (BMMY),Methanol,10 g/L,Fed-batch high cell density fermentation in a 5-L fermenter,5,96 h,25 ? C,GS115,,DEX;Hac1;Ubc1,DEX,yes
+Liu2023LWT,GS115-7DEX,DEX,3257.23 U/mL,Buffered methanol-complex medium (BMMY) with sorbitol co-feeding,Sorbitol and methanol,50 g/L sorbitol and 10 g/L methanol,Fed-batch high cell density fermentation in a 5-L fermenter,5,138 h,25 ? C,GS115,,DEX;Hac1;Ubc1,DEX,yes
+,,,,,,,,,,,,,,,
+Nocon2014ME,X-33_hSOD_NTS,hSOD,4 mg g ? 1,YPD medium supplemented with 2 mM CuCl 2 and 0.02 mM ZnSO 4,Glucose,20 g L ? 1,"100 mL wide neck shake flasks without baffles, batch mode",5,48 h,25 1C,,,hSOD,hSOD,yes
+Nocon2014ME,X-33_hSOD_NTS,hSOD,272 mg L ? 1,Fed batch culture,Glucose,Not specified,Not specified,Not specified,Not specified,Not specified,,,hSOD,hSOD,yes
+,,,,,,,,,,,,,,,
+Prahbu2018CES,GS-hIFN-c/Kar2p + PDI,hIFN-c,1.56 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Kar2p;PDI,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/PDI,hIFN-c,0.67 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/PDI,rhIFN-c,0.67 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,PDI,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/Ydj1p,hIFN-c,0.76 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c/Ydj1p,rhIFN-c,0.76 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS-hIFN-c,,Ydj1p,hIFN-c,yes
+Prahbu2018CES,GS-hIFN-c,hIFN-c,0.22 mg L??,,Methanol,1%,Batch Fermentation,6,72 hours,28°C,GS115,,,hIFN-c,yes
+,,,,,,,,,,,,,,,
+Resina2009NB,ROL,Rol,40 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,Rol,about 40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular Rol levels,30-40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular Rol levels,280 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,30-40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,280 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,about 40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL_HAC1,Rol,73 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,Rol,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,extracellular Rol levels,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,extracellular lipase levels,73 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_DGAS1,Rol,240 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,GAS1,ROL,ROL,yes
+Resina2009NB,ROL_DGAS1,extracellular lipase levels,240 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,ROL,ROL,yes
+Resina2009NB,ROL_HAC1/DGAS1,Rol,about 2-fold higher than in the producing control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,HAC1;ROL,ROL,yes
+,,,,,,,,,,,,,,,
+Sha2013EMT,PDI-1-SRCL-1,recombinant strain PDI-1-SRCL-1,190 U/mL,YPD-Zeocin,methanol,1%,shaking flask,6,5 d,28-30°C,SRCL-1,,PDI;proRCL,proRCL,yes
+Sha2013EMT,PDI-1-SRCL-1,recombinant strain PDI-1-SRCL-1,one-fold increase compared to the recombinant strain SRCL-1 with only one copy lipase gene,YPD-Zeocin,methanol,1%,shaking flask,6,5 d,28-30°C,SRCL-1,,PDI;proRCL,proRCL,yes
+Sha2013EMT,PDI-1-SRCL-5,recombinant strain PDI-1-SRCL-5,355 U/mL,YPD-Zeocin,methanol,1%,shaking flask,6,5 d,28-30°C,SRCL-5,,PDI;proRCL,proRCL,yes
+Sha2013EMT,SRCL-3,recombinant strain SRCL-1,280 U/mL,YPD-G418,methanol,1%,shaking flask,6,5 d,28-30°C,SRCL-1,,proRCL,proRCL,yes
+Sha2013EMT,SRCL-3,recombinant strain SRCL-3,280 U/mL,YPD-G418,methanol,1%,shaking flask,6,5 d,28-30°C,SRCL-1,,proRCL,proRCL,yes
+,,,,,,,,,,,,,,,yes
+Vad2005JB,GS115/K10,hPTH,6 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K10,intact hPTH,6 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,hPTH,33 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,hPTH,55 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,hPTH,100 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,hPTH,over 300 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,yes
+Vad2005JB,GS115/K23,intact hPTH,33 mg/l,BMMY,Methanol,1%,Shake flask,5.8,96 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,intact hPTH,55 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,intact hPTH,100 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,
+Vad2005JB,GS115/K23,intact hPTH,over 300 mg/l,BMMY,Methanol,1%,Shake flask,5.8,120 h,30°C,GS115,,AOX1;HIS4;PDI;ScPDI,hPTH;hPTH Q,yes
+,,,,,,,,,,,,,,,
+Wang2012EMT,VHb +,VHb,21.2 nmol/g DCW,"BMGY medium, BMMY medium","Glycerol, Methanol","1% (w/v), 0.5% (v/v)","Shaking flask, 10-L fermentor",5.5,"96 h, 116 h, 121 h","28°C, 30°C",GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,3550 U/mL,"BMGY medium, BMMY medium","Glycerol, Methanol","1% (w/v), 0.5% (v/v)","Shaking flask, 10-L fermentor",5.5,"96 h, 116 h, 121 h","28°C, 30°C",GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,"29,500 U/mL",FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,"33,000 U/mL",FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,1.64-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,1.91-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,yes
+Wang2012EMT,VHb +,YlLIP2,1.16-fold higher than VHb - cells,FM22 medium,"Glycerol, Methanol","40 g/L, 0.5% (v/v)",10-L fermentor,5.5,116 h,25°C,GS115/lip2,,lip2;vgb,VHb;vgb,yes
+,,,,,,,,,,,,,,,
+Wu2017EMT,TU-6,AnGOD,Not specified,MM-glucose,Glucose,2%,Shake flask,28°C,48 h,200 rpm,,pyr4,,AnGOD,yes
+Wu2017EMT,TG,AnGOD,Not specified,MM-glucose,Glucose,2%,Shake flask,28°C,48 h,200 rpm,TU-6,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,
+Wu2017EMT,TGsnc,AnGOD,0.61 U/ml,MM-Avicel,Avicel,2%,Shake flask,28°C,44 h,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,
+Wu2017EMT,TGbip,AnGOD,Not specified,MM-Avicel,Avicel,2%,Shake flask,28°C,Not specified,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,
+Wu2017EMT,TGhac,AnGOD,Not specified,MM-Avicel,Avicel,2%,Shake flask,28°C,Not specified,200 rpm,TG,pyr4,AnGOD;bip1;hac1;snc1,AnGOD,
+,,,,,,,,,,,,,,,
+Zahrl2023ME,P AOX1 -Fab#9,Fab,1.3-fold,,Glucose,10 g/L,Small-scale screening cultivations in deep well plates (DWP),5,24 h,25 ? C,,,Fab,,yes
+Zahrl2023ME,P AOX1 -CES,CES,1.3-fold,,Glycerol,10 g/L,Small-scale screening cultivations in deep well plates (DWP),5,24 h,25 ? C,,,CES,,yes
+,,,,,,,,,,,,,,,
+Zhu2014PB,GSG-1Sman,mannanase,46 U/mL,BMGY,glucose,20 g/L,shake flask,5,48 h,30°C,P. pastoris GS115,,alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+Zhu2014PB,GSG-2Sman,mannanase,82 U/mL,BMGY,glucose,20 g/L,shake flask,5,48 h,30°C,GSG-1Sman;P. pastoris GS115,,alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+Zhu2014PB,GSG-3Sman,mannanase,118 U/mL,BMGY,glucose,20 g/L,shake flask,5,48 h,30°C,GSG-2Sman;P. pastoris GS115,,alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+Zhu2014PB,GSG-3Sman-PDI,mannanase,177 U/mL,BMGY,glucose,20 g/L,shake flask,5,48 h,30°C,GSG-3Sman,,PDI;alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+Zhu2014PB,GSG-3Sman-Hac1p,mannanase,212 U/mL,BMGY,glucose,20 g/L,shake flask,5,48 h,30°C,GSG-3Sman,,Hac1p;alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+Zhu2014PB,GSG-3Sman-Hac1p,mannanase,2980 U/mL,fed-batch fermentation,glucose,below 100 mg/L,1 L-scale laboratory fermenter,5,96 h,30°C,GSG-3Sman,,Hac1p;alkaline ?-mannanase;β-mannanase,alkaline ?-mannanase,yes
+,,,,,,,,,,,,,,,
+He2020FBB,opt-hLYZ-6C-EP,Pdi1 and Ero1 molecular chaperones,0.34 ± 0.02 mg/mL,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-EP,antibacterial activity against M. lysodeikicus,"21,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-EP,opt-hLYZ expression cassette,0.34 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115;opt-hLYZ-6C,,Bip;Ero1;Pdi1;hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-6C,antibacterial activity against M. lysodeikicus,"14,680 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-6C,opt-hLYZ expression cassette,0.22 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-6C,opt-hLYZ expression cassette,0.22 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,antibacterial activity against M. lysodeikicus,"9,200 ± 500 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,mRNA levels of the hLYZ gene,0.14 ± 0.02,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,mRNA levels of the hLYZ gene,"9,200 ± 500 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.10 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.14 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,opt-hLYZ expression cassette,0.14 ± 0.02 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,recombinant P. pastoris strains,0.10 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-1C,recombinant P. pastoris strains,0.14 ± 0.02 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,hLYZ;human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,antibacterial activity against M. lysodeikicus,"11,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,mRNA levels of the hLYZ gene,0.17 ± 0.01,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,mRNA levels of the hLYZ gene,"11,200 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,opt-hLYZ expression cassette,0.17 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,opt-hLYZ expression cassette,0.17 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-3C,recombinant P. pastoris strains,0.17 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-12C,antibacterial activity against M. lysodeikicus,"14,100 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-12C,mRNA levels of the hLYZ gene,0.19 ± 0.01,Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-12C,mRNA levels of the hLYZ gene,"14,100 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-12C,opt-hLYZ expression cassette,0.19 ± 0.01 mg/mL,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-12C,opt-hLYZ expression cassette,0.19 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-P,antibacterial activity against M. lysodeikicus,"15,600 ± 360 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,Pdi1;hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-P,opt-hLYZ expression cassette,0.26 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,Pdi1;hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-E,antibacterial activity against M. lysodeikicus,"16,500 ± 300 U/mL",Buffered methanol-complex media (BMMY),Methanol,1% (v/v),Shaking flask,5,6 days,28°C,P. pastoris GS115;Pichia pastoris GS115,,Ero1;hLYZ;opt-hLYZ,human lysozyme,yes
+He2020FBB,opt-hLYZ-6C-E,opt-hLYZ expression cassette,0.27 ± 0.01 g/g,Buffered glycerol-complex media (BMGY),Glycerol,1% (v/v),Shaking flask,5,36 h,28°C,P. pastoris GS115;Pichia pastoris GS115,,Ero1;hLYZ;opt-hLYZ,human lysozyme,yes
+,,,,,,,,,,,,,,,
+Jayachandran2017plosOne,GSCALB,CALB,478U/ml,BMMY,Methanol,0.5-1% (v/v),Shake flask,6,6 days,28?C,P. pastoris GS115,CALB,CALB,,yes
+Jayachandran2017plosOne,GSCALBNOX,CALB,640U/ml,BMMY,Methanol,0.5-1% (v/v),Shake flask,6,6 days,28?C,GSCALB;P. pastoris GS115,CALB;noxE,CALB;noxE,ADK1;noxE,yes
+Jayachandran2017plosOne,GSCALBNOX,CALB activity,34% augment in CALB activity in GSCALBNOX,BMMY,Methanol,0.5-1% (v/v),Shake flask,6,6 days,28?C,GSCALB;P. pastoris GS115,CALB;noxE,CALB;noxE,ADK1;noxE,yes
+,,,,,,,,,,,,,,,
+Marx2006FEMS,X-331pPICZFLDaROL DGAS1,recombinant ROL,0.12 AE 0.031 AU/OD,BMS,methylamine,0.4% (w/v),shake flask,6,24 h,28°C,X-331pPICZFLDaROL,GAS1,ROL,ROL,yes
+Marx2006FEMS,X-331pPICZFLDaROL,recombinant ROL,0.10 AE 0.006 AU/OD,BMS,methylamine,0.4% (w/v),shake flask,6,24 h,28°C,X-33,,ROL,ROL,yes
+,,,,,,,,,,,,,,,
+Resina2009NB,ROL,Rol,40 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,Rol,about 40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular Rol levels,30-40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular Rol levels,280 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,30-40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,280 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL,extracellular lipase levels,about 40 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,ROL,ROL,yes
+Resina2009NB,ROL_HAC1,Rol,73 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,Rol,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,extracellular Rol levels,1.2-fold higher than in the X-33 derived control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_HAC1,extracellular lipase levels,73 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,,HAC1;ROL,ROL,yes
+Resina2009NB,ROL_DGAS1,Rol,240 AU mL ?1,BMS,Sorbitol,1% (w/v),Shake flask,6,72 h,30 8C,X-33,GAS1,ROL,ROL,yes
+Resina2009NB,ROL_DGAS1,extracellular lipase levels,240 AU mL ?1,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,ROL,ROL,yes
+Resina2009NB,ROL_HAC1/DGAS1,Rol,about 2-fold higher than in the producing control strain,Fed-batch,Sorbitol,1 g L ?1,Bioreactor,5.5,72 h,30 8C,X-33,GAS1,HAC1;ROL,ROL,yes
+,,,,,,,,,,,,,,,
+Zahrl2018Micobiol,P AOX1 -HyHEL-Fab#8,Fab,several-fold higher for P AOX1 -HyHEL-Fab#8 (cultivated on methanol) than for P GAP -HyHEL-Fab#34 (cultivated on glucose),,,,,,,,,,,,yes
+Zahrl2018Micobiol,P GAP -HyHEL-Fab#34,Fab,0.85 g/g,,,,,,,,,,,,
+,,,,,,,,,,,,,,,yes
+Bankefa2018BioresBiop,GSgox,Gox,24.6 U/mL,Shake flask,Methanol,5 g/L,Batch,6,72 h,30 °C,,,,gox,yes
+Bankefa2018BioresBiop,GSgox-Pp,Gox,68.1 U/mL,Shake flask,YE/methanol (5:1),5 g/L,Batch,6,72 h,30 °C,GSgox,,PpHac1p,Glucose oxidase;gox,yes
+Bankefa2018BioresBiop,GSgox-Pp,Gox,787.4 U/mL,Stirred tank reactor,YE/methanol (5:1),5 g/L,Fed-batch,6,96 h,30 °C,GSgox,,PpHac1p,Glucose oxidase;gox,yes
+,,,,,,,,,,,,,,,
+Han2019BBE,P. pastoris GS115,rPAE,309 U/mL,Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115,rPAE,886 U/mL,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115,rPAE,"1,053 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,,,,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,020 U/mL",Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,665 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,"1,805 U/mL",Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,3.3-fold,Buffered methanol-complex medium (BMMY),Methanol,0.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,1.9-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,1.7-fold,Buffered methanol-complex medium (BMMY),Methanol,1.5% (v/v),"Flask, fed-batch",6,4 days,22°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.3-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,20°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.1-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,24°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+Han2019BBE,P. pastoris GS115/HAC1,rPAE,2.8-fold,Buffered methanol-complex medium (BMMY),Methanol,1.0% (v/v),"Flask, fed-batch",6,4 days,28°C,P. pastoris GS115,,HAC1,lasB;rPAE,yes
+,,,,,,,,,,,,,,,
+Helian2020JIMB,GS115(4phy),phytase,513.26 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115,,,phy;phytase,yes
+Helian2020JIMB,GS115(4phy),phytase,234.35%,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26℃,GS115,,,phy;phytase,yes
+Helian2020JIMB,GAP03,phytase,694.60 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115(4phy),,PDI,phy;phytase,yes
+Helian2020JIMB,GAP03,phytase,35.33%,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26℃,GS115(4phy),,PDI,phy;phytase,yes
+Helian2020JIMB,GS115(4phy)(△Pep4)(PDI),phytase,743.91 U/mL,shake flask fermentation,glycerol,1%,shake flask,6,144 h,26 ℃,GS115;GS115(4phy),Pep4,PDI;phytase,PDI;phy;phytase,yes
+Helian2020JIMB,GS115(4phy)(△Pep4)(PDI),phytase,"30,246 U/mL",fed-batch fermentation in a 50-L fermenter,glycerol,40 g/L,fed-batch,6,180 h,26℃,GS115;GS115(4phy),Pep4,PDI;phytase,PDI;phy;phytase,yes
+,,,,,,,,,,,,,,,
+Jie2016JIMB,P. pastoris GS115/ pPIC9 K-pgus,PGUS,20.5-80.4 % increase in the product titers per liter of supernatant,BMGY,Glycerol,1%,"Shaker flask, fed-batch",6,48-96 h,28 °C,P. pastoris GS115,,AFT1;AHA1;ENO;FBA;GLO1;GPM;HAC1;HSF1;ICL1;IRE1;MDH1;MIG1;NRG1;PAS_chr3_0292;PAS_chr4_0169;PGUS;PRX1;RPN4;SBA1;SIS1;TPX;YAP1;YPT6;ZWF1,,yes
+Jie2016JIMB,P. pastoris GS115/ pPIC9 K-atxyn,AtXYN,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,P. pastoris GS115,,,,
+,,,,,,,,,,,,,,,
+Nocon2016AMB,SOD,recombinant hSOD,28.4 mg/g soluble protein,YPD supplemented with 2 mM CuCl2 and 0.02 mM ZnSO4,Glucose,50 g/L,Shake flask without baffles,Not specified,48 h,25°C,X-33,,,hSOD,yes
+Nocon2016AMB,SOD,recombinant hSOD,3% of cellular protein,YPD supplemented with 2 mM CuCl2 and 0.02 mM ZnSO4,Glucose,50 g/L,Shake flask without baffles,Not specified,48 h,25°C,X-33,,,hSOD,yes
+,,,,,,,,,,,,,,,
+Suma2014AMB,GS115,Glargine precursor species,56.3 mg/l,YNBD medium,Dextrose,2%,Shake flask,6,48 h,30 °C,,,Glargine;KEX2,Glargine,yes
+Suma2014AMB,GS115,two-chain Glargine product,1.25 mg/l,YNBD medium,Dextrose,2%,Shake flask,6,48 h,30 °C,,,Glargine;KEX2,Glargine,yes
+,,,,,,,,,,,,,,,
+Sun2019BBE,PJF06,Hac1 overexpression,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF06,Hac1 overexpression,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF06,rbLf,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF06,rbLf,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF06,rbLf titer,735.8 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF06,rbLf titer,1150.5 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,120 h,30°C,PJF02,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF03,Kex2 overexpression,59.7% increase,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF02,,Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF04,Kex2 overexpression,188.9% increase,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF02,,Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF01,rbLf,51.9 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,P. pastoris GS115,,rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF01,rbLf titer,51.9 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,P. pastoris GS115,,rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF02,rbLf,121.6 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF01,,rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF02,rbLf titer,121.6 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,PJF01,,rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF07,rbLf,225.3 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,P. pastoris GS115;PJF01,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+Sun2019BBE,PJF07,rbLf titer,225.3 μg/L,"Buffered complex glycerol (BMGY) medium, Buffered complex methanol (BMMY) medium",Methanol,1.50%,5 L standard fermenter,6,96 h,30°C,P. pastoris GS115;PJF01,,Hac1;Kex2;rbLf,HAC1p;Kex2p;P 0547,yes
+,,,,,,,,,,,,,,,
+Wu2013JIMB,GS115 pep44yps14,HSA/PTH (1-34) fusion protein,80 % of the secreted product remaining intact in pep44yps14,Fed-batch fermentation,Methanol,0.50%,30L bioreactor with a working volume of 12L BSM,5.5,33 h,28 °C,GS115;GS115 pep44,PEP4;YPS1,,HSA;HSA/PTH (1-34);PTH,yes
+Wu2013JIMB,GS115 pep44yps14,HSA/PTH (1-34) fusion protein,"For the pep44yps14 mutant, most secreted protein remained intact during the 33 h-fermentation, although degradation products gradually increased after 25 h.",Fed-batch fermentation,Methanol,0.50%,30L bioreactor with a working volume of 12L BSM,5.5,33 h,28 °C,GS115;GS115 pep44,PEP4;YPS1,,HSA;HSA/PTH (1-34);PTH,yes
+,,,,,,,,,,,,,,,
+Yang2016AMB,Lp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Lp1,,PDI;pglyrp-1,,
+Yang2016AMB,Lp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Lp1,,BiP;pglyrp-1,,
+Yang2016AMB,Lp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Lp1,,BiP;PDI;pglyrp-1,,
+Yang2016AMB,Mp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Mp1,,PDI;pglyrp-1,,
+Yang2016AMB,Mp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Mp1,,BiP;pglyrp-1,,
+Yang2016AMB,Mp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Mp1,,BiP;PDI;pglyrp-1,,
+Yang2016AMB,Hp1-PDI,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Hp1,,PDI;pglyrp-1,,
+Yang2016AMB,Hp1-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Hp1,,BiP;pglyrp-1,,
+Yang2016AMB,Hp1-PDI-GPR-BiP,PGLYRP-1 protein,19 kDa,"BMGY, BMMY","Glycerol, Methanol","1%, 0.5%","500-ml flasks, rotary shaker",6,48 h,28 °C,Hp1,,BiP;PDI;pglyrp-1,,
+,,,,,,,,,,,,,,,
+Huang2020Bioeng,2pRML-X33K,extracellular protein,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33K,extracellular protein,0.012 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33K,lipase,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33K,pRML,0.53 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,extracellular protein,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,extracellular protein,0.017 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,lipase,1016 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,lipase,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,pRML,1016 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33P,pRML,0.66 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,2pRML-X33;mα-2pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33K,extracellular protein,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33K,lipase,705 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33K,lipase,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33K,pRML,705 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33K,pRML,0.65 mg/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33P,extracellular protein,0.015 mg/OD 600,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33P,lipase,1430 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33P,pRML,1430 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,PDI,pRML;prml,yes
+Huang2020Bioeng,2pRML-X33,lipase,1023 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,,,,pRML,yes
+Huang2020Bioeng,2pRML-X33,pRML,1023 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,,,,pRML,yes
+Huang2020Bioeng,4pRML-X33E,lipase,620 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,ERO1,pRML;prml,yes
+Huang2020Bioeng,4pRML-X33E,pRML,620 U/mL,BMGY/BMMY medium,methanol,1% (v/v),flask culture,6,96 h,28°C,4pRML-X33;mα-4pRML-X33,,ERO1,pRML;prml,yes
+,,,,,,,,,,,,,,,
+Yu2020BiocaB,GS115/pPIC9K/pGAPZaA-cgkZDPst,recombinant j-carrageenase,2.73 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,GS115/ pPIC9K-cgkZDPst;GS115/pPIC9K-cgkZDPst,,cgkZDPst,cgkZDPst,yes
+Yu2020BiocaB,GS115/pPIC9K/pGAPZaA-cgkZDPst,recombinant j-carrageenase,7.96 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C with 0.15% methanol induction every 24 h,GS115/ pPIC9K-cgkZDPst;GS115/pPIC9K-cgkZDPst,,cgkZDPst,cgkZDPst,yes
+Yu2020BiocaB,GS115/pGAPZaA-cgkZDPst,recombinant j-carrageenase,2.62 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,Pichia pastoris GS-115,,cgkZDPst,cgkZDPst,yes
+Yu2020BiocaB,GS115/pPIC9K-cgkZDPst,recombinant j-carrageenase,5.7 U/mL,BMGY,glycerol,10 g/L,shake flask,6,96 h,22 C,Pichia pastoris GS-115,,cgkZDPst,cgkZDPst,yes
+,,,,,,,,,,,,,,,
+Gasser2005BB,SMD1168H,2F5 Fab light and heavy chain,2.0 mg/L,Fed batch fermentation,Glucose,550 g/L,MBR mini bioreactor with a final working volume of 1.75 L,5,97 h,258C,P. pastoris strain X33,pep4,,,yes
+Gasser2005BB,SMD1168H,2F5 Fab light and heavy chain,41.2 mg/L,Fed batch fermentation,Glucose,550 g/L,MBR mini bioreactor with a final working volume of 1.75 L,5,97 h,258C,P. pastoris strain X33,pep4,,,yes
+,,,,,,,,,,,,,,,
+Inan2005BB,X-33,Na-ASP1,The single copy clone (no. 46) showed the highest secretion of Na-ASP1 protein,BMMY media,Methanol,Not specified,Shake flask,Not specified,12 h,30°C,,,,Na-ASP1,
+Inan2005BB,X-33,Na-ASP1,There was an increase in the amount of Na-ASP1 secreted for all the clones overexpressing PDI protein as compared to the host strain,BMMY media,Methanol,Not specified,Shake flask,Not specified,12 h,30°C,,,,Na-ASP1,
+,,,,,,,,,,,,,,,
+Zhou2023BB,M1,Glucose oxidase (GOD),3140.0 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,P. pastoris GS115,,,GOD;MGOD1,yes
+Zhou2023BB,GM1,Glucose oxidase (GOD),8617.4 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,yes
+Zhou2023BB,5GM1,Glucose oxidase (GOD),22422.8 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,yes
+Zhou2023BB,8GM1,Glucose oxidase (GOD),22769.5 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,yes
+Zhou2023BB,8GM1,Glucose oxidase (GOD),9780.9 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,P. pastoris GS115,,GOD;MGOD1,GOD,yes
+Zhou2023BB,G1Ees,Glucose oxidase (GOD),43095.1 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,8GM1,,EES;GOD;MGOD1,GOD,yes
+Zhou2023BB,G1Sec,Glucose oxidase (GOD),26031.15 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,8GM1,,GOD;MGOD1;SEC. 22,GOD,yes
+Zhou2023BB,G1EeSe,Glucose oxidase (GOD),49065.2 U/g DCW,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Shake flask,6,144 h,30°C,8GM1,,EES;GOD;MGOD1;SEC. 22,GOD,yes
+Zhou2023BB,G1EeSe,Glucose oxidase (GOD),30.7 g/L,Buffered glycerol-complex medium (BMGY),Glycerol,10 g/L,Fed-batch fermentation in a 5-L bioreactor,5.5,288 h,30°C,8GM1,,EES;GOD;MGOD1;SEC. 22,GOD,yes

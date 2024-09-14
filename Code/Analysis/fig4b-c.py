@@ -41,9 +41,9 @@ def bar(ylabel,label_list,value_list, value_list2, value_list3, rotation=45, out
 
 
 def accuracy_test_dataset():
-    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_dataset.csv')
-    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_dataset.csv')
-    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_dataset.csv')
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_result.csv')
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_result.csv')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_result.csv')
 
     accuracy_test_dataset_d2cell = []
     accuracy_test_dataset_d2cell.append(len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['predict label']])/len(df_ecoli_test))
@@ -75,9 +75,9 @@ def accuracy_test_dataset():
 
 
 def accuracy_unseen_product():
-    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_unseen_product.csv')
-    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_unseen_product.csv')
-    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_unseen_product.csv')
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_unseen_product_result.csv')
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_unseen_product_result.csv')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_unseen_product_result.csv')
 
     accuracy_test_dataset_d2cell = []
     accuracy_test_dataset_d2cell.append(len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['predict label']])/len(df_ecoli_test))
@@ -108,6 +108,7 @@ def accuracy_unseen_product():
     return accuracy_test_dataset_d2cell, accuracy_test_dataset_fseof, accuracy_test_dataset_fvseof
 
 
+
 if __name__ == '__main__':
     xlabel = ['E. coli', 'S. cerevisiae', 'C. glutamicum']
 
@@ -116,5 +117,5 @@ if __name__ == '__main__':
         rotation=0, output='../../Result/fig4_b.pdf')
 
     D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = accuracy_unseen_product()
-    bar(ylabel='Accuracy on test dataset with\nunseen product (%)', label_list=xlabel, value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
+    bar(ylabel='Accuracy on test dataset with\nout-of-distribution product (%)', label_list=xlabel, value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
         rotation=0, output='../../Result/fig4_c.pdf')

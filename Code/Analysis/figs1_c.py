@@ -17,7 +17,7 @@ def draw_boxplot(data_list):
     plt.gca().spines['bottom'].set_linewidth(0.5)
     plt.gca().spines['left'].set_linewidth(0.5)
     plt.gca().spines['right'].set_linewidth(0.5)
-    colors = ['#edf8b1', '#74a9cf', '#edf8b1', '#74a9cf']
+    colors = ['#edf8b1', '#74add1', '#edf8b1', '#74add1']
     box_colors = ['black','black','black','black']
     whiskers_colors = ['black','black', 'black','black']
     boxplot = plt.boxplot(data_list, patch_artist=True, boxprops=dict(facecolor='#b3cde3', color='black'),
@@ -41,7 +41,10 @@ def draw_boxplot(data_list):
 
     for i, d in enumerate(data_list):
         y = np.random.normal(i + 1, 0.04, size=len(d))
-        plt.scatter(y, d, alpha=0.75, color='gray', linewidths=0, zorder=2, s=7.5)
+        if i%2 == 0:
+            plt.scatter(y, d, alpha=0.75, color='#4d4d4d', linewidths=0, zorder=2, s=7.5)
+        else:
+            plt.scatter(y, d, alpha=0.75, color='#4d4d4d', linewidths=0, zorder=2, s=7.5)
     plt.xticks([1, 2, 3, 4], ['Qwen', 'GPT4', 'Qwen (D2Cell)', 'GPT4 (D2Cell)'], fontsize=8
                , rotation=45, ha='right')
     plt.tick_params(axis='y', direction='in', width=0.5, which='both', length=1.5)

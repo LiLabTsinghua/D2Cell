@@ -41,11 +41,15 @@ def heatmap(x_list,y_list,data):
 if __name__ == '__main__':
     df_path = '../../Result/Database result/number_of_gene_modifications_ecoli.csv'
     df = pd.read_csv(df_path)
-    product_name = ['acetate', 'ethanol', 'succinic acid', 'lactic acid', 'lycopene', 'acetic acid', 'Pyruvic acid', '2,3-butanediol', 'L-phenylalanine', 'isobutanol', '1-butanol', 'succinate', 'Tryptophan', 'L-tyrosine', 'shikimate', 'p-coumaric acid', '5-Aminolevulinic acid', 'formate', '3-hydroxypropionic acid', 'acetoin']
+    # product_name = ['acetate', 'ethanol', 'succinic acid', 'lactic acid', 'lycopene', 'acetic acid', 'Pyruvic acid', '2,3-butanediol', 'L-phenylalanine', 'isobutanol', '1-butanol', 'succinate', 'Tryptophan', 'L-tyrosine', 'shikimate', 'p-coumaric acid', '5-Aminolevulinic acid', 'formate', '3-hydroxypropionic acid', 'acetoin']
+    product_name = ['acetate', 'ethanol', 'succinic acid', 'lactic acid', 'lycopene', 'Pyruvic acid',
+                    '2,3-butanediol', 'L-phenylalanine', 'isobutanol', '1-butanol', 'succinate', 'Tryptophan',
+                    'L-tyrosine', 'shikimate', 'p-coumaric acid']
     knock_list = []
     knock_result = []
     for product in product_name:
         df_product = df[df['product'] == product]
         knock_result.append(df_product['number of article'].tolist())
         knock_list = df_product['gene'].tolist()
+    print(knock_result)
     heatmap(x_list=knock_list,y_list=product_name,data=knock_result)

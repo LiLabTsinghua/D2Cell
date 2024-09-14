@@ -70,10 +70,10 @@ def compare_data(df1, df2, df3, df4):
         qwen_all += len(df2_current)
         gpt_direct_all += len(df3_current)
         qwen_direct_all += len(df4_current)
-    # print('all gpt', gpt_sum/gpt_all)
-    # print('all qwen', qwen_sum/qwen_all)
-    # print('direct gpt', gpt_direct_sum/gpt_direct_all)
-    # print('direct qwen', qwen_direct_sum/qwen_direct_all)
+    print('all gpt', gpt_sum/gpt_all)
+    print('all qwen', qwen_sum/qwen_all)
+    print('direct gpt', gpt_direct_sum/gpt_direct_all)
+    print('direct qwen', qwen_direct_sum/qwen_direct_all)
     return ([qwen_direct_sum/qwen_direct_all, gpt_direct_sum/gpt_direct_all, qwen_sum/qwen_all, gpt_sum/gpt_all],
             [qwen_direct_all, gpt_direct_all, qwen_all, gpt_all])
 
