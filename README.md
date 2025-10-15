@@ -29,6 +29,7 @@ Clone codes and download necessary data files
 ```shell
 git clone https://github.com/LiLabTsinghua/D2Cell.git
 ```
+
 - (2). Download required Python package
 ```shell
 pip install -r requirements.txt
