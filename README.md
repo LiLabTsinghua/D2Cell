@@ -1,10 +1,11 @@
 # D2Cell
 
+Introduction
 ------------
-D2Cell-pred is a machine learning-based computational toolkit for predicting modification targets in microorganisms.
+We developed D2Cell-pred, a hybrid model that combines mechanistic and deep learning approaches to predict outcomes for new cell factories. D2Cell-pred takes as input the target product, the GEM structure, and a set of gene modifications, and outputs the predicted impact of these modifications on the product.
 
-## Dependencies
-
+Dependencies
+------------
 We used the following Python packages for core development. We tested on `Python 3.9`.
 
 | name              | version   |
@@ -20,8 +21,8 @@ We used the following Python packages for core development. We tested on `Python
 | scikit-learn      | 1.3.2     |
 
 
-### Usage
-
+Usage
+------------
 Clone codes and download necessary data files
 - (1). Download the D2Cell-pred package
 ```shell
@@ -34,8 +35,7 @@ pip install -r requirements.txt
 - (3). Download and unzip the [model parameters](https://drive.google.com/file/d/1XPvHyERKNqgMAqjVy3yobzZaYQEuL84_/view?usp=sharing) under D2Cell
 - (4). Run Code/D2Cell-pred Model/predict demo.ipynb demo
 
-## Web Server
-
+Web Server
 -------
 We also provide an dataset web server: [D2Cell](https://digitallifethu.com/d2cell).
 
