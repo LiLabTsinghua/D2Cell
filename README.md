@@ -2,6 +2,7 @@
 
 Introduction
 ------------
+
 We developed D2Cell-pred, a hybrid model that combines mechanistic and deep learning approaches to predict outcomes for new cell factories. D2Cell-pred takes as input the target product, the GEM structure, and a set of gene modifications, and outputs the predicted impact of these modifications on the product.
 
 Dependencies
