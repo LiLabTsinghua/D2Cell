@@ -1,30 +1,15 @@
 import matplotlib.pyplot as plt
-import pandas as pd
-import shutil
 import matplotlib
+import pandas as pd
+from matplotlib.ticker import FuncFormatter
 import numpy as np
-import re
-import seaborn as sns
-from matplotlib.ticker import MaxNLocator
+from sklearn.metrics import precision_score, recall_score, f1_score
 
+def bar(ylabel,label_list,value_list, value_list2, value_list3, rotation=45, output='', x_label=''):
 
-def capitalize_first_letter(word):
-    try:
-        match = re.search(r'[a-zA-Z]', word)
-        if match:
-            index = match.start()
-            return word[:index] + word[index].upper() + word[index+1:]
-        return word
-    except TypeError:
-        return word
-
-
-def plot_heatmap(data1, data2, data3, labels, strain_type='$\t{E. coli}$', output_path='../article_figure/figs4_c.pdf',
-                 sorted_index=[], figsize=9):
-    data_matrix = np.array([data1, data2, data3])
-
-    plt.figure(figsize=(figsize, 1.5), dpi=400)
-    plt.rcParams.update({'font.size': 7})
+    # Setting General Parameters
+    plt.figure(figsize=(2, 1.5), dpi=400)
+    plt.rcParams.update({'font.size': 5})
     plt.rcParams['font.family'] = 'Arial'
     plt.rcParams['pdf.fonttype'] = 42
     plt.gca().spines['top'].set_linewidth(0.5)
@@ -33,90 +18,182 @@ def plot_heatmap(data1, data2, data3, labels, strain_type='$\t{E. coli}$', outpu
     plt.gca().spines['right'].set_linewidth(0.5)
     plt.tick_params(axis='y', direction='in', width=0.5, which='both', length=1.5)
     plt.tick_params(axis='x', direction='in', which='both', width=0.5, length=1.5)
-    ax = sns.heatmap(data_matrix, annot=False, cmap='Blues', xticklabels=labels, vmin=0.3,
-                     yticklabels=['D2Cell-pred', 'FSEOF', 'FVSEOF'], cbar_kws={'label': 'Accuracy on test data', 'pad': 0.01})
-    cbar = ax.collections[0].colorbar
-    cbar.ax.yaxis.set_major_locator(MaxNLocator(nbins=6))
-    cbar.outline.set_edgecolor('black')
-    cbar.outline.set_linewidth(0.5)
-    cbar.ax.tick_params(width=0.5, length=1.5)
-    for _, spine in ax.spines.items():
-        spine.set_visible(True)
-        spine.set_color('black')
-    ax.set_xticklabels(labels, rotation=45, ha='right', fontsize=6)
-    ax.set_yticklabels(['D2Cell-pred', 'FSEOF', 'FVSEOF'], fontsize=6, rotation=45)
-    ax.set_xlabel(strain_type + ' product', fontsize=6)
-    ax.set_ylabel('', fontsize=7)
 
-    plt.savefig(output_path, dpi=400, bbox_inches='tight')
+    bar_width = 0.2
+    plt.bar([0.9, 1.8, 2.7], value_list, width=bar_width,
+            color=['#74add1'], label='D2Cell-pred', edgecolor='black', linewidth=0.5)
+
+    plt.bar([0.5, 1.4, 2.3], value_list2, width=bar_width,
+            color=['#f09b9b'], label='FSEOF', edgecolor='black', linewidth=0.5)
+
+    plt.bar([0.7, 1.6, 2.5], value_list3, width=bar_width,
+            color=['#fee090'], label='FVSEOF', edgecolor='black', linewidth=0.5)
+    # plt.xticks([0.7, 1.6, 2.5], label_list, fontsize=6, rotation=rotation, fontstyle='italic')
+    plt.xticks([0.7, 1.6, 2.5], label_list, fontsize=6, rotation=rotation)
+    plt.yticks(fontsize=6)
+    plt.xlim(0, 3.2)
+    plt.ylim(0, 115)
+
+    plt.ylabel(ylabel, fontsize=6)
+    plt.xlabel(x_label, fontsize=6)
+    plt.legend(loc='upper right', fontsize=5.5, frameon=False, labelspacing=0.25, handlelength=1.3, handletextpad=0.25)
+    # plt.tight_layout()
+
+    plt.savefig(output, dpi=400, bbox_inches='tight')
     plt.show()
-    return sorted_index
+
+
+def accuracy_test_dataset():
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_result.csv')
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_result.csv')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_result.csv')
+
+    accuracy_test_dataset_d2cell = []
+    accuracy_test_dataset_d2cell.append(len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['predict label']])/len(df_ecoli_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['predict label']]) / len(df_yeast_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['predict label']]) / len(df_cg_test))
+
+    accuracy_test_dataset_fseof = []
+    accuracy_test_dataset_fseof.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_fseof.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['fseof_predict']]) / len(df_yeast_test))
+    accuracy_test_dataset_fseof.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['fseof_predict']]) / len(df_cg_test))
+
+    accuracy_test_dataset_fvseof = []
+    accuracy_test_dataset_fvseof.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fvseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_fvseof.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['fvseof_predict']]) / len(df_yeast_test))
+    accuracy_test_dataset_fvseof.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['fvseof_predict']]) / len(df_cg_test))
+
+    accuracy_test_dataset_d2cell = [item * 100 for item in accuracy_test_dataset_d2cell]
+    accuracy_test_dataset_fseof = [item * 100 for item in accuracy_test_dataset_fseof]
+    accuracy_test_dataset_fvseof = [item * 100 for item in accuracy_test_dataset_fvseof]
+    return accuracy_test_dataset_d2cell, accuracy_test_dataset_fseof, accuracy_test_dataset_fvseof
+
+def precision_test_dataset():
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_result.csv')
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_result.csv')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_result.csv')
+
+    accuracy_test_dataset_d2cell = []
+    accuracy_test_dataset_d2cell.append(precision_score(df_ecoli_test['true label'], df_ecoli_test['predict label'], pos_label=0))
+    accuracy_test_dataset_d2cell.append(precision_score(df_yeast_test['true label'], df_yeast_test['predict label'], pos_label=0))
+    accuracy_test_dataset_d2cell.append(precision_score(df_cg_test['true label'], df_cg_test['predict label'], pos_label=0))
+
+    accuracy_test_dataset_fseof = []
+    accuracy_test_dataset_fseof.append(precision_score(df_ecoli_test['true label'], df_ecoli_test['fseof_predict'], pos_label=0))
+    accuracy_test_dataset_fseof.append(precision_score(df_yeast_test['true label'], df_yeast_test['fseof_predict'], pos_label=0))
+    accuracy_test_dataset_fseof.append(precision_score(df_cg_test['true label'], df_cg_test['fseof_predict'], pos_label=0))
+
+    accuracy_test_dataset_fvseof = []
+    accuracy_test_dataset_fvseof.append(precision_score(df_ecoli_test['true label'], df_ecoli_test['fvseof_predict'], pos_label=0))
+    accuracy_test_dataset_fvseof.append(precision_score(df_yeast_test['true label'], df_yeast_test['fvseof_predict'], pos_label=0))
+    accuracy_test_dataset_fvseof.append(precision_score(df_cg_test['true label'], df_cg_test['fvseof_predict'], pos_label=0))
+
+    accuracy_test_dataset_d2cell = [item * 100 for item in accuracy_test_dataset_d2cell]
+    accuracy_test_dataset_fseof = [item * 100 for item in accuracy_test_dataset_fseof]
+    accuracy_test_dataset_fvseof = [item * 100 for item in accuracy_test_dataset_fvseof]
+    return accuracy_test_dataset_d2cell, accuracy_test_dataset_fseof, accuracy_test_dataset_fvseof
+
+def accuracy_unseen_product():
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_unseen_product_result.csv')
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_unseen_product_result.csv')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_unseen_product_result.csv')
+
+    accuracy_test_dataset_d2cell = []
+    accuracy_test_dataset_d2cell.append(len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['predict label']])/len(df_ecoli_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['predict label']]) / len(df_yeast_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['predict label']]) / len(df_cg_test))
+
+    accuracy_test_dataset_fseof = []
+    accuracy_test_dataset_fseof.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_fseof.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['fseof_predict']]) / len(df_yeast_test))
+    accuracy_test_dataset_fseof.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['fseof_predict']]) / len(df_cg_test))
+
+    accuracy_test_dataset_fvseof = []
+    accuracy_test_dataset_fvseof.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fvseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_fvseof.append(
+        len(df_yeast_test[df_yeast_test['true label'] == df_yeast_test['fvseof_predict']]) / len(df_yeast_test))
+    accuracy_test_dataset_fvseof.append(
+        len(df_cg_test[df_cg_test['true label'] == df_cg_test['fvseof_predict']]) / len(df_cg_test))
+
+    accuracy_test_dataset_d2cell = [item * 100 for item in accuracy_test_dataset_d2cell]
+    accuracy_test_dataset_fseof = [item * 100 for item in accuracy_test_dataset_fseof]
+    accuracy_test_dataset_fvseof = [item * 100 for item in accuracy_test_dataset_fvseof]
+    return accuracy_test_dataset_d2cell, accuracy_test_dataset_fseof, accuracy_test_dataset_fvseof
+
+def precision_unseen_dataset(df):
+
+
+    accuracy_test_dataset_d2cell = []
+    accuracy_test_dataset_d2cell.append(precision_score(df['true label'], df['predict label'], pos_label=0))
+    accuracy_test_dataset_d2cell.append(recall_score(df['true label'], df['predict label'], pos_label=0))
+    accuracy_test_dataset_d2cell.append(f1_score(df['true label'], df['predict label'], pos_label=0))
+
+    accuracy_test_dataset_fseof = []
+    accuracy_test_dataset_fseof.append(precision_score(df['true label'], df['fseof_predict'], pos_label=0))
+    accuracy_test_dataset_fseof.append(recall_score(df['true label'], df['fseof_predict'], pos_label=0))
+    accuracy_test_dataset_fseof.append(f1_score(df['true label'], df['fseof_predict'], pos_label=0))
+
+    accuracy_test_dataset_fvseof = []
+    accuracy_test_dataset_fvseof.append(precision_score(df['true label'], df['fvseof_predict'], pos_label=0))
+    accuracy_test_dataset_fvseof.append(recall_score(df['true label'], df['fvseof_predict'], pos_label=0))
+    accuracy_test_dataset_fvseof.append(f1_score(df['true label'], df['fvseof_predict'], pos_label=0))
+
+    accuracy_test_dataset_d2cell = [item * 100 for item in accuracy_test_dataset_d2cell]
+    accuracy_test_dataset_fseof = [item * 100 for item in accuracy_test_dataset_fseof]
+    accuracy_test_dataset_fvseof = [item * 100 for item in accuracy_test_dataset_fvseof]
+    return accuracy_test_dataset_d2cell, accuracy_test_dataset_fseof, accuracy_test_dataset_fvseof
 
 
 if __name__ == '__main__':
-    shutil.rmtree(matplotlib.get_cachedir())
+    # xlabel = ['E. coli', 'S. cerevisiae', 'C. glutamicum']
+    xlabel = ['Precision', 'Recall', 'F1-score']
 
-    df = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_result.csv')
-    df['name'] = df['name'].apply(capitalize_first_letter)
-    labels = (list(set(df['name'].tolist())))
-    labels = sorted([label for label in labels if isinstance(label, str)])
-    our_acc = []
-    FSEOF_acc = []
-    FVSEOF_acc = []
-    for label in labels:
-        df_label = df[df['name'] == label]
-        our_acc.append((df_label['inf_label_01'] == df_label['predict label']).sum()/len(df_label))
-        try:
-            FSEOF_acc.append((df_label['inf_label_01'] == df_label['fseof_predict']).sum()/len(df_label))
-        except AttributeError:
-            FSEOF_acc.append(0)
-        try:
-            FVSEOF_acc.append((df_label['inf_label_01'] == df_label['fvseof_predict']).sum() / len(df_label))
-        except AttributeError:
-            FVSEOF_acc.append(0)
-    sorted_index = plot_heatmap(our_acc, FSEOF_acc, FVSEOF_acc, labels, strain_type='$\t{C. glutamicum}$',
-                            output_path='../../Result/figs4_c.pdf', figsize=3)
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_cg_test)
+    bar(ylabel='Value (%)', label_list=xlabel, value_list=D2Cell_test_result, value_list2=FSEOF_test_result,
+        value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_c.pdf', x_label='$C. glutamicum$ test set')
 
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_ecoli_test)
+    bar(ylabel='Value (%)', label_list=xlabel,
+        value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_a.pdf', x_label='$E. coli$ test set')
 
-    df = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_result.csv')
-    df['name'] = df['name'].apply(capitalize_first_letter)
-    labels = (list(set(df['name'].tolist())))
-    labels = sorted([label for label in labels if isinstance(label, str)])
-    our_acc = []
-    FSEOF_acc = []
-    FVSEOF_acc = []
-    for label in labels:
-        df_label = df[df['name'] == label]
-        our_acc.append((df_label['inf_label_01'] == df_label['predict label']).sum() / len(df_label))
-        try:
-            FSEOF_acc.append((df_label['inf_label_01'] == df_label['fseof_predict']).sum() / len(df_label))
-        except AttributeError:
-            FSEOF_acc.append(0)
-        try:
-            FVSEOF_acc.append((df_label['inf_label_01'] == df_label['fvseof_predict']).sum() / len(df_label))
-        except AttributeError:
-            FVSEOF_acc.append(0)
-    sorted_index = plot_heatmap(our_acc, FSEOF_acc, FVSEOF_acc, labels, strain_type='$\t{E. coli}$',
-                            output_path='../../Result/figs4_a.pdf')
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_yeast_test)
+    bar(ylabel='Value (%)', label_list=xlabel,
+        value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_b.pdf', x_label='$S. cerevisiae$ test set')
 
+    df_cg_test = pd.read_csv('../../Result/D2Cell-pred Result/Cg/cg_test_unseen_product_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_cg_test)
+    bar(ylabel='Value (%)', label_list=xlabel, value_list=D2Cell_test_result, value_list2=FSEOF_test_result,
+        value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_f.pdf', x_label='$C. glutamicum$ unseen product test set')
 
-    df = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_result.csv')
-    df['name'] = df['name'].apply(capitalize_first_letter)
-    labels = (list(set(df['name'].tolist())))
-    labels = sorted([label for label in labels if isinstance(label, str)])
-    our_acc = []
-    FSEOF_acc = []
-    FVSEOF_acc = []
-    for label in labels:
-        df_label = df[df['name'] == label]
-        our_acc.append((df_label['inf_label_01'] == df_label['predict label']).sum()/len(df_label))
-        try:
-            FSEOF_acc.append((df_label['inf_label_01'] == df_label['fseof_predict']).sum()/len(df_label))
-        except AttributeError:
-            FSEOF_acc.append(0)
-        try:
-            FVSEOF_acc.append((df_label['inf_label_01'] == df_label['fvseof_predict']).sum() / len(df_label))
-        except AttributeError:
-            FVSEOF_acc.append(0)
-    sorted_index = plot_heatmap(our_acc, FSEOF_acc, FVSEOF_acc, labels, strain_type='$\t{S. cerevisiae}$',
-                            output_path='../../Result/figs4_b.pdf',figsize=5.5)
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_unseen_product_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_ecoli_test)
+    bar(ylabel='Value (%)', label_list=xlabel,
+        value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_d.pdf', x_label='$E. coli$ unseen product test set')
+
+    df_yeast_test = pd.read_csv('../../Result/D2Cell-pred Result/Yeast/yeast_test_unseen_product_result.csv')
+    D2Cell_test_result, FSEOF_test_result, FVSEOF_test_result = precision_unseen_dataset(df_yeast_test)
+    bar(ylabel='Value (%)', label_list=xlabel,
+        value_list=D2Cell_test_result, value_list2=FSEOF_test_result, value_list3=FVSEOF_test_result,
+        rotation=0, output='../../Result/figs4_e.pdf', x_label='$S. cerevisiae$ unseen product test set')

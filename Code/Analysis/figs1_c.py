@@ -17,9 +17,9 @@ def draw_boxplot(data_list):
     plt.gca().spines['bottom'].set_linewidth(0.5)
     plt.gca().spines['left'].set_linewidth(0.5)
     plt.gca().spines['right'].set_linewidth(0.5)
-    colors = ['#edf8b1', '#74add1', '#edf8b1', '#74add1']
-    box_colors = ['black','black','black','black']
-    whiskers_colors = ['black','black', 'black','black']
+    colors = ['#edf8b1', '#74add1', '#edf8b1', '#74add1', '#edf8b1']
+    box_colors = ['black', 'black', 'black', 'black', 'black']
+    whiskers_colors = ['black', 'black', 'black', 'black', 'black']
     boxplot = plt.boxplot(data_list, patch_artist=True, boxprops=dict(facecolor='#b3cde3', color='black'),
                 medianprops=dict(color='#bd0026', linewidth=1), whiskerprops=dict(color='black', linewidth=0.5),
                 capprops=dict(color='black', linewidth=0.5), flierprops=dict(marker=None))
@@ -45,8 +45,8 @@ def draw_boxplot(data_list):
             plt.scatter(y, d, alpha=0.75, color='#4d4d4d', linewidths=0, zorder=2, s=7.5)
         else:
             plt.scatter(y, d, alpha=0.75, color='#4d4d4d', linewidths=0, zorder=2, s=7.5)
-    plt.xticks([1, 2, 3, 4], ['Qwen', 'GPT4', 'Qwen (D2Cell)', 'GPT4 (D2Cell)'], fontsize=8
-               , rotation=45, ha='right')
+    plt.xticks([1, 2, 3, 4, 5], ['Qwen110b', 'GPT4', 'Qwen110b (D2Cell)', 'GPT4 (D2Cell)', 'Qwen3 (D2Cell)'],
+               fontsize=8, rotation=45, ha='right')
     plt.tick_params(axis='y', direction='in', width=0.5, which='both', length=1.5)
     plt.tick_params(axis='x', direction='in', which='both', width=0.5, length=1.5)
     plt.ylabel('Accuracy of data extraction (%)', fontsize=8)
@@ -54,10 +54,11 @@ def draw_boxplot(data_list):
     plt.show()
 
 
-def compare_data(df1, df2, df3, df4):
+def compare_data(df1, df2, df3, df4, df5):
     doi_list = sorted(list(set([x for x in df1['doi'].tolist() if isinstance(x, str)])))
     gpt4_list = []
     qwen_list = []
+    qwen3_list = []
     gpt4_direct_list = []
     qwen_direct_list = []
     for doi in doi_list:
@@ -69,6 +70,8 @@ def compare_data(df1, df2, df3, df4):
         df3_current = df3_current.drop_duplicates(subset='product titer', keep='first')
         df4_current = df4[df4['doi'] == doi]
         df4_current = df4_current.drop_duplicates(subset='product titer', keep='first')
+        df5_current = df5[df5['doi'] == doi]
+        df5_current = df5_current.drop_duplicates(subset='product titer', keep='first')
         try:
             gpt4_list.append(len(df1_current[df1_current['check'] == 'yes']) / len(df1_current))
         except ZeroDivisionError:
@@ -85,7 +88,11 @@ def compare_data(df1, df2, df3, df4):
             qwen_direct_list.append(len(df4_current[df4_current['check'] == 'yes']) / len(df4_current))
         except ZeroDivisionError as e:
             qwen_direct_list.append(0)
-    return gpt4_list, qwen_list, gpt4_direct_list, qwen_direct_list
+        try:
+            qwen3_list.append(len(df5_current[df5_current['check'] == 'yes']) / len(df5_current))
+        except ZeroDivisionError as e:
+            qwen3_list.append(0)
+    return gpt4_list, qwen_list, gpt4_direct_list, qwen_direct_list, qwen3_list
 
 
 if __name__ == '__main__':
@@ -93,7 +100,8 @@ if __name__ == '__main__':
     df2 = pd.read_csv('../../Result/RE Result/Qwen_D2Cell_100_paper_result.csv')
     df3 = pd.read_csv('../../Result/RE Result/GPT4_Direct_100_paper_result.csv')
     df4 = pd.read_csv('../../Result/RE Result/Qwen_Direct_100_paper_result.csv')
-    gpt_data, qwen_data, gpt4_direct_list, qwen_direct_list = compare_data(df1, df2, df3, df4)
-    data_list = [qwen_direct_list, gpt4_direct_list, qwen_data, gpt_data]
+    df5 = pd.read_csv('../../Result/RE Result/Qwen3_D2Cell_100_paper_result.csv')
+    gpt_data, qwen_data, gpt4_direct_list, qwen_direct_list, qwen3_list = compare_data(df1, df2, df3, df4, df5)
+    data_list = [qwen_direct_list, gpt4_direct_list, qwen_data, gpt_data, qwen3_list]
     data_list = [[value * 100 for value in sublist] for sublist in data_list]
     draw_boxplot(data_list)

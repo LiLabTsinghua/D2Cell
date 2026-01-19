@@ -42,6 +42,7 @@ def accuracy(gt_list, predict_list, acc):
 def accuracy_product(gt_list, predict_list, acc):
     predict_number = 0
     gt_list = [entity for entity in gt_list if isinstance(entity, str)]
+    predict_list = [' ' if pd.isna(x) else x for x in predict_list]
     for entity in gt_list:
         if any(entity.lower() in pre_entity.lower() for pre_entity in predict_list):
             predict_number += 1
@@ -55,6 +56,7 @@ def accuracy_product(gt_list, predict_list, acc):
 
 def compare_d2cell(d2cell_path, laser_data_path):
     df_d2cell = pd.read_csv(d2cell_path)
+    df_d2cell = df_d2cell.dropna(subset=['doi'])
     laser_df = pd.read_csv(laser_data_path)
     d2cell_doi = list(set(df_d2cell['doi'].tolist()))
 
@@ -91,7 +93,6 @@ def compare_d2cell(d2cell_path, laser_data_path):
         gt_titer_list = clean_numbe_list(gt_titer_list)
 
         df_d2cell_row = df_d2cell[df_d2cell['doi'] == doi].iloc[0]
-
         predict_gene_list = eval(df_d2cell_row['gene'])
         gene_acc = accuracy(gt_gene_list, predict_gene_list, gene_acc)
 

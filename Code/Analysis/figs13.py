@@ -1,0 +1,55 @@
+import matplotlib.pyplot as plt
+import matplotlib
+import pandas as pd
+from matplotlib.ticker import FuncFormatter
+import numpy as np
+
+def bar(ylabel,label_list,value_list, rotation=45, output=''):
+
+    # Setting General Parameters
+    plt.figure(figsize=(3, 2), dpi=400)
+    plt.rcParams.update({'font.size':7})
+    plt.rcParams['font.family'] = 'Arial'
+    plt.rcParams['pdf.fonttype'] = 42
+    plt.gca().spines['top'].set_linewidth(0.5)
+    plt.gca().spines['bottom'].set_linewidth(0.5)
+    plt.gca().spines['left'].set_linewidth(0.5)
+    plt.gca().spines['right'].set_linewidth(0.5)
+    plt.tick_params(axis='y', direction='in', width=0.5, which='both', length=1.5)
+    plt.tick_params(axis='x', direction='in', which='both', width=0.5, length=1.5)
+    bar_width = 0.2
+    plt.bar([0.5, 1.5, 2.5], value_list, width=bar_width,
+            color=['#74add1'], edgecolor='black', linewidth=0.5)
+    plt.xticks([0.5, 1.5, 2.5], label_list, fontsize=7)
+    plt.yticks(fontsize=7)
+    plt.xlim(0, 3.2)
+    plt.ylim(0, 65)
+
+    plt.ylabel(ylabel, fontsize=7)
+    # plt.tight_layout()
+
+    plt.savefig(output, dpi=400, bbox_inches='tight')
+    plt.show()
+
+
+def accuracy_test_dataset():
+    df_ecoli_test = pd.read_csv('../../Result/D2Cell-pred Result/Ecoli/ecoli_test_2024.csv')
+
+    accuracy_test_dataset_d2cell = []
+    accuracy_test_dataset_d2cell.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['fvseof_predict']]) / len(df_ecoli_test))
+    accuracy_test_dataset_d2cell.append(
+        len(df_ecoli_test[df_ecoli_test['true label'] == df_ecoli_test['predict label']]) / len(df_ecoli_test))
+
+    accuracy_test_dataset_d2cell = [item * 100 for item in accuracy_test_dataset_d2cell]
+    return accuracy_test_dataset_d2cell
+
+
+if __name__ == '__main__':
+    xlabel = ['FSEOF', 'FVSEOF', 'D2Cell-pred']
+
+    D2Cell_test_result = accuracy_test_dataset()
+    bar(ylabel='Recall on Ecoli2024 test set (%)', label_list=xlabel, value_list=D2Cell_test_result,
+        rotation=45, output='../../Result/figs13.pdf')

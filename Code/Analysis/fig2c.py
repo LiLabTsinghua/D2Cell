@@ -9,6 +9,7 @@ from matplotlib.ticker import MaxNLocator, FormatStrFormatter
 
 def heatmap(x_list,y_list,data):
     plt.figure(figsize=(3.75, 1.5), dpi=400)
+    # plt.figure(figsize=(7, 4), dpi=400)
     plt.rcParams.update({'font.size': 8})
     plt.yticks(fontsize=8)
     plt.rcParams['font.family'] = 'Arial'
@@ -40,17 +41,19 @@ def heatmap(x_list,y_list,data):
     plt.tick_params(axis='y', direction='in', width=0.5, which='both', length=1.5)
     plt.tick_params(axis='x', direction='in', which='both', width=0.5, length=1.5)
     plt.xticks(rotation=45, fontsize=8, ha='right')
-    plt.savefig('../../Result/fig2_c.pdf', dpi=400, bbox_inches='tight', transparent=True)
+    plt.savefig('fig_2c_revision.pdf', dpi=400, bbox_inches='tight', transparent=True)
     plt.show()
 
 
 if __name__ == '__main__':
     x_list = ['Product', 'Product Titer', 'Gene', 'Temperature', 'pH', 'Carbon Source', 'Medium', 'Vessel']
-    y_list = ['Qwen (D2Cell)', 'GPT4 (D2Cell)', 'Qwen', 'GPT4']
+    y_list = ['Qwen110b (D2Cell)', 'Qwen3 (D2Cell)', 'GPT4 (D2Cell)', 'Qwen110b', 'GPT4', 'Qwen3']
     d2cell_qwen = compare_d2cell('../../Result/RE Result/laser_d2cell_qwen.csv', '../../Data/RE Data/laser_dataset.csv')
+    d2cell_qwen3 = compare_other('../../Result/RE Result/laser_d2cell_Qwen3.csv', '../../Data/RE Data/laser_dataset.csv')
     d2cell_gpt = compare_d2cell('../../Result/RE Result/laser_d2cell_gpt4.csv', '../../Data/RE Data/laser_dataset.csv')
     gpt = compare_other('../../Result/RE Result/laser_direct_gpt4.csv', '../../Data/RE Data/laser_dataset.csv')
     qwen = compare_other('../../Result/RE Result/laser_direct_qwen.csv', '../../Data/RE Data/laser_dataset.csv')
-    data_list = [d2cell_qwen, d2cell_gpt, qwen, gpt]
+    qwen3 = compare_other('../../Result/RE Result/data_laser_qwen3.csv', '../../Data/RE Data/laser_dataset.csv')
+    data_list = [d2cell_qwen, d2cell_qwen3, d2cell_gpt, qwen, gpt, qwen3]
     data_list = [[item * 100 for item in sublist] for sublist in data_list]
     heatmap(x_list=x_list, y_list=y_list, data=data_list)

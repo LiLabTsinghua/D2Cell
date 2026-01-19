@@ -5,16 +5,17 @@ from IE_accuracy import calculate_accuracy
 
 # Data for plotting
 def bar_f1score(scores, fig_name):
-    methods = ['Qwen1.5-110B', 'Qwen1.5-14B', 'Gemini Pro', ' Claude-3', 'GPT-4', 'Llama3', 'Llama3-Lora', 'Qwen-Lora']
+    methods = ['Qwen1.5-110B', 'Qwen1.5-14B', 'Qwen3-30B', 'Gemini Pro', ' Claude-3', 'GPT-4', 'Llama3', 'Llama3-Lora',
+               'Qwen1.5-Lora', 'Qwen3-Lora']
     shots = ['Precision', 'Recall', 'F1 Score']
     plt.rcParams['pdf.fonttype'] = 42
     # Plot details
-    bar_width = 0.1  # width of the bars
+    bar_width = 0.05  # width of the bars
     index = np.arange(len(shots))
-    colors = ['#ffffd9', '#edf8b1','#c7e9b4', '#7fcdbb', '#41b6c4', '#41b6c4', '#225ea8', '#253494']
+    colors = ['#FFFFF0', '#ffffd9', '#edf8b1','#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']
     plt.rcParams['font.family'] = 'Arial'
     plt.rcParams.update({'font.size': 7})
-    fig, ax = plt.subplots(figsize=(2, 1.5), dpi=400)
+    fig, ax = plt.subplots(figsize=(1.5, 1.5), dpi=400)
     fig.subplots_adjust(left=0.2, right=1.5, top=0.8, bottom=0.2)
     for i, method in enumerate(methods):
         ax.bar(index + i * bar_width, scores[i], color=colors[i],

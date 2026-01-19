@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-def bar(ylabel, label_list, value_list, number_list, rotation=45, output='', ylim=[60, 85]):
+def bar(ylabel, label_list, value_list, number_list, rotation=45, output='', ylim=[50, 85]):
 
     # Setting General Parameters
     plt.figure(figsize=(3, 1.5), dpi=400)
@@ -43,14 +43,16 @@ def bar(ylabel, label_list, value_list, number_list, rotation=45, output='', yli
     plt.show()
 
 
-def compare_data(df1, df2, df3, df4):
+def compare_data(df1, df2, df3, df4, df5):
     doi_list = sorted(list(set([x for x in df1['doi'].tolist() if isinstance(x, str)])))
     gpt_sum = 0
     qwen_sum = 0
     gpt_direct_sum = 0
     qwen_direct_sum = 0
+    qwen3_sum = 0
     gpt_all = 0
     qwen_all = 0
+    qwen3_all = 0
     gpt_direct_all = 0
     qwen_direct_all = 0
     for doi in doi_list:
@@ -62,20 +64,25 @@ def compare_data(df1, df2, df3, df4):
         df3_current = df3_current.drop_duplicates(subset='product titer', keep='first')
         df4_current = df4[df4['doi'] == doi]
         df4_current = df4_current.drop_duplicates(subset='product titer', keep='first')
+        df5_current = df5[df5['doi'] == doi]
+        df5_current = df5_current.drop_duplicates(subset='product titer', keep='first')
         gpt_sum += len(df1_current[df1_current['check'] == 'yes'])
         qwen_sum += len(df2_current[df2_current['check'] == 'yes'])
         gpt_direct_sum += len(df3_current[df3_current['check'] == 'yes'])
         qwen_direct_sum += len(df4_current[df4_current['check'] == 'yes'])
+        qwen3_sum += len(df5_current[df5_current['check'] == 'yes'])
         gpt_all += len(df1_current)
         qwen_all += len(df2_current)
         gpt_direct_all += len(df3_current)
         qwen_direct_all += len(df4_current)
+        qwen3_all += len(df5_current)
     print('all gpt', gpt_sum/gpt_all)
     print('all qwen', qwen_sum/qwen_all)
+    print('all qwen3', qwen3_sum / qwen3_all)
     print('direct gpt', gpt_direct_sum/gpt_direct_all)
     print('direct qwen', qwen_direct_sum/qwen_direct_all)
-    return ([qwen_direct_sum/qwen_direct_all, gpt_direct_sum/gpt_direct_all, qwen_sum/qwen_all, gpt_sum/gpt_all],
-            [qwen_direct_all, gpt_direct_all, qwen_all, gpt_all])
+    return ([qwen_direct_sum/qwen_direct_all, gpt_direct_sum/gpt_direct_all, qwen3_sum/qwen3_all, qwen_sum/qwen_all, gpt_sum/gpt_all],
+            [qwen_direct_all, gpt_direct_all, qwen3_all, qwen_all, gpt_all])
 
 
 if __name__ == '__main__':
@@ -83,8 +90,9 @@ if __name__ == '__main__':
     df2 = pd.read_csv('../../Result/RE Result/Qwen_D2Cell_100_paper_result.csv')
     df3 = pd.read_csv('../../Result/RE Result/GPT4_Direct_100_paper_result.csv')
     df4 = pd.read_csv('../../Result/RE Result/Qwen_Direct_100_paper_result.csv')
-    value_list, number_list = compare_data(df1, df2, df3, df4)
+    df5 = pd.read_csv('../../Result/RE Result/Qwen3_D2Cell_100_paper_result.csv')
+    value_list, number_list = compare_data(df1, df2, df3, df4, df5)
     value_list = [value * 100 for value in value_list]
-    xlabel = ['Qwen', 'GPT4', 'Qwen (D2Cell)', 'GPT4 (D2Cell)']
+    xlabel = ['Qwen', 'GPT4', 'Qwen3 (D2Cell)', 'Qwen110b (D2Cell)', 'GPT4 (D2Cell)']
     bar(ylabel='Accuracy of data extraction (%)', label_list=xlabel, value_list=value_list, number_list=number_list,
         rotation=45, output='../../Result/fig2_a.pdf')

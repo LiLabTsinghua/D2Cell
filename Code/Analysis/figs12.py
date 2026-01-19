@@ -75,4 +75,4 @@ if __name__ == '__main__':
         except AttributeError:
             FVSEOF_acc.append(0)
     sorted_index = plot_heatmap(our_acc, FSEOF_acc, FVSEOF_acc, labels, strain_type='$\t{E. coli}$',
-                            output_path='../../Result/figs6.pdf')
+                            output_path='../../Result/figs12.pdf')

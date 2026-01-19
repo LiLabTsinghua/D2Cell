@@ -40,6 +40,7 @@ pip install -r requirements.txt
 Web Server
 -------
 We also provide an dataset web server: [D2Cell](https://digitallifethu.com/d2cell).
+A static snapshot of the D2Cell database has now been deposited on Zenodo (https://zenodo.org/records/18240770), ensuring permanent accessibility.
 
 Contact
 -------

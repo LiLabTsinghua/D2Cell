@@ -17,7 +17,7 @@ def bar(ylabel,label_list,value_list,rotation=45, output=''):
     plt.gca().spines['right'].set_linewidth(0.5)
     bar_width = 0.4
     index = np.arange(len(label_list))
-    colors = ['#ffffd9', '#edf8b1','#c7e9b4', '#7fcdbb', '#41b6c4', '#41b6c4', '#225ea8', '#253494']
+    colors = ['#FFFFF0', '#ffffd9', '#edf8b1','#c7e9b4', '#7fcdbb', '#41b6c4', '#1d91c0', '#225ea8', '#253494', '#081d58']
     plt.bar(index, value_list, width=bar_width,
             color=colors, linewidth=0.5, edgecolor='black')
     plt.xticks(index, label_list, fontsize=7, rotation=rotation, ha='right')
@@ -35,7 +35,8 @@ def bar(ylabel,label_list,value_list,rotation=45, output=''):
 
 
 if __name__ == '__main__':
-    xlabel = ['Qwen1.5-110B', 'Qwen1.5-14B', 'Llama3-8B','Gemini Pro', 'Claude-3', 'GPT-4','Llama3-Lora', 'Qwen-Lora']
+    xlabel = ['Qwen1.5-110B', 'Qwen1.5-14B', 'Qwen3-30B', 'Gemini Pro', ' Claude-3', 'GPT-4', 'Llama3', 'Llama3-Lora',
+               'Qwen1.5-Lora', 'Qwen3-Lora']
     df = pd.read_csv('../../Result/NER Data/NER_execution_time.csv')
     value_list = df['Execution time(min)'].tolist()
     bar(ylabel='NER execution time (min)', label_list=xlabel, value_list=value_list, rotation=45, output='../../Result/figs1_b.pdf')

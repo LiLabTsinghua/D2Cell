@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
 def bar(ylabel,label_list,value_list, rotation=45, output=''):
 
     # Setting General Parameters
@@ -25,7 +26,7 @@ def bar(ylabel,label_list,value_list, rotation=45, output=''):
     plt.ylabel(ylabel, fontsize=7)
     # plt.tight_layout()
 
-    plt.savefig(output, dpi=400, bbox_inches='tight')
+    # plt.savefig(output, dpi=400, bbox_inches='tight')
     plt.show()
 
 

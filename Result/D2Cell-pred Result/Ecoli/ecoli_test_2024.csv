@@ -1,0 +1,32 @@
+product index,pert index,true label,predict label,product,inf_label_01,fseof_predict,ID,name,fvseof_predict
+466,[1064],0,0,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+1120,[1521],0,0,3dhsk_c,0,0,3dhsk_c,3-Dehydroshikimate,1
+41,[640],0,0,thr__L_c,0,1,thr__L_c,L-Threonine,1
+861,[2437],0,1,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+1120,[1103],0,1,3dhsk_c,0,1,3dhsk_c,3-Dehydroshikimate,1
+861,[1293],0,1,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+41,[1294],0,1,thr__L_c,0,1,thr__L_c,L-Threonine,1
+861,[2883],0,1,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+861,[2751],0,0,ile__L_c,0,0,ile__L_c,L-Isoleucine,0
+466,[2072],0,1,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+334,[2155],0,0,5mthf_c,0,1,5mthf_c,5-Methyltetrahydrofolate,1
+270,[968],0,1,fuc__L_c,0,1,fuc__L_c,L-Fucose,1
+861,[580],0,0,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+1029,[2137],0,1,ala__L_c,0,1,ala__L_c,L-Alanine,1
+334,[1330],0,0,5mthf_c,0,1,5mthf_c,5-Methyltetrahydrofolate,1
+94,[383],0,1,citr__L_c,0,1,citr__L_c,L-Citrulline,1
+1120,[2409],0,1,3dhsk_c,0,1,3dhsk_c,3-Dehydroshikimate,1
+1596,[1867],0,0,hxan_c,0,0,hxan_c,Hypoxanthine,0
+233,[2073],0,0,glyclt_c,0,1,glyclt_c,Glycolate C2H3O3,1
+95,[1039],0,1,3hodcoa_c,0,1,3hodcoa_c,(S)-3-Hydroxyoctadecanoyl-CoA,1
+270,[967],0,1,fuc__L_c,0,1,fuc__L_c,L-Fucose,1
+466,[2060],0,0,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+95,[331],0,0,3hodcoa_c,0,1,3hodcoa_c,(S)-3-Hydroxyoctadecanoyl-CoA,1
+1449,[383],0,1,pro__L_c,0,1,pro__L_c,L-Proline,1
+233,[2072],0,0,glyclt_c,0,1,glyclt_c,Glycolate C2H3O3,1
+861,[2436],0,0,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+816,[1330],0,0,man_c,0,1,man_c,D-Mannose,1
+466,[363],0,1,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+466,[2073],0,0,hom__L_c,0,1,hom__L_c,L-Homoserine,1
+861,[1150],0,0,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
+861,[403],0,1,ile__L_c,0,1,ile__L_c,L-Isoleucine,1
