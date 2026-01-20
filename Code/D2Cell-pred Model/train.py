@@ -11,42 +11,81 @@ from dataset import D2CellDataset
 
 
 def train(train_loader, config, edge_index, edge_weight, save_path='../save_model/ecoli_model/ecoli_GEMs_'):
+    """
+        Initializes the model and executes the training loop.
+        Saves the model checkpoints when loss improves and plots the loss curve.
+        """
+
+    # --- Model & Optimizer Setup ---
+    # Initialize the Graph Neural Network model with config and graph structure
     model = D2Cell_Model(config, edge_index, edge_weight)
+
+    # Move the model to the GPU
     model.to('cuda')
+
+    # Initialize the Adam optimizer with a learning rate of 5e-5
     optimizer = optim.Adam(model.parameters(), lr=0.00005)
+
+    # Define the loss function (Cross Entropy for classification) and move to GPU
     loss_fn = CrossEntropyLoss()
     loss_fn.to('cuda')
+
+    # Initialize tracking variables
     losses = []
-    best_loss = 100
+    best_loss = 100 # Initialize with a high value to ensure the first valid loss overwrites it
     epochs = args.epochs
     print('Start Training...')
     saved_files = deque(maxlen=20)
+
+    # --- Training Loop ---
+    # Loop over the dataset for the specified number of epochs
     for epoch in tqdm(range(epochs), desc="Processing"):
         model.train()
         train_loss = 0
         step_number = 0
+
+        # Iterate over batches in the training data loader
         for step, batch in enumerate(train_loader):
             batch = batch.to('cuda')
+
+            # Zero out gradients from the previous step
             optimizer.zero_grad()
+
+            # Forward pass: Compute model output
             output = model(batch)
+
+            # Compute loss between predictions and true labels (batch.y)
             loss = loss_fn(output, batch.y)
+
+            # Backward pass: Compute gradients
             loss.backward()
+
+            # Update model parameters
             optimizer.step()
+
+            # Aggregate loss (summing mean loss of each batch)
             mean_loss = torch.mean(loss)
             train_loss += mean_loss.item()
-            step_number = step+1
-        train_loss = train_loss/step_number
+            step_number = step + 1
+
+        # Calculate average loss for the entire epoch
+        train_loss = train_loss / step_number
         losses.append(train_loss)
+
         print('-------------------------')
         print('Epoch {} train loss: {:.8f}'.format(epoch + 1, train_loss))
 
+        # --- Checkpoint Saving ---
         if train_loss < best_loss:
             best_loss = train_loss
             print('Best loss: {:.8f}\t'.format(best_loss), 'Saving model...\t', 'best epoch:', epoch+1)
             torch.save(model.state_dict(), save_path+str(epoch)+'.pth')
             model_file = save_path+str(epoch)+'.pth'
             saved_files.append(model_file)
+
+            # Limit the number of saved checkpoints to 5 to save disk space
             if len(saved_files) == 5:
+                # Remove the oldest file from the deque and the filesystem
                 oldest_file = saved_files.popleft()
                 if os.path.exists(oldest_file):
                     os.remove(oldest_file)
@@ -87,5 +126,7 @@ if __name__ == '__main__':
               'num_met': args.num_met
               }
     train_loader = dataloader['train_loader']
+
+    # --- Execute Training ---
     train(train_loader, config, edge_index, edge_weight, save_path=args.save_model)
 
